@@ -36,7 +36,7 @@
 		"@ctx-core/object": "^8.0.0",
 		"@ctx-core/table": "^6.2.8",
 		"papaparse": "^5.1.1",
-		"svelte": "^3.17.0"
+		"svelte": "^3.17.1"
 	},
 	"devDependencies": {
 		"typescript": "^3.7.4"
