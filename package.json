@@ -36,10 +36,10 @@
 		"@ctx-core/object": "^8.0.0",
 		"@ctx-core/table": "^6.2.9",
 		"papaparse": "^5.1.1",
-		"svelte": "^3.17.1"
+		"svelte": "^3.17.2"
 	},
 	"devDependencies": {
-		"typescript": "^3.7.4"
+		"typescript": "^3.7.5"
 	},
 	"gitHead": "ecded533c5d9946e2d9dafa39dbc95ce3e38ad93"
 }
