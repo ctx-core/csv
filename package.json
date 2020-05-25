@@ -2,6 +2,7 @@
 	"name": "@ctx-core/csv",
 	"version": "5.2.48",
 	"description": "ctx-core csv",
+	"type": "module",
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
