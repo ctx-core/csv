@@ -2,9 +2,9 @@
 	"name": "@ctx-core/csv",
 	"version": "5.2.66",
 	"description": "ctx-core csv",
-	"main": "index.js",
-	"module": "index.js",
-	"types": "index.ts",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
