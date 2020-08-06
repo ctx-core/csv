@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "5.2.108",
+	"version": "5.2.109",
 	"description": "ctx-core csv",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -29,12 +29,12 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^16.0.12",
-		"@ctx-core/combinators": "^4.2.21",
-		"@ctx-core/fetch": "^6.1.180",
-		"@ctx-core/logger": "^3.1.22",
-		"@ctx-core/object": "^9.0.12",
-		"@ctx-core/table": "^6.2.105",
+		"@ctx-core/array": "^16.0.13",
+		"@ctx-core/combinators": "^4.2.22",
+		"@ctx-core/fetch": "^6.1.181",
+		"@ctx-core/logger": "^3.1.23",
+		"@ctx-core/object": "^9.0.13",
+		"@ctx-core/table": "^6.2.106",
 		"papaparse": "^5.2.0",
 		"svelte": "^3.24.1"
 	},
