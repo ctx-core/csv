@@ -1,19 +1,14 @@
 import { get, writable } from 'svelte/store'
 import { assign, _b } from '@ctx-core/object'
 import {
-	b__domain__table,
-	b__domain__ticks,
-	b__table,
+	b__domain__table, b__domain__ticks, b__table,
 } from '@ctx-core/table/store'
 import { fetch } from '@ctx-core/fetch'
 import Papa from 'papaparse'
 import { subscribe__change__once } from '@ctx-core/store'
 import {
-	cast__rows,
-	push__row_id__i,
+	cast__rows, push__row_id__i,
 } from './lib'
-import { info, log } from '@ctx-core/logger'
-const logPrefix = '@ctx-core/csv/store.js'
 type Opts__load__data__csv = {
 	path__csv?:string
 	table?:[][]
@@ -26,7 +21,6 @@ export const b__path__csv = _b('__path__csv', ctx=>{
 		load__data__csv,
 	})
 	function load__data__csv(opts:Opts__load__data__csv = {}) {
-		log(`${logPrefix}|load__data__csv`)
 		const path__csv = opts.path__csv || get(b__path__csv(ctx))
 		let table = opts.table || get(b__table(ctx))
 		let domain__table =
@@ -35,13 +29,10 @@ export const b__path__csv = _b('__path__csv', ctx=>{
 			opts.domain__ticks || get(b__domain__ticks(ctx))
 		return new Promise(
 			resolve=>{
-				log(`${logPrefix}|load__data__csv|Promise`)
 				// TODO: move to a web worker
 				setTimeout(()=>{
-					info(`${logPrefix}|load__data__csv|Promise|setTimeout`)
 					if (!table && path__csv) {
 						(async ()=>{
-							log(`${logPrefix}|load__data__csv|Promise|setTimeout|path__csv`, path__csv)
 							const response = await fetch(path__csv)
 							const text = await response.text()
 							table = Papa.parse(text).data
