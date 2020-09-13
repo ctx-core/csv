@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "5.2.130",
+	"version": "5.2.131",
 	"description": "ctx-core csv",
 	"main": "./index.js",
 	"module": "./index.js",
