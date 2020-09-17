@@ -30,12 +30,12 @@
     "@ctx-core/array": "workspace:*",
     "@ctx-core/combinators": "workspace:*",
     "@ctx-core/fetch": "workspace:*",
+    "@ctx-core/function": "workspace:*",
     "@ctx-core/object": "workspace:*",
+    "@ctx-core/store": "workspace:*",
     "@ctx-core/table": "workspace:*",
     "papaparse": "^5.3.0",
-    "svelte": "~3.25.1",
-    "@ctx-core/store": "workspace:*",
-    "@ctx-core/function": "workspace:*"
+    "svelte": "~3.25.1"
   },
   "devDependencies": {
     "typescript": "^4.0.2"
