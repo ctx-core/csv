@@ -1,5 +1,5 @@
 declare type Opts__transform__table__csv = {
-    _cell?: (value: any, column: number, row: number) => any;
+    _cell?: (value: unknown, column: number, row: number) => unknown;
 };
 export declare function transform__table__csv(csv?: string, opts?: Opts__transform__table__csv): any[];
 export declare function cast__rows(rows: any, columns: any): void;

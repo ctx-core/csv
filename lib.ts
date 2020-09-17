@@ -1,13 +1,12 @@
-import { I } from '@ctx-core/combinators'
 import Papa from 'papaparse'
 type Opts__transform__table__csv = {
-	_cell?:(value:any, column:number, row:number)=>any
+	_cell?:(value:unknown, column:number, row:number)=>unknown
 }
 export function transform__table__csv(
 	csv = '',
 	opts:Opts__transform__table__csv = {},
 ) {
-	const _cell = opts._cell || I
+	const _cell = opts._cell || ((v:unknown)=>v)
 	const table__csv = Papa.parse(csv, opts).data
 	const columns__csv = table__csv[0]
 	const rows__csv = table__csv.slice(1)

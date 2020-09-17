@@ -1,53 +1,61 @@
-import { get, writable } from 'svelte/store'
 import { assign, _b } from '@ctx-core/object'
 import {
+	$table_type,
 	b__domain__table, b__domain__ticks, b__table,
 } from '@ctx-core/table/store'
 import { fetch } from '@ctx-core/fetch'
 import Papa from 'papaparse'
-import { subscribe__change__once } from '@ctx-core/store'
+import { get, writable, subscribe__change__once, Writable } from '@ctx-core/store'
+import type { maybe } from '@ctx-core/function'
 import {
 	cast__rows, push__row_id__i,
 } from './lib'
-type Opts__load__data__csv = {
+type Opts__load__data__csv<I = unknown> = {
 	path__csv?:string
-	table?:[][]
-	domain__table?:[][]
-	domain__ticks?:[]
+	table?:$table_type<I>
+	domain__table?:$table_type<I>
+	domain__ticks?:I[]
 }
-export const b__path__csv = _b('__path__csv', ctx=>{
-	const __path__csv = writable(null)
-	return assign(__path__csv, {
-		load__data__csv,
-	})
-	function load__data__csv(opts:Opts__load__data__csv = {}) {
-		const path__csv = opts.path__csv || get(b__path__csv(ctx))
-		let table = opts.table || get(b__table(ctx))
-		let domain__table =
-			opts.domain__table || get(b__domain__table(ctx))
-		let domain__ticks =
-			opts.domain__ticks || get(b__domain__ticks(ctx))
-		return new Promise(
-			resolve=>{
-				// TODO: move to a web worker
-				setTimeout(()=>{
-					if (!table && path__csv) {
-						(async ()=>{
-							const response = await fetch(path__csv)
-							const text = await response.text()
-							table = Papa.parse(text).data
-							const columns = table[0]
-							const rows = table.slice(1)
-							cast__rows(rows, columns)
-							push__row_id__i(rows, columns)
-							b__table(ctx).set(table)
-							b__domain__table(ctx).set(domain__table)
-							b__domain__ticks(ctx).set(domain__ticks)
-							// wait for agent change events to propagate
-							subscribe__change__once(b__table(ctx), resolve)
-						})()
-					}
-				}, 0)
-			})
-	}
-})
+export function b__path__csv(ctx?:unknown) {
+	return _b('__path__csv', ctx=>{
+		const __path__csv = writable(null) as type__path__csv
+		return assign(__path__csv, {
+			load__data__csv,
+		})
+		function load__data__csv(opts = {} as Opts__load__data__csv<number>) {
+			const path__csv = opts.path__csv || get(b__path__csv(ctx))
+			let table = opts.table || get<$table_type<number>>(b__table(ctx))
+			let domain__table =
+				opts.domain__table || get<$table_type<number>>(b__domain__table(ctx))
+			let domain__ticks =
+				opts.domain__ticks || get<number[]>(b__domain__ticks(ctx))
+			return new Promise<type__return__load__data__csv>(
+				resolve=>{
+					// TODO: move to a web worker
+					setTimeout(()=>{
+						if (!table && path__csv) {
+							(async ()=>{
+								const response = await fetch(path__csv)
+								const text = await response.text()
+								table = Papa.parse(text).data
+								const columns = table[0]
+								const rows = table.slice(1)
+								cast__rows(rows, columns)
+								push__row_id__i(rows, columns)
+								b__table<number>(ctx).set(table)
+								b__domain__table(ctx).set(domain__table)
+								b__domain__ticks(ctx).set(domain__ticks)
+								// wait for agent change events to propagate
+								subscribe__change__once(b__table(ctx), resolve)
+							})()
+						}
+					}, 0)
+				})
+		}
+	})(ctx)
+}
+export type $type__path__csv = maybe<string, null>
+export type type__path__csv = Writable<$type__path__csv>&{
+	load__data__csv(opts?:Opts__load__data__csv):Promise<type__return__load__data__csv>
+}
+export type type__return__load__data__csv = maybe<$table_type<number>>
