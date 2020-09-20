@@ -1,5 +1,17 @@
 # @ctx-core/csv
 
+## 7.0.4
+
+### Patch Changes
+
+- fix: install issues: using explicit workspace: versioning
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.2
+  - @ctx-core/fetch@7.0.4
+  - @ctx-core/object@12.0.1
+  - @ctx-core/store@17.0.2
+  - @ctx-core/table@7.0.2
+
 ## 7.0.3
 
 ### Patch Changes
