@@ -1,47 +1,46 @@
 {
-  "name": "@ctx-core/csv",
-  "version": "7.0.3",
-  "description": "ctx-core csv",
-  "keywords": [
-    "ctx-core",
-    "csv"
-  ],
-  "homepage": "https://github.com/ctx-core/csv#readme",
-  "bugs": {
-    "url": "https://github.com/ctx-core/csv/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ctx-core/csv/issues"
-  },
-  "license": "Apache-2.0",
-  "author": "Brian Takita",
-  "main": "./index.js",
-  "module": "./index.js",
-  "types": "./index.ts",
-  "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "./node_modules/.bin/tsc -b",
-    "exec": "$@",
-    "prepublishOnly": "npm run compile"
-  },
-  "dependencies": {
-    "@ctx-core/array": "workspace:*",
-    "@ctx-core/combinators": "workspace:*",
-    "@ctx-core/fetch": "workspace:*",
-    "@ctx-core/function": "workspace:*",
-    "@ctx-core/object": "workspace:*",
-    "@ctx-core/store": "workspace:*",
-    "@ctx-core/table": "workspace:*",
-    "papaparse": "^5.3.0",
-    "svelte": "~3.25.1"
-  },
-  "devDependencies": {
-    "typescript": "^4.0.3"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "930f733ab4e563565e78d951ed5c96a202c7fd86"
+	"name": "@ctx-core/csv",
+	"version": "7.0.3",
+	"description": "ctx-core csv",
+	"keywords": [
+		"ctx-core",
+		"csv"
+	],
+	"homepage": "https://github.com/ctx-core/csv#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/csv/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/csv/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "./node_modules/.bin/tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
+	},
+	"dependencies": {
+		"@ctx-core/array": "workspace:*",
+		"@ctx-core/combinators": "workspace:*",
+		"@ctx-core/fetch": "workspace:*",
+		"@ctx-core/function": "workspace:*",
+		"@ctx-core/object": "workspace:*",
+		"@ctx-core/store": "workspace:*",
+		"@ctx-core/table": "workspace:*",
+		"papaparse": "^5.3.0",
+		"svelte": "~3.25.1"
+	},
+	"devDependencies": {
+		"typescript": "^4.0.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
