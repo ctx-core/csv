@@ -1,5 +1,13 @@
 # @ctx-core/csv
 
+## 7.0.13
+
+### Patch Changes
+
+- more explicit typing
+- Updated dependencies [undefined]
+  - @ctx-core/table@7.0.10
+
 ## 7.0.12
 
 ### Patch Changes

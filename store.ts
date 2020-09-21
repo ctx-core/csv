@@ -45,11 +45,11 @@ export function b__path__csv<I extends unknown>(ctx?: object) {
 								b__domain__table(ctx).set(domain__table)
 								b__domain__ticks(ctx).set(domain__ticks)
 								// wait for agent change events to propagate
-								subscribe__change__once(b__table(ctx), resolve)
+								subscribe__change__once<$table_type<number>>(b__table<number>(ctx), resolve)
 							})()
 						}
 					}, 0)
-				})
+				}) as Promise<type__return__load__data__csv>
 		}
 	})(ctx)
 }
