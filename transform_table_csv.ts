@@ -1,5 +1,5 @@
 import Papa from 'papaparse'
-export function transform_table_csv<I>(
+export function transform_table_csv<I extends unknown>(
 	csv = '',
 	opts:Opts__transform__table__csv = {},
 ) {

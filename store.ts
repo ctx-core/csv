@@ -15,7 +15,7 @@ type Opts__load__data__csv<I> = {
 	domain__table?:$type__domain__table
 	domain__ticks?:I[]
 }
-export function b__path__csv<I>(ctx?: object) {
+export function b__path__csv<I extends unknown>(ctx?: object) {
 	return _b('__path__csv', ctx=>{
 		const __path__csv = writable(null) as type__path__csv<I>
 		return assign(__path__csv, {
