@@ -5,7 +5,7 @@ import {
 } from '@ctx-core/table/store'
 import { fetch } from '@ctx-core/fetch'
 import Papa from 'papaparse'
-import { get, writable, subscribe__change__once, Writable } from '@ctx-core/store'
+import { get, writable, change_once_subscribe, Writable } from '@ctx-core/store'
 import type { maybe } from '@ctx-core/function'
 import { cast_rows } from './cast_rows'
 import { push_row_id_i } from './push_row_id_i'
@@ -45,7 +45,7 @@ export function b__path__csv<I extends unknown>(ctx?: object) {
 								b__domain__table(ctx).set(domain__table)
 								b__domain__ticks(ctx).set(domain__ticks)
 								// wait for agent change events to propagate
-								subscribe__change__once<$table_type<number>>(b__table<number>(ctx), resolve)
+								change_once_subscribe<$table_type<number>>(b__table<number>(ctx), resolve)
 							})()
 						}
 					}, 0)
