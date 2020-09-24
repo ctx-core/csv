@@ -1,5 +1,18 @@
 # @ctx-core/csv
 
+## 7.0.29
+
+### Patch Changes
+
+- default generic types
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.13
+  - @ctx-core/function@16.1.1
+  - @ctx-core/object@12.0.8
+  - @ctx-core/store@18.1.3
+  - @ctx-core/table@7.0.24
+  - @ctx-core/fetch@7.0.30
+
 ## 7.0.28
 
 ### Patch Changes
