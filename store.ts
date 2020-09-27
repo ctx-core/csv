@@ -23,11 +23,11 @@ export function b__path__csv<I extends unknown = unknown>(ctx?: object) {
 		})
 		function load__data__csv(opts = {} as Opts__load__data__csv<number>) {
 			const path__csv = opts.path__csv || get(b__path__csv(ctx))
-			let table = opts.table || get<$table_type<number>>(table_b(ctx))
+			let table = opts.table || get(table_b(ctx)) as $table_type<number>
 			let domain__table =
-				opts.domain__table || get<$type__domain__table>(b__domain__table(ctx))
+				opts.domain__table || get(b__domain__table(ctx))
 			let domain__ticks =
-				opts.domain__ticks || get<number[]>(b__domain__ticks(ctx))
+				opts.domain__ticks || get(b__domain__ticks(ctx))
 			return new Promise<type__return__load__data__csv>(
 				resolve=>{
 					// TODO: move to a web worker
