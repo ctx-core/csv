@@ -1,5 +1,14 @@
 # @ctx-core/csv
 
+## 7.0.46
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/store@21.1.0
+  - @ctx-core/table@7.0.41
+  - @ctx-core/fetch@7.0.47
+
 ## 7.0.45
 
 ### Patch Changes
