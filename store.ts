@@ -1,8 +1,8 @@
 import { assign, _b } from '@ctx-core/object'
 import {
-	$table_type, $type__domain__table,
-	b__domain__table, b__domain__ticks, table_b,
-} from '@ctx-core/table/store'
+	$table_type, $table_domain_type,
+	table_domain_b, ticks_domain_b, table_b, row_type,
+} from '@ctx-core/table'
 import { fetch } from '@ctx-core/fetch'
 import Papa from 'papaparse'
 import { get, writable, change_once_subscribe, Writable } from '@ctx-core/store'
@@ -12,7 +12,7 @@ import { push_row_id_i } from './push_row_id_i'
 type Opts__load__data__csv<I> = {
 	path__csv?:string
 	table?:$table_type<I>
-	domain__table?:$type__domain__table
+	domain__table?:$table_domain_type
 	domain__ticks?:I[]
 }
 export function b__path__csv<I extends unknown = unknown>(ctx?: object) {
@@ -23,32 +23,33 @@ export function b__path__csv<I extends unknown = unknown>(ctx?: object) {
 		})
 		function load__data__csv(opts = {} as Opts__load__data__csv<number>) {
 			const path__csv = opts.path__csv || get(b__path__csv(ctx))
-			let table = opts.table || get(table_b(ctx)) as $table_type<number>
+			const table = table_b(ctx)
+			let $table = opts.table || get(table)
 			let domain__table =
-				opts.domain__table || get(b__domain__table(ctx))
+				opts.domain__table || get(table_domain_b(ctx))
 			let domain__ticks =
-				opts.domain__ticks || get(b__domain__ticks(ctx))
+				opts.domain__ticks || get(ticks_domain_b(ctx))
 			return new Promise<type__return__load__data__csv>(
 				resolve=>{
 					// TODO: move to a web worker
 					setTimeout(()=>{
-						if (!table && path__csv) {
+						if (!$table && path__csv) {
 							(async ()=>{
 								const response = await fetch(path__csv)
 								const text = await response.text()
-								table = Papa.parse(text).data
-								const columns = table[0]
-								const rows = table.slice(1)
+								$table = Papa.parse(text).data
+								const columns = $table[0]
+								const rows = $table.slice(1)
 								cast_rows(rows, columns)
 								push_row_id_i(rows, columns)
-								table_b<number>(ctx).set(table)
-								b__domain__table(ctx).set(domain__table)
-								b__domain__ticks(ctx).set(domain__ticks)
+								table_b(ctx).set($table as $table_type<row_type>)
+								table_domain_b(ctx).set(domain__table)
+								ticks_domain_b(ctx).set(domain__ticks)
 								// wait for agent change events to propagate
-								change_once_subscribe<$table_type<number>>(table_b<number>(ctx), resolve)
+								change_once_subscribe(table, resolve)
 							})()
 						}
-					}, 0)
+					})
 				}) as Promise<type__return__load__data__csv>
 		}
 	})(ctx)
@@ -57,4 +58,4 @@ export type $type__path__csv = maybe<string, null>
 export type type__path__csv<I> = Writable<$type__path__csv>&{
 	load__data__csv(opts?:Opts__load__data__csv<I>):Promise<type__return__load__data__csv>
 }
-export type type__return__load__data__csv = maybe<$table_type<number>>
+export type type__return__load__data__csv<I extends unknown = unknown> = maybe<$table_type<I>>

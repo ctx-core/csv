@@ -1,5 +1,17 @@
 # @ctx-core/csv
 
+## 7.0.51
+
+### Patch Changes
+
+- fix: tsc build issues
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.0.3
+  - @ctx-core/table@8.0.0
+  - @ctx-core/fetch@7.0.51
+
 ## 7.0.50
 
 ### Patch Changes
