@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "7.0.71",
+	"version": "7.0.72",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -29,7 +29,7 @@
 	"dependencies": {
 		"@ctx-core/array": "workspace:^19.0.22",
 		"@ctx-core/combinators": "workspace:^5.0.3",
-		"@ctx-core/fetch": "workspace:^7.0.70",
+		"@ctx-core/fetch": "workspace:^7.0.71",
 		"@ctx-core/function": "workspace:^16.1.2",
 		"@ctx-core/object": "workspace:^13.0.1",
 		"@ctx-core/store": "workspace:^23.0.12",
