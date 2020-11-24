@@ -1,5 +1,25 @@
 # @ctx-core/csv
 
+## 7.0.76
+
+### Patch Changes
+
+- svelte: 3.29.7 -> 3.30.0
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.0.15
+  - @ctx-core/table@8.0.14
+  - @ctx-core/fetch@7.0.74
+
+## 7.0.75
+
+### Patch Changes
+
+- svelte: 3.29.7 -> 3.30.0
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.0.15
+  - @ctx-core/table@8.0.14
+  - @ctx-core/fetch@7.0.74
+
 ## 7.0.74
 
 ### Patch Changes
