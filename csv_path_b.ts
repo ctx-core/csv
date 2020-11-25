@@ -1,41 +1,34 @@
+import Papa from 'papaparse'
 import { assign, _b } from '@ctx-core/object'
+import type { maybe } from '@ctx-core/function'
 import {
-	$table_type, $table_domain_type,
-	table_domain_b, ticks_domain_b, table_b, row_type,
+	$table_type, $table_domain_type, table_domain_b, ticks_domain_b, table_b, row_type,
 } from '@ctx-core/table'
 import { fetch } from '@ctx-core/fetch'
-import Papa from 'papaparse'
 import { get, writable, change_once_subscribe, Writable } from '@ctx-core/store'
-import type { maybe } from '@ctx-core/function'
 import { cast_rows } from './cast_rows'
 import { push_row_id_i } from './push_row_id_i'
-type Opts__load__data__csv<I> = {
-	path__csv?:string
-	table?:$table_type<I>
-	domain__table?:$table_domain_type
-	domain__ticks?:I[]
-}
-export function b__path__csv<I extends unknown = unknown>(ctx?:object) {
-	return _b('__path__csv', ctx=>{
-		const __path__csv = writable(null) as type__path__csv<I>
-		return assign(__path__csv, {
-			load__data__csv,
+export function csv_path_b<I extends unknown = unknown, C extends object = object>(ctx:C) {
+	return _b('csv_path', (ctx:C)=>{
+		const csv_path = writable(null) as csv_path_type<I>
+		return assign(csv_path, {
+			load_csv_data,
 		})
-		function load__data__csv(opts = {} as Opts__load__data__csv<number>) {
-			const path__csv = opts.path__csv || get(b__path__csv(ctx))
+		function load_csv_data(opts = {} as load_csv_data_opts_type<number>) {
+			const csv_path = opts.path__csv || get(csv_path_b(ctx))
 			const table = table_b(ctx)
 			let $table = opts.table || get(table)
 			let domain__table =
 				opts.domain__table || get(table_domain_b(ctx))
 			let domain__ticks =
 				opts.domain__ticks || get(ticks_domain_b(ctx))
-			return new Promise<type__return__load__data__csv>(
+			return new Promise<load_csv_data_return_type>(
 				resolve=>{
 					// TODO: move to a web worker
 					setTimeout(()=>{
-						if (!$table && path__csv) {
+						if (!$table && csv_path) {
 							(async ()=>{
-								const response = await fetch(path__csv)
+								const response = await fetch(csv_path)
 								const text = await response.text()
 								$table = Papa.parse(text).data
 								const columns = $table[0]
@@ -50,17 +43,27 @@ export function b__path__csv<I extends unknown = unknown>(ctx?:object) {
 							})()
 						}
 					})
-				}) as Promise<type__return__load__data__csv>
+				}) as Promise<load_csv_data_return_type>
 		}
 	})(ctx)
 }
+interface load_csv_data_opts_type<I> {
+	path__csv?:string
+	table?:$table_type<I>
+	domain__table?:$table_domain_type
+	domain__ticks?:I[]
+}
 export type $csv_path_type = maybe<string, null>
-export type $type__path__csv = $csv_path_type
 export interface csv_path_interface<I> {
-	load__data__csv(opts?:Opts__load__data__csv<I>):Promise<type__return__load__data__csv>
+	load_csv_data(opts?:load_csv_data_opts_type<I>):Promise<load_csv_data_return_type>
 }
 export type csv_path_type<I> =
 	Writable<$csv_path_type>
 	&csv_path_interface<I>
-export type type__path__csv<I> = csv_path_type<I>
-export type type__return__load__data__csv<I extends unknown = unknown> = maybe<$table_type<I>>
+export type load_csv_data_return_type<I extends unknown = unknown> = maybe<$table_type<I>>
+export {
+	csv_path_b as b__path__csv,
+	$csv_path_type as $type__path__csv,
+	csv_path_type as type__path__csv,
+	load_csv_data_return_type as type__return__load__data__csv,
+}
