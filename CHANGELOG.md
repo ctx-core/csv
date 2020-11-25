@@ -1,5 +1,18 @@
 # @ctx-core/csv
 
+## 7.1.1
+
+### Patch Changes
+
+- fix: store.d.ts
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/object@14.0.0
+  - @ctx-core/array@19.1.1
+  - @ctx-core/fetch@7.0.76
+  - @ctx-core/store@23.1.1
+  - @ctx-core/table@8.1.1
+
 ## 7.1.0
 
 ### Minor Changes

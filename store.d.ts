@@ -7,7 +7,7 @@ declare type Opts__load__data__csv<I> = {
     domain__table?: $table_domain_type;
     domain__ticks?: I[];
 };
-export declare function b__path__csv<I extends unknown = unknown>(ctx?: object): Writable<string | null> & csv_path_interface<I> & {
+export declare function b__path__csv<I extends unknown = unknown>(ctx?: object): Writable<maybe<string, null>> & csv_path_interface<I> & {
     load__data__csv: (opts?: Opts__load__data__csv<number>) => Promise<maybe<$table_type<unknown>, import("@ctx-core/function").falsy>>;
 };
 export declare type $csv_path_type = maybe<string, null>;
