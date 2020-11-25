@@ -1,5 +1,20 @@
 # @ctx-core/csv
 
+## 7.1.0
+
+### Minor Changes
+
+- interface instead of type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.1.0
+  - @ctx-core/object@13.1.0
+  - @ctx-core/store@23.1.0
+  - @ctx-core/table@8.1.0
+  - @ctx-core/fetch@7.0.75
+
 ## 7.0.76
 
 ### Patch Changes
