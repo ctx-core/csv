@@ -15,7 +15,7 @@ type Opts__load__data__csv<I> = {
 	domain__table?:$table_domain_type
 	domain__ticks?:I[]
 }
-export function b__path__csv<I extends unknown = unknown>(ctx?: object) {
+export function b__path__csv<I extends unknown = unknown>(ctx?:object) {
 	return _b('__path__csv', ctx=>{
 		const __path__csv = writable(null) as type__path__csv<I>
 		return assign(__path__csv, {
@@ -54,8 +54,13 @@ export function b__path__csv<I extends unknown = unknown>(ctx?: object) {
 		}
 	})(ctx)
 }
-export type $type__path__csv = maybe<string, null>
-export type type__path__csv<I> = Writable<$type__path__csv>&{
+export type $csv_path_type = maybe<string, null>
+export type $type__path__csv = $csv_path_type
+export interface csv_path_interface<I> {
 	load__data__csv(opts?:Opts__load__data__csv<I>):Promise<type__return__load__data__csv>
 }
+export type csv_path_type<I> =
+	Writable<$csv_path_type>
+	&csv_path_interface<I>
+export type type__path__csv<I> = csv_path_type<I>
 export type type__return__load__data__csv<I extends unknown = unknown> = maybe<$table_type<I>>
