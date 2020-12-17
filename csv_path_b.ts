@@ -10,10 +10,10 @@ import { cast_rows } from './cast_rows'
 import { push_row_id_i } from './push_row_id_i'
 export function csv_path_b<I extends unknown = unknown, C extends object = object>(ctx:C) {
 	return _b('csv_path', (ctx:C)=>{
-		const csv_path = writable(null) as csv_path_type<I>
+		const csv_path = writable<$csv_path_type>(null)
 		return assign(csv_path, {
 			load_csv_data,
-		})
+		}) as csv_path_type<I>
 		function load_csv_data(opts = {} as load_csv_data_opts_type<number>) {
 			const csv_path = opts.path__csv || get(csv_path_b(ctx))
 			const table = table_b(ctx)
@@ -54,12 +54,9 @@ interface load_csv_data_opts_type<I> {
 	domain__ticks?:I[]
 }
 export type $csv_path_type = maybe<string, null>
-export interface csv_path_interface<I> {
+export interface csv_path_type<I> extends Writable<$csv_path_type> {
 	load_csv_data(opts?:load_csv_data_opts_type<I>):Promise<load_csv_data_return_type>
 }
-export type csv_path_type<I> =
-	Writable<$csv_path_type>
-	&csv_path_interface<I>
 export type load_csv_data_return_type<I extends unknown = unknown> = maybe<$table_type<I>>
 export {
 	csv_path_b as b__path__csv,
