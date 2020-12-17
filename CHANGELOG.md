@@ -1,5 +1,24 @@
 # @ctx-core/csv
 
+## 7.2.11
+
+### Patch Changes
+
+- interface instead of type
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.1.6
+  - @ctx-core/object@15.0.4
+  - @ctx-core/function@16.1.5
+  - @ctx-core/table@8.2.6
+  - @ctx-core/store@23.1.8
+  - @ctx-core/fetch@7.0.88
+
 ## 7.2.10
 
 ### Patch Changes
