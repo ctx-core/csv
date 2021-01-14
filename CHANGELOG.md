@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 7.2.44
+
+### Patch Changes
+
+- @ctx-core/fetch@7.1.23
+
 ## 7.2.43
 
 ### Patch Changes
