@@ -1,6 +1,17 @@
 # @ctx-core/csv
 
+## 8.0.1
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.0.1
+  - @ctx-core/store@24.0.1
+  - @ctx-core/table@9.0.1
+  - @ctx-core/fetch@8.0.1
+
 ## 8.0.0
+
 ### Major Changes
 
 - src directory
