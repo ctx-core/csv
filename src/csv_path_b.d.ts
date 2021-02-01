@@ -13,4 +13,4 @@ export interface csv_path_type<I> extends Writable<$csv_path_type> {
     load_csv_data(opts?: load_csv_data_opts_type<I>): Promise<load_csv_data_return_type>;
 }
 export declare type load_csv_data_return_type<I extends unknown = unknown> = maybe<$table_type<I>>;
-export { csv_path_b as b__path__csv, $csv_path_type as $type__path__csv, csv_path_type as type__path__csv, load_csv_data_return_type as type__return__load__data__csv, };
+export { csv_path_b as b__path__csv, };

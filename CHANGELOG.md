@@ -1,5 +1,13 @@
 # @ctx-core/csv
 
+## 8.0.2
+
+### Patch Changes
+
+- fix: remove export type aliases causing build issues
+  - @ctx-core/fetch@8.0.2
+  - @ctx-core/table@9.0.2
+
 ## 8.0.1
 
 ### Patch Changes
