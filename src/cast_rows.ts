@@ -9,4 +9,6 @@ export function cast_rows(rows, columns) {
 		}
 	}
 }
-export const cast__rows = cast_rows
+export {
+	cast_rows as cast__rows
+}

@@ -6,4 +6,6 @@ export function push_row_id_i(rows, columns) {
 		row.push(i) // index
 	}
 }
-export const push__row_id__i = push_row_id_i
+export {
+	push_row_id_i as push__row_id__i
+}

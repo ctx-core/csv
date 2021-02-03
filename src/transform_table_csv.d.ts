@@ -1,6 +1,5 @@
-export declare function transform_table_csv<I extends unknown = unknown>(csv?: string, opts?: Opts__transform__table__csv): I[];
-export declare const transform__table__csv: typeof transform_table_csv;
-declare type Opts__transform__table__csv = {
+export declare function transform_table_csv<I extends unknown = unknown>(csv?: string, opts?: csv_table_transform_opts_type): I[];
+declare type csv_table_transform_opts_type = {
     _cell?: (value: unknown, column: number, row: number) => unknown;
 };
-export {};
+export { transform_table_csv as transform__table__csv };

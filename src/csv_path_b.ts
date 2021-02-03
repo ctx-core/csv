@@ -1,6 +1,6 @@
 import Papa from 'papaparse'
-import { assign, _b } from '@ctx-core/object'
 import type { maybe } from '@ctx-core/function'
+import { assign, _b } from '@ctx-core/object'
 import {
 	$table_type, $table_domain_type, table_domain_b, ticks_domain_b, table_b, row_type,
 } from '@ctx-core/table'

@@ -1,7 +1,7 @@
 import Papa from 'papaparse'
 export function transform_table_csv<I extends unknown = unknown>(
 	csv = '',
-	opts:Opts__transform__table__csv = {},
+	opts:csv_table_transform_opts_type = {},
 ) {
 	const _cell = opts._cell || ((v:I)=>v)
 	const csv_table = Papa.parse(csv, opts).data
@@ -21,7 +21,7 @@ export function transform_table_csv<I extends unknown = unknown>(
 	}
 	return rows
 }
-export const transform__table__csv = transform_table_csv
-type Opts__transform__table__csv = {
+type csv_table_transform_opts_type = {
 	_cell?:(value:unknown, column:number, row:number)=>unknown
 }
+export { transform_table_csv as transform__table__csv }

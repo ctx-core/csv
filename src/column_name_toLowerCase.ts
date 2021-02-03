@@ -6,5 +6,7 @@ export function column_name_toLowerCase(csv) {
 		].join('\n')
 	return out_csv
 }
-export const toLowerCase__column_name = column_name_toLowerCase
-export const toLowerCase__column_name__csv = column_name_toLowerCase
+export {
+	column_name_toLowerCase as toLowerCase__column_name,
+	column_name_toLowerCase as toLowerCase__column_name__csv,
+}

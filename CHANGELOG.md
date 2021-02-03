@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 8.0.8
+
+### Patch Changes
+
+- alias functions: export as
+
 ## 8.0.7
 
 ### Patch Changes
