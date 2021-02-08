@@ -1,5 +1,17 @@
 # @ctx-core/csv
 
+## 8.0.15
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.3.0
+  - @ctx-core/array@20.1.6
+  - @ctx-core/object@17.0.4
+  - @ctx-core/store@24.0.10
+  - @ctx-core/table@9.0.12
+  - @ctx-core/fetch@8.0.14
+
 ## 8.0.14
 
 ### Patch Changes
