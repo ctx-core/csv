@@ -1,5 +1,19 @@
 # @ctx-core/csv
 
+## 8.0.17
+
+### Patch Changes
+
+- typescript: ^4.1.3 -> ^4.1.4
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.1.7
+  - @ctx-core/combinators@6.0.1
+  - @ctx-core/fetch@8.0.16
+  - @ctx-core/function@17.3.1
+  - @ctx-core/object@17.0.5
+  - @ctx-core/store@24.0.12
+  - @ctx-core/table@9.0.14
+
 ## 8.0.16
 
 ### Patch Changes
