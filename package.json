@@ -31,7 +31,7 @@
 		"@ctx-core/combinators": "workspace:^6.0.9",
 		"@ctx-core/fetch": "workspace:^8.0.51",
 		"@ctx-core/function": "workspace:^17.4.5",
-		"@ctx-core/object": "workspace:^17.4.4",
+		"@ctx-core/object": "workspace:^17.5.0",
 		"@ctx-core/store": "workspace:^24.1.18",
 		"@ctx-core/table": "workspace:^9.0.40",
 		"papaparse": "^5.3.0",
