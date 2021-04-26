@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "8.0.67",
+	"version": "8.0.68",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -32,8 +32,8 @@
 		"@ctx-core/fetch": "workspace:^8.0.58",
 		"@ctx-core/function": "workspace:^17.4.7",
 		"@ctx-core/object": "workspace:^17.5.10",
-		"@ctx-core/store": "workspace:^24.5.1",
-		"@ctx-core/table": "workspace:^9.0.55",
+		"@ctx-core/store": "workspace:^24.5.2",
+		"@ctx-core/table": "workspace:^9.0.56",
 		"papaparse": "^5.3.0",
 		"svelte": "3.37.0"
 	},
