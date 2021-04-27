@@ -1,5 +1,13 @@
 # @ctx-core/csv
 
+## 8.0.72
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/fetch@8.0.61
+
 ## 8.0.71
 
 ### Patch Changes
