@@ -1,5 +1,14 @@
 # @ctx-core/csv
 
+## 8.0.79
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/store@24.7.1
+  - @ctx-core/table@9.0.66
+
 ## 8.0.78
 
 ### Patch Changes
