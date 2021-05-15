@@ -1,5 +1,22 @@
 # @ctx-core/csv
 
+## 8.1.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.0
+  - @ctx-core/combinators@6.1.0
+  - @ctx-core/fetch@8.1.0
+  - @ctx-core/function@17.9.0
+  - @ctx-core/object@17.6.0
+  - @ctx-core/store@24.8.0
+  - @ctx-core/table@9.1.0
+
 ## 8.0.102
 
 ### Patch Changes
