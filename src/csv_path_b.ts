@@ -2,14 +2,20 @@ import Papa from 'papaparse'
 import type { falsy } from '@ctx-core/function'
 import { assign, _b } from '@ctx-core/object'
 import {
-	$table_T, $table_domain_type, table_domain_b, ticks_domain_b, table_b, table_ctx_I,
+	$table_T, $table_domain_T, table_domain_b, ticks_domain_b, table_b,
+	table_ctx_I, ticks_domain_ctx_I, table_domain_ctx_I,
 } from '@ctx-core/table'
 import { fetch } from '@ctx-core/fetch'
 import { get, writable, change_once_subscribe, Writable } from '@ctx-core/store'
 import { cast_rows } from './cast_rows'
 import { push_row_id_i } from './push_row_id_i'
+const key = 'csv_path'
+export interface csv_path_ctx_I
+	extends table_ctx_I<number>, table_domain_ctx_I, ticks_domain_ctx_I {
+	csv_path?:csv_path_T
+}
 export function csv_path_b(ctx:csv_path_ctx_I) {
-	return _b('csv_path', (ctx:csv_path_ctx_I)=>{
+	return _b<csv_path_ctx_I, typeof key>(key, (ctx:csv_path_ctx_I)=>{
 		const csv_path = writable<$csv_path_type>(null)
 		return assign(csv_path, {
 			load_csv_data,
@@ -45,13 +51,10 @@ export function csv_path_b(ctx:csv_path_ctx_I) {
 		}
 	})(ctx)
 }
-export interface csv_path_ctx_I extends table_ctx_I<number> {
-	csv_path?:csv_path_T
-}
 interface load_csv_data_params_T {
 	csv_path?:string
 	table?:$table_T<number>
-	table_domain?:$table_domain_type
+	table_domain?:$table_domain_T
 	ticks_domain?:number[]
 }
 export type $csv_path_type = string|null

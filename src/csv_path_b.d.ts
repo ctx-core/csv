@@ -1,14 +1,14 @@
 import type { falsy } from '@ctx-core/function';
-import { $table_T, $table_domain_type, table_ctx_I } from '@ctx-core/table';
+import { $table_T, $table_domain_T, table_ctx_I, ticks_domain_ctx_I, table_domain_ctx_I } from '@ctx-core/table';
 import { Writable } from '@ctx-core/store';
-export declare function csv_path_b(ctx: csv_path_ctx_I): csv_path_T;
-export interface csv_path_ctx_I extends table_ctx_I<number> {
+export interface csv_path_ctx_I extends table_ctx_I<number>, table_domain_ctx_I, ticks_domain_ctx_I {
     csv_path?: csv_path_T;
 }
+export declare function csv_path_b(ctx: csv_path_ctx_I): csv_path_T;
 interface load_csv_data_params_T {
     csv_path?: string;
     table?: $table_T<number>;
-    table_domain?: $table_domain_type;
+    table_domain?: $table_domain_T;
     ticks_domain?: number[];
 }
 export declare type $csv_path_type = string | null;
