@@ -3,19 +3,19 @@ import type { falsy } from '@ctx-core/function'
 import { assign, _b } from '@ctx-core/object'
 import {
 	$table_T, $table_domain_T, table_domain_b, ticks_domain_b, table_b,
-	table_ctx_I, ticks_domain_ctx_I, table_domain_ctx_I,
+	table_Ctx, ticks_domain_Ctx, table_domain_Ctx,
 } from '@ctx-core/table'
 import { fetch } from '@ctx-core/fetch'
 import { get, writable, change_once_subscribe, Writable } from '@ctx-core/store'
 import { cast_rows } from './cast_rows'
 import { push_row_id_i } from './push_row_id_i'
 const key = 'csv_path'
-export interface csv_path_ctx_I
-	extends table_ctx_I<number>, table_domain_ctx_I, ticks_domain_ctx_I {
+export interface csv_path_Ctx
+	extends table_Ctx<number>, table_domain_Ctx, ticks_domain_Ctx {
 	csv_path?:csv_path_T
 }
-export function csv_path_b(ctx:csv_path_ctx_I) {
-	return _b<csv_path_ctx_I, typeof key>(key, (ctx:csv_path_ctx_I)=>{
+export function csv_path_b(ctx:csv_path_Ctx) {
+	return _b<csv_path_Ctx, typeof key>(key, (ctx:csv_path_Ctx)=>{
 		const csv_path = writable<$csv_path_type>(null)
 		return assign(csv_path, {
 			load_csv_data,

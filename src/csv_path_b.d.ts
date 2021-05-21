@@ -1,10 +1,10 @@
 import type { falsy } from '@ctx-core/function';
-import { $table_T, $table_domain_T, table_ctx_I, ticks_domain_ctx_I, table_domain_ctx_I } from '@ctx-core/table';
+import { $table_T, $table_domain_T, table_Ctx, ticks_domain_Ctx, table_domain_Ctx } from '@ctx-core/table';
 import { Writable } from '@ctx-core/store';
-export interface csv_path_ctx_I extends table_ctx_I<number>, table_domain_ctx_I, ticks_domain_ctx_I {
+export interface csv_path_Ctx extends table_Ctx<number>, table_domain_Ctx, ticks_domain_Ctx {
     csv_path?: csv_path_T;
 }
-export declare function csv_path_b(ctx: csv_path_ctx_I): csv_path_T;
+export declare function csv_path_b(ctx: csv_path_Ctx): csv_path_T;
 interface load_csv_data_params_T {
     csv_path?: string;
     table?: $table_T<number>;
