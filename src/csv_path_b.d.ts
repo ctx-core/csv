@@ -1,10 +1,8 @@
 import type { falsy } from '@ctx-core/function';
-import { $table_T, $table_domain_T, table_Ctx, ticks_domain_Ctx, table_domain_Ctx } from '@ctx-core/table';
+import { $table_T, $table_domain_T } from '@ctx-core/table';
 import { Writable } from '@ctx-core/store';
-export interface csv_path_Ctx extends table_Ctx<number>, table_domain_Ctx, ticks_domain_Ctx {
-    csv_path?: csv_path_T;
-}
-export declare function csv_path_b(ctx: csv_path_Ctx): csv_path_T;
+import type { csv_Ctx } from './csv_Ctx';
+export declare const csv_path_b: import("@ctx-core/object").Be<csv_Ctx, "csv_path", csv_path_T>;
 interface load_csv_data_params_T {
     csv_path?: string;
     table?: $table_T<number>;
