@@ -1,5 +1,17 @@
 # @ctx-core/csv
 
+## 8.4.4
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/combinators@6.3.1
+  - @ctx-core/fetch@8.4.2
+  - @ctx-core/function@17.11.1
+  - @ctx-core/object@18.2.1
+  - @ctx-core/store@24.10.1
+
 ## 8.4.3
 
 ### Patch Changes
