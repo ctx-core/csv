@@ -1,5 +1,19 @@
 # @ctx-core/csv
 
+## 9.0.23
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.6
+  - @ctx-core/combinators@6.3.2
+  - @ctx-core/fetch@9.0.5
+  - @ctx-core/function@18.1.2
+  - @ctx-core/object@19.1.2
+  - @ctx-core/store@25.1.12
+  - @ctx-core/table@10.0.17
+
 ## 9.0.22
 
 ### Patch Changes
