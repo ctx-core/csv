@@ -1,5 +1,19 @@
 # @ctx-core/csv
 
+## 9.0.24
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.7
+  - @ctx-core/combinators@6.3.3
+  - @ctx-core/fetch@9.0.6
+  - @ctx-core/function@18.1.3
+  - @ctx-core/object@19.1.3
+  - @ctx-core/store@25.1.13
+  - @ctx-core/table@10.0.18
+
 ## 9.0.23
 
 ### Patch Changes
