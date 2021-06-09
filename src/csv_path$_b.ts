@@ -1,6 +1,6 @@
 import Papa from 'papaparse'
 import type { falsy } from '@ctx-core/function'
-import { assign, be_ } from '@ctx-core/object'
+import { assign, B, be_ } from '@ctx-core/object'
 import {
 	table_T, table_domain_T, table_domain$_b, ticks_domain$_b, table$_b,
 } from '@ctx-core/table'
@@ -10,7 +10,7 @@ import { cast_rows } from './cast_rows'
 import { push_row_id_i } from './push_row_id_i'
 import type { csv_Ctx } from './csv_Ctx'
 const key = 'csv_path$'
-export const csv_path$_b = be_<csv_Ctx, typeof key>(key, ctx=>{
+export const csv_path$_b:B<csv_Ctx, typeof key> = be_(key, ctx=>{
 	const csv_path = writable$<csv_path_T>(null)
 	return assign(csv_path, {
 		load_csv_data,

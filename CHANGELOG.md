@@ -1,5 +1,13 @@
 # @ctx-core/csv
 
+## 9.0.31
+
+### Patch Changes
+
+- fix: B: inferred type issue
+- Updated dependencies [undefined]
+  - @ctx-core/table@10.0.25
+
 ## 9.0.30
 
 ### Patch Changes
