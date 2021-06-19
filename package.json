@@ -30,7 +30,7 @@
 	"dependencies": {
 		"@ctx-core/array": "workspace:^22.0.4",
 		"@ctx-core/combinators": "workspace:^7.0.2",
-		"@ctx-core/fetch": "workspace:^10.0.4",
+		"@ctx-core/fetch": "workspace:^10.0.5",
 		"@ctx-core/function": "workspace:^19.1.2",
 		"@ctx-core/object": "workspace:^20.0.3",
 		"@ctx-core/store": "workspace:^26.0.4",
