@@ -1,5 +1,19 @@
 # @ctx-core/csv
 
+## 10.0.10
+
+### Patch Changes
+
+- fix: npm run clean
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.5
+  - @ctx-core/combinators@7.0.3
+  - @ctx-core/fetch@10.0.8
+  - @ctx-core/function@19.1.3
+  - @ctx-core/object@20.0.4
+  - @ctx-core/store@26.0.5
+  - @ctx-core/table@11.0.5
+
 ## 10.0.9
 
 ### Patch Changes
