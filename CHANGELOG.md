@@ -1,5 +1,19 @@
 # @ctx-core/csv
 
+## 10.0.14
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.9
+  - @ctx-core/combinators@7.0.7
+  - @ctx-core/fetch@10.0.12
+  - @ctx-core/function@19.1.7
+  - @ctx-core/object@20.0.8
+  - @ctx-core/store@26.0.9
+  - @ctx-core/table@11.0.9
+
 ## 10.0.13
 
 ### Patch Changes
