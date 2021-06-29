@@ -30,11 +30,11 @@
 	"dependencies": {
 		"@ctx-core/array": "workspace:^22.1.0",
 		"@ctx-core/combinators": "workspace:^7.0.9",
-		"@ctx-core/fetch": "workspace:^10.0.23",
+		"@ctx-core/fetch": "workspace:^10.0.24",
 		"@ctx-core/function": "workspace:^19.1.10",
 		"@ctx-core/object": "workspace:^20.2.2",
 		"@ctx-core/store": "workspace:^26.0.18",
-		"@ctx-core/table": "workspace:^11.0.20",
+		"@ctx-core/table": "workspace:^11.0.21",
 		"papaparse": "^5.3.1",
 		"svelte": "3.38.3"
 	},
