@@ -1,5 +1,16 @@
 # @ctx-core/csv
 
+## 10.0.36
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.1.5
+  - @ctx-core/fetch@10.0.34
+  - @ctx-core/store@26.0.23
+  - @ctx-core/table@11.0.26
+
 ## 10.0.35
 
 ### Patch Changes
