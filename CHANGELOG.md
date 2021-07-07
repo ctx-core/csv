@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 10.0.35
+
+### Patch Changes
+
+- @types/papaparse: ^5.2.5 -> ^5.2.6
+
 ## 10.0.34
 
 ### Patch Changes
