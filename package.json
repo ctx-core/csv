@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "10.0.45",
+	"version": "10.0.46",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -30,11 +30,11 @@
 	"dependencies": {
 		"@ctx-core/array": "workspace:^22.3.0",
 		"@ctx-core/combinators": "workspace:^7.0.10",
-		"@ctx-core/fetch": "workspace:^10.0.40",
+		"@ctx-core/fetch": "workspace:^10.0.41",
 		"@ctx-core/function": "workspace:^19.2.0",
 		"@ctx-core/object": "workspace:^20.5.0",
 		"@ctx-core/store": "workspace:^26.0.27",
-		"@ctx-core/table": "workspace:^11.0.30",
+		"@ctx-core/table": "workspace:^11.0.31",
 		"papaparse": "^5.3.1",
 		"svelte": "3.38.3"
 	},
