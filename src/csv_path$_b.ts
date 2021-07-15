@@ -6,8 +6,8 @@ import {
 } from '@ctx-core/table'
 import { fetch } from '@ctx-core/fetch'
 import { writable$, change_once_subscribe, Writable$ } from '@ctx-core/store'
-import { cast_rows } from './cast_rows'
-import { push_row_id_i } from './push_row_id_i'
+import { cast_rows } from './cast_rows.js'
+import { push_row_id_i } from './push_row_id_i.js'
 import type { csv_Ctx } from './csv_Ctx'
 const key = 'csv_path$'
 export const csv_path$_b:B<csv_Ctx, typeof key> = be_(key, ctx=>{
