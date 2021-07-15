@@ -1,4 +1,4 @@
-export function cast_rows<Val extends unknown = unknown>(rows: Val[][], columns:string[]) {
+export function cast_rows<Val extends unknown = unknown>(rows: Val[][], columns:string[]):void {
 	for (let i = 0; i < rows.length; i++) {
 		const row = rows[i]
 		for (let j = 0; j < columns.length; j++) {

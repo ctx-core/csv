@@ -1,4 +1,4 @@
-export function column_name_toLowerCase(csv:string) {
+export function column_name_toLowerCase(csv:string):string {
 	const csv_row_a = csv.split('\n')
 	const out_csv =
 		[csv_row_a[0].toLowerCase(),

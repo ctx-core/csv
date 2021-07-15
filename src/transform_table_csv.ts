@@ -2,7 +2,7 @@ import Papa from 'papaparse'
 export function transform_table_csv<Val extends unknown = unknown>(
 	csv = '',
 	opts:csv_table_transform_opts_type<Val> = {},
-) {
+):Record<string, Val>[] {
 	const cell_ = opts.cell_ || ((v:Val)=>v)
 	const csv_table = Papa.parse<any>(csv).data
 	const csv_columns:string[] = csv_table[0]
