@@ -1,5 +1,47 @@
 # @ctx-core/csv
 
+## 11.0.10
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.6
+  - @ctx-core/combinators@8.0.6
+  - @ctx-core/fetch@11.0.8
+  - @ctx-core/function@20.0.5
+  - @ctx-core/object@21.0.5
+  - @ctx-core/store@27.0.4
+  - @ctx-core/table@12.0.4
+
+## 11.0.9
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.5
+  - @ctx-core/combinators@8.0.5
+  - @ctx-core/fetch@11.0.7
+  - @ctx-core/function@20.0.4
+  - @ctx-core/object@21.0.4
+  - @ctx-core/store@27.0.4
+  - @ctx-core/table@12.0.4
+
+## 11.0.8
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.4
+  - @ctx-core/combinators@8.0.4
+  - @ctx-core/fetch@11.0.7
+  - @ctx-core/function@20.0.4
+  - @ctx-core/object@21.0.4
+  - @ctx-core/store@27.0.4
+  - @ctx-core/table@12.0.4
+
 ## 11.0.7
 
 ### Patch Changes
