@@ -1,5 +1,33 @@
 # @ctx-core/csv
 
+## 11.0.16
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.11
+  - @ctx-core/combinators@8.0.11
+  - @ctx-core/fetch@11.0.14
+  - @ctx-core/function@20.0.10
+  - @ctx-core/object@21.0.10
+  - @ctx-core/store@27.0.9
+  - @ctx-core/table@12.0.9
+
+## 11.0.15
+
+### Patch Changes
+
+- tsconfig.json: "target": "es2019"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.10
+  - @ctx-core/combinators@8.0.10
+  - @ctx-core/fetch@11.0.13
+  - @ctx-core/function@20.0.9
+  - @ctx-core/object@21.0.9
+  - @ctx-core/store@27.0.8
+  - @ctx-core/table@12.0.8
+
 ## 11.0.14
 
 ### Patch Changes
