@@ -1,5 +1,19 @@
 # @ctx-core/csv
 
+## 11.0.11
+
+### Patch Changes
+
+- fix: index.cjs: module.exports = require('./index.js')
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.7
+  - @ctx-core/combinators@8.0.7
+  - @ctx-core/fetch@11.0.9
+  - @ctx-core/function@20.0.6
+  - @ctx-core/object@21.0.6
+  - @ctx-core/store@27.0.5
+  - @ctx-core/table@12.0.5
+
 ## 11.0.10
 
 ### Patch Changes
