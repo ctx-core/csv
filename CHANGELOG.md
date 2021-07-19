@@ -1,5 +1,18 @@
 # @ctx-core/csv
 
+## 11.0.20
+
+### Patch Changes
+
+- exports: + "package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.12
+  - @ctx-core/combinators@8.0.12
+  - @ctx-core/function@20.0.11
+  - @ctx-core/object@21.0.11
+  - @ctx-core/store@27.0.10
+  - @ctx-core/table@12.0.11
+
 ## 11.0.19
 
 ### Patch Changes
