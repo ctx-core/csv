@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 11.0.30
+
+### Patch Changes
+
+- fix: \*\_ctx_I.generated
+
 ## 11.0.29
 
 ### Patch Changes

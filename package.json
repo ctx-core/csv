@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "11.0.29",
+	"version": "11.0.30",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -49,7 +49,7 @@
 		"svelte": "3.40.1"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^7.0.16",
+		"@ctx-core/dev-tools": "workspace:^7.0.18",
 		"@types/papaparse": "^5.2.6",
 		"typescript": "^4.3.5"
 	},
