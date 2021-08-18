@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 11.0.54
+
+### Patch Changes
+
+- update dependencies
+
 ## 11.0.53
 
 ### Patch Changes
