@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "11.0.66",
+	"version": "11.0.67",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -37,21 +37,21 @@
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.17",
-		"@ctx-core/combinators": "workspace:^8.0.13",
-		"@ctx-core/fetch": "workspace:^11.0.51",
-		"@ctx-core/function": "workspace:^20.1.2",
-		"@ctx-core/object": "workspace:^21.0.16",
-		"@ctx-core/store": "workspace:^27.0.23",
-		"@ctx-core/table": "workspace:^12.0.25",
+		"@ctx-core/array": "workspace:^23.0.18",
+		"@ctx-core/combinators": "workspace:^8.0.14",
+		"@ctx-core/fetch": "workspace:^11.0.52",
+		"@ctx-core/function": "workspace:^20.1.3",
+		"@ctx-core/object": "workspace:^21.0.17",
+		"@ctx-core/store": "workspace:^27.0.24",
+		"@ctx-core/table": "workspace:^12.0.26",
 		"esm": "^3.2.25",
 		"papaparse": "^5.3.1",
 		"svelte": "3.42.3"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^7.1.1",
+		"@ctx-core/dev-tools": "workspace:^7.1.2",
 		"@types/papaparse": "^5.2.6",
-		"typescript": "^4.3.5"
+		"typescript": "^4.4.2"
 	},
 	"publishConfig": {
 		"access": "public",
