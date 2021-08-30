@@ -1,5 +1,13 @@
 # @ctx-core/csv
 
+## 11.0.73
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/fetch@11.0.58
+
 ## 11.0.72
 
 ### Patch Changes
