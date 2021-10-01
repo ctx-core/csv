@@ -1,5 +1,14 @@
 # @ctx-core/csv
 
+## 11.0.97
+
+### Patch Changes
+
+- svelte: 3.43.0 -> 3.43.1
+- Updated dependencies [undefined]
+  - @ctx-core/store@27.0.33
+  - @ctx-core/table@12.0.36
+
 ## 11.0.96
 
 ### Patch Changes
