@@ -1,5 +1,22 @@
 # @ctx-core/csv
 
+## 11.0.99
+
+### Patch Changes
+
+- typescript: ^4.4.3 -> ^4.4.4
+- svelte: 3.43.1 -> 3.44.0
+- @types/papaparse: ^5.2.6 -> ^5.3.1
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.22
+  - @ctx-core/combinators@8.0.16
+  - @ctx-core/fetch@11.0.77
+  - @ctx-core/function@20.2.2
+  - @ctx-core/object@21.0.21
+  - @ctx-core/store@27.0.34
+  - @ctx-core/table@12.0.38
+
 ## 11.0.98
 
 ### Patch Changes
