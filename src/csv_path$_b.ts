@@ -14,13 +14,13 @@ export const csv_path$_b:B<csv_Ctx, typeof key> = be_(key, ctx=>{
 		load_csv_data,
 	}) as csv_path$_T
 	function load_csv_data(params = {} as load_csv_data_params_T) {
-		const csv_path = params.csv_path || csv_path$_b(ctx)._
+		const csv_path = params.csv_path || csv_path$_b(ctx).$
 		const table = table$_b<number>(ctx)
 		let $table:table_T<number> = params.table || table.$
 		let table_domain =
-			params.table_domain || table_domain$_b(ctx)._
+			params.table_domain || table_domain$_b(ctx).$
 		let ticks_domain =
-			params.ticks_domain || ticks_domain$_b(ctx)._
+			params.ticks_domain || ticks_domain$_b(ctx).$
 		return new Promise<load_csv_data_return_type>(
 			resolve=>{
 				// TODO: move to a web worker
@@ -33,9 +33,9 @@ export const csv_path$_b:B<csv_Ctx, typeof key> = be_(key, ctx=>{
 						const rows = $table.slice(1) as number[][]
 						cast_rows(rows, columns)
 						push_row_id_i(rows, columns)
-						table$_b(ctx)._ = $table as table_T<number>
-						table_domain$_b(ctx)._ = table_domain
-						ticks_domain$_b(ctx)._ = ticks_domain
+						table$_b(ctx).$ = $table as table_T<number>
+						table_domain$_b(ctx).$ = table_domain
+						ticks_domain$_b(ctx).$ = ticks_domain
 						// wait for agent change events to propagate
 						change_once_subscribe(table, resolve)
 					}
