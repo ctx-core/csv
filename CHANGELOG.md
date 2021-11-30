@@ -1,5 +1,37 @@
 # @ctx-core/csv
 
+## 11.0.108
+
+### Patch Changes
+
+- @swc/cli: ^0.1.51 -> ^0.1.52
+- @swc/core: ^1.2.111 -> ^1.2.113
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@23.0.27
+  - @ctx-core/combinators@8.0.21
+  - @ctx-core/fetch@11.0.85
+  - @ctx-core/function@20.2.7
+  - @ctx-core/object@21.0.26
+  - @ctx-core/store@27.0.40
+  - @ctx-core/table@13.0.3
+
+## 11.0.107
+
+### Patch Changes
+
+- svelte: 3.44.1 -> 3.44.2
+- @swc/core: ^1.2.110 -> ^1.2.111
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/store@27.0.39
+  - @ctx-core/table@13.0.2
+  - @ctx-core/array@23.0.26
+  - @ctx-core/combinators@8.0.20
+  - @ctx-core/fetch@11.0.84
+  - @ctx-core/function@20.2.6
+  - @ctx-core/object@21.0.25
+
 ## 11.0.106
 
 ### Patch Changes
