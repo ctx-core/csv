@@ -1,5 +1,19 @@
 # @ctx-core/csv
 
+## 11.0.110
+
+### Patch Changes
+
+- @swc/core: ^1.2.116 -> ^1.2.117
+- Updated dependencies
+  - @ctx-core/array@23.0.29
+  - @ctx-core/combinators@8.0.23
+  - @ctx-core/fetch@11.0.87
+  - @ctx-core/function@20.2.9
+  - @ctx-core/object@21.0.28
+  - @ctx-core/store@27.0.42
+  - @ctx-core/table@13.0.5
+
 ## 11.0.109
 
 ### Patch Changes
