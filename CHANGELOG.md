@@ -1,5 +1,17 @@
 # @ctx-core/csv
 
+## 11.0.116
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/array@23.0.32
+  - @ctx-core/combinators@8.0.25
+  - @ctx-core/fetch@11.0.90
+  - @ctx-core/store@27.0.45
+  - @ctx-core/table@13.0.8
+
 ## 11.0.115
 
 ### Patch Changes
