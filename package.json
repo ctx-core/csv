@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "11.0.111",
+	"version": "11.0.112",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -36,20 +36,20 @@
 		"generate_ctx_I_file": "swc $(./node_modules/.bin/generate_ctx_I_file | tail -n1) --out-dir dist --source-maps --config-file .swcrc"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.29",
-		"@ctx-core/combinators": "workspace:^8.0.23",
-		"@ctx-core/fetch": "workspace:^11.0.87",
-		"@ctx-core/function": "workspace:^20.2.9",
-		"@ctx-core/object": "workspace:^21.0.28",
-		"@ctx-core/store": "workspace:^27.0.42",
-		"@ctx-core/table": "workspace:^13.0.5",
+		"@ctx-core/array": "workspace:^23.0.30",
+		"@ctx-core/combinators": "workspace:^8.0.24",
+		"@ctx-core/fetch": "workspace:^11.0.88",
+		"@ctx-core/function": "workspace:^20.2.10",
+		"@ctx-core/object": "workspace:^21.0.29",
+		"@ctx-core/store": "workspace:^27.0.43",
+		"@ctx-core/table": "workspace:^13.0.6",
 		"papaparse": "^5.3.1",
 		"svelte": "3.44.2"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^7.2.6",
+		"@ctx-core/dev-tools": "workspace:^7.2.7",
 		"@swc/cli": "^0.1.52",
-		"@swc/core": "^1.2.117",
+		"@swc/core": "^1.2.118",
 		"@types/papaparse": "^5.3.1",
 		"typescript": "next"
 	},
