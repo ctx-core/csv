@@ -1,5 +1,19 @@
 # @ctx-core/csv
 
+## 12.0.4
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/array@23.0.36
+  - @ctx-core/combinators@8.0.29
+  - @ctx-core/fetch@11.0.96
+  - @ctx-core/function@20.2.15
+  - @ctx-core/object@22.0.3
+  - @ctx-core/store@27.0.50
+  - @ctx-core/table@14.0.4
+
 ## 12.0.3
 
 ### Patch Changes
