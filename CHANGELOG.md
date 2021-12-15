@@ -1,5 +1,20 @@
 # @ctx-core/csv
 
+## 12.0.2
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@23.0.34
+  - @ctx-core/combinators@8.0.27
+  - @ctx-core/fetch@11.0.94
+  - @ctx-core/function@20.2.13
+  - @ctx-core/object@22.0.1
+  - @ctx-core/store@27.0.48
+  - @ctx-core/table@14.0.2
+
 ## 12.0.1
 
 ### Patch Changes
