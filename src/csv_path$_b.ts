@@ -3,7 +3,7 @@ import type { falsy } from '@ctx-core/function'
 import { fetch } from '@ctx-core/fetch'
 import { assign, B, be_ } from '@ctx-core/object'
 import { writable$, change_once_subscribe, Writable$ } from '@ctx-core/store'
-import { table_T, table_domain_T, table_domain$_b, ticks_domain$_b, table$_b, } from '@ctx-core/table'
+import { table_T, table_domain$_b, ticks_domain$_b, table$_b, } from '@ctx-core/table'
 import { cast_rows } from './cast_rows.js'
 import { push_row_id_i } from './push_row_id_i.js'
 const key = 'csv_path$'
@@ -45,7 +45,7 @@ export const csv_path$_b:B<csv_path$_T> = be_(key, ctx=>{
 interface load_csv_data_params_T {
 	csv_path?:string
 	table?:table_T<number>
-	table_domain?:table_domain_T
+	table_domain?:number[][]
 	ticks_domain?:number[]
 }
 export type csv_path_T = string|null
