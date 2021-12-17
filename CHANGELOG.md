@@ -1,5 +1,19 @@
 # @ctx-core/csv
 
+## 12.0.9
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- Updated dependencies
+  - @ctx-core/array@23.0.41
+  - @ctx-core/combinators@8.0.34
+  - @ctx-core/fetch@11.0.101
+  - @ctx-core/function@20.2.20
+  - @ctx-core/object@22.0.8
+  - @ctx-core/store@27.0.55
+  - @ctx-core/table@14.0.9
+
 ## 12.0.8
 
 ### Patch Changes
