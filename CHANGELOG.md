@@ -1,5 +1,19 @@
 # @ctx-core/csv
 
+## 12.0.7
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/array@23.0.39
+  - @ctx-core/combinators@8.0.32
+  - @ctx-core/fetch@11.0.99
+  - @ctx-core/function@20.2.18
+  - @ctx-core/object@22.0.6
+  - @ctx-core/store@27.0.53
+  - @ctx-core/table@14.0.7
+
 ## 12.0.6
 
 ### Patch Changes
