@@ -1,5 +1,17 @@
 # @ctx-core/csv
 
+## 13.0.0
+
+### Major Changes
+
+- using @ctx-core/nanostores for stores instead of @ctx-core/store,@ctx-core/svelte
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/table@15.0.0
+  - @ctx-core/fetch@11.0.102
+
 ## 12.0.9
 
 ### Patch Changes
