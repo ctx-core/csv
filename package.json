@@ -47,7 +47,7 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.121",
+		"@swc/core": "^1.2.122",
 		"@types/papaparse": "^5.3.1",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
