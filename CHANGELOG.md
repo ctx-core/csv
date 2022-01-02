@@ -1,5 +1,16 @@
 # @ctx-core/csv
 
+## 13.0.6
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/fetch@11.0.104
+  - @ctx-core/function@20.2.21
+  - @ctx-core/nanostores@0.3.1
+  - @ctx-core/table@15.0.6
+
 ## 13.0.5
 
 ### Patch Changes
