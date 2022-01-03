@@ -37,7 +37,7 @@
 	"dependencies": {
 		"@ctx-core/array": "workspace:^23.1.0",
 		"@ctx-core/combinators": "workspace:^8.0.34",
-		"@ctx-core/fetch": "workspace:^11.0.104",
+		"@ctx-core/fetch": "workspace:^11.0.105",
 		"@ctx-core/function": "workspace:^20.2.21",
 		"@ctx-core/nanostores": "workspace:^0.3.1",
 		"@ctx-core/object": "workspace:^22.0.8",
