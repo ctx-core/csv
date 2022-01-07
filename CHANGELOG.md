@@ -1,5 +1,21 @@
 # @ctx-core/csv
 
+## 13.0.9
+
+### Patch Changes
+
+- @swc/core: ^1.2.125 -> ^1.2.127
+- svelte: ^3.44.3 -> ^3.45.0
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@23.1.3
+  - @ctx-core/combinators@8.0.36
+  - @ctx-core/fetch@11.0.108
+  - @ctx-core/function@20.2.24
+  - @ctx-core/nanostores@0.3.3
+  - @ctx-core/object@22.0.11
+  - @ctx-core/table@15.0.8
+
 ## 13.0.8
 
 ### Patch Changes
