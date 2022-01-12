@@ -39,11 +39,11 @@
 		"@ctx-core/combinators": "workspace:^8.0.37",
 		"@ctx-core/fetch": "workspace:^11.0.111",
 		"@ctx-core/function": "workspace:^20.2.25",
-		"@ctx-core/nanostores": "workspace:^0.3.7",
+		"@ctx-core/nanostores": "workspace:^0.3.8",
 		"@ctx-core/object": "workspace:^22.0.12",
 		"@ctx-core/table": "workspace:^15.0.12",
 		"papaparse": "^5.3.1",
-		"svelte": "^3.45.0"
+		"svelte": "^3.46.1"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
