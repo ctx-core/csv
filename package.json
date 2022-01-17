@@ -43,11 +43,11 @@
 		"@ctx-core/object": "workspace:^22.0.12",
 		"@ctx-core/table": "workspace:^15.0.14",
 		"papaparse": "^5.3.1",
-		"svelte": "^3.46.1"
+		"svelte": "^3.46.2"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.129",
+		"@swc/core": "^1.2.130",
 		"@types/papaparse": "^5.3.1",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
