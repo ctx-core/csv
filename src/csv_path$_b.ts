@@ -1,5 +1,5 @@
 import Papa from 'papaparse'
-import { fetch } from '@ctx-core/fetch'
+import { safe_fetch as fetch } from '@ctx-core/fetch-undici'
 import type { falsy, nullish } from '@ctx-core/function'
 import { atom$, listen_once, WritableAtom$ } from '@ctx-core/nanostores'
 import { assign, B, be_ } from '@ctx-core/object'
