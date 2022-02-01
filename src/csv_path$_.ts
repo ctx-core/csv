@@ -3,11 +3,10 @@ import { fetch } from '@ctx-core/fetch-undici'
 import type { falsy, nullish } from '@ctx-core/function'
 import { atom$, listen_once, WritableAtom$ } from '@ctx-core/nanostores'
 import { assign, B, be_ } from '@ctx-core/object'
-import { table_T, table_domain$_, ticks_domain$_, table$_, } from '@ctx-core/table'
+import { table$_, table_domain$_, table_T, ticks_domain$_, } from '@ctx-core/table'
 import { cast_rows } from './cast_rows.js'
 import { push_row_id_i } from './push_row_id_i.js'
-const key = 'csv_path$'
-export const csv_path$_:B<csv_path$_T> = be_(key, ctx=>{
+export const csv_path$_:B<csv_path$_T> = be_('csv_path$', ctx=>{
 	const csv_path = atom$<csv_path_T>(null)
 	return assign(csv_path, {
 		load_csv_data,
