@@ -1,5 +1,15 @@
 # @ctx-core/csv
 
+## 14.0.7
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@0.7.0
+  - @ctx-core/fetch-undici@1.1.7
+  - @ctx-core/table@16.0.6
+
 ## 14.0.6
 
 ### Patch Changes
