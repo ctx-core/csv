@@ -39,7 +39,7 @@
 		"@ctx-core/combinators": "^8.0.37",
 		"@ctx-core/fetch-undici": "^1.2.4",
 		"@ctx-core/function": "*",
-		"@ctx-core/nanostores": "^0.7.1",
+		"@ctx-core/nanostores": "^0.7.2",
 		"@ctx-core/object": "*",
 		"@ctx-core/table": "^16.0.6",
 		"papaparse": "^5.3.1",
@@ -47,7 +47,7 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.145",
+		"@swc/core": "^1.2.146",
 		"@types/papaparse": "^5.3.2",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
