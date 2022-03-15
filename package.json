@@ -42,7 +42,7 @@
 		"@ctx-core/nanostores": "^1.0.7",
 		"@ctx-core/object": "*",
 		"@ctx-core/table": "^16.0.12",
-		"papaparse": "^5.3.1",
+		"papaparse": "^5.3.2",
 		"svelte": "^3.46.4"
 	},
 	"devDependencies": {
