@@ -38,7 +38,7 @@
 		"@ctx-core/array": "*",
 		"@ctx-core/combinators": "^8.0.37",
 		"@ctx-core/fetch-undici": "^1.2.11",
-		"@ctx-core/function": "*",
+		"@ctx-core/function": "^20.6.0",
 		"@ctx-core/nanostores": "^1.0.7",
 		"@ctx-core/object": "*",
 		"@ctx-core/table": "^16.0.12",
