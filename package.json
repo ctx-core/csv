@@ -37,7 +37,7 @@
 	"dependencies": {
 		"@ctx-core/array": "*",
 		"@ctx-core/combinators": "^8.0.37",
-		"@ctx-core/fetch-undici": "^1.2.12",
+		"@ctx-core/fetch-undici": "^1.2.13",
 		"@ctx-core/function": "^20.6.0",
 		"@ctx-core/nanostores": "^1.0.8",
 		"@ctx-core/object": "^22.1.3",
