@@ -1,5 +1,13 @@
 # @ctx-core/csv
 
+## 14.0.24
+
+### Patch Changes
+
+- svelte: ^3.46.6 -> ^3.47.0
+- Updated dependencies
+  - @ctx-core/nanostores@1.0.9
+
 ## 14.0.23
 
 ### Patch Changes
