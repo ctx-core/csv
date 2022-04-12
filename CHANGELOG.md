@@ -1,5 +1,20 @@
 # @ctx-core/csv
 
+## 14.0.26
+
+### Patch Changes
+
+- package.json: exports: update
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@26.1.3
+  - @ctx-core/combinators@8.0.38
+  - @ctx-core/fetch-undici@1.2.15
+  - @ctx-core/function@20.6.1
+  - @ctx-core/nanostores@1.0.11
+  - @ctx-core/object@22.1.4
+  - @ctx-core/table@16.0.17
+
 ## 14.0.25
 
 ### Patch Changes
