@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "14.0.34",
+	"version": "14.0.35",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -33,13 +33,13 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.1.5",
-		"@ctx-core/combinators": "^8.0.38",
-		"@ctx-core/fetch-undici": "^2.1.1",
-		"@ctx-core/function": "^20.7.0",
-		"@ctx-core/nanostores": "^1.0.14",
-		"@ctx-core/object": "^22.1.6",
-		"@ctx-core/table": "^16.0.19",
+		"@ctx-core/array": "workspace:^26.2.0",
+		"@ctx-core/combinators": "workspace:^8.0.38",
+		"@ctx-core/fetch-undici": "workspace:^2.1.2",
+		"@ctx-core/function": "workspace:^20.7.0",
+		"@ctx-core/nanostores": "workspace:^1.0.15",
+		"@ctx-core/object": "workspace:^22.1.7",
+		"@ctx-core/table": "workspace:^16.0.20",
 		"papaparse": "^5.3.2",
 		"svelte": "^3.47.0"
 	},
