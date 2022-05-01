@@ -1,5 +1,13 @@
 # @ctx-core/csv
 
+## 14.0.38
+
+### Patch Changes
+
+- svelte: ^3.47.0 -> ^3.48.0
+- Updated dependencies
+  - @ctx-core/fetch-undici@2.1.5
+
 ## 14.0.37
 
 ### Patch Changes
