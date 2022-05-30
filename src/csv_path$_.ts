@@ -1,13 +1,13 @@
 import Papa from 'papaparse'
 import { fetch } from '@ctx-core/fetch-undici'
 import type { falsy, nullish } from '@ctx-core/function'
-import { atom$, listen_once, WritableAtom$ } from '@ctx-core/nanostores'
+import { atom_, listen_once, WritableAtom_ } from '@ctx-core/nanostores'
 import { assign, B, be_ } from '@ctx-core/object'
 import { table$_, table_domain$_, table_T, ticks_domain$_, } from '@ctx-core/table'
 import { cast_rows } from './cast_rows.js'
 import { push_row_id_i } from './push_row_id_i.js'
 export const csv_path$_:B<csv_path$_T> = be_('csv_path$', ctx=>{
-	const csv_path = atom$<csv_path_T>(null)
+	const csv_path = atom_<csv_path_T>(null)
 	return assign(csv_path, {
 		load_csv_data,
 	}) as csv_path$_T
@@ -46,7 +46,7 @@ interface load_csv_data_params_T {
 	ticks_domain?:number[]
 }
 export type csv_path_T = string|null
-export interface csv_path$_T extends WritableAtom$<csv_path_T> {
+export interface csv_path$_T extends WritableAtom_<csv_path_T> {
 	load_csv_data(params?:load_csv_data_params_T):Promise<load_csv_data_return_type>
 }
 export type load_csv_data_return_type = table_T<number>|falsy
