@@ -1,5 +1,17 @@
 # @ctx-core/csv
 
+## 14.1.0
+
+### Minor Changes
+
+- \__ suffix aliased by \$_
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/array@26.5.0
+  - @ctx-core/table@16.1.0
+
 ## 14.0.53
 
 ### Patch Changes
