@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "14.1.0",
+	"version": "14.1.1",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -39,7 +39,7 @@
 		"@ctx-core/function": "^20.8.0",
 		"@ctx-core/nanostores": "^1.4.1",
 		"@ctx-core/object": "^22.2.1",
-		"@ctx-core/table": "^16.1.0",
+		"@ctx-core/table": "^16.1.1",
 		"papaparse": "^5.3.2",
 		"svelte": "^3.48.0"
 	},
