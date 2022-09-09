@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "14.1.15",
+	"version": "14.1.16",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -41,11 +41,11 @@
 		"@ctx-core/object": "^22.2.8",
 		"@ctx-core/table": "^16.1.12",
 		"papaparse": "^5.3.2",
-		"svelte": "^3.50.0"
+		"svelte": "^3.50.1"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.248",
+		"@swc/core": "^1.2.249",
 		"@types/papaparse": "^5.3.5",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
