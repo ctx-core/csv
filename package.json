@@ -36,7 +36,7 @@
 		"@ctx-core/array": "^26.7.8",
 		"@ctx-core/combinators": "^8.0.39",
 		"@ctx-core/fetch-undici": "^2.3.5",
-		"@ctx-core/function": "^21.1.0",
+		"@ctx-core/function": "^21.1.1",
 		"@ctx-core/nanostores": "^2.0.1",
 		"@ctx-core/object": "^22.2.8",
 		"@ctx-core/table": "^16.1.12",
