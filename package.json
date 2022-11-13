@@ -37,7 +37,7 @@
 		"@ctx-core/combinators": "^8.0.39",
 		"@ctx-core/fetch-undici": "^2.3.7",
 		"@ctx-core/function": "^21.6.0",
-		"@ctx-core/nanostores": "^2.2.1",
+		"@ctx-core/nanostores": "^2.2.2",
 		"@ctx-core/object": "^22.3.0",
 		"@ctx-core/table": "^16.1.13",
 		"papaparse": "^5.3.2",
