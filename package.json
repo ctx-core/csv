@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "14.1.43",
+	"version": "14.1.44",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -35,11 +35,11 @@
 	"dependencies": {
 		"@ctx-core/array": "^26.8.6",
 		"@ctx-core/combinators": "^8.0.39",
-		"@ctx-core/fetch-undici": "^2.3.28",
+		"@ctx-core/fetch-undici": "^2.3.29",
 		"@ctx-core/function": "^21.6.0",
 		"@ctx-core/nanostores": "^2.2.9",
 		"@ctx-core/object": "^22.9.1",
-		"@ctx-core/table": "^16.1.25",
+		"@ctx-core/table": "^16.1.26",
 		"papaparse": "^5.3.2",
 		"svelte": "^3.55.0"
 	},
