@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 14.1.51
+
+### Patch Changes
+
+- @ctx-core/fetch-undici: ^2.3.35 -> ^2.3.36
+
 ## 14.1.50
 
 ### Patch Changes
