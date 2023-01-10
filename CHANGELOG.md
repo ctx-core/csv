@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 14.1.58
+
+### Patch Changes
+
+- svelte: ^3.55.0 -> ^3.55.1
+
 ## 14.1.57
 
 ### Patch Changes
