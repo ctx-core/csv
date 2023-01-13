@@ -1,5 +1,13 @@
 # @ctx-core/csv
 
+## 14.1.61
+
+### Patch Changes
+
+- rimraf: ^3.0.2 -> ^4.0.1
+- Updated dependencies
+  - @ctx-core/table@16.1.35
+
 ## 14.1.60
 
 ### Patch Changes
