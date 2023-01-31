@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "14.1.76",
+	"version": "14.1.77",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -35,7 +35,7 @@
 	"dependencies": {
 		"@ctx-core/array": "^26.8.14",
 		"@ctx-core/combinators": "^8.0.40",
-		"@ctx-core/fetch-undici": "^2.3.58",
+		"@ctx-core/fetch-undici": "^2.3.60",
 		"@ctx-core/function": "^21.6.1",
 		"@ctx-core/nanostores": "^2.2.18",
 		"@ctx-core/object": "^24.1.2",
