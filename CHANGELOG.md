@@ -1,5 +1,14 @@
 # @ctx-core/csv
 
+## 14.1.79
+
+### Patch Changes
+
+- @swc/core: ^1.3.31 -> ^1.3.32
+- Updated dependencies
+  - @ctx-core/combinators@8.0.41
+  - @ctx-core/table@16.1.45
+
 ## 14.1.78
 
 ### Patch Changes
