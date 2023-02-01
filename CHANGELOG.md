@@ -1,5 +1,15 @@
 # @ctx-core/csv
 
+## 14.1.80
+
+### Patch Changes
+
+- @ctx-core/fetch-undici: ^2.3.61 -> ^2.3.62
+- @ctx-core/array: ^26.8.14 -> ^26.8.15
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/table@16.1.46
+
 ## 14.1.79
 
 ### Patch Changes
