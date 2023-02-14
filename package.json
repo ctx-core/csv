@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "14.2.1",
+	"version": "14.2.2",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -17,10 +17,10 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./lib/index.d.ts",
-	"svelte": "./lib/index.js",
+	"types": "./src/index.d.ts",
+	"svelte": "./src/index.js",
 	"exports": {
-		".": "./lib/index.js",
+		".": "./src/index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {

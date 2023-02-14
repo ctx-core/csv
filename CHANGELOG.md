@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 14.2.2
+
+### Patch Changes
+
+- fix: exports
+
 ## 14.2.1
 
 ### Patch Changes
