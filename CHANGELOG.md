@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 14.2.20
+
+### Patch Changes
+
+- @ctx-core/table: ^16.2.6 -> ^16.2.7
+
 ## 14.2.19
 
 ### Patch Changes
