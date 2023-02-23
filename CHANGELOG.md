@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 14.2.32
+
+### Patch Changes
+
+- reference type: Be instead of B
+
 ## 14.2.31
 
 ### Patch Changes

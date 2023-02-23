@@ -1,8 +1,8 @@
 import type { falsy } from '@ctx-core/function'
 import type { WritableAtom_ } from '@ctx-core/nanostores'
-import type { B } from '@ctx-core/object'
+import type { Be } from '@ctx-core/object'
 import type { table_T } from '@ctx-core/table'
-export declare const csv_path__:B<csv_path__T>
+export declare const csv_path__:Be<csv_path__T>
 interface load_csv_data_params_T {
 	csv_path?:string
 	table?:table_T<number>
