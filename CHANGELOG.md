@@ -1,5 +1,81 @@
 # @ctx-core/csv
 
+## 15.0.0
+
+### Major Changes
+
+- load_csv_data_return_type=>csv**fetch_get**ret_T
+- csv_path\_\_: - load_csv_data_params
+- csv**fetch_get**params_T:
+
+  - table\_\_domain
+  - tick\_\_domain
+
+### Minor Changes
+
+- - row_a**row_id_i**push: aliased by push_row_id_i
+- - row_a\_\_cast: aliased by cast_rows
+- - csv**fetch_get: extracted from csv_path**: load_csv_data
+- - column_name\_\_toLowerCase: aliased by column_name_toLowerCase
+
+### Patch Changes
+
+- fix: jsdocs
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/table@17.0.0
+
 ## 14.2.50
 
 ### Patch Changes

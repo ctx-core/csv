@@ -2,7 +2,7 @@
  * @param rows{unknown[][]}
  * @param columns{string[]}
  */
-export function cast_rows(rows, columns) {
+export function row_a__cast(rows, columns) {
 	for (let i = 0; i < rows.length; i++) {
 		const row = rows[i]
 		for (let j = 0; j < columns.length; j++) {
@@ -13,4 +13,7 @@ export function cast_rows(rows, columns) {
 		}
 	}
 }
-export { cast_rows as cast__rows }
+export {
+	row_a__cast as cast_rows,
+	row_a__cast as cast__rows, 
+}
