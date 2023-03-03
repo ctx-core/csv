@@ -1,5 +1,5 @@
 export declare function row_a__row_id_i__push(
-	row_a:number[][], columns:string[]
+	row_a:number[][], column_a:string[]
 ):void
 export {
 	row_a__row_id_i__push as push_row_id_i,

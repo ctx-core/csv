@@ -1,9 +1,9 @@
 /**
  * @param row_a{number[][]}
- * @param columns{string[]}
+ * @param column_a{string[]}
  */
-export function row_a__row_id_i__push(row_a, columns) {
-	columns.push('row_id', 'i')
+export function row_a__row_id_i__push(row_a, column_a) {
+	column_a.push('row_id', 'i')
 	for (let i = 0; i < row_a.length; i++) {
 		const row = row_a[i]
 		row.push(i + 1) // id based on index

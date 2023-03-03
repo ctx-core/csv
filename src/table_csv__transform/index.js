@@ -9,7 +9,7 @@ export function table_csv__transform(csv = '', opts = {}) {
 	const csv_table = Papa.parse(csv).data
 	const csv_columns = csv_table[0]
 	const csv_rows = csv_table.slice(1)
-	const rows = []
+	const row_a = []
 	for (let i = 0; i < csv_rows.length; i++) {
 		const csv_row = csv_rows[i]
 		let row = {}
@@ -19,9 +19,9 @@ export function table_csv__transform(csv = '', opts = {}) {
 			const cell = cell_(value, column, j)
 			row[column] = cell
 		}
-		rows.push(row)
+		row_a.push(row)
 	}
-	return rows
+	return row_a
 }
 export {
 	table_csv__transform as transform_table_csv,

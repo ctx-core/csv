@@ -1,11 +1,11 @@
 /**
- * @param rows{unknown[][]}
- * @param columns{string[]}
+ * @param row_a{unknown[][]}
+ * @param column_a{string[]}
  */
-export function row_a__cast(rows, columns) {
-	for (let i = 0; i < rows.length; i++) {
-		const row = rows[i]
-		for (let j = 0; j < columns.length; j++) {
+export function row_a__cast(row_a, column_a) {
+	for (let i = 0; i < row_a.length; i++) {
+		const row = row_a[i]
+		for (let j = 0; j < column_a.length; j++) {
 			let value_f = parseFloat(row[j])
 			if (!Number.isNaN(value_f)) {
 				row[j] = value_f
