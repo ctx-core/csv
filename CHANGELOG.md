@@ -1,5 +1,18 @@
 # @ctx-core/csv
 
+## 15.0.21
+
+### Patch Changes
+
+- @ctx-core/function: ^21.12.0 -> ^21.12.1
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@26.11.20
+  - @ctx-core/nanostores@3.1.8
+  - @ctx-core/object@27.1.6
+  - @ctx-core/table@18.0.14
+  - @ctx-core/fetch-undici@2.3.137
+
 ## 15.0.20
 
 ### Patch Changes
