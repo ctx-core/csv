@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 16.0.1
+
+### Patch Changes
+
+- fix: ∋ @ctx-core/string dependency
+
 ## 16.0.0
 
 ### Major Changes
