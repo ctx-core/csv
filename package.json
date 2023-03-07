@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "15.0.17",
+	"version": "15.0.18",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -33,13 +33,13 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.11.18",
+		"@ctx-core/array": "^26.11.19",
 		"@ctx-core/combinators": "^8.0.41",
 		"@ctx-core/fetch-undici": "^2.3.134",
-		"@ctx-core/function": "^21.11.0",
-		"@ctx-core/nanostores": "^3.1.6",
-		"@ctx-core/object": "^27.1.4",
-		"@ctx-core/table": "^18.0.11",
+		"@ctx-core/function": "^21.12.0",
+		"@ctx-core/nanostores": "^3.1.7",
+		"@ctx-core/object": "^27.1.5",
+		"@ctx-core/table": "^18.0.12",
 		"papaparse": "^5.4.0",
 		"svelte": "^3.55.1"
 	},
