@@ -1,5 +1,67 @@
 # @ctx-core/csv
 
+## 16.0.0
+
+### Major Changes
+
+- - csv*path\_\_,csv_path$*,csv_path_T
+- - csv**fetch_get,csv**fetch_get**params_T,csv**fetch_get\_\_ret_T
+- - row_a**row_id_i**push,push_row_id_i,push**row_id**i
+- - row_a**cast,cast_rows,cast**rows
+- - table_csv**transform,transform_table_csv,transform**table**csv,table_csv**transform\_\_opts_T,csv_table_transform_opts_type
+
+### Minor Changes
+
+- - csv**val\_,csv**val_T
+- - csv**table\_,csv_o**params_T,has_header_row_T
+- - row*a\_\_csv*
+- - csv**hd*row***params_T
+- - reader**csv**table\_,reader**csv**table\_\_on_data_row_T
+- - csv**regex\_,csv**regex_T
+- - row**csv\_**params_T
+- - header_csv**toLowerCase: aliased by column_name**toLowerCase,column_name_toLowerCase,toLowerCase**column_name,toLowerCase**column_name\_\_csv
+- - csv**data*row*,csv**data_row\_\_\_params_T
+- - row\__csv_
+- - csv\__table_
+- - csv\__row_
+- - csv\__header_row_
+- - table**csv\_,table**csv\_\_\_params_T
+
+### Patch Changes
+
+- dependencies:
+
+  - @ctx-core/array
+  - @ctx-core/combinators
+  - @ctx-core/fetch-undici
+  - papaparse
+  - svelte
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/table@19.0.0
+
 ## 15.0.23
 
 ### Patch Changes
