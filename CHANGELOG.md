@@ -1,5 +1,15 @@
 # @ctx-core/csv
 
+## 17.0.3
+
+### Patch Changes
+
+- csv**table\_: line**parse: + include_line_separator: true
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/string@12.0.0
+
 ## 17.0.2
 
 ### Patch Changes

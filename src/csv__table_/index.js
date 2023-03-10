@@ -8,7 +8,7 @@ import { is_readable_stream_or_reader_ } from '../is_readable_stream_or_reader_/
 /** @typedef {import('@ctx-core/table').header_row_T}header_row_T */
 /** @typedef {import('@ctx-core/table').table_T}table_T */
 /** @typedef {import('../_types').csv__on_data_row_T}csv__on_data_row_T */
-/** @typedef {import('./index.d.ts').csv__table__parse_o_T}csv__table__parse_o */
+/** @typedef {import('./index.d.ts').csv__table__parse_o_T}csv__table__parse_o_T */
 /**
  * @param {csv__on_data_row_T|string|readable_stream_or_reader_T}on_data_row_or_csv_or_readable_stream_or_reader
  * @param {string|readable_stream_or_reader_T|boolean}csv_or_readable_stream_or_reader_or_has_csv_header
@@ -92,7 +92,7 @@ export function csv__table_(
 	async function csv__readable_stream_or_reader__on_data_row__process() {
 		await line__parse(csv=>{
 			// skip empty line
-			if (!csv) return
+			if (!csv.trim()) return
 			csv__parse(val_a=>{
 				if (!header_row) {
 					header_row = header_row__new(has_csv_header ? val_a : val_a.length)
@@ -101,14 +101,17 @@ export function csv__table_(
 				}
 				const data_row = data_row_(val_a, column_M_row_idx)
 				on_data_row(data_row, header_row)
-			}, `${csv}\n`, csv__parse_o)
-		}, readable_stream_or_reader)
+			}, csv, csv__parse_o)
+		}, readable_stream_or_reader, { include_line_separator: true })
 	}
 	async function* csv__readable_stream_or_reader__async_iterator__process() {
-		for await (const csv of line__parse(readable_stream_or_reader)) {
+		for await (const csv of line__parse(
+			readable_stream_or_reader,
+			{ include_line_separator: true }
+		)) {
 			// skip empty line
-			if (!csv) continue
-			for (const val_a of csv__parse(`${csv}\n`, csv__parse_o)) {
+			if (!csv.trim()) continue
+			for (const val_a of csv__parse(csv, csv__parse_o)) {
 				if (!header_row) {
 					header_row = header_row__new(has_csv_header ? val_a : val_a.length)
 					column_M_row_idx = column_M_row_idx__new(header_row)
