@@ -1,5 +1,63 @@
 # @ctx-core/csv
 
+## 17.0.0
+
+### Major Changes
+
+- csv**data*row*: params=>csv**parse_o: + csv**data*row***parse_o_T
+- - csv**row\_**params_T
+- - reader**csv**table\_\_\_params_T
+- - csv**hd*row***params_T
+- - csv**data*row***params_T
+- reader**csv**table\_:
+
+  returns:
+  AsyncIterable<[data_row_T<ColDefs>, header_row_T<ColDefs>]>: !on_data_row
+  Promise<void>: on_data_row
+
+- - csv\__regex_
+- csv**row\_: params=>csv**parse_o:+ csv**row**parse_o_T
+- csv**header*row*: params=>csv**parse_o: csv\_\_parse_o_T
+- csv\__table_:
+
+  params=>has_header_csv?:has_header_csv_T
+  returns:
+  void: on_data_row,csv:string
+  AsyncIterable<[data_row_T<ColDefs>, header_row_T<ColDefs>]>: !on_data_row,readable_stream_or_reader:readable_stream_or_reader_T
+  Promise<void>: on_data_row,readable_stream_or_reader:readable_stream_or_reader_T
+
+### Minor Changes
+
+- - csv**parse*o*,csv**parse*o_T,csv**parse_o**lex_regexp*,csv**parse_o**new*line_regexp*
+- - csv**data_row**parse*o*
+- - csv\_\_on_data_row_T
+- - is*readable_stream_or_reader*
+- - csv**row**parse*o*
+- - has_header_csv_T
+- - csv**row**row\_\_T
+- - csv\_\_parse: rfc compliant: returns:
+
+    Iterable<string[]>: !on_row argument
+    void: on_row argument
+
+### Patch Changes
+
+- dependencies:
+
+  ∋ @ctx-core/array
+  ∋ @ctx-core/combinators
+
+- table\__csv_: fix: header row csv rendering
+- csv\__val_: fix: ansi date format support
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/string@11.0.0
+  - @ctx-core/table@19.1.1
+
 ## 16.0.8
 
 ### Patch Changes
