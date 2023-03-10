@@ -1,5 +1,13 @@
 # @ctx-core/csv
 
+## 17.0.2
+
+### Patch Changes
+
+- csv\__table_: fix: processing multi-line strings
+
+  single csv**parse_o = csv**table\__parse_o_()
+
 ## 17.0.1
 
 ### Patch Changes
