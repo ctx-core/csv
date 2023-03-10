@@ -58,6 +58,7 @@ export function csv__table_(
 	const data_row_a = []
 	/** @type {column_M_row_idx_T} */
 	let column_M_row_idx
+	const csv__parse_o = csv__table__parse_o_()
 	if (csv) {
 		return csv__string__process()
 	} else {
@@ -79,7 +80,7 @@ export function csv__table_(
 			} else {
 				data_row_a.push(data_row)
 			}
-		}, csv)
+		}, csv, csv__parse_o)
 		if (!on_data_row) {
 			/** @type {table_T} */
 			return {
@@ -100,14 +101,14 @@ export function csv__table_(
 				}
 				const data_row = data_row_(val_a, column_M_row_idx)
 				on_data_row(data_row, header_row)
-			}, csv)
+			}, `${csv}\n`, csv__parse_o)
 		}, readable_stream_or_reader)
 	}
 	async function* csv__readable_stream_or_reader__async_iterator__process() {
 		for await (const csv of line__parse(readable_stream_or_reader)) {
 			// skip empty line
 			if (!csv) continue
-			for (const val_a of csv__parse(csv)) {
+			for (const val_a of csv__parse(`${csv}\n`, csv__parse_o)) {
 				if (!header_row) {
 					header_row = header_row__new(has_csv_header ? val_a : val_a.length)
 					column_M_row_idx = column_M_row_idx__new(header_row)

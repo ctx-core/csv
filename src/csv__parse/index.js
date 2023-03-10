@@ -89,11 +89,12 @@ export function csv__parse(
 							break
 						default:
 							csv__parse_o.state = escaped_or_closing_delimiter
-							throw Error(`CSVError: Illegal state [row_idx:${
-								csv__parse_o.row_idx
-							}, col_idx:${
-								csv__parse_o.col_idx
-							}]`)
+							throw Error(`CSVError: Illegal state ${JSON.stringify({
+								row_idx: csv__parse_o.row_idx,
+								col_idx: csv__parse_o.col_idx,
+								state: 'undelimited_input',
+								match,
+							})}`)
 					}
 					break
 				case delimited_input:
@@ -128,11 +129,12 @@ export function csv__parse(
 							row_end(csv__parse_o)
 							break
 						default:
-							throw Error(`CSVError: Illegal state [row_idx:${
-								csv__parse_o.row_idx
-							}, col_idx:${
-								csv__parse_o.col_idx
-							}]`)
+							throw Error(`CSVError: Illegal state ${JSON.stringify({
+								row_idx: csv__parse_o.row_idx,
+								col_idx: csv__parse_o.col_idx,
+								state: 'escaped_or_closing_delimiter',
+								match,
+							})}`)
 					}
 					break
 			}
