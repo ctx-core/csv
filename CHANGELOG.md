@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 17.0.1
+
+### Patch Changes
+
+- dependencies: ∋ @ctx-core/combinators
+
 ## 17.0.0
 
 ### Major Changes
