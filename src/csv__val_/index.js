@@ -1,5 +1,4 @@
-const number_only_regex = /^\s*-?(\d|\.)+\s*$/
-const date_only_regex = /^(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2})$/
+const date_only_regex = /^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2}):(\d{2})(\.\d{3}Z)?$/
 /**
  * @param {string}matched_str
  * @param {boolean}[is_quoted]
@@ -8,34 +7,23 @@ const date_only_regex = /^(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2})$/
  * @private
  */
 export function csv__val_(matched_str, is_quoted) {
-	if (matched_str === '' && !is_quoted) {
-		return null
+	switch (true) {
+		case matched_str === '' && !is_quoted:
+		case matched_str === 'null':
+			return null
+		case matched_str === 'undefined':
+			return undefined
+		case matched_str === 'true':
+		case matched_str === 'false':
+			return matched_str === 'true'
+		case isFinite(matched_str):
+			return parseFloat(matched_str)
+		case date_only_regex.test(matched_str):
+			const millis = Date.parse(matched_str)
+			if (!isNaN(millis)) {
+				return new Date(millis)
+			}
+		default:
+			return matched_str
 	}
-	if (matched_str === 'true') {
-		return true
-	}
-	if (matched_str === 'false') {
-		return false
-	}
-	if (matched_str === 'null') {
-		return null
-	}
-	if (matched_str === 'undefined') {
-		return undefined
-	}
-	const parsed_num =
-		number_only_regex.test(matched_str)
-		? parseFloat(matched_str)
-		: NaN
-	if (!isNaN(parsed_num)) {
-		return parsed_num
-	}
-	const millis =
-		date_only_regex.test(matched_str)
-		? Date.parse(matched_str)
-		: NaN
-	if (!isNaN(millis)) {
-		return new Date(millis)
-	}
-	return matched_str
 }
