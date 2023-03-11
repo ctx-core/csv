@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 17.0.5
+
+### Patch Changes
+
+- is*readable_stream_or_reader*: fix: jsdoc
+
 ## 17.0.4
 
 ### Patch Changes

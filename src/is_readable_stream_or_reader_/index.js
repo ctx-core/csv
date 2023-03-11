@@ -1,6 +1,6 @@
 /** @typedef {import('@ctx-core/string').readable_stream_or_reader_T}readable_stream_or_reader_T */
 /**
- * @param {readable_stream_or_reader_T}maybe_readable_reader
+ * @param {unknown}maybe_readable_reader
  * @returns {boolean}
  * @private
  */
