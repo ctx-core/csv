@@ -16,7 +16,7 @@ export function csv__val_(matched_str, is_quoted) {
 		case matched_str === 'true':
 		case matched_str === 'false':
 			return matched_str === 'true'
-		case isFinite(matched_str):
+		case isFinite(/** @type {any} */matched_str):
 			return parseFloat(matched_str)
 		case date_only_regex.test(matched_str):
 			const millis = Date.parse(matched_str)

@@ -2,7 +2,7 @@ import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { type data_row_T, type header_row_T } from '@ctx-core/table'
 import { Readable } from 'stream'
-import { csv__table_ } from '../index'
+import { csv__table_ } from '../index.js'
 test('csv__table_|!on_data_row|string||default', ()=>{
 	equal(
 		csv__table_(
@@ -439,9 +439,9 @@ test('csv__table_|on_data_row|ReadableStream|has_csv_header', async ()=>{
 })
 test('csv__table_|on_data_row|ReadableStreamDefaultReader|has_csv_header', async ()=>{
 	const readable = new Readable()
-	readable.push('col0,col1,col2\n')
-	readable.push('aaa,bbb,ccc\n')
-	readable.push('zzz,yyy,xxx\n')
+	readable.push('col0,col1,col2,col3\n')
+	readable.push('aaa,bbb,ccc,1.23\n')
+	readable.push('zzz,yyy,xxx,3.14\n')
 	readable.push('\n')
 	readable.push(null)
 	const header_row_a:header_row_T[] = []
@@ -454,18 +454,20 @@ test('csv__table_|on_data_row|ReadableStreamDefaultReader|has_csv_header', async
 		Readable.toWeb(readable).getReader(),
 		true)
 	equal(data_row_a, [
-		['aaa', 'bbb', 'ccc'],
-		['zzz', 'yyy', 'xxx'],
+		['aaa', 'bbb', 'ccc', 1.23],
+		['zzz', 'yyy', 'xxx', 3.14],
 	])
 	equal(data_row_a[0].col0, 'aaa')
 	equal(data_row_a[0].col1, 'bbb')
 	equal(data_row_a[0].col2, 'ccc')
+	equal(data_row_a[0].col3, 1.23)
 	equal(data_row_a[1].col0, 'zzz')
 	equal(data_row_a[1].col1, 'yyy')
 	equal(data_row_a[1].col2, 'xxx')
+	equal(data_row_a[1].col3, 3.14)
 	equal(header_row_a, [
-		['col0', 'col1', 'col2'],
-		['col0', 'col1', 'col2'],
+		['col0', 'col1', 'col2', 'col3'],
+		['col0', 'col1', 'col2', 'col3'],
 	])
 })
 test.run()

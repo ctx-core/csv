@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 17.0.24
+
+### Patch Changes
+
+- csv\__table_: fix: parse number values
+
 ## 17.0.23
 
 ### Patch Changes

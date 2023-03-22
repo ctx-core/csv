@@ -33,7 +33,7 @@ export function csv__parse(
 		on_row
 		? csv_or_csv__parse_o
 		: on_row_or_csv
-	if (!on_row) csv__parse_o = csv_or_csv__parse_o
+	if (!on_row) csv__parse_o = /** @type {csv__parse_o_T} */csv_or_csv__parse_o
 	if (!csv__parse_o) csv__parse_o = csv__parse_o_()
 	return (
 		on_row
@@ -156,7 +156,7 @@ export function csv__parse(
  * @private
  */
 export function csv__parse_o_() {
-	return {
+	return /** @type {csv__parse_o_T} */{
 		val: '',
 		val_: I,
 		lex_regexp: csv__parse_o__lex_regexp_(),
