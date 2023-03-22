@@ -1,8 +1,8 @@
 import { line__parse } from '@ctx-core/string'
 import { column_M_row_idx__new, data_row_, header_row__new } from '@ctx-core/table'
 import { csv__parse, csv__parse_o_ } from '../csv__parse/index.js'
-import { is_readable_stream_or_reader_ } from '../is_readable_stream_or_reader_/index.js'
 import { csv__val_ } from '../csv__val_/index.js'
+import { is_readable_stream_or_reader_ } from '../is_readable_stream_or_reader_/index.js'
 /** @typedef {import('@ctx-core/string').readable_stream_or_reader_T}readable_stream_or_reader_T */
 /** @typedef {import('@ctx-core/table').column_M_row_idx_T}column_M_row_idx_T */
 /** @typedef {import('@ctx-core/table').data_row_T}data_row_T */
