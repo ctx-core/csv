@@ -6,15 +6,13 @@ export interface row__csv___params_T {
 export type has_header_csv_T<
 	ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object
 > =
-	ColDefs extends (([string, any][])|any[]|object)
-	? boolean
-	: ColDefs extends [string, any][]
-		? true
-		: ColDefs extends any[]
-			? false
-			: ColDefs extends object
-				? true
-				: boolean
+	ColDefs extends [string, any][]
+	? true
+	: ColDefs extends any[]
+		? false
+		: ColDefs extends object
+			? true
+			: boolean
 export type csv__on_data_row_T<
 	ColDefs extends (([string, any][])|any[]|object)
 > = (
