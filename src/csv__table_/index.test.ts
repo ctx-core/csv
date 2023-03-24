@@ -1,7 +1,7 @@
-import { test } from 'uvu'
-import { equal } from 'uvu/assert'
 import { data_row_a__new, type data_row_T, header_row_, type header_row_T } from '@ctx-core/table'
 import { Readable } from 'stream'
+import { test } from 'uvu'
+import { equal } from 'uvu/assert'
 import { csv__table_ } from '../index.js'
 test('csv__table_|!on_data_row|string||default', ()=>{
 	const header_row = header_row_(['col0', 'col1', 'col2'])
@@ -211,7 +211,9 @@ test('csv__table_|on_data_row|ReadableStreamDefaultReader|default', async ()=>{
 })
 test('csv__table_|!on_data_row|string|!has_csv_header', ()=>{
 	equal(
-		csv__table_(
+		csv__table_<
+			[string, string, string]
+		>(
 			[
 				'aaa,bbb,ccc',
 				'zzz,yyy,xxx',
@@ -236,7 +238,9 @@ test('csv__table_|!on_data_row|ReadableStream|!has_csv_header', async ()=>{
 	const data_row_a:data_row_T[] = []
 	for await (const [
 		data_row, header_row
-	] of csv__table_(Readable.toWeb(readable), false)) {
+	] of csv__table_<
+		[string, string, string]
+	>(Readable.toWeb(readable), false)) {
 		data_row_a.push(data_row)
 		header_row_a.push(header_row)
 	}
@@ -259,7 +263,9 @@ test('csv__table_|!on_data_row|ReadableStreamDefaultReader|!has_csv_header', asy
 	const data_row_a:data_row_T[] = []
 	for await (const [
 		data_row, header_row
-	] of csv__table_(Readable.toWeb(readable).getReader(), false)) {
+	] of csv__table_<
+		[string, string, string]
+	>(Readable.toWeb(readable).getReader(), false)) {
 		data_row_a.push(data_row)
 		header_row_a.push(header_row)
 	}
@@ -275,7 +281,7 @@ test('csv__table_|!on_data_row|ReadableStreamDefaultReader|!has_csv_header', asy
 test('csv__table_|on_data_row|string|!has_csv_header', ()=>{
 	const data_row_a:data_row_T[] = []
 	const header_row_a:header_row_T[] = []
-	const ret = csv__table_(
+	const ret = csv__table_<[string, string, string]>(
 		(data_row, header_row)=>{
 			data_row_a.push(data_row)
 			header_row_a.push(header_row)
@@ -304,7 +310,7 @@ test('csv__table_|on_data_row|ReadableStream|!has_csv_header', async ()=>{
 	readable.push(null)
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T[] = []
-	await csv__table_(
+	await csv__table_<[string, string, string]>(
 		(data_row, header_row)=>{
 			data_row_a.push(data_row)
 			header_row_a.push(header_row)
@@ -328,8 +334,11 @@ test('csv__table_|on_data_row|ReadableStreamDefaultReader|!has_csv_header', asyn
 	readable.push(null)
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T[] = []
-	await csv__table_(
-		(data_row, header_row)=>{
+	await csv__table_<[string, string, string]>(
+		(
+			data_row,
+			header_row
+		)=>{
 			data_row_a.push(data_row)
 			header_row_a.push(header_row)
 		},

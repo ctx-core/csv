@@ -165,7 +165,9 @@ test('reader__csv__table_|!on_data_row|ReadableStream|!has_csv_header', async ()
 	const data_row_a:data_row_T[] = []
 	for await (const [
 		data_row, header_row
-	] of reader__csv__table_(Readable.toWeb(readable), false)) {
+	] of reader__csv__table_<
+		[string, string, string]
+	>(Readable.toWeb(readable), false)) {
 		data_row_a.push(data_row)
 		header_row_a.push(header_row)
 	}
@@ -188,7 +190,9 @@ test('reader__csv__table_|!on_data_row|ReadableStreamDefaultReader|!has_csv_head
 	const data_row_a:data_row_T[] = []
 	for await (const [
 		data_row, header_row
-	] of reader__csv__table_(Readable.toWeb(readable).getReader(), false)) {
+	] of reader__csv__table_<
+		[string, string, string]
+	>(Readable.toWeb(readable).getReader(), false)) {
 		data_row_a.push(data_row)
 		header_row_a.push(header_row)
 	}
@@ -209,8 +213,13 @@ test('reader__csv__table_|on_data_row|ReadableStream|!has_csv_header', async ()=
 	readable.push(null)
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T[] = []
-	await reader__csv__table_(
-		(data_row, header_row)=>{
+	await reader__csv__table_<
+		[string, string, string]
+	>(
+		(
+			data_row,
+			header_row
+		)=>{
 			data_row_a.push(data_row)
 			header_row_a.push(header_row)
 		},
@@ -232,9 +241,12 @@ test('reader__csv__table_|on_data_row|ReadableStreamDefaultReader|!has_csv_heade
 	readable.push('\n')
 	readable.push(null)
 	const header_row_a:header_row_T[] = []
-	const data_row_a:data_row_T[] = []
-	await reader__csv__table_(
-		(data_row, header_row)=>{
+	const data_row_a:data_row_T<[string, string, string]>[] = []
+	await reader__csv__table_<[string, string, string]>(
+		(
+			data_row,
+			header_row
+		)=>{
 			data_row_a.push(data_row)
 			header_row_a.push(header_row)
 		},
