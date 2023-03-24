@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 17.0.31
+
+### Patch Changes
+
+- has_header_csv_T: Object generic: fix: true type
+
 ## 17.0.30
 
 ### Patch Changes
