@@ -1,5 +1,17 @@
 # @ctx-core/csv
 
+## 17.0.37
+
+### Patch Changes
+
+- @ctx-core/function: ^21.13.0 -> ^21.13.1
+- Updated dependencies
+  - @ctx-core/array@26.12.6
+  - @ctx-core/nanostores@3.1.15
+  - @ctx-core/object@27.3.3
+  - @ctx-core/string@12.0.4
+  - @ctx-core/table@20.2.2
+
 ## 17.0.36
 
 ### Patch Changes
