@@ -1,6 +1,6 @@
+import { header_M_col_idx__new } from '@ctx-core/table'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
-import { header_M_col_idx__new } from '@ctx-core/table'
 import { csv__data_row_, csv__data_row__parse_o_ } from '../index'
 test('csv__data_row_', ()=>{
 	const header_M_col_idx =

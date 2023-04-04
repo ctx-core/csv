@@ -1,7 +1,7 @@
-import { test } from 'uvu'
-import { equal } from 'uvu/assert'
 import { type data_row_T, type header_row_T } from '@ctx-core/table'
 import { Readable } from 'stream'
+import { test } from 'uvu'
+import { equal } from 'uvu/assert'
 import { reader__csv__table_ } from '../index'
 test('reader__csv__table_|!on_data_row|ReadableStream|default', async ()=>{
 	const readable = new Readable()

@@ -6,7 +6,10 @@ import { keys } from '@ctx-core/object'
  * @returns {string}
  * @private
  */
-export function row__csv_(row, params) {
+export function row__csv_(
+	row,
+	params
+) {
 	const delimiter = params?.delimiter || ','
 	return (
 		(

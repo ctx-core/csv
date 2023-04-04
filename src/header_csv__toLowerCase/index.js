@@ -1,5 +1,5 @@
 /**
- * @param csv{string}
+ * @param {string}csv
  * @returns {string}
  */
 export function header_csv__toLowerCase(csv) {

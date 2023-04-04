@@ -4,7 +4,9 @@
  * @returns {boolean}
  * @private
  */
-export function is_readable_stream_or_reader_(maybe_readable_reader) {
+export function is_readable_stream_or_reader_(
+	maybe_readable_reader
+) {
 	return !!(
 		maybe_readable_reader
 		&& (
