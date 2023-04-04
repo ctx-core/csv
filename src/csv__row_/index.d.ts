@@ -1,4 +1,4 @@
-import type { data_row_, data_row_T, header_row__new, header_row_T } from '@ctx-core/table'
+import type { data_row_T, row_T, header_row_T } from '@ctx-core/table'
 import type { csv__parse_o_T } from '../csv__parse'
 export declare function csv__row_<
 	ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object
@@ -16,4 +16,5 @@ export type csv__row__parse_o_T<
 }>
 export type csv__row__row__T<
 	ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object
-> = typeof header_row__new<ColDefs>|typeof data_row_
+> = (row:row_T<ColDefs>)=>
+	row_T<ColDefs>

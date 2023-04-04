@@ -4,7 +4,8 @@ import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { csv__table_ } from '../index.js'
 test('csv__table_|!on_data_row|string||default', ()=>{
-	const header_row = header_row_(['col0', 'col1', 'col2'])
+	const header_row =
+		header_row_(['col0', 'col1', 'col2'])
 	const data_row_a = data_row_a__new([
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
