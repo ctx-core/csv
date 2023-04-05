@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 17.0.51
+
+### Patch Changes
+
+- csv\__val_: Date string: fix: rely only on Date.parse: - date_only_regex
+
 ## 17.0.50
 
 ### Patch Changes
