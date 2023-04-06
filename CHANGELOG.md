@@ -1,5 +1,19 @@
 # @ctx-core/csv
 
+## 17.0.60
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/table@21.0.0
+
 ## 17.0.59
 
 ### Patch Changes
