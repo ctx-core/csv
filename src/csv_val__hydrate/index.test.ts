@@ -11,7 +11,7 @@ test('csv_val__hydrate', ()=>{
 	equal(csv_val__hydrate('3.14'), 3.14)
 	equal(csv_val__hydrate('3.14hoodoo'), '3.14hoodoo')
 	equal(
-		(csv_val__hydrate('2023-03-09T10:07:00.384Z') as Date).getTime(),
-		Date.parse('2023-03-09T10:07:00.384Z'))
+		csv_val__hydrate('2023-03-09T10:07:00.384Z'),
+		'2023-03-09T10:07:00.384Z')
 })
 test.run()

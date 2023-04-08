@@ -1,29 +1,31 @@
 /**
- * @param {string}matched_str
+ * @param {string}val
+ * @param {string}[_header]
+ * @param {string[]}[_row_tuple]
+ * @param {number}[_col_idx]
  * @returns {import('./index.d.ts').csv__val_T}
  * @See https://www.bennadel.com/blog/1504-ask-ben-parsing-csv-strings-with-javascript-exec-regular-expression-command.htm
  * @private
  */
 export function csv_val__hydrate(
-	matched_str
+	val,
+	_header,
+	_row_tuple,
+	_col_idx
 ) {
 	switch (true) {
-		case matched_str === '':
-		case matched_str === 'null':
+		case val === '':
+		case val === 'null':
 			return null
-		case matched_str === 'undefined':
+		case val === 'undefined':
 			return undefined
-		case matched_str === 'true':
-		case matched_str === 'false':
-			return matched_str === 'true'
-		case isFinite(/** @type {any} */matched_str):
-			return parseFloat(matched_str)
+		case val === 'true':
+		case val === 'false':
+			return val === 'true'
+		case isFinite(/** @type {any} */val):
+			return parseFloat(val)
 		default:
-			const millis = Date.parse(matched_str)
-			if (!isNaN(millis)) {
-				return new Date(millis)
-			}
-			return matched_str
+			return val
 	}
 }
 export {

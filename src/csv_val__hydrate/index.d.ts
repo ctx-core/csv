@@ -1,5 +1,8 @@
 export function csv_val__hydrate(
-	matched_str:string
+	val:string,
+	header?:string,
+	row_tuple?:string[],
+	col_idx?:number
 ):csv__val_T
 export {
 	csv_val__hydrate as csv__val_,

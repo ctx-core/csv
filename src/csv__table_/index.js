@@ -60,9 +60,7 @@ export function csv__table_(
 		: csv_OR_readable_stream_OR_reader_OR_has_csv_header ?? true
 	if (!on_data_row) val__hydrate = has_csv_header_OR_val__hydrate
 	if (val__hydrate == null) {
-		val__hydrate =
-			val=>
-				csv_val__hydrate(val)
+		val__hydrate = val=>val
 	}
 	/** @type {header_row_T} */
 	let header_row
