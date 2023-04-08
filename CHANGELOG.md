@@ -1,5 +1,22 @@
 # @ctx-core/csv
 
+## 18.2.0
+
+### Minor Changes
+
+- csv**table\_: csv_val**hydrate: arguments:
+
+      matched_str=>val
+      + header?:string
+      + row_tuple?:string[]
+      + col_idx?:number
+
+- csv\__table_: - Date parsing: is now parsed as a string
+
+### Patch Changes
+
+- csv**table\_: val**hydrate: default: fix: identity function: csv**parse already runs csv_val**hydrate
+
 ## 18.1.0
 
 ### Minor Changes
