@@ -62,7 +62,7 @@ export function csv__table_(
 	if (val__hydrate == null) {
 		val__hydrate =
 			val=>
-				csv_val__hydrate(val, true)
+				csv_val__hydrate(val)
 	}
 	/** @type {header_row_T} */
 	let header_row
@@ -194,7 +194,7 @@ export function csv__table__parse_o_(
 		val__hydrate
 		|| (
 			val=>
-				csv_val__hydrate(val, true))
+				csv_val__hydrate(val))
 	csv__parse_o.data.has_csv_header = has_csv_header
 	return csv__parse_o
 }

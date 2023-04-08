@@ -1,16 +1,14 @@
 /**
  * @param {string}matched_str
- * @param {boolean}[is_quoted]
  * @returns {import('./index.d.ts').csv__val_T}
  * @See https://www.bennadel.com/blog/1504-ask-ben-parsing-csv-strings-with-javascript-exec-regular-expression-command.htm
  * @private
  */
 export function csv_val__hydrate(
-	matched_str,
-	is_quoted
+	matched_str
 ) {
 	switch (true) {
-		case matched_str === '' && !is_quoted:
+		case matched_str === '':
 		case matched_str === 'null':
 			return null
 		case matched_str === 'undefined':

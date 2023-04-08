@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 18.1.0
+
+### Minor Changes
+
+- csv_val\_\_hydrate: arguments: - is_quoted?:boolean
+
 ## 18.0.0
 
 ### Major Changes
