@@ -158,7 +158,7 @@ export function csv__parse(
 export function csv__parse_o_() {
 	return /** @type {csv__parse_o_T} */{
 		val: '',
-		val_: I,
+		val__hydrate: I,
 		lex_regexp: csv__parse_o__lex_regexp_(),
 		new_line_regexp: csv__parse_o__new_line_regexp_(),
 		val_a: [],
@@ -169,14 +169,16 @@ export function csv__parse_o_() {
 	}
 }
 export function csv__parse_o__lex_regexp_(delimiter = ',') {
-  return new RegExp('"|' + delimiter + '|\r\n|\n|\r|[^",\\r\\n]+', 'y')
+	return new RegExp('"|' + delimiter + '|\r\n|\n|\r|[^",\\r\\n]+', 'y')
 }
 export function csv__parse_o__new_line_regexp_() {
-  return /^(\r\n|\n|\r)$/
+	return /^(\r\n|\n|\r)$/
 }
 /** @private */
 function val_end(csv__parse_o) {
-	csv__parse_o.val_a.push(csv__parse_o.val_(csv__parse_o.val))
+	csv__parse_o.val_a.push(
+		csv__parse_o.val__hydrate(
+			csv__parse_o.val))
 	csv__parse_o.val = ''
 	csv__parse_o.col_idx++
 }
@@ -187,5 +189,5 @@ function row_end(csv__parse_o) {
 	csv__parse_o.col_idx = 0
 }
 function row_(csv__parse_o) {
-  return csv__parse_o.val_a
+	return csv__parse_o.val_a
 }

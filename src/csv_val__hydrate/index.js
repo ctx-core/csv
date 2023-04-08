@@ -5,7 +5,7 @@
  * @See https://www.bennadel.com/blog/1504-ask-ben-parsing-csv-strings-with-javascript-exec-regular-expression-command.htm
  * @private
  */
-export function csv__val_(
+export function csv_val__hydrate(
 	matched_str,
 	is_quoted
 ) {
@@ -27,4 +27,7 @@ export function csv__val_(
 			}
 			return matched_str
 	}
+}
+export {
+	csv_val__hydrate as csv__val_,
 }

@@ -12,7 +12,7 @@ export declare function csv__parse_o__lex_regexp_(delimiter?:string):RegExp
 export declare function csv__parse_o__new_line_regexp_():RegExp
 export interface csv__parse_o_T<D extends object> {
 	val:string
-	val_:(val_str:string)=>any
+	val__hydrate:(val_str:string)=>any
 	lex_regexp:RegExp
 	new_line_regexp:RegExp
 	val_a:any[]

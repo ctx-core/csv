@@ -1,5 +1,23 @@
 # @ctx-core/csv
 
+## 18.0.0
+
+### Major Changes
+
+- csv\__parse_o_T: val_=>val\_\_hydrate
+
+### Minor Changes
+
+- csv**table\_,reader**csv**table\_: arguments: + val**hydrate?:hydrated_val\_\_T
+- - is*readable_stream_OR_reader*: aliased by is*readable_stream_or_reader*
+- - csv_val\_\_hydrate: aliased by csv\__val_
+
+### Patch Changes
+
+- csv\_\_table\__parse_o_: fix: type
+- Updated dependencies
+  - @ctx-core/string@12.1.0
+
 ## 17.0.69
 
 ### Patch Changes

@@ -10,9 +10,9 @@ import { csv__parse, csv__parse_o_ } from '../csv__parse/index.js'
  * @private
  */
 export function csv__header_row_(csv, csv__parse_o) {
-	const revert__val_ = csv__parse_o.val_
+	const revert__val_ = csv__parse_o.val__hydrate
 	try {
-		csv__parse_o.val_ = I
+		csv__parse_o.val__hydrate = I
 		for (const val_a of csv__parse(csv, csv__parse_o)) {
  			return header_row__new(val_a)
 		}
