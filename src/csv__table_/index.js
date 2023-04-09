@@ -7,15 +7,15 @@ import { is_readable_stream_OR_reader_ } from '../is_readable_stream_OR_reader_/
 /** @typedef {import('@ctx-core/table').header_M_col_idx_T}header_M_col_idx_T */
 /** @typedef {import('@ctx-core/table').data_row_T}data_row_T */
 /** @typedef {import('@ctx-core/table').header_row_T}header_row_T */
-/** @typedef {import('@ctx-core/table').hydrated_val__T}hydrated_val__T */
+/** @typedef {import('@ctx-core/table').val__hydrate_T}val__hydrate_T */
 /** @typedef {import('@ctx-core/table').table_T}table_T */
 /** @typedef {import('../_types').csv__on_data_row_T}csv__on_data_row_T */
 /** @typedef {import('../_types').csv__parse_o_T}csv__parse_o_T */
 /**
  * @param {csv__on_data_row_T|string|readable_stream_OR_reader_T}on_data_row_OR_csv_OR_readable_stream_OR_reader
  * @param {string|readable_stream_OR_reader_T|boolean}csv_OR_readable_stream_OR_reader_OR_has_csv_header
- * @param {boolean|hydrated_val__T}[has_csv_header_OR_val__hydrate]
- * @param {hydrated_val__T}[val__hydrate]
+ * @param {boolean|val__hydrate_T}[has_csv_header_OR_val__hydrate]
+ * @param {val__hydrate_T}[val__hydrate]
  * @returns {table_T|void|AsyncIterable<[data_row_T, header_row_T]>|Promise<void>}
  * @private
  */
@@ -179,7 +179,7 @@ export function csv__table_(
 }
 /**
  * @param {boolean}has_csv_header
- * @param {hydrated_val__T}[val__hydrate]
+ * @param {val__hydrate_T}[val__hydrate]
  * @returns {csv__parse_o_T}
  * @private
  */
