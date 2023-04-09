@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 18.3.1
+
+### Patch Changes
+
+- @ctx-core/table: ^22.1.0 -> ^22.2.0
+
 ## 18.3.0
 
 ### Minor Changes
@@ -9,8 +15,8 @@
 ### Patch Changes
 
 - csv\__table_: generics: fix: + D = hydrated_json_val_T
-- csv\__table_: argument types: fix: val\__hydrate?:hydrated_val\__T<ColDefs, D>
-- csv\__table_: argument types: has_csv_header_OR_val\__hydrate: hydrated_val\__T<ColDefs, D>
+- csv\__table_: argument types: fix: val\_\_hydrate?:hydrated_val\_\_T<ColDefs, D>
+- csv\__table_: argument types: has_csv_header_OR_val\_\_hydrate: hydrated_val\_\_T<ColDefs, D>
 
 ## 18.2.1
 
@@ -576,11 +582,11 @@
 
 ### Major Changes
 
-- csv\__data_row_: params=>csv\_\_parse_o: + csv\_\_data_row\__\_parse_o_T
-- - csv\_\_row\__\_params_T
-- - reader\_\_csv\_\_table\__\_params_T
-- - csv\_\_hd_row\__\_params_T
-- - csv\_\_data_row\__\_params_T
+- csv\__data_row_: params=>csv\_\_parse_o: + csv\_\_data_row\_\_\_parse_o_T
+- - csv\_\_row\_\_\_params_T
+- - reader\_\_csv\_\_table\_\_\_params_T
+- - csv\_\_hd_row\_\_\_params_T
+- - csv\_\_data_row\_\_\_params_T
 - reader\_\_csv\_\_table\_:
 
   returns:
@@ -684,7 +690,7 @@
 
 ### Major Changes
 
-- - csv*path\__,csv_path$*,csv_path_T
+- - csv*path\_\_,csv_path$*,csv_path_T
 - - csv\_\_fetch_get,csv\_\_fetch_get\_\_params_T,csv\_\_fetch_get\_\_ret_T
 - - row_a\_\_row_id_i\_\_push,push_row_id_i,push\_\_row_id\_\_i
 - - row_a\_\_cast,cast_rows,cast\_\_rows
@@ -695,17 +701,17 @@
 - - csv\_\_val\_,csv\_\_val_T
 - - csv\_\_table\_,csv_o\_\_params_T,has_header_row_T
 - - row*a\_\_csv*
-- - csv\_\_hd_row\__\_params_T
+- - csv\_\_hd_row\_\_\_params_T
 - - reader\_\_csv\_\_table\_,reader\_\_csv\_\_table\_\_on_data_row_T
 - - csv\_\_regex\_,csv\_\_regex_T
-- - row\_\_csv\__\_params_T
+- - row\_\_csv\_\_\_params_T
 - - header_csv\_\_toLowerCase: aliased by column_name\_\_toLowerCase,column_name_toLowerCase,toLowerCase\_\_column_name,toLowerCase\_\_column_name\_\_csv
-- - csv\__data_row_,csv\_\_data_row\__\_params_T
+- - csv\__data_row_,csv\_\_data_row\_\_\_params_T
 - - row\__csv_
 - - csv\__table_
 - - csv\__row_
 - - csv\__header_row_
-- - table\_\_csv\_,table\_\_csv\__\_params_T
+- - table\_\_csv\_,table\_\_csv\_\_\_params_T
 
 ### Patch Changes
 
@@ -987,7 +993,7 @@
 ### Major Changes
 
 - load_csv_data_return_type=>csv\_\_fetch_get\_\_ret_T
-- csv_path\__: - load_csv_data_params
+- csv_path\_\_: - load_csv_data_params
 - csv\_\_fetch_get\_\_params_T:
 
   - table\_\_domain
@@ -997,7 +1003,7 @@
 
 - - row_a\_\_row_id_i\_\_push: aliased by push_row_id_i
 - - row_a\_\_cast: aliased by cast_rows
-- - csv\_\_fetch_get: extracted from csv_path\__: load_csv_data
+- - csv\_\_fetch_get: extracted from csv_path\_\_: load_csv_data
 - - column_name\_\_toLowerCase: aliased by column_name_toLowerCase
 
 ### Patch Changes
