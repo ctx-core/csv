@@ -1,5 +1,16 @@
 # @ctx-core/csv
 
+## 18.3.2
+
+### Patch Changes
+
+- fix: reader\_\_csv\_\_table\_
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/table@23.0.0
+
 ## 18.3.1
 
 ### Patch Changes
