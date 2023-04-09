@@ -8,12 +8,13 @@
 
       generics: + D = hydrated_json_val_T
       argument types: val__hydrate: + generics: <ColDefs, D>
+- row\__csv_: arguments: params: fix: header_row,delimiter
 
 ## 18.2.0
 
 ### Minor Changes
 
-- csv**table\_: csv_val**hydrate: arguments:
+- csv\__table\_: csv_val\__hydrate: arguments:
 
       matched_str=>val
       + header?:string
@@ -24,7 +25,7 @@
 
 ### Patch Changes
 
-- csv**table\_: val**hydrate: default: fix: identity function: csv**parse already runs csv_val**hydrate
+- csv\__table\_: val\__hydrate: default: fix: identity function: csv\__parse already runs csv_val\__hydrate
 
 ## 18.1.0
 
@@ -40,8 +41,8 @@
 
 ### Minor Changes
 
-- csv**table\_,reader**csv**table\_: arguments: + val**hydrate?:hydrated_val\_\_T
-- - is*readable_stream_OR_reader*: aliased by is*readable_stream_or_reader*
+- csv\__table\_,reader\__csv\__table\_: arguments: + val\__hydrate?:hydrated_val\_\_T
+- - is_readable_stream_OR_reader_: aliased by is_readable_stream_or_reader_
 - - csv_val\_\_hydrate: aliased by csv\__val_
 
 ### Patch Changes
@@ -526,7 +527,7 @@
 
 ### Patch Changes
 
-- is*readable_stream_or_reader*: fix: jsdoc
+- is_readable_stream_or_reader_: fix: jsdoc
 
 ## 17.0.4
 
@@ -538,7 +539,7 @@
 
 ### Patch Changes
 
-- csv**table\_: line**parse: + include_line_separator: true
+- csv\__table\_: line\__parse: + include_line_separator: true
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
@@ -550,7 +551,7 @@
 
 - csv\__table_: fix: processing multi-line strings
 
-  single csv**parse_o = csv**table\__parse_o_()
+  single csv\__parse_o = csv\__table\__parse_o_()
 
 ## 17.0.1
 
@@ -562,20 +563,20 @@
 
 ### Major Changes
 
-- csv**data*row*: params=>csv**parse_o: + csv**data*row***parse_o_T
-- - csv**row\_**params_T
-- - reader**csv**table\_\_\_params_T
-- - csv**hd*row***params_T
-- - csv**data*row***params_T
-- reader**csv**table\_:
+- csv\__data_row_: params=>csv\__parse_o: + csv\__data_row\_\__parse_o_T
+- - csv\__row\_\__params_T
+- - reader\__csv\__table\_\_\_params_T
+- - csv\__hd_row\_\__params_T
+- - csv\__data_row\_\__params_T
+- reader\__csv\__table\_:
 
   returns:
   AsyncIterable<[data_row_T<ColDefs>, header_row_T<ColDefs>]>: !on_data_row
   Promise<void>: on_data_row
 
 - - csv\__regex_
-- csv**row\_: params=>csv**parse_o:+ csv**row**parse_o_T
-- csv**header*row*: params=>csv**parse_o: csv\_\_parse_o_T
+- csv\__row\_: params=>csv\__parse_o:+ csv\__row\__parse_o_T
+- csv\__header_row_: params=>csv\__parse_o: csv\_\_parse_o_T
 - csv\__table_:
 
   params=>has_header_csv?:has_header_csv_T
@@ -586,13 +587,13 @@
 
 ### Minor Changes
 
-- - csv**parse*o*,csv**parse*o_T,csv**parse_o**lex_regexp*,csv**parse_o**new*line_regexp*
-- - csv**data_row**parse*o*
+- - csv\__parse_o_,csv\__parse_o_T,csv\__parse_o\__lex_regexp_,csv\__parse_o\__new_line_regexp_
+- - csv\__data_row\__parse_o_
 - - csv\_\_on_data_row_T
-- - is*readable_stream_or_reader*
-- - csv**row**parse*o*
+- - is_readable_stream_or_reader_
+- - csv\__row\__parse_o_
 - - has_header_csv_T
-- - csv**row**row\_\_T
+- - csv\__row\__row\_\_T
 - - csv\_\_parse: rfc compliant: returns:
 
     Iterable<string[]>: !on_row argument
@@ -670,28 +671,28 @@
 
 ### Major Changes
 
-- - csv*path\_\_,csv_path$*,csv_path_T
-- - csv**fetch_get,csv**fetch_get**params_T,csv**fetch_get\_\_ret_T
-- - row_a**row_id_i**push,push_row_id_i,push**row_id**i
-- - row_a**cast,cast_rows,cast**rows
-- - table_csv**transform,transform_table_csv,transform**table**csv,table_csv**transform\_\_opts_T,csv_table_transform_opts_type
+- - csv_path\_\_,csv_path$_,csv_path_T
+- - csv\__fetch_get,csv\__fetch_get\__params_T,csv\__fetch_get\_\_ret_T
+- - row_a\__row_id_i\__push,push_row_id_i,push\__row_id\__i
+- - row_a\__cast,cast_rows,cast\__rows
+- - table_csv\__transform,transform_table_csv,transform\__table\__csv,table_csv\__transform\_\_opts_T,csv_table_transform_opts_type
 
 ### Minor Changes
 
-- - csv**val\_,csv**val_T
-- - csv**table\_,csv_o**params_T,has_header_row_T
-- - row*a\_\_csv*
-- - csv**hd*row***params_T
-- - reader**csv**table\_,reader**csv**table\_\_on_data_row_T
-- - csv**regex\_,csv**regex_T
-- - row**csv\_**params_T
-- - header_csv**toLowerCase: aliased by column_name**toLowerCase,column_name_toLowerCase,toLowerCase**column_name,toLowerCase**column_name\_\_csv
-- - csv**data*row*,csv**data_row\_\_\_params_T
+- - csv\__val\_,csv\__val_T
+- - csv\__table\_,csv_o\__params_T,has_header_row_T
+- - row_a\_\_csv_
+- - csv\__hd_row\_\__params_T
+- - reader\__csv\__table\_,reader\__csv\__table\_\_on_data_row_T
+- - csv\__regex\_,csv\__regex_T
+- - row\__csv\_\__params_T
+- - header_csv\__toLowerCase: aliased by column_name\__toLowerCase,column_name_toLowerCase,toLowerCase\__column_name,toLowerCase\__column_name\_\_csv
+- - csv\__data_row_,csv\__data_row\_\_\_params_T
 - - row\__csv_
 - - csv\__table_
 - - csv\__row_
 - - csv\__header_row_
-- - table**csv\_,table**csv\_\_\_params_T
+- - table\__csv\_,table\__csv\_\_\_params_T
 
 ### Patch Changes
 
@@ -972,18 +973,18 @@
 
 ### Major Changes
 
-- load_csv_data_return_type=>csv**fetch_get**ret_T
+- load_csv_data_return_type=>csv\__fetch_get\__ret_T
 - csv_path\_\_: - load_csv_data_params
-- csv**fetch_get**params_T:
+- csv\__fetch_get\__params_T:
 
   - table\_\_domain
   - tick\_\_domain
 
 ### Minor Changes
 
-- - row_a**row_id_i**push: aliased by push_row_id_i
+- - row_a\__row_id_i\__push: aliased by push_row_id_i
 - - row_a\_\_cast: aliased by cast_rows
-- - csv**fetch_get: extracted from csv_path**: load_csv_data
+- - csv\__fetch_get: extracted from csv_path\__: load_csv_data
 - - column_name\_\_toLowerCase: aliased by column_name_toLowerCase
 
 ### Patch Changes
@@ -2499,7 +2500,7 @@
 
 ### Patch Changes
 
-- fix: @ctx-core/\* dependencies
+- fix: @ctx-core/\_ dependencies
 - Updated dependencies
   - @ctx-core/array@26.1.4
   - @ctx-core/fetch-undici@1.2.16
@@ -2948,7 +2949,7 @@
 
 ### Patch Changes
 
-- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- fix: error TS6059: \_ is not under 'rootDir': package.json: types: ./dist/index.d.ts
 - Updated dependencies
   - @ctx-core/array@23.0.41
   - @ctx-core/combinators@8.0.34
@@ -3004,7 +3005,7 @@
 
 ### Patch Changes
 
-- \*.d.ts export
+- \_.d.ts export
 - Updated dependencies
   - @ctx-core/array@23.0.37
   - @ctx-core/combinators@8.0.30
@@ -3070,7 +3071,7 @@
 
 ### Major Changes
 
-- \*\_b: ctx is a map: @ctx-core/object: 22.0.0
+- \_\_b: ctx is a map: @ctx-core/object: 22.0.0
 
 ### Patch Changes
 
@@ -3803,7 +3804,7 @@
 
 ### Patch Changes
 
-- fix: \*\_ctx_I.generated
+- fix: \_\_ctx_I.generated
 
 ## 11.0.29
 
@@ -4420,7 +4421,7 @@
 
 ### Patch Changes
 
-- fix: deploying \*.js files
+- fix: deploying \_.js files
 - Updated dependencies [undefined]
   - @ctx-core/array@22.0.8
   - @ctx-core/combinators@7.0.6
@@ -4952,7 +4953,7 @@
 
 ### Patch Changes
 
-- .gitignore: - \*.js
+- .gitignore: - \_.js
 - Updated dependencies [undefined]
   - @ctx-core/array@20.4.1
   - @ctx-core/combinators@6.2.1
