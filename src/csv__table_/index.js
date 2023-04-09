@@ -10,7 +10,7 @@ import { is_readable_stream_OR_reader_ } from '../is_readable_stream_OR_reader_/
 /** @typedef {import('@ctx-core/table').hydrated_val__T}hydrated_val__T */
 /** @typedef {import('@ctx-core/table').table_T}table_T */
 /** @typedef {import('../_types').csv__on_data_row_T}csv__on_data_row_T */
-/** @typedef {import('./index.d.ts').csv__table__parse_o_T}csv__table__parse_o_T */
+/** @typedef {import('../_types').csv__parse_o_T}csv__parse_o_T */
 /**
  * @param {csv__on_data_row_T|string|readable_stream_OR_reader_T}on_data_row_OR_csv_OR_readable_stream_OR_reader
  * @param {string|readable_stream_OR_reader_T|boolean}csv_OR_readable_stream_OR_reader_OR_has_csv_header
@@ -180,7 +180,7 @@ export function csv__table_(
 /**
  * @param {boolean}has_csv_header
  * @param {hydrated_val__T}[val__hydrate]
- * @returns {csv__table__parse_o_T}
+ * @returns {csv__parse_o_T}
  * @private
  */
 export function csv__table__parse_o_(

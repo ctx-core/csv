@@ -1,5 +1,14 @@
 # @ctx-core/csv
 
+## 18.2.1
+
+### Patch Changes
+
+- csv\__table_:
+
+      generics: + D = hydrated_json_val_T
+      argument types: val__hydrate: + generics: <ColDefs, D>
+
 ## 18.2.0
 
 ### Minor Changes

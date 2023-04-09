@@ -1,21 +1,10 @@
-import type { data_row_T, header_row_T } from '@ctx-core/table'
-export interface row__csv___params_T {
-	delimiter?:string
-	header_row?:string[]
-}
-export type has_header_csv_T<
-	ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object
-> =
-	ColDefs extends [string, any][]
-	? true
-	: ColDefs extends any[]
-		? false
-		: ColDefs extends object
-			? true
-			: boolean
-export type csv__on_data_row_T<
-	ColDefs extends (([string, any][])|any[]|object)
-> = (
-	data_row:data_row_T<ColDefs>,
-	header_row:header_row_T<ColDefs>,
-)=>any|Promise<any>
+export * from './csv__data_row___parse_o_T'
+export * from './csv__on_data_row_T'
+export * from './csv__parse__iterator__on_row_T'
+export * from './csv__parse_o_T'
+export * from './csv__row__parse_o_T'
+export * from './csv__row__row__T'
+export * from './csv__val_T'
+export * from './has_header_csv_T'
+export * from './row__csv___params_T'
+export * from './table__csv___params_T'

@@ -3,7 +3,7 @@
  * @param {string}[_header]
  * @param {string[]}[_row_tuple]
  * @param {number}[_col_idx]
- * @returns {import('./index.d.ts').csv__val_T}
+ * @returns {import('../_types').csv__val_T}
  * @See https://www.bennadel.com/blog/1504-ask-ben-parsing-csv-strings-with-javascript-exec-regular-expression-command.htm
  * @private
  */

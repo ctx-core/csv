@@ -205,7 +205,10 @@ test('reader__csv__table_|!on_data_row|ReadableStream|!has_csv_header|+ val__hyd
 	>(
 		Readable.toWeb(readable),
 		false,
-		(val, header)=>
+		(
+			val,
+			header
+		)=>
 			`${val}--${header}--`
 	)) {
 		data_row_a.push(data_row)
@@ -262,7 +265,10 @@ test('reader__csv__table_|!on_data_row|ReadableStreamDefaultReader|!has_csv_head
 	>(
 		Readable.toWeb(readable).getReader(),
 		false,
-		(val, header)=>
+		(
+			val,
+			header
+		)=>
 			`${val}--${header}--`
 	)) {
 		data_row_a.push(data_row)
@@ -326,7 +332,10 @@ test('reader__csv__table_|on_data_row|ReadableStream|!has_csv_header|+ val__hydr
 		},
 		Readable.toWeb(readable),
 		false,
-		(val, header)=>
+		(
+			val,
+			header
+		)=>
 			`${val}--${header}--`)
 	equal(data_row_a, [
 		['aaa--0--', 'bbb--1--', 'ccc--2--'],
@@ -382,7 +391,10 @@ test('reader__csv__table_|on_data_row|ReadableStreamDefaultReader|!has_csv_heade
 		},
 		Readable.toWeb(readable).getReader(),
 		false,
-		(val, header)=>
+		(
+			val,
+			header
+		)=>
 			`${val}--${header}--`)
 	equal(data_row_a, [
 		['aaa--0--', 'bbb--1--', 'ccc--2--'],
@@ -416,7 +428,10 @@ test('reader__csv__table_|!on_data_row|ReadableStream|has_csv_header|default', a
 	]>(
 		Readable.toWeb(readable),
 		true,
-		(val, header)=>
+		(
+			val,
+			header
+		)=>
 			`${val}--${header}--`
 	)) {
 		data_row_a.push(data_row)
@@ -506,7 +521,10 @@ test('reader__csv__table_|!on_data_row|ReadableStreamDefaultReader|has_csv_heade
 	]>(
 		Readable.toWeb(readable).getReader(),
 		true,
-		(val, header)=>
+		(
+			val,
+			header
+		)=>
 			`${val}--${header}--`
 	)) {
 		data_row_a.push(data_row)
@@ -554,7 +572,10 @@ test('reader__csv__table_|on_data_row|ReadableStream|has_csv_header|default', as
 		},
 		Readable.toWeb(readable),
 		true,
-		(val, header)=>
+		(
+			val,
+			header
+		)=>
 			`${val}--${header}--`)
 	equal(data_row_a, [
 		['aaa--col0--', 'bbb--col1--', 'ccc--col2--'],
@@ -598,7 +619,10 @@ test('reader__csv__table_|on_data_row|ReadableStreamDefaultReader|has_csv_header
 		},
 		Readable.toWeb(readable).getReader(),
 		true,
-		(val, header)=>
+		(
+			val,
+			header
+		)=>
 			`${val}--${header}--`)
 	equal(data_row_a, [
 		['aaa--col0--', 'bbb--col1--', 'ccc--col2--'],

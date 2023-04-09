@@ -1,3 +1,4 @@
+import type { csv__val_T } from '../_types'
 export function csv_val__hydrate(
 	val:string,
 	header?:string,
@@ -7,4 +8,3 @@ export function csv_val__hydrate(
 export {
 	csv_val__hydrate as csv__val_,
 }
-export type csv__val_T = string|number|boolean|Date|null|undefined

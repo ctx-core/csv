@@ -3,7 +3,7 @@ import { csv__parse, csv__parse_o_ } from '../csv__parse/index.js'
 import { csv_val__hydrate } from '../csv_val__hydrate/index.js'
 /** @typedef {import('@ctx-core/table').header_M_col_idx_T}header_M_col_idx_T */
 /** @typedef {import('@ctx-core/table').data_row_T}data_row_T */
-/** @typedef {import('./index.d.ts').csv__data_row___parse_o_T}csv__data_row___parse_o_T */
+/** @typedef {import('../_types').csv__data_row___parse_o_T}csv__data_row___parse_o_T */
 /**
  * @param {string}csv
  * @param {csv__data_row___parse_o_T}csv__parse_o

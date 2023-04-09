@@ -8,14 +8,18 @@ import { keys } from '@ctx-core/object'
  */
 export function row__csv_(
 	row,
-	params
+	params = {}
 ) {
-	const delimiter = params?.delimiter || ','
+	const delimiter =
+		params.delimiter
+		|| ','
 	return (
 		(
 			isArray(row)
 			? row
-			: (params?.header_row || keys(row)).map(key=>row[key])
+			: (params?.header_row || keys(row))
+				.map(key=>
+					row[key])
 		).map($=>
 			`"${
 				$ == null

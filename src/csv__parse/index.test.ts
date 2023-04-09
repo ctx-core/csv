@@ -4,7 +4,8 @@ import { csv__parse } from '../index'
 test('csv__parse|callback|RFC Rule #1 - One entry per line, each line ends with a newline', ()=>{
 	const row_a:string[][] = []
 	csv__parse(
-		row=>row_a.push(row),
+		row=>
+			row_a.push(row),
 		[
 			'aaa,bbb,ccc',
 			'zzz,yyy,xxx',
@@ -32,7 +33,8 @@ test('csv__parse|iterator|RFC Rule #1 - One entry per line, each line ends with 
 test('csv__parse|callback|RFC Rule #2 - Trailing newline at the end of the file omitted', ()=>{
 	const row_a:string[][] = []
 	csv__parse(
-		row=>row_a.push(row),
+		row=>
+			row_a.push(row),
 		[
 			'aaa,bbb,ccc',
 			'zzz,yyy,xxx'
@@ -58,7 +60,8 @@ test('csv__parse|iterator|RFC Rule #2 - Trailing newline at the end of the file 
 test('csv__parse|callback|RFC Rule #3 - First row contains header data', ()=>{
 	const row_a:string[][] = []
 	csv__parse(
-		row=>row_a.push(row),
+		row=>
+			row_a.push(row),
 		[
 			'field_name,field_name,field_name',
 			'aaa,bbb,ccc',
@@ -88,7 +91,8 @@ test('csv__parse|iterator|RFC Rule #3 - First row contains header data', ()=>{
 test('csv__parse|callback|RFC Rule #4 - Spaces are considered data and entries should not contain a trailing comma', ()=>{
 	const row_a:string[][] = []
 	csv__parse(
-		row=>row_a.push(row),
+		row=>
+			row_a.push(row),
 		[
 			'aaa , bbb, c  cc'
 		].join('\n'))
@@ -110,7 +114,8 @@ test('csv__parse|iterator|RFC Rule #4 - Spaces are considered data and entries s
 test('csv__parse|callback|RFC Rule #5 - Lines may or may not be delimited by double-quotes', ()=>{
 	const row_a:string[][] = []
 	csv__parse(
-		row=>row_a.push(row),
+		row=>
+			row_a.push(row),
 		[
 			'"aaa","bbb","ccc"',
 			'zzz,yyy,xxx'
@@ -136,7 +141,8 @@ test('csv__parse|iterator|RFC Rule #5 - Lines may or may not be delimited by dou
 test('csv__parse|callback|RFC Rule #6 - Fields containing line breaks, double-quotes, and commas should be enclosed in double-quotes', ()=>{
 	const row_a:string[][] = []
 	csv__parse(
-		row=>row_a.push(row),
+		row=>
+			row_a.push(row),
 		[
 			'"a\r\naa","b""b""b","c,cc"'
 		].join('\n'))
@@ -158,7 +164,8 @@ test('csv__parse|iterator|RFC Rule #6 - Fields containing line breaks, double-qu
 test('csv__parse|callback|RFC Rule #7 - If double-quotes are used to enclose fields, then a double-quote appearing inside a field must be escaped by a preceding it with another double-quote', ()=>{
 	const row_a:string[][] = []
 	csv__parse(
-		row=>row_a.push(row),
+		row=>
+			row_a.push(row),
 		[
 			'aaa,"b""bb",ccc'
 		].join('\n'))
@@ -180,7 +187,8 @@ test('csv__parse|iterator|RFC Rule #7 - If double-quotes are used to enclose fie
 test('csv__parse|callback|RFC Amendment #1 - An unquoted field may contain a null (ie empty) value', ()=>{
 	const row_a:string[][] = []
 	csv__parse(
-		row=>row_a.push(row),
+		row=>
+			row_a.push(row),
 		[
 			'aaa,,ccc'
 		].join('\n'))
@@ -202,7 +210,8 @@ test('csv__parse|iterator|RFC Amendment #1 - An unquoted field may contain a nul
 test('csv__parse|callback|RFC Amendment #2 - A quoted field may contain a null (ie empty) value', ()=>{
 	const row_a:string[][] = []
 	csv__parse(
-		row=>row_a.push(row),
+		row=>
+			row_a.push(row),
 		[
 			'"aaa","","ccc"'
 		].join('\n'))
@@ -224,7 +233,8 @@ test('csv__parse|iterator|RFC Amendment #2 - A quoted field may contain a null (
 test('csv__parse|callback|RFC Amendment #3 - The last field in an entry may contain a null (ie empty) value', ()=>{
 	const row_a:string[][] = []
 	csv__parse(
-		row=>row_a.push(row),
+		row=>
+			row_a.push(row),
 		[
 			'"aaa","bbb",'
 		].join('\n'))
