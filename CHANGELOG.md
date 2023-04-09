@@ -1,5 +1,17 @@
 # @ctx-core/csv
 
+## 18.3.0
+
+### Minor Changes
+
+- - hydrated_val\_\_T<ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object>
+
+### Patch Changes
+
+- csv\__table_: generics: fix: + D = hydrated_json_val_T
+- csv**table\_: argument types: fix: val**hydrate?:hydrated_val\_\_T<ColDefs, D>
+- csv**table\_: argument types: has_csv_header_OR_val**hydrate: hydrated_val\_\_T<ColDefs, D>
+
 ## 18.2.1
 
 ### Patch Changes
@@ -8,13 +20,14 @@
 
       generics: + D = hydrated_json_val_T
       argument types: val__hydrate: + generics: <ColDefs, D>
+
 - row\__csv_: arguments: params: fix: header_row,delimiter
 
 ## 18.2.0
 
 ### Minor Changes
 
-- csv\__table\_: csv_val\__hydrate: arguments:
+- csv\_\_table\_: csv_val\_\_hydrate: arguments:
 
       matched_str=>val
       + header?:string
@@ -25,7 +38,7 @@
 
 ### Patch Changes
 
-- csv\__table\_: val\__hydrate: default: fix: identity function: csv\__parse already runs csv_val\__hydrate
+- csv\_\_table\_: val\_\_hydrate: default: fix: identity function: csv\_\_parse already runs csv_val\_\_hydrate
 
 ## 18.1.0
 
@@ -41,8 +54,8 @@
 
 ### Minor Changes
 
-- csv\__table\_,reader\__csv\__table\_: arguments: + val\__hydrate?:hydrated_val\_\_T
-- - is_readable_stream_OR_reader_: aliased by is_readable_stream_or_reader_
+- csv\_\_table\_,reader\_\_csv\_\_table\_: arguments: + val\_\_hydrate?:hydrated_val\_\_T
+- - is*readable_stream_OR_reader*: aliased by is*readable_stream_or_reader*
 - - csv_val\_\_hydrate: aliased by csv\__val_
 
 ### Patch Changes
@@ -527,7 +540,7 @@
 
 ### Patch Changes
 
-- is_readable_stream_or_reader_: fix: jsdoc
+- is*readable_stream_or_reader*: fix: jsdoc
 
 ## 17.0.4
 
@@ -539,7 +552,7 @@
 
 ### Patch Changes
 
-- csv\__table\_: line\__parse: + include_line_separator: true
+- csv\_\_table\_: line\_\_parse: + include_line_separator: true
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
@@ -551,7 +564,7 @@
 
 - csv\__table_: fix: processing multi-line strings
 
-  single csv\__parse_o = csv\__table\__parse_o_()
+  single csv\_\_parse_o = csv\_\_table\__parse_o_()
 
 ## 17.0.1
 
@@ -563,20 +576,20 @@
 
 ### Major Changes
 
-- csv\__data_row_: params=>csv\__parse_o: + csv\__data_row\_\__parse_o_T
-- - csv\__row\_\__params_T
-- - reader\__csv\__table\_\_\_params_T
-- - csv\__hd_row\_\__params_T
-- - csv\__data_row\_\__params_T
-- reader\__csv\__table\_:
+- csv\__data_row_: params=>csv\_\_parse_o: + csv\_\_data_row\_\_\_parse_o_T
+- - csv\_\_row\_\_\_params_T
+- - reader\_\_csv\_\_table\_\_\_params_T
+- - csv\_\_hd_row\_\_\_params_T
+- - csv\_\_data_row\_\_\_params_T
+- reader\_\_csv\_\_table\_:
 
   returns:
   AsyncIterable<[data_row_T<ColDefs>, header_row_T<ColDefs>]>: !on_data_row
   Promise<void>: on_data_row
 
 - - csv\__regex_
-- csv\__row\_: params=>csv\__parse_o:+ csv\__row\__parse_o_T
-- csv\__header_row_: params=>csv\__parse_o: csv\_\_parse_o_T
+- csv\_\_row\_: params=>csv\_\_parse_o:+ csv\_\_row\_\_parse_o_T
+- csv\__header_row_: params=>csv\_\_parse_o: csv\_\_parse_o_T
 - csv\__table_:
 
   params=>has_header_csv?:has_header_csv_T
@@ -587,13 +600,13 @@
 
 ### Minor Changes
 
-- - csv\__parse_o_,csv\__parse_o_T,csv\__parse_o\__lex_regexp_,csv\__parse_o\__new_line_regexp_
-- - csv\__data_row\__parse_o_
+- - csv\__parse_o_,csv\_\_parse_o_T,csv\_\_parse_o\__lex_regexp_,csv\_\_parse_o\__new_line_regexp_
+- - csv\_\_data_row\__parse_o_
 - - csv\_\_on_data_row_T
-- - is_readable_stream_or_reader_
-- - csv\__row\__parse_o_
+- - is*readable_stream_or_reader*
+- - csv\_\_row\__parse_o_
 - - has_header_csv_T
-- - csv\__row\__row\_\_T
+- - csv\_\_row\_\_row\_\_T
 - - csv\_\_parse: rfc compliant: returns:
 
     Iterable<string[]>: !on_row argument
@@ -671,28 +684,28 @@
 
 ### Major Changes
 
-- - csv_path\_\_,csv_path$_,csv_path_T
-- - csv\__fetch_get,csv\__fetch_get\__params_T,csv\__fetch_get\_\_ret_T
-- - row_a\__row_id_i\__push,push_row_id_i,push\__row_id\__i
-- - row_a\__cast,cast_rows,cast\__rows
-- - table_csv\__transform,transform_table_csv,transform\__table\__csv,table_csv\__transform\_\_opts_T,csv_table_transform_opts_type
+- - csv*path\_\_,csv_path$*,csv_path_T
+- - csv\_\_fetch_get,csv\_\_fetch_get\_\_params_T,csv\_\_fetch_get\_\_ret_T
+- - row_a\_\_row_id_i\_\_push,push_row_id_i,push\_\_row_id\_\_i
+- - row_a\_\_cast,cast_rows,cast\_\_rows
+- - table_csv\_\_transform,transform_table_csv,transform\_\_table\_\_csv,table_csv\_\_transform\_\_opts_T,csv_table_transform_opts_type
 
 ### Minor Changes
 
-- - csv\__val\_,csv\__val_T
-- - csv\__table\_,csv_o\__params_T,has_header_row_T
-- - row_a\_\_csv_
-- - csv\__hd_row\_\__params_T
-- - reader\__csv\__table\_,reader\__csv\__table\_\_on_data_row_T
-- - csv\__regex\_,csv\__regex_T
-- - row\__csv\_\__params_T
-- - header_csv\__toLowerCase: aliased by column_name\__toLowerCase,column_name_toLowerCase,toLowerCase\__column_name,toLowerCase\__column_name\_\_csv
-- - csv\__data_row_,csv\__data_row\_\_\_params_T
+- - csv\_\_val\_,csv\_\_val_T
+- - csv\_\_table\_,csv_o\_\_params_T,has_header_row_T
+- - row*a\_\_csv*
+- - csv\_\_hd_row\_\_\_params_T
+- - reader\_\_csv\_\_table\_,reader\_\_csv\_\_table\_\_on_data_row_T
+- - csv\_\_regex\_,csv\_\_regex_T
+- - row\_\_csv\_\_\_params_T
+- - header_csv\_\_toLowerCase: aliased by column_name\_\_toLowerCase,column_name_toLowerCase,toLowerCase\_\_column_name,toLowerCase\_\_column_name\_\_csv
+- - csv\__data_row_,csv\_\_data_row\_\_\_params_T
 - - row\__csv_
 - - csv\__table_
 - - csv\__row_
 - - csv\__header_row_
-- - table\__csv\_,table\__csv\_\_\_params_T
+- - table\_\_csv\_,table\_\_csv\_\_\_params_T
 
 ### Patch Changes
 
@@ -973,18 +986,18 @@
 
 ### Major Changes
 
-- load_csv_data_return_type=>csv\__fetch_get\__ret_T
+- load_csv_data_return_type=>csv\_\_fetch_get\_\_ret_T
 - csv_path\_\_: - load_csv_data_params
-- csv\__fetch_get\__params_T:
+- csv\_\_fetch_get\_\_params_T:
 
   - table\_\_domain
   - tick\_\_domain
 
 ### Minor Changes
 
-- - row_a\__row_id_i\__push: aliased by push_row_id_i
+- - row_a\_\_row_id_i\_\_push: aliased by push_row_id_i
 - - row_a\_\_cast: aliased by cast_rows
-- - csv\__fetch_get: extracted from csv_path\__: load_csv_data
+- - csv\_\_fetch_get: extracted from csv_path\_\_: load_csv_data
 - - column_name\_\_toLowerCase: aliased by column_name_toLowerCase
 
 ### Patch Changes
