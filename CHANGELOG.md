@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 18.3.6
+
+### Patch Changes
+
+- row\__csv_: quoted values: "" instead of \""
+
 ## 18.3.5
 
 ### Patch Changes

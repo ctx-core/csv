@@ -24,7 +24,7 @@ export function row__csv_(
 			`"${
 				$ == null
 				? ''
-				: $.toString().replaceAll('"', '\\""')
+				: $.toString().replaceAll('"', '""')
 			}"`
 		).join(delimiter))
 }
