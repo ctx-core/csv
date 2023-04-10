@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 18.4.0
+
+### Minor Changes
+
+- - dehydrated_csv_val_T
+
 ## 18.3.6
 
 ### Patch Changes

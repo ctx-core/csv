@@ -1,16 +1,9 @@
 import type { readable_stream_OR_reader_T } from '@ctx-core/string'
-import type {
-	data_row_T,
-	dehydrated_json_val_T,
-	header_row_T,
-	hydrated_json_val_T,
-	val__hydrate_T,
-	table_T
-} from '@ctx-core/table'
-import type { csv__on_data_row_T, csv__table__parse_o_T, has_header_csv_T } from '../_types'
+import type { data_row_T, header_row_T, hydrated_json_val_T, table_T, val__hydrate_T } from '@ctx-core/table'
+import type { csv__on_data_row_T, csv__table__parse_o_T, dehydrated_csv_val_T, has_header_csv_T } from '../_types'
 declare function csv__table_<
 	ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object,
-	D = dehydrated_json_val_T,
+	D = dehydrated_csv_val_T,
 	H = hydrated_json_val_T
 >(
 	csv:string,
@@ -19,7 +12,7 @@ declare function csv__table_<
 ):table_T<ColDefs>
 declare function csv__table_<
 	ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object,
-	D = dehydrated_json_val_T,
+	D = dehydrated_csv_val_T,
 	H = hydrated_json_val_T
 >(
 	on_data_row:csv__on_data_row_T<ColDefs>,
@@ -29,7 +22,7 @@ declare function csv__table_<
 ):void
 declare function csv__table_<
 	ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object,
-	D = dehydrated_json_val_T,
+	D = dehydrated_csv_val_T,
 	H = hydrated_json_val_T
 >(
 	readable_stream_OR_reader:readable_stream_OR_reader_T,
@@ -38,7 +31,7 @@ declare function csv__table_<
 ):AsyncIterable<[data_row_T<ColDefs>, header_row_T<ColDefs>]>
 declare function csv__table_<
 	ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object,
-	D = dehydrated_json_val_T,
+	D = dehydrated_csv_val_T,
 	H = hydrated_json_val_T
 >(
 	on_data_row:csv__on_data_row_T<ColDefs>,
@@ -48,7 +41,7 @@ declare function csv__table_<
 ):Promise<void>
 export declare function csv__table_<
 	ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object,
-	D = dehydrated_json_val_T,
+	D = dehydrated_csv_val_T,
 	H = hydrated_json_val_T
 >(
 	on_data_row_OR_csv_OR_readable_stream_OR_reader:
@@ -66,7 +59,7 @@ export declare function csv__table_<
 ):table_T|void|AsyncIterable<[data_row_T, header_row_T]>|Promise<void>
 export declare function csv__table__parse_o_<
 	ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object,
-	D = dehydrated_json_val_T,
+	D = dehydrated_csv_val_T,
 	H = hydrated_json_val_T
 >(
 	has_csv_header:boolean,
