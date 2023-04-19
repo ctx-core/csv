@@ -1,5 +1,19 @@
 # @ctx-core/csv
 
+## 18.4.21
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/array@26.12.32
+  - @ctx-core/combinators@8.0.61
+  - @ctx-core/function@21.17.19
+  - @ctx-core/nanostores@3.2.22
+  - @ctx-core/object@27.4.23
+  - @ctx-core/string@12.1.19
+  - @ctx-core/table@23.4.20
+
 ## 18.4.20
 
 ### Patch Changes
