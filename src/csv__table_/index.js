@@ -65,8 +65,6 @@ export function csv__table_(
 	}
 	/** @type {header_row_T} */
 	let header_row
-	/** @type {data_row_T[]} */
-	const data_row_a = []
 	/** @type {header_M_col_idx_T} */
 	let header_M_col_idx
 	if (csv) {
@@ -78,6 +76,8 @@ export function csv__table_(
 			: csv__readable_stream_OR_reader__async_iterator__process())
 	}
 	function csv__string__process() {
+		/** @type {data_row_T[]} */
+		const data_row_a = []
 		const csv__parse_o = csv__table__parse_o_(has_csv_header)
 		csv__parse(val_a=>{
 			if (!header_row) {

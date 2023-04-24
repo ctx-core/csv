@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 18.5.1
+
+### Patch Changes
+
+- csv**table\_: data_row_a: move to csv**string\_\_process scope
+
 ## 18.5.0
 
 ### Minor Changes
