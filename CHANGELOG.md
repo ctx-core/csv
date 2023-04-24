@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 18.5.0
+
+### Minor Changes
+
+- - csv\_\_table\_\_iterable_T
+
 ## 18.4.22
 
 ### Patch Changes
