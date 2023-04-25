@@ -1,5 +1,4 @@
 import { data_row_a__new, type data_row_T, header_row_, type header_row_T } from '@ctx-core/table'
-import { Readable } from 'stream'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { csv__table_ } from '../index.js'
@@ -10,6 +9,7 @@ test('csv__table_|!on_data_row|string||default', ()=>{
 		data_row_a__new([
 			['aaa', 'bbb', 'ccc'],
 			['zzz', 'yyy', 'xxx'],
+			['the', 'last', 'line'],
 		], header_row)
 	equal(
 		csv__table_(
@@ -17,17 +17,24 @@ test('csv__table_|!on_data_row|string||default', ()=>{
 				'col0,col1,col2',
 				'aaa,bbb,ccc',
 				'zzz,yyy,xxx',
+				'the,last,line',
 				''
 			].join('\n')),
 		{ header_row, data_row_a })
 })
 test('csv__table_|!on_data_row|ReadableStream|default', async ()=>{
-	const readable = new Readable()
-	readable.push('col0,col1,col2\n')
-	readable.push('aaa,bbb,ccc\n')
-	readable.push('zzz,yyy,xxx\n')
-	readable.push('\n')
-	readable.push(null)
+	const readable_stream = new ReadableStream({
+		start(controller) {
+			controller.enqueue('col0,col1,col2\n')
+			controller.enqueue('aaa,bbb,ccc\n')
+			controller.enqueue('zzz,yyy,xxx\n')
+			controller.enqueue('\n')
+		},
+		pull(controller) {
+			controller.enqueue('the,last,line')
+			controller.close()
+		}
+	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
 		['col0', string],
@@ -41,13 +48,14 @@ test('csv__table_|!on_data_row|ReadableStream|default', async ()=>{
 		['col0', string],
 		['col1', string],
 		['col2', string],
-	]>(Readable.toWeb(readable))) {
+	]>(readable_stream)) {
 		data_row_a.push(data_row)
 		header_row_a.push(header_row)
 	}
 	equal(data_row_a, [
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
+		['the', 'last', 'line'],
 	])
 	equal(data_row_a[0].col0, 'aaa')
 	equal(data_row_a[0].col1, 'bbb')
@@ -55,18 +63,28 @@ test('csv__table_|!on_data_row|ReadableStream|default', async ()=>{
 	equal(data_row_a[1].col0, 'zzz')
 	equal(data_row_a[1].col1, 'yyy')
 	equal(data_row_a[1].col2, 'xxx')
+	equal(data_row_a[2].col0, 'the')
+	equal(data_row_a[2].col1, 'last')
+	equal(data_row_a[2].col2, 'line')
 	equal(header_row_a, [
+		['col0', 'col1', 'col2'],
 		['col0', 'col1', 'col2'],
 		['col0', 'col1', 'col2'],
 	])
 })
 test('csv__table_|!on_data_row|ReadableStreamDefaultReader|default', async ()=>{
-	const readable = new Readable()
-	readable.push('col0,col1,col2\n')
-	readable.push('aaa,bbb,ccc\n')
-	readable.push('zzz,yyy,xxx\n')
-	readable.push('\n')
-	readable.push(null)
+	const readable_stream = new ReadableStream({
+		start(controller) {
+			controller.enqueue('col0,col1,col2\n')
+			controller.enqueue('aaa,bbb,ccc\n')
+			controller.enqueue('zzz,yyy,xxx\n')
+			controller.enqueue('\n')
+		},
+		pull(controller) {
+			controller.enqueue('the,last,line')
+			controller.close()
+		}
+	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
 		['col0', string],
@@ -80,13 +98,14 @@ test('csv__table_|!on_data_row|ReadableStreamDefaultReader|default', async ()=>{
 		['col0', string],
 		['col1', string],
 		['col2', string],
-	]>(Readable.toWeb(readable).getReader())) {
+	]>(readable_stream.getReader())) {
 		data_row_a.push(data_row)
 		header_row_a.push(header_row)
 	}
 	equal(data_row_a, [
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
+		['the', 'last', 'line'],
 	])
 	equal(data_row_a[0].col0, 'aaa')
 	equal(data_row_a[0].col1, 'bbb')
@@ -94,7 +113,11 @@ test('csv__table_|!on_data_row|ReadableStreamDefaultReader|default', async ()=>{
 	equal(data_row_a[1].col0, 'zzz')
 	equal(data_row_a[1].col1, 'yyy')
 	equal(data_row_a[1].col2, 'xxx')
+	equal(data_row_a[2].col0, 'the')
+	equal(data_row_a[2].col1, 'last')
+	equal(data_row_a[2].col2, 'line')
 	equal(header_row_a, [
+		['col0', 'col1', 'col2'],
 		['col0', 'col1', 'col2'],
 		['col0', 'col1', 'col2'],
 	])
@@ -122,11 +145,13 @@ test('csv__table_|on_data_row|string|default', ()=>{
 			'col0,col1,col2',
 			'aaa,bbb,ccc',
 			'zzz,yyy,xxx',
+			'the,last,line',
 			''
 		].join('\n'))
 	equal([
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
+		['the', 'last', 'line'],
 	], data_row_a)
 	equal(data_row_a[0].col0, 'aaa')
 	equal(data_row_a[0].col1, 'bbb')
@@ -134,18 +159,28 @@ test('csv__table_|on_data_row|string|default', ()=>{
 	equal(data_row_a[1].col0, 'zzz')
 	equal(data_row_a[1].col1, 'yyy')
 	equal(data_row_a[1].col2, 'xxx')
+	equal(data_row_a[2].col0, 'the')
+	equal(data_row_a[2].col1, 'last')
+	equal(data_row_a[2].col2, 'line')
 	equal(header_row_a, [
+		['col0', 'col1', 'col2'],
 		['col0', 'col1', 'col2'],
 		['col0', 'col1', 'col2'],
 	])
 })
 test('csv__table_|on_data_row|ReadableStream|default', async ()=>{
-	const readable = new Readable()
-	readable.push('col0,col1,col2\n')
-	readable.push('aaa,bbb,ccc\n')
-	readable.push('zzz,yyy,xxx\n')
-	readable.push('\n')
-	readable.push(null)
+	const readable_stream = new ReadableStream({
+		start(controller) {
+			controller.enqueue('col0,col1,col2\n')
+			controller.enqueue('aaa,bbb,ccc\n')
+			controller.enqueue('zzz,yyy,xxx\n')
+			controller.enqueue('\n')
+		},
+		pull(controller) {
+			controller.enqueue('the,last,line')
+			controller.close()
+		}
+	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
 		['col0', string],
@@ -164,10 +199,11 @@ test('csv__table_|on_data_row|ReadableStream|default', async ()=>{
 			data_row_a.push(data_row)
 			header_row_a.push(header_row)
 		},
-		Readable.toWeb(readable))
+		readable_stream)
 	equal(data_row_a, [
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
+		['the', 'last', 'line'],
 	])
 	equal(data_row_a[0].col0, 'aaa')
 	equal(data_row_a[0].col1, 'bbb')
@@ -175,18 +211,28 @@ test('csv__table_|on_data_row|ReadableStream|default', async ()=>{
 	equal(data_row_a[1].col0, 'zzz')
 	equal(data_row_a[1].col1, 'yyy')
 	equal(data_row_a[1].col2, 'xxx')
+	equal(data_row_a[2].col0, 'the')
+	equal(data_row_a[2].col1, 'last')
+	equal(data_row_a[2].col2, 'line')
 	equal(header_row_a, [
+		['col0', 'col1', 'col2'],
 		['col0', 'col1', 'col2'],
 		['col0', 'col1', 'col2'],
 	])
 })
 test('csv__table_|on_data_row|ReadableStreamDefaultReader|default', async ()=>{
-	const readable = new Readable()
-	readable.push('col0,col1,col2\n')
-	readable.push('aaa,bbb,ccc\n')
-	readable.push('zzz,yyy,xxx\n')
-	readable.push('\n')
-	readable.push(null)
+	const readable_stream = new ReadableStream({
+		start(controller) {
+			controller.enqueue('col0,col1,col2\n')
+			controller.enqueue('aaa,bbb,ccc\n')
+			controller.enqueue('zzz,yyy,xxx\n')
+			controller.enqueue('\n')
+		},
+		pull(controller) {
+			controller.enqueue('the,last,line')
+			controller.close()
+		}
+	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
 		['col0', string],
@@ -205,10 +251,11 @@ test('csv__table_|on_data_row|ReadableStreamDefaultReader|default', async ()=>{
 			data_row_a.push(data_row)
 			header_row_a.push(header_row)
 		},
-		Readable.toWeb(readable).getReader())
+		readable_stream.getReader())
 	equal(data_row_a, [
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
+		['the', 'last', 'line'],
 	])
 	equal(data_row_a[0].col0, 'aaa')
 	equal(data_row_a[0].col1, 'bbb')
@@ -216,7 +263,11 @@ test('csv__table_|on_data_row|ReadableStreamDefaultReader|default', async ()=>{
 	equal(data_row_a[1].col0, 'zzz')
 	equal(data_row_a[1].col1, 'yyy')
 	equal(data_row_a[1].col2, 'xxx')
+	equal(data_row_a[2].col0, 'the')
+	equal(data_row_a[2].col1, 'last')
+	equal(data_row_a[2].col2, 'line')
 	equal(header_row_a, [
+		['col0', 'col1', 'col2'],
 		['col0', 'col1', 'col2'],
 		['col0', 'col1', 'col2'],
 	])
@@ -229,6 +280,7 @@ test('csv__table_|!on_data_row|string|!has_csv_header', ()=>{
 			[
 				'aaa,bbb,ccc',
 				'zzz,yyy,xxx',
+				'the,last,line',
 				''
 			].join('\n'),
 			false),
@@ -237,15 +289,22 @@ test('csv__table_|!on_data_row|string|!has_csv_header', ()=>{
 			data_row_a: [
 				['aaa', 'bbb', 'ccc'],
 				['zzz', 'yyy', 'xxx'],
+				['the', 'last', 'line'],
 			]
 		})
 })
 test('csv__table_|!on_data_row|ReadableStream|!has_csv_header', async ()=>{
-	const readable = new Readable()
-	readable.push('aaa,bbb,ccc\n')
-	readable.push('zzz,yyy,xxx\n')
-	readable.push('\n')
-	readable.push(null)
+	const readable_stream = new ReadableStream({
+		start(controller) {
+			controller.enqueue('aaa,bbb,ccc\n')
+			controller.enqueue('zzz,yyy,xxx\n')
+			controller.enqueue('\n')
+		},
+		pull(controller) {
+			controller.enqueue('the,last,line')
+			controller.close()
+		}
+	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T[] = []
 	for await (const [
@@ -253,25 +312,32 @@ test('csv__table_|!on_data_row|ReadableStream|!has_csv_header', async ()=>{
 		header_row
 	] of csv__table_<
 		[string, string, string]
-	>(Readable.toWeb(readable), false)) {
+	>(readable_stream, false)) {
 		data_row_a.push(data_row)
 		header_row_a.push(header_row)
 	}
 	equal(data_row_a, [
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
+		['the', 'last', 'line'],
 	])
 	equal(header_row_a, [
+		[0, 1, 2],
 		[0, 1, 2],
 		[0, 1, 2],
 	])
 })
 test('csv__table_|!on_data_row|ReadableStreamDefaultReader|!has_csv_header', async ()=>{
-	const readable = new Readable()
-	readable.push('aaa,bbb,ccc\n')
-	readable.push('zzz,yyy,xxx\n')
-	readable.push('\n')
-	readable.push(null)
+	const readable_stream = new ReadableStream({
+		start(controller) {
+			controller.enqueue('aaa,bbb,ccc\n')
+			controller.enqueue('zzz,yyy,xxx\n')
+		},
+		pull(controller) {
+			controller.enqueue('the,last,line')
+			controller.close()
+		}
+	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T[] = []
 	for await (const [
@@ -279,15 +345,17 @@ test('csv__table_|!on_data_row|ReadableStreamDefaultReader|!has_csv_header', asy
 		header_row
 	] of csv__table_<
 		[string, string, string]
-	>(Readable.toWeb(readable).getReader(), false)) {
+	>(readable_stream.getReader(), false)) {
 		data_row_a.push(data_row)
 		header_row_a.push(header_row)
 	}
 	equal(data_row_a, [
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
+		['the', 'last', 'line'],
 	])
 	equal(header_row_a, [
+		[0, 1, 2],
 		[0, 1, 2],
 		[0, 1, 2],
 	])
@@ -306,24 +374,32 @@ test('csv__table_|on_data_row|string|!has_csv_header', ()=>{
 		[
 			'aaa,bbb,ccc',
 			'zzz,yyy,xxx',
+			'the,last,line',
 			''
 		].join('\n'),
 		false)
 	equal([
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
+		['the', 'last', 'line'],
 	], data_row_a)
 	equal(header_row_a, [
+		[0, 1, 2],
 		[0, 1, 2],
 		[0, 1, 2],
 	])
 })
 test('csv__table_|on_data_row|ReadableStream|!has_csv_header', async ()=>{
-	const readable = new Readable()
-	readable.push('aaa,bbb,ccc\n')
-	readable.push('zzz,yyy,xxx\n')
-	readable.push('\n')
-	readable.push(null)
+	const readable_stream = new ReadableStream({
+		start(controller) {
+			controller.enqueue('aaa,bbb,ccc\n')
+			controller.enqueue('zzz,yyy,xxx\n')
+		},
+		pull(controller) {
+			controller.enqueue('the,last,line')
+			controller.close()
+		}
+	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T[] = []
 	await csv__table_<[string, string, string]>(
@@ -334,23 +410,30 @@ test('csv__table_|on_data_row|ReadableStream|!has_csv_header', async ()=>{
 			data_row_a.push(data_row)
 			header_row_a.push(header_row)
 		},
-		Readable.toWeb(readable),
+		readable_stream,
 		false)
 	equal(data_row_a, [
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
+		['the', 'last', 'line'],
 	])
 	equal(header_row_a, [
+		[0, 1, 2],
 		[0, 1, 2],
 		[0, 1, 2],
 	])
 })
 test('csv__table_|on_data_row|ReadableStreamDefaultReader|!has_csv_header', async ()=>{
-	const readable = new Readable()
-	readable.push('aaa,bbb,ccc\n')
-	readable.push('zzz,yyy,xxx\n')
-	readable.push('\n')
-	readable.push(null)
+	const readable_stream = new ReadableStream({
+		start(controller) {
+			controller.enqueue('aaa,bbb,ccc\n')
+			controller.enqueue('zzz,yyy,xxx\n')
+		},
+		pull(controller) {
+			controller.enqueue('the,last,line')
+			controller.close()
+		}
+	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T[] = []
 	await csv__table_<[string, string, string]>(
@@ -361,13 +444,15 @@ test('csv__table_|on_data_row|ReadableStreamDefaultReader|!has_csv_header', asyn
 			data_row_a.push(data_row)
 			header_row_a.push(header_row)
 		},
-		Readable.toWeb(readable).getReader(),
+		readable_stream.getReader(),
 		false)
 	equal(data_row_a, [
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
+		['the', 'last', 'line'],
 	])
 	equal(header_row_a, [
+		[0, 1, 2],
 		[0, 1, 2],
 		[0, 1, 2],
 	])
@@ -379,6 +464,7 @@ test('csv__table_|!on_data_row|string|has_csv_header', ()=>{
 				'col0,col1,col2',
 				'aaa,bbb,ccc',
 				'zzz,yyy,xxx',
+				'the,last,line',
 				''
 			].join('\n'),
 			true),
@@ -387,16 +473,22 @@ test('csv__table_|!on_data_row|string|has_csv_header', ()=>{
 			data_row_a: [
 				['aaa', 'bbb', 'ccc'],
 				['zzz', 'yyy', 'xxx'],
+				['the', 'last', 'line'],
 			]
 		})
 })
 test('csv__table_|!on_data_row|ReadableStream|has_csv_header', async ()=>{
-	const readable = new Readable()
-	readable.push('col0,col1,col2\n')
-	readable.push('aaa,bbb,ccc\n')
-	readable.push('zzz,yyy,xxx\n')
-	readable.push('\n')
-	readable.push(null)
+	const readable_stream = new ReadableStream({
+		start(controller) {
+			controller.enqueue('col0,col1,col2\n')
+			controller.enqueue('aaa,bbb,ccc\n')
+			controller.enqueue('zzz,yyy,xxx\n')
+		},
+		pull(controller) {
+			controller.enqueue('the,last,line')
+			controller.close()
+		}
+	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
 		['col0', string],
@@ -410,13 +502,14 @@ test('csv__table_|!on_data_row|ReadableStream|has_csv_header', async ()=>{
 		['col0', string],
 		['col1', string],
 		['col2', string],
-	]>(Readable.toWeb(readable), true)) {
+	]>(readable_stream, true)) {
 		data_row_a.push(data_row)
 		header_row_a.push(header_row)
 	}
 	equal(data_row_a, [
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
+		['the', 'last', 'line'],
 	])
 	equal(data_row_a[0].col0, 'aaa')
 	equal(data_row_a[0].col1, 'bbb')
@@ -424,18 +517,27 @@ test('csv__table_|!on_data_row|ReadableStream|has_csv_header', async ()=>{
 	equal(data_row_a[1].col0, 'zzz')
 	equal(data_row_a[1].col1, 'yyy')
 	equal(data_row_a[1].col2, 'xxx')
+	equal(data_row_a[2].col0, 'the')
+	equal(data_row_a[2].col1, 'last')
+	equal(data_row_a[2].col2, 'line')
 	equal(header_row_a, [
+		['col0', 'col1', 'col2'],
 		['col0', 'col1', 'col2'],
 		['col0', 'col1', 'col2'],
 	])
 })
 test('csv__table_|!on_data_row|ReadableStreamDefaultReader|has_csv_header', async ()=>{
-	const readable = new Readable()
-	readable.push('col0,col1,col2\n')
-	readable.push('aaa,bbb,ccc\n')
-	readable.push('zzz,yyy,xxx\n')
-	readable.push('\n')
-	readable.push(null)
+	const readable_stream = new ReadableStream({
+		start(controller) {
+			controller.enqueue('col0,col1,col2\n')
+			controller.enqueue('aaa,bbb,ccc\n')
+			controller.enqueue('zzz,yyy,xxx\n')
+		},
+		pull(controller) {
+			controller.enqueue('the,last,line')
+			controller.close()
+		}
+	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
 		['col0', string],
@@ -449,13 +551,14 @@ test('csv__table_|!on_data_row|ReadableStreamDefaultReader|has_csv_header', asyn
 		['col0', string],
 		['col1', string],
 		['col2', string],
-	]>(Readable.toWeb(readable).getReader(), true)) {
+	]>(readable_stream.getReader(), true)) {
 		data_row_a.push(data_row)
 		header_row_a.push(header_row)
 	}
 	equal(data_row_a, [
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
+		['the', 'last', 'line'],
 	])
 	equal(data_row_a[0].col0, 'aaa')
 	equal(data_row_a[0].col1, 'bbb')
@@ -463,7 +566,11 @@ test('csv__table_|!on_data_row|ReadableStreamDefaultReader|has_csv_header', asyn
 	equal(data_row_a[1].col0, 'zzz')
 	equal(data_row_a[1].col1, 'yyy')
 	equal(data_row_a[1].col2, 'xxx')
+	equal(data_row_a[2].col0, 'the')
+	equal(data_row_a[2].col1, 'last')
+	equal(data_row_a[2].col2, 'line')
 	equal(header_row_a, [
+		['col0', 'col1', 'col2'],
 		['col0', 'col1', 'col2'],
 		['col0', 'col1', 'col2'],
 	])
@@ -485,12 +592,14 @@ test('csv__table_|on_data_row|string|has_csv_header', ()=>{
 			'col0,col1,col2',
 			'aaa,bbb,ccc',
 			'zzz,yyy,xxx',
+			'the,last,line',
 			''
 		].join('\n'),
 		true)
 	equal([
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
+		['the', 'last', 'line'],
 	], data_row_a)
 	equal(data_row_a[0].col0, 'aaa')
 	equal(data_row_a[0].col1, 'bbb')
@@ -498,14 +607,22 @@ test('csv__table_|on_data_row|string|has_csv_header', ()=>{
 	equal(data_row_a[1].col0, 'zzz')
 	equal(data_row_a[1].col1, 'yyy')
 	equal(data_row_a[1].col2, 'xxx')
+	equal(data_row_a[2].col0, 'the')
+	equal(data_row_a[2].col1, 'last')
+	equal(data_row_a[2].col2, 'line')
 })
 test('csv__table_|on_data_row|ReadableStream|has_csv_header', async ()=>{
-	const readable = new Readable()
-	readable.push('col0,col1,col2\n')
-	readable.push('aaa,bbb,ccc\n')
-	readable.push('zzz,yyy,xxx\n')
-	readable.push('\n')
-	readable.push(null)
+	const readable_stream = new ReadableStream({
+		start(controller) {
+			controller.enqueue('col0,col1,col2\n')
+			controller.enqueue('aaa,bbb,ccc\n')
+			controller.enqueue('zzz,yyy,xxx\n')
+		},
+		pull(controller) {
+			controller.enqueue('the,last,line')
+			controller.close()
+		}
+	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
 		['col0', string],
@@ -524,11 +641,12 @@ test('csv__table_|on_data_row|ReadableStream|has_csv_header', async ()=>{
 			data_row_a.push(data_row)
 			header_row_a.push(header_row)
 		},
-		Readable.toWeb(readable),
+		readable_stream,
 		true)
 	equal(data_row_a, [
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
+		['the', 'last', 'line'],
 	])
 	equal(data_row_a[0].col0, 'aaa')
 	equal(data_row_a[0].col1, 'bbb')
@@ -536,18 +654,27 @@ test('csv__table_|on_data_row|ReadableStream|has_csv_header', async ()=>{
 	equal(data_row_a[1].col0, 'zzz')
 	equal(data_row_a[1].col1, 'yyy')
 	equal(data_row_a[1].col2, 'xxx')
+	equal(data_row_a[2].col0, 'the')
+	equal(data_row_a[2].col1, 'last')
+	equal(data_row_a[2].col2, 'line')
 	equal(header_row_a, [
+		['col0', 'col1', 'col2'],
 		['col0', 'col1', 'col2'],
 		['col0', 'col1', 'col2'],
 	])
 })
 test('csv__table_|on_data_row|ReadableStreamDefaultReader|has_csv_header', async ()=>{
-	const readable = new Readable()
-	readable.push('col0,col1,col2,col3\n')
-	readable.push('aaa,bbb,ccc,1.23\n')
-	readable.push('zzz,yyy,xxx,3.14\n')
-	readable.push('\n')
-	readable.push(null)
+	const readable_stream = new ReadableStream({
+		start(controller) {
+			controller.enqueue('col0,col1,col2,col3\n')
+			controller.enqueue('aaa,bbb,ccc,1.23\n')
+			controller.enqueue('zzz,yyy,xxx,3.14\n')
+		},
+		pull(controller) {
+			controller.enqueue('the,last,line,99.9')
+			controller.close()
+		}
+	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
 		['col0', string],
@@ -566,11 +693,12 @@ test('csv__table_|on_data_row|ReadableStreamDefaultReader|has_csv_header', async
 			data_row_a.push(data_row)
 			header_row_a.push(header_row)
 		},
-		Readable.toWeb(readable).getReader(),
+		readable_stream.getReader(),
 		true)
 	equal(data_row_a, [
 		['aaa', 'bbb', 'ccc', 1.23],
 		['zzz', 'yyy', 'xxx', 3.14],
+		['the', 'last', 'line', 99.9],
 	])
 	equal(data_row_a[0].col0, 'aaa')
 	equal(data_row_a[0].col1, 'bbb')
@@ -580,7 +708,12 @@ test('csv__table_|on_data_row|ReadableStreamDefaultReader|has_csv_header', async
 	equal(data_row_a[1].col1, 'yyy')
 	equal(data_row_a[1].col2, 'xxx')
 	equal(data_row_a[1].col3, 3.14)
+	equal(data_row_a[2].col0, 'the')
+	equal(data_row_a[2].col1, 'last')
+	equal(data_row_a[2].col2, 'line')
+	equal(data_row_a[2].col3, 99.9)
 	equal(header_row_a, [
+		['col0', 'col1', 'col2', 'col3'],
 		['col0', 'col1', 'col2', 'col3'],
 		['col0', 'col1', 'col2', 'col3'],
 	])
