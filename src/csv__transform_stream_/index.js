@@ -3,13 +3,13 @@ import { data_row_, header_M_col_idx__new, header_row__new } from '@ctx-core/tab
 import { csv__parse } from '../csv__parse/index.js'
 import { csv__table__parse_o_ } from '../csv__table_/index.js'
 /** @typedef {import('../_types').csv__transform_stream___params_T}csv__transform_stream___params_T */
-/** @typedef {import('@ctx-core/table').data_row_T}data_row_T */
 /** @typedef {import('@ctx-core/table').header_row_T}header_row_T */
+/** @typedef {import('@ctx-core/table').row_pair_T}row_pair_T */
 /**
  * @param {csv__transform_stream___params_T}[params]
  * @param {QueuingStrategy<string>}[writable_strategy]
  * @param {QueuingStrategy<string>}[readable_strategy]
- * @returns {TransformStream<string, [data_row_T, header_row_T]>}
+ * @returns {TransformStream<string, row_pair_T>}
  * @private
  */
 export function csv__transform_stream_(
@@ -63,7 +63,7 @@ export function csv__transform_stream_(
 	}, writable_strategy, readable_strategy)
 	const writable = line__transform_stream.writable
 	const readable = line__transform_stream.readable.pipeThrough(csv__transform_stream)
-	/** @type {TransformStream<string, [data_row_T, header_row_T]>} */
+	/** @type {TransformStream<string, row_pair_T>} */
 	return Object.freeze({
 		writable,
 		readable
