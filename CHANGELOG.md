@@ -1,5 +1,12 @@
 # @ctx-core/csv
 
+## 18.6.2
+
+### Patch Changes
+
+- csv\_\_parse: fix: streaming values: call row_end before callback
+- csv\__transform_stream_: fix: multi-line row parsing
+
 ## 18.6.1
 
 ### Patch Changes

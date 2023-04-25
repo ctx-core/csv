@@ -58,12 +58,13 @@ export function csv__parse(
 						case csv__parse_o.new_line_regexp.test(match):
 							csv__parse_o.state = val_start
 							val_end(csv__parse_o)
-							if (on_row) {
-								on_row(row_(csv__parse_o))
-							} else {
-								yield row_(csv__parse_o)
-							}
+							const row = row_(csv__parse_o)
 							row_end(csv__parse_o)
+							if (on_row) {
+								on_row(row)
+							} else {
+								yield row
+							}
 							break
 						default:
 							csv__parse_o.val += match
@@ -80,12 +81,13 @@ export function csv__parse(
 						case csv__parse_o.new_line_regexp.test(match):
 							csv__parse_o.state = val_start
 							val_end(csv__parse_o)
-							if (on_row) {
-								on_row(row_(csv__parse_o))
-							} else {
-								yield row_(csv__parse_o)
-							}
+							const row = row_(csv__parse_o)
 							row_end(csv__parse_o)
+							if (on_row) {
+								on_row(row)
+							} else {
+								yield row
+							}
 							break
 						default:
 							csv__parse_o.state = escaped_or_closing_delimiter
@@ -121,12 +123,13 @@ export function csv__parse(
 						case csv__parse_o.new_line_regexp.test(match):
 							csv__parse_o.state = val_start
 							val_end(csv__parse_o)
-							if (on_row) {
-								on_row(row_(csv__parse_o))
-							} else {
-								yield row_(csv__parse_o)
-							}
+							const row = row_(csv__parse_o)
 							row_end(csv__parse_o)
+							if (on_row) {
+								on_row(row)
+							} else {
+								yield row
+							}
 							break
 						default:
 							throw Error(`CSVError: Illegal state ${JSON.stringify({

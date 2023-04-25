@@ -31,11 +31,11 @@ export function csv__transform_stream_(
 	let header_row
 	/** @type {header_M_col_idx_T} */
 	let header_M_col_idx
+	const csv__parse_o = csv__table__parse_o_(has_csv_header)
 	const csv__transform_stream = new TransformStream({
 		transform(csv, controller) {
 			// skip empty line
 			if (!csv.trim()) return
-			const csv__parse_o = csv__table__parse_o_(has_csv_header)
 			for (const val_a of csv__parse(csv, csv__parse_o)) {
 				if (!header_row) {
 					header_row =
@@ -44,7 +44,7 @@ export function csv__transform_stream_(
 							? val_a
 							: val_a.length)
 					header_M_col_idx = header_M_col_idx__new(header_row)
-					if (has_csv_header) return
+					if (has_csv_header) continue
 				}
 				const data_row =
 					data_row_(
