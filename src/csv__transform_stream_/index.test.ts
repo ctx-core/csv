@@ -5,7 +5,8 @@ test('csv__transform_stream_|default', async ()=>{
 	const readable_stream = new ReadableStream({
 		start(controller) {
 			controller.enqueue('col0,col1,col2\n')
-			controller.enqueue('aaa,bbb,ccc\n')
+			controller.enqueue('aaa,bbb,')
+			controller.enqueue('ccc\n')
 			controller.enqueue('zzz,yyy,xxx\n')
 			controller.enqueue('\n')
 		},
@@ -60,7 +61,8 @@ test('csv__transform_stream_|default', async ()=>{
 test('csv__transform_stream_|!has_csv_header', async ()=>{
 	const readable_stream = new ReadableStream({
 		start(controller) {
-			controller.enqueue('aaa,bbb,ccc\n')
+			controller.enqueue('aaa,bbb,')
+			controller.enqueue('ccc\n')
 			controller.enqueue('zzz,yyy,xxx\n')
 			controller.enqueue('\n')
 		},
@@ -101,11 +103,12 @@ test('csv__transform_stream_|!has_csv_header', async ()=>{
 		done: true
 	})
 })
-test('csv__table_|has_csv_header', async ()=>{
+test('csv__transform_stream_|has_csv_header', async ()=>{
 	const readable_stream = new ReadableStream({
 		start(controller) {
 			controller.enqueue('col0,col1,col2\n')
-			controller.enqueue('aaa,bbb,ccc\n')
+			controller.enqueue('aaa,bbb,')
+			controller.enqueue('ccc\n')
 			controller.enqueue('zzz,yyy,xxx\n')
 			controller.enqueue('\n')
 		},
