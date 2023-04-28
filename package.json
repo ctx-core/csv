@@ -42,7 +42,7 @@
 		"@ctx-core/table": "^23.5.1"
 	},
 	"devDependencies": {
-		"@types/node": "^18.16.1",
+		"@types/node": "^18.16.2",
 		"c8": "^7.13.0",
 		"check-dts": "^0.7.1",
 		"tsx": "^3.12.6",
