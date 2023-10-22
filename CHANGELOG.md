@@ -1,5 +1,13 @@
 # @ctx-core/csv
 
+## 18.6.100
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^7.0.0 -> ^7.0.1
+- Updated dependencies
+  - @ctx-core/table@23.6.13
+
 ## 18.6.99
 
 ### Patch Changes
