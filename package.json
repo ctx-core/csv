@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "18.6.117",
+	"version": "18.7.0",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -17,10 +17,26 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
-	"svelte": "./src/index.js",
+	"files": [
+		"*.d.ts",
+		"./_types",
+		"./csv__data_row_",
+		"./csv__header_row_",
+		"./csv__parse",
+		"./csv__row_",
+		"./csv__table_",
+		"./csv__transform_stream_",
+		"./csv_val__hydrate",
+		"./header_csv__toLowerCase",
+		"./is_readable_stream_OR_reader_",
+		"./reader__csv__table_",
+		"./row__csv_",
+		"./row_a__csv_",
+		"./table__csv_"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -33,13 +49,13 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.15.9",
-		"@ctx-core/combinators": "^8.0.63",
-		"@ctx-core/function": "^21.20.2",
-		"@ctx-core/nanostores": "^7.0.8",
-		"@ctx-core/object": "^30.0.0",
-		"@ctx-core/string": "^12.3.26",
-		"@ctx-core/table": "^23.6.27"
+		"@ctx-core/array": "^27.0.0",
+		"@ctx-core/combinators": "^8.1.0",
+		"@ctx-core/function": "^21.21.0",
+		"@ctx-core/nanostores": "^7.1.0",
+		"@ctx-core/object": "^30.1.0",
+		"@ctx-core/string": "^12.4.0",
+		"@ctx-core/table": "^23.7.0"
 	},
 	"devDependencies": {
 		"@types/node": "^20.9.0",
