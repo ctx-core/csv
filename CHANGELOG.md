@@ -1,5 +1,19 @@
 # @ctx-core/csv
 
+## 18.7.3
+
+### Patch Changes
+
+- package.json: files: + \*.js
+- Updated dependencies
+  - @ctx-core/array@27.0.3
+  - @ctx-core/combinators@8.1.3
+  - @ctx-core/function@21.21.3
+  - @ctx-core/nanostores@7.1.4
+  - @ctx-core/object@30.1.3
+  - @ctx-core/string@12.4.3
+  - @ctx-core/table@23.7.3
+
 ## 18.7.2
 
 ### Patch Changes
