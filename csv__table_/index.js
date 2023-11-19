@@ -3,15 +3,15 @@ import { data_row_, header_M_col_idx__new, header_row__new } from '@ctx-core/tab
 import { csv__parse, csv__parse_o_ } from '../csv__parse/index.js'
 import { csv_val__hydrate } from '../csv_val__hydrate/index.js'
 import { is_readable_stream_OR_reader_ } from '../is_readable_stream_OR_reader_/index.js'
-/** @typedef {import('@ctx-core/string').readable_stream_OR_reader_T}readable_stream_OR_reader_T */
-/** @typedef {import('@ctx-core/table').header_M_col_idx_T}header_M_col_idx_T */
-/** @typedef {import('@ctx-core/table').data_row_T}data_row_T */
-/** @typedef {import('@ctx-core/table').header_row_T}header_row_T */
-/** @typedef {import('@ctx-core/table').val__hydrate_T}val__hydrate_T */
-/** @typedef {import('@ctx-core/table').table_T}table_T */
-/** @typedef {import('../_types/index.d.ts').csv__on_data_row_T}csv__on_data_row_T */
-/** @typedef {import('../_types/index.d.ts').csv__parse_o_T}csv__parse_o_T */
-/** @typedef {import('../_types/index.d.ts').csv__table__iterable_T}csv__table__iterable_T */
+/** @typedef {import('@ctx-core/string').readable_stream_OR_reader_T} */
+/** @typedef {import('@ctx-core/table').header_M_col_idx_T} */
+/** @typedef {import('@ctx-core/table').data_row_T} */
+/** @typedef {import('@ctx-core/table').header_row_T} */
+/** @typedef {import('@ctx-core/table').val__hydrate_T} */
+/** @typedef {import('@ctx-core/table').table_T} */
+/** @typedef {import('../_types/index.d.ts').csv__on_data_row_T} */
+/** @typedef {import('../_types/index.d.ts').csv__parse_o_T} */
+/** @typedef {import('../_types/index.d.ts').csv__table__iterable_T} */
 /**
  * @param {csv__on_data_row_T|string|readable_stream_OR_reader_T}on_data_row_OR_csv_OR_readable_stream_OR_reader
  * @param {string|readable_stream_OR_reader_T|boolean}csv_OR_readable_stream_OR_reader_OR_has_csv_header

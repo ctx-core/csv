@@ -1,6 +1,6 @@
 import { I } from '@ctx-core/combinators'
-/** @typedef {import('../_types/index.d.ts').csv__parse__iterator__on_row_T}csv__parse__iterator__on_row_T */
-/** @typedef {import('../_types/index.d.ts').csv__parse_o_T}csv__parse_o_T */
+/** @typedef {import('../_types/index.d.ts').csv__parse__iterator__on_row_T} */
+/** @typedef {import('../_types/index.d.ts').csv__parse_o_T} */
 const val_start = Symbol.for('val_start')
 const undelimited_input = Symbol.for('undelimited_input')
 const delimited_input = Symbol.for('delimited_input')

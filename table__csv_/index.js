@@ -23,5 +23,5 @@ export function table__csv_(
 		render_header_row
 		? `${row__csv_(header_row, { delimiter })}\n`
 		: ''
-	}${row_a__csv_(/** @type {any[]} */data_row_a, { delimiter })}`
+	} */data_row_a, { delimiter })}`
 }
