@@ -1,6 +1,5 @@
 import { row__csv_ } from '../row__csv_/index.js'
 import { row_a__csv_ } from '../row_a__csv_/index.js'
-
 /**
  * @param {import('@ctx-core/table').table_T}table
  * @param {import('../_types/index.js').table__csv___params_T}[params]
@@ -24,5 +23,5 @@ export function table__csv_(
 		render_header_row
 			? `${row__csv_(header_row, { delimiter })}\n`
 			: ''
-	} */data_row_a, { delimiter })}`
+	}${row_a__csv_(/** @type {any[]} */data_row_a, { delimiter })}`
 }
