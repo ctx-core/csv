@@ -2,15 +2,16 @@ import { data_row_a__new, type data_row_T, header_row_, type header_row_T } from
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { csv__table_ } from '../index.js'
+
 test('csv__table_|!on_data_row|string||default', ()=>{
 	const header_row =
-		header_row_(['col0', 'col1', 'col2'])
+        header_row_(['col0', 'col1', 'col2'])
 	const data_row_a =
-		data_row_a__new([
-			['aaa', 'bbb', 'ccc'],
-			['zzz', 'yyy', 'xxx'],
-			['the', 'last', 'line'],
-		], header_row)
+        data_row_a__new([
+        	['aaa', 'bbb', 'ccc'],
+        	['zzz', 'yyy', 'xxx'],
+        	['the', 'last', 'line'],
+        ], header_row)
 	equal(
 		csv__table_(
 			[
@@ -37,18 +38,18 @@ test('csv__table_|!on_data_row|ReadableStream|default', async ()=>{
 	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>[] = []
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>[] = []
 	for await (const [
 		data_row,
 		header_row
 	] of csv__table_<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>(readable_stream)) {
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>(readable_stream)) {
 		data_row_a.push(data_row)
 		header_row_a.push(header_row)
 	}
@@ -87,18 +88,18 @@ test('csv__table_|!on_data_row|ReadableStreamDefaultReader|default', async ()=>{
 	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>[] = []
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>[] = []
 	for await (const [
 		data_row,
 		header_row
 	] of csv__table_<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>(readable_stream.getReader())) {
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>(readable_stream.getReader())) {
 		data_row_a.push(data_row)
 		header_row_a.push(header_row)
 	}
@@ -125,29 +126,29 @@ test('csv__table_|!on_data_row|ReadableStreamDefaultReader|default', async ()=>{
 test('csv__table_|on_data_row|string|default', ()=>{
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>[] = []
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>[] = []
 	csv__table_<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>(
-		(
-			data_row,
-			header_row
-		)=>{
-			data_row_a.push(data_row)
-			header_row_a.push(header_row)
-		},
-		[
-			'col0,col1,col2',
-			'aaa,bbb,ccc',
-			'zzz,yyy,xxx',
-			'the,last,line',
-			''
-		].join('\n'))
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>(
+    	(
+    		data_row,
+    		header_row
+    	)=>{
+    		data_row_a.push(data_row)
+    		header_row_a.push(header_row)
+    	},
+    	[
+    		'col0,col1,col2',
+    		'aaa,bbb,ccc',
+    		'zzz,yyy,xxx',
+    		'the,last,line',
+    		''
+    	].join('\n'))
 	equal([
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
@@ -183,23 +184,23 @@ test('csv__table_|on_data_row|ReadableStream|default', async ()=>{
 	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>[] = []
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>[] = []
 	await csv__table_<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>(
-		(
-			data_row,
-			header_row
-		)=>{
-			data_row_a.push(data_row)
-			header_row_a.push(header_row)
-		},
-		readable_stream)
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>(
+    	(
+    		data_row,
+    		header_row
+    	)=>{
+    		data_row_a.push(data_row)
+    		header_row_a.push(header_row)
+    	},
+    	readable_stream)
 	equal(data_row_a, [
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
@@ -235,23 +236,23 @@ test('csv__table_|on_data_row|ReadableStreamDefaultReader|default', async ()=>{
 	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>[] = []
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>[] = []
 	await csv__table_<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>(
-		(
-			data_row,
-			header_row
-		)=>{
-			data_row_a.push(data_row)
-			header_row_a.push(header_row)
-		},
-		readable_stream.getReader())
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>(
+    	(
+    		data_row,
+    		header_row
+    	)=>{
+    		data_row_a.push(data_row)
+    		header_row_a.push(header_row)
+    	},
+    	readable_stream.getReader())
 	equal(data_row_a, [
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
@@ -275,15 +276,15 @@ test('csv__table_|on_data_row|ReadableStreamDefaultReader|default', async ()=>{
 test('csv__table_|!on_data_row|string|!has_csv_header', ()=>{
 	equal(
 		csv__table_<
-			[string, string, string]
-		>(
-			[
-				'aaa,bbb,ccc',
-				'zzz,yyy,xxx',
-				'the,last,line',
-				''
-			].join('\n'),
-			false),
+            [string, string, string]
+        >(
+        	[
+        		'aaa,bbb,ccc',
+        		'zzz,yyy,xxx',
+        		'the,last,line',
+        		''
+        	].join('\n'),
+        	false),
 		{
 			header_row: [0, 1, 2],
 			data_row_a: [
@@ -311,8 +312,8 @@ test('csv__table_|!on_data_row|ReadableStream|!has_csv_header', async ()=>{
 		data_row,
 		header_row
 	] of csv__table_<
-		[string, string, string]
-	>(readable_stream, false)) {
+        [string, string, string]
+    >(readable_stream, false)) {
 		data_row_a.push(data_row)
 		header_row_a.push(header_row)
 	}
@@ -344,8 +345,8 @@ test('csv__table_|!on_data_row|ReadableStreamDefaultReader|!has_csv_header', asy
 		data_row,
 		header_row
 	] of csv__table_<
-		[string, string, string]
-	>(readable_stream.getReader(), false)) {
+        [string, string, string]
+    >(readable_stream.getReader(), false)) {
 		data_row_a.push(data_row)
 		header_row_a.push(header_row)
 	}
@@ -491,18 +492,18 @@ test('csv__table_|!on_data_row|ReadableStream|has_csv_header', async ()=>{
 	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>[] = []
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>[] = []
 	for await (const [
 		data_row,
 		header_row
 	] of csv__table_<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>(readable_stream, true)) {
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>(readable_stream, true)) {
 		data_row_a.push(data_row)
 		header_row_a.push(header_row)
 	}
@@ -540,18 +541,18 @@ test('csv__table_|!on_data_row|ReadableStreamDefaultReader|has_csv_header', asyn
 	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>[] = []
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>[] = []
 	for await (const [
 		data_row,
 		header_row
 	] of csv__table_<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>(readable_stream.getReader(), true)) {
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>(readable_stream.getReader(), true)) {
 		data_row_a.push(data_row)
 		header_row_a.push(header_row)
 	}
@@ -577,25 +578,25 @@ test('csv__table_|!on_data_row|ReadableStreamDefaultReader|has_csv_header', asyn
 })
 test('csv__table_|on_data_row|string|has_csv_header', ()=>{
 	const data_row_a:data_row_T<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>[] = []
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>[] = []
 	csv__table_<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>(
-		data_row=>
-			data_row_a.push(data_row),
-		[
-			'col0,col1,col2',
-			'aaa,bbb,ccc',
-			'zzz,yyy,xxx',
-			'the,last,line',
-			''
-		].join('\n'),
-		true)
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>(
+    	data_row=>
+    		data_row_a.push(data_row),
+    	[
+    		'col0,col1,col2',
+    		'aaa,bbb,ccc',
+    		'zzz,yyy,xxx',
+    		'the,last,line',
+    		''
+    	].join('\n'),
+    	true)
 	equal([
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
@@ -625,24 +626,24 @@ test('csv__table_|on_data_row|ReadableStream|has_csv_header', async ()=>{
 	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>[] = []
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>[] = []
 	await csv__table_<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>(
-		(
-			data_row,
-			header_row
-		)=>{
-			data_row_a.push(data_row)
-			header_row_a.push(header_row)
-		},
-		readable_stream,
-		true)
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>(
+    	(
+    		data_row,
+    		header_row
+    	)=>{
+    		data_row_a.push(data_row)
+    		header_row_a.push(header_row)
+    	},
+    	readable_stream,
+    	true)
 	equal(data_row_a, [
 		['aaa', 'bbb', 'ccc'],
 		['zzz', 'yyy', 'xxx'],
@@ -677,24 +678,24 @@ test('csv__table_|on_data_row|ReadableStreamDefaultReader|has_csv_header', async
 	})
 	const header_row_a:header_row_T[] = []
 	const data_row_a:data_row_T<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>[] = []
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>[] = []
 	await csv__table_<[
-		['col0', string],
-		['col1', string],
-		['col2', string],
-	]>(
-		(
-			data_row,
-			header_row
-		)=>{
-			data_row_a.push(data_row)
-			header_row_a.push(header_row)
-		},
-		readable_stream.getReader(),
-		true)
+        ['col0', string],
+        ['col1', string],
+        ['col2', string],
+    ]>(
+    	(
+    		data_row,
+    		header_row
+    	)=>{
+    		data_row_a.push(data_row)
+    		header_row_a.push(header_row)
+    	},
+    	readable_stream.getReader(),
+    	true)
 	equal(data_row_a, [
 		['aaa', 'bbb', 'ccc', 1.23],
 		['zzz', 'yyy', 'xxx', 3.14],

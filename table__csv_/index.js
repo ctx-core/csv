@@ -1,5 +1,6 @@
 import { row__csv_ } from '../row__csv_/index.js'
 import { row_a__csv_ } from '../row_a__csv_/index.js'
+
 /**
  * @param {import('@ctx-core/table').table_T}table
  * @param {import('../_types/index.js').table__csv___params_T}[params]
@@ -10,18 +11,18 @@ export function table__csv_(
 	params = {}
 ) {
 	const delimiter =
-		params.delimiter
-		|| ','
+        params.delimiter
+        || ','
 	const render_header_row =
-		params.render_header_row
-		?? true
+        params.render_header_row
+        ?? true
 	const {
 		header_row,
 		data_row_a
 	} = table
 	return `${
 		render_header_row
-		? `${row__csv_(header_row, { delimiter })}\n`
-		: ''
+			? `${row__csv_(header_row, { delimiter })}\n`
+			: ''
 	} */data_row_a, { delimiter })}`
 }

@@ -1,5 +1,12 @@
 # @ctx-core/csv
 
+## 18.7.19
+
+### Patch Changes
+
+- @types/node: ^20.9.1 -> ^20.9.2
+- @ctx-core/table: ^23.7.18 -> ^23.8.0
+
 ## 18.7.18
 
 ### Patch Changes
@@ -13,13 +20,13 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@9.0.0
-  - @ctx-core/object@31.0.0
-  - @ctx-core/table@23.7.18
-  - @ctx-core/array@27.0.17
-  - @ctx-core/combinators@8.1.17
-  - @ctx-core/function@21.22.12
-  - @ctx-core/string@12.4.17
+    - @ctx-core/nanostores@9.0.0
+    - @ctx-core/object@31.0.0
+    - @ctx-core/table@23.7.18
+    - @ctx-core/array@27.0.17
+    - @ctx-core/combinators@8.1.17
+    - @ctx-core/function@21.22.12
+    - @ctx-core/string@12.4.17
 
 ## 18.7.17
 
@@ -35,8 +42,8 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@23.7.17
-  - @ctx-core/nanostores@8.0.1
+    - @ctx-core/table@23.7.17
+    - @ctx-core/nanostores@8.0.1
 
 ## 18.7.16
 
@@ -45,8 +52,8 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@8.0.0
-  - @ctx-core/table@23.7.16
+    - @ctx-core/nanostores@8.0.0
+    - @ctx-core/table@23.7.16
 
 ## 18.7.15
 
@@ -62,8 +69,8 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@7.1.16
-  - @ctx-core/table@23.7.15
+    - @ctx-core/nanostores@7.1.16
+    - @ctx-core/table@23.7.15
 
 ## 18.7.14
 
@@ -80,7 +87,7 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@23.7.14
+    - @ctx-core/table@23.7.14
 
 ## 18.7.13
 
@@ -96,8 +103,8 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@7.1.14
-  - @ctx-core/table@23.7.13
+    - @ctx-core/nanostores@7.1.14
+    - @ctx-core/table@23.7.13
 
 ## 18.7.12
 
@@ -113,8 +120,8 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@7.1.13
-  - @ctx-core/table@23.7.12
+    - @ctx-core/nanostores@7.1.13
+    - @ctx-core/table@23.7.12
 
 ## 18.7.11
 
@@ -123,12 +130,12 @@
 - @ctx-core/object: ^30.4.2 -> ^30.4.3
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@7.1.12
-  - @ctx-core/table@23.7.11
-  - @ctx-core/array@27.0.11
-  - @ctx-core/combinators@8.1.11
-  - @ctx-core/function@21.22.6
-  - @ctx-core/string@12.4.11
+    - @ctx-core/nanostores@7.1.12
+    - @ctx-core/table@23.7.11
+    - @ctx-core/array@27.0.11
+    - @ctx-core/combinators@8.1.11
+    - @ctx-core/function@21.22.6
+    - @ctx-core/string@12.4.11
 
 ## 18.7.10
 
@@ -144,8 +151,8 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@23.7.10
-  - @ctx-core/nanostores@7.1.11
+    - @ctx-core/table@23.7.10
+    - @ctx-core/nanostores@7.1.11
 
 ## 18.7.9
 
@@ -154,13 +161,13 @@
 - tsx: ^4.1.2 -> ^4.1.3
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@27.0.9
-  - @ctx-core/combinators@8.1.9
-  - @ctx-core/function@21.22.4
-  - @ctx-core/object@30.4.1
-  - @ctx-core/string@12.4.9
-  - @ctx-core/nanostores@7.1.10
-  - @ctx-core/table@23.7.9
+    - @ctx-core/array@27.0.9
+    - @ctx-core/combinators@8.1.9
+    - @ctx-core/function@21.22.4
+    - @ctx-core/object@30.4.1
+    - @ctx-core/string@12.4.9
+    - @ctx-core/nanostores@7.1.10
+    - @ctx-core/table@23.7.9
 
 ## 18.7.8
 
@@ -169,12 +176,12 @@
 - @ctx-core/object: ^30.3.1 -> ^30.4.0
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@7.1.9
-  - @ctx-core/table@23.7.8
-  - @ctx-core/array@27.0.8
-  - @ctx-core/combinators@8.1.8
-  - @ctx-core/function@21.22.3
-  - @ctx-core/string@12.4.8
+    - @ctx-core/nanostores@7.1.9
+    - @ctx-core/table@23.7.8
+    - @ctx-core/array@27.0.8
+    - @ctx-core/combinators@8.1.8
+    - @ctx-core/function@21.22.3
+    - @ctx-core/string@12.4.8
 
 ## 18.7.7
 
@@ -190,8 +197,8 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@7.1.8
-  - @ctx-core/table@23.7.7
+    - @ctx-core/nanostores@7.1.8
+    - @ctx-core/table@23.7.7
 
 ## 18.7.6
 
@@ -203,11 +210,11 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@7.1.7
-  - @ctx-core/table@23.7.6
-  - @ctx-core/array@27.0.6
-  - @ctx-core/combinators@8.1.6
-  - @ctx-core/string@12.4.6
+    - @ctx-core/nanostores@7.1.7
+    - @ctx-core/table@23.7.6
+    - @ctx-core/array@27.0.6
+    - @ctx-core/combinators@8.1.6
+    - @ctx-core/string@12.4.6
 
 ## 18.7.5
 
@@ -218,11 +225,11 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@27.0.5
-  - @ctx-core/combinators@8.1.5
-  - @ctx-core/string@12.4.5
-  - @ctx-core/nanostores@7.1.6
-  - @ctx-core/table@23.7.5
+    - @ctx-core/array@27.0.5
+    - @ctx-core/combinators@8.1.5
+    - @ctx-core/string@12.4.5
+    - @ctx-core/nanostores@7.1.6
+    - @ctx-core/table@23.7.5
 
 ## 18.7.4
 
@@ -234,8 +241,8 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@23.7.4
-  - @ctx-core/nanostores@7.1.5
+    - @ctx-core/table@23.7.4
+    - @ctx-core/nanostores@7.1.5
 
 ## 18.7.3
 
@@ -243,13 +250,13 @@
 
 - package.json: files: + \*.js
 - Updated dependencies
-  - @ctx-core/array@27.0.3
-  - @ctx-core/combinators@8.1.3
-  - @ctx-core/function@21.21.3
-  - @ctx-core/nanostores@7.1.4
-  - @ctx-core/object@30.1.3
-  - @ctx-core/string@12.4.3
-  - @ctx-core/table@23.7.3
+    - @ctx-core/array@27.0.3
+    - @ctx-core/combinators@8.1.3
+    - @ctx-core/function@21.21.3
+    - @ctx-core/nanostores@7.1.4
+    - @ctx-core/object@30.1.3
+    - @ctx-core/string@12.4.3
+    - @ctx-core/table@23.7.3
 
 ## 18.7.2
 
@@ -257,13 +264,13 @@
 
 - fix: missing tsconfig.json
 - Updated dependencies
-  - @ctx-core/array@27.0.2
-  - @ctx-core/combinators@8.1.2
-  - @ctx-core/function@21.21.2
-  - @ctx-core/nanostores@7.1.3
-  - @ctx-core/object@30.1.2
-  - @ctx-core/string@12.4.2
-  - @ctx-core/table@23.7.2
+    - @ctx-core/array@27.0.2
+    - @ctx-core/combinators@8.1.2
+    - @ctx-core/function@21.21.2
+    - @ctx-core/nanostores@7.1.3
+    - @ctx-core/object@30.1.2
+    - @ctx-core/string@12.4.2
+    - @ctx-core/table@23.7.2
 
 ## 18.7.1
 
@@ -274,13 +281,13 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@27.0.1
-  - @ctx-core/combinators@8.1.1
-  - @ctx-core/function@21.21.1
-  - @ctx-core/object@30.1.1
-  - @ctx-core/string@12.4.1
-  - @ctx-core/table@23.7.1
-  - @ctx-core/nanostores@7.1.2
+    - @ctx-core/array@27.0.1
+    - @ctx-core/combinators@8.1.1
+    - @ctx-core/function@21.21.1
+    - @ctx-core/object@30.1.1
+    - @ctx-core/string@12.4.1
+    - @ctx-core/table@23.7.1
+    - @ctx-core/nanostores@7.1.2
 
 ## 18.7.0
 
@@ -303,13 +310,13 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@27.0.0
-  - @ctx-core/combinators@8.1.0
-  - @ctx-core/function@21.21.0
-  - @ctx-core/nanostores@7.1.0
-  - @ctx-core/object@30.1.0
-  - @ctx-core/string@12.4.0
-  - @ctx-core/table@23.7.0
+    - @ctx-core/array@27.0.0
+    - @ctx-core/combinators@8.1.0
+    - @ctx-core/function@21.21.0
+    - @ctx-core/nanostores@7.1.0
+    - @ctx-core/object@30.1.0
+    - @ctx-core/string@12.4.0
+    - @ctx-core/table@23.7.0
 
 ## 18.6.117
 
@@ -322,10 +329,10 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/object@30.0.0
-  - @ctx-core/array@26.15.9
-  - @ctx-core/nanostores@7.0.8
-  - @ctx-core/table@23.6.26
+    - @ctx-core/object@30.0.0
+    - @ctx-core/array@26.15.9
+    - @ctx-core/nanostores@7.0.8
+    - @ctx-core/table@23.6.26
 
 ## 18.6.115
 
@@ -339,9 +346,9 @@
 
 - @ctx-core/object: ^29.0.0 -> ^29.1.0
 - Updated dependencies
-  - @ctx-core/array@26.15.8
-  - @ctx-core/nanostores@7.0.7
-  - @ctx-core/table@23.6.24
+    - @ctx-core/array@26.15.8
+    - @ctx-core/nanostores@7.0.7
+    - @ctx-core/table@23.6.24
 
 ## 18.6.113
 
@@ -356,8 +363,8 @@
 - @types/node: ^20.8.10 -> ^20.9.0
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/string@12.3.26
-  - @ctx-core/nanostores@7.0.6
+    - @ctx-core/string@12.3.26
+    - @ctx-core/nanostores@7.0.6
 
 ## 18.6.111
 
@@ -378,10 +385,10 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/object@29.0.0
-  - @ctx-core/array@26.15.7
-  - @ctx-core/nanostores@7.0.5
-  - @ctx-core/table@23.6.20
+    - @ctx-core/object@29.0.0
+    - @ctx-core/array@26.15.7
+    - @ctx-core/nanostores@7.0.5
+    - @ctx-core/table@23.6.20
 
 ## 18.6.108
 
@@ -407,9 +414,9 @@
 
 - @ctx-core/object: ^28.2.1 -> ^28.2.2
 - Updated dependencies
-  - @ctx-core/array@26.15.6
-  - @ctx-core/nanostores@7.0.4
-  - @ctx-core/table@23.6.16
+    - @ctx-core/array@26.15.6
+    - @ctx-core/nanostores@7.0.4
+    - @ctx-core/table@23.6.16
 
 ## 18.6.104
 
@@ -417,7 +424,7 @@
 
 - @types/node: ^20.8.9 -> ^20.8.10
 - Updated dependencies
-  - @ctx-core/string@12.3.25
+    - @ctx-core/string@12.3.25
 
 ## 18.6.103
 
@@ -431,7 +438,7 @@
 
 - @types/node: ^20.8.7 -> ^20.8.9
 - Updated dependencies
-  - @ctx-core/string@12.3.24
+    - @ctx-core/string@12.3.24
 
 ## 18.6.101
 
@@ -439,7 +446,7 @@
 
 - @ctx-core/nanostores: ^7.0.1 -> ^7.0.3
 - Updated dependencies
-  - @ctx-core/table@23.6.14
+    - @ctx-core/table@23.6.14
 
 ## 18.6.100
 
@@ -447,7 +454,7 @@
 
 - @ctx-core/nanostores: ^7.0.0 -> ^7.0.1
 - Updated dependencies
-  - @ctx-core/table@23.6.13
+    - @ctx-core/table@23.6.13
 
 ## 18.6.99
 
@@ -455,8 +462,8 @@
 
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@7.0.0
-  - @ctx-core/table@23.6.12
+    - @ctx-core/nanostores@7.0.0
+    - @ctx-core/table@23.6.12
 
 ## 18.6.98
 
@@ -465,8 +472,8 @@
 - @ctx-core/nanostores: ^6.0.13 -> ^6.0.14
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@6.0.15
-  - @ctx-core/table@23.6.11
+    - @ctx-core/nanostores@6.0.15
+    - @ctx-core/table@23.6.11
 
 ## 18.6.97
 
@@ -478,13 +485,13 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@6.0.13
-  - @ctx-core/array@26.15.5
-  - @ctx-core/combinators@8.0.63
-  - @ctx-core/function@21.20.2
-  - @ctx-core/object@28.2.1
-  - @ctx-core/string@12.3.23
-  - @ctx-core/table@23.6.10
+    - @ctx-core/nanostores@6.0.13
+    - @ctx-core/array@26.15.5
+    - @ctx-core/combinators@8.0.63
+    - @ctx-core/function@21.20.2
+    - @ctx-core/object@28.2.1
+    - @ctx-core/string@12.3.23
+    - @ctx-core/table@23.6.10
 
 ## 18.6.96
 
@@ -504,7 +511,7 @@
 
 - @types/node: ^20.8.5 -> ^20.8.6
 - Updated dependencies
-  - @ctx-core/string@12.3.22
+    - @ctx-core/string@12.3.22
 
 ## 18.6.93
 
@@ -524,7 +531,7 @@
 
 - @types/node: ^20.8.4 -> ^20.8.5
 - Updated dependencies
-  - @ctx-core/string@12.3.21
+    - @ctx-core/string@12.3.21
 
 ## 18.6.90
 
@@ -538,7 +545,7 @@
 
 - @types/node: ^20.8.3 -> ^20.8.4
 - Updated dependencies
-  - @ctx-core/string@12.3.20
+    - @ctx-core/string@12.3.20
 
 ## 18.6.88
 
@@ -546,7 +553,7 @@
 
 - @types/node: ^20.8.2 -> ^20.8.3
 - Updated dependencies
-  - @ctx-core/string@12.3.19
+    - @ctx-core/string@12.3.19
 
 ## 18.6.87
 
@@ -560,9 +567,9 @@
 
 - @ctx-core/object: ^28.1.0 -> ^28.2.0
 - Updated dependencies
-  - @ctx-core/array@26.15.4
-  - @ctx-core/nanostores@6.0.12
-  - @ctx-core/table@23.6.3
+    - @ctx-core/array@26.15.4
+    - @ctx-core/nanostores@6.0.12
+    - @ctx-core/table@23.6.3
 
 ## 18.6.85
 
@@ -570,7 +577,7 @@
 
 - @types/node: ^20.8.0 -> ^20.8.2
 - Updated dependencies
-  - @ctx-core/string@12.3.18
+    - @ctx-core/string@12.3.18
 
 ## 18.6.84
 
@@ -586,8 +593,8 @@
 - @ctx-core/nanostores: ^6.0.10 -> ^6.0.11
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@26.15.3
-  - @ctx-core/table@23.6.1
+    - @ctx-core/array@26.15.3
+    - @ctx-core/table@23.6.1
 
 ## 18.6.82
 
@@ -601,7 +608,7 @@
 
 - @types/node: ^20.7.2 -> ^20.8.0
 - Updated dependencies
-  - @ctx-core/string@12.3.17
+    - @ctx-core/string@12.3.17
 
 ## 18.6.80
 
@@ -609,7 +616,7 @@
 
 - @types/node: ^20.7.1 -> ^20.7.2
 - Updated dependencies
-  - @ctx-core/string@12.3.16
+    - @ctx-core/string@12.3.16
 
 ## 18.6.79
 
@@ -617,7 +624,7 @@
 
 - @types/node: ^20.7.0 -> ^20.7.1
 - Updated dependencies
-  - @ctx-core/string@12.3.15
+    - @ctx-core/string@12.3.15
 
 ## 18.6.78
 
@@ -625,7 +632,7 @@
 
 - @ctx-core/nanostores: ^6.0.9 -> ^6.0.10
 - Updated dependencies
-  - @ctx-core/table@23.5.66
+    - @ctx-core/table@23.5.66
 
 ## 18.6.77
 
@@ -633,7 +640,7 @@
 
 - @ctx-core/nanostores: ^6.0.8 -> ^6.0.9
 - Updated dependencies
-  - @ctx-core/table@23.5.65
+    - @ctx-core/table@23.5.65
 
 ## 18.6.76
 
@@ -641,7 +648,7 @@
 
 - @types/node: ^20.6.4 -> ^20.6.5
 - Updated dependencies
-  - @ctx-core/string@12.3.14
+    - @ctx-core/string@12.3.14
 
 ## 18.6.75
 
@@ -649,13 +656,13 @@
 
 - version bump
 - Updated dependencies
-  - @ctx-core/array@26.15.2
-  - @ctx-core/combinators@8.0.62
-  - @ctx-core/function@21.20.1
-  - @ctx-core/nanostores@6.0.8
-  - @ctx-core/object@28.0.7
-  - @ctx-core/string@12.3.13
-  - @ctx-core/table@23.5.64
+    - @ctx-core/array@26.15.2
+    - @ctx-core/combinators@8.0.62
+    - @ctx-core/function@21.20.1
+    - @ctx-core/nanostores@6.0.8
+    - @ctx-core/object@28.0.7
+    - @ctx-core/string@12.3.13
+    - @ctx-core/table@23.5.64
 
 ## 18.6.74
 
@@ -669,11 +676,11 @@
 
 - @ctx-core/function: ^21.19.0 -> ^21.20.0
 - Updated dependencies
-  - @ctx-core/array@26.15.1
-  - @ctx-core/nanostores@6.0.7
-  - @ctx-core/object@28.0.6
-  - @ctx-core/string@12.3.12
-  - @ctx-core/table@23.5.62
+    - @ctx-core/array@26.15.1
+    - @ctx-core/nanostores@6.0.7
+    - @ctx-core/object@28.0.6
+    - @ctx-core/string@12.3.12
+    - @ctx-core/table@23.5.62
 
 ## 18.6.72
 
@@ -681,7 +688,7 @@
 
 - @types/node: ^20.5.7 -> ^20.5.8
 - Updated dependencies
-  - @ctx-core/string@12.3.11
+    - @ctx-core/string@12.3.11
 
 ## 18.6.71
 
@@ -695,7 +702,7 @@
 
 - @ctx-core/array: ^26.14.1 -> ^26.15.0
 - Updated dependencies
-  - @ctx-core/table@23.5.60
+    - @ctx-core/table@23.5.60
 
 ## 18.6.69
 
@@ -709,9 +716,9 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@23.5.59
-  - @ctx-core/array@26.14.1
-  - @ctx-core/nanostores@6.0.6
+    - @ctx-core/table@23.5.59
+    - @ctx-core/array@26.14.1
+    - @ctx-core/nanostores@6.0.6
 
 ## 18.6.68
 
@@ -720,8 +727,8 @@
 - @types/node: ^20.5.1 -> ^20.5.6
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@6.0.4
-  - @ctx-core/string@12.3.10
+    - @ctx-core/nanostores@6.0.4
+    - @ctx-core/string@12.3.10
 
 ## 18.6.67
 
@@ -730,7 +737,7 @@
 - @types/node: ^20.5.0 -> ^20.5.1
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/string@12.3.9
+    - @ctx-core/string@12.3.9
 
 ## 18.6.66
 
@@ -738,7 +745,7 @@
 
 - @types/node: ^20.4.8 -> ^20.4.9
 - Updated dependencies
-  - @ctx-core/string@12.3.8
+    - @ctx-core/string@12.3.8
 
 ## 18.6.65
 
@@ -752,7 +759,7 @@
 
 - @ctx-core/array: ^26.12.45 -> ^26.13.0
 - Updated dependencies
-  - @ctx-core/table@23.5.57
+    - @ctx-core/table@23.5.57
 
 ## 18.6.63
 
@@ -760,7 +767,7 @@
 
 - @types/node: ^20.4.6 -> ^20.4.7
 - Updated dependencies
-  - @ctx-core/string@12.3.7
+    - @ctx-core/string@12.3.7
 
 ## 18.6.62
 
@@ -774,19 +781,19 @@
 
 - @ctx-core/function: ^21.18.0 -> ^21.19.0
 - Updated dependencies
-  - @ctx-core/array@26.12.45
-  - @ctx-core/nanostores@6.0.1
-  - @ctx-core/object@28.0.4
-  - @ctx-core/string@12.3.6
-  - @ctx-core/table@23.5.55
+    - @ctx-core/array@26.12.45
+    - @ctx-core/nanostores@6.0.1
+    - @ctx-core/object@28.0.4
+    - @ctx-core/string@12.3.6
+    - @ctx-core/table@23.5.55
 
 ## 18.6.60
 
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/nanostores@6.0.0
-  - @ctx-core/table@23.5.54
+    - @ctx-core/nanostores@6.0.0
+    - @ctx-core/table@23.5.54
 
 ## 18.6.59
 
@@ -794,7 +801,7 @@
 
 - @ctx-core/nanostores: ^5.2.8 -> ^5.2.9
 - Updated dependencies
-  - @ctx-core/table@23.5.53
+    - @ctx-core/table@23.5.53
 
 ## 18.6.58
 
@@ -802,7 +809,7 @@
 
 - @ctx-core/nanostores: ^5.2.7 -> ^5.2.8
 - Updated dependencies
-  - @ctx-core/table@23.5.52
+    - @ctx-core/table@23.5.52
 
 ## 18.6.57
 
@@ -810,7 +817,7 @@
 
 - @ctx-core/nanostores: ^5.2.6 -> ^5.2.7
 - Updated dependencies
-  - @ctx-core/table@23.5.51
+    - @ctx-core/table@23.5.51
 
 ## 18.6.56
 
@@ -818,7 +825,7 @@
 
 - @ctx-core/nanostores: ^5.2.5 -> ^5.2.6
 - Updated dependencies
-  - @ctx-core/table@23.5.50
+    - @ctx-core/table@23.5.50
 
 ## 18.6.55
 
@@ -826,7 +833,7 @@
 
 - @types/node: ^20.3.3 -> ^20.4.0
 - Updated dependencies
-  - @ctx-core/string@12.3.5
+    - @ctx-core/string@12.3.5
 
 ## 18.6.54
 
@@ -841,8 +848,8 @@
 - @types/node: ^20.3.2 -> ^20.3.3
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/string@12.3.4
-  - @ctx-core/nanostores@5.2.5
+    - @ctx-core/string@12.3.4
+    - @ctx-core/nanostores@5.2.5
 
 ## 18.6.52
 
@@ -850,7 +857,7 @@
 
 - @ctx-core/nanostores: ^5.2.3 -> ^5.2.4
 - Updated dependencies
-  - @ctx-core/table@23.5.48
+    - @ctx-core/table@23.5.48
 
 ## 18.6.51
 
@@ -859,8 +866,8 @@
 - @ctx-core/nanostores: ^5.2.1 -> ^5.2.2
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@23.5.47
-  - @ctx-core/nanostores@5.2.3
+    - @ctx-core/table@23.5.47
+    - @ctx-core/nanostores@5.2.3
 
 ## 18.6.50
 
@@ -868,7 +875,7 @@
 
 - @ctx-core/nanostores: ^5.2.0 -> ^5.2.1
 - Updated dependencies
-  - @ctx-core/table@23.5.46
+    - @ctx-core/table@23.5.46
 
 ## 18.6.49
 
@@ -884,8 +891,8 @@
 - @ctx-core/object: ^28.0.2 -> ^28.0.3
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@23.5.44
-  - @ctx-core/array@26.12.44
+    - @ctx-core/table@23.5.44
+    - @ctx-core/array@26.12.44
 
 ## 18.6.47
 
@@ -893,7 +900,7 @@
 
 - @ctx-core/nanostores: ^5.1.1 -> ^5.1.2
 - Updated dependencies
-  - @ctx-core/table@23.5.43
+    - @ctx-core/table@23.5.43
 
 ## 18.6.46
 
@@ -901,7 +908,7 @@
 
 - @ctx-core/nanostores: ^5.1.0 -> ^5.1.1
 - Updated dependencies
-  - @ctx-core/table@23.5.42
+    - @ctx-core/table@23.5.42
 
 ## 18.6.45
 
@@ -917,8 +924,8 @@
 - @ctx-core/nanostores: ^5.0.5 -> ^5.1.0
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@26.12.43
-  - @ctx-core/table@23.5.40
+    - @ctx-core/array@26.12.43
+    - @ctx-core/table@23.5.40
 
 ## 18.6.43
 
@@ -926,7 +933,7 @@
 
 - @ctx-core/nanostores: ^5.0.4 -> ^5.0.5
 - Updated dependencies
-  - @ctx-core/table@23.5.39
+    - @ctx-core/table@23.5.39
 
 ## 18.6.42
 
@@ -934,7 +941,7 @@
 
 - @ctx-core/nanostores: ^5.0.2 -> ^5.0.4
 - Updated dependencies
-  - @ctx-core/table@23.5.38
+    - @ctx-core/table@23.5.38
 
 ## 18.6.41
 
@@ -942,7 +949,7 @@
 
 - @ctx-core/nanostores: ^5.0.1 -> ^5.0.2
 - Updated dependencies
-  - @ctx-core/table@23.5.37
+    - @ctx-core/table@23.5.37
 
 ## 18.6.40
 
@@ -950,15 +957,15 @@
 
 - @ctx-core/nanostores: ^5.0.0 -> ^5.0.1
 - Updated dependencies
-  - @ctx-core/table@23.5.36
+    - @ctx-core/table@23.5.36
 
 ## 18.6.39
 
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/nanostores@5.0.0
-  - @ctx-core/table@23.5.35
+    - @ctx-core/nanostores@5.0.0
+    - @ctx-core/table@23.5.35
 
 ## 18.6.38
 
@@ -966,7 +973,7 @@
 
 - @types/node: ^20.2.5 -> ^20.2.6
 - Updated dependencies
-  - @ctx-core/string@12.3.3
+    - @ctx-core/string@12.3.3
 
 ## 18.6.37
 
@@ -974,7 +981,7 @@
 
 - @ctx-core/nanostores: ^4.2.6 -> ^4.2.7
 - Updated dependencies
-  - @ctx-core/table@23.5.34
+    - @ctx-core/table@23.5.34
 
 ## 18.6.36
 
@@ -988,9 +995,9 @@
 
 - @ctx-core/object: ^28.0.0 -> ^28.0.1
 - Updated dependencies
-  - @ctx-core/array@26.12.42
-  - @ctx-core/nanostores@4.2.6
-  - @ctx-core/table@23.5.32
+    - @ctx-core/array@26.12.42
+    - @ctx-core/nanostores@4.2.6
+    - @ctx-core/table@23.5.32
 
 ## 18.6.34
 
@@ -1003,10 +1010,10 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/object@28.0.0
-  - @ctx-core/array@26.12.41
-  - @ctx-core/nanostores@4.2.5
-  - @ctx-core/table@23.5.30
+    - @ctx-core/object@28.0.0
+    - @ctx-core/array@26.12.41
+    - @ctx-core/nanostores@4.2.5
+    - @ctx-core/table@23.5.30
 
 ## 18.6.32
 
@@ -1020,9 +1027,9 @@
 
 - @ctx-core/object: ^27.8.1 -> ^27.9.0
 - Updated dependencies
-  - @ctx-core/array@26.12.40
-  - @ctx-core/nanostores@4.2.4
-  - @ctx-core/table@23.5.28
+    - @ctx-core/array@26.12.40
+    - @ctx-core/nanostores@4.2.4
+    - @ctx-core/table@23.5.28
 
 ## 18.6.30
 
@@ -1036,9 +1043,9 @@
 
 - @ctx-core/object: ^27.8.0 -> ^27.8.1
 - Updated dependencies
-  - @ctx-core/array@26.12.39
-  - @ctx-core/nanostores@4.2.3
-  - @ctx-core/table@23.5.26
+    - @ctx-core/array@26.12.39
+    - @ctx-core/nanostores@4.2.3
+    - @ctx-core/table@23.5.26
 
 ## 18.6.28
 
@@ -1052,9 +1059,9 @@
 
 - @ctx-core/object: ^27.6.0 -> ^27.8.0
 - Updated dependencies
-  - @ctx-core/array@26.12.38
-  - @ctx-core/nanostores@4.2.2
-  - @ctx-core/table@23.5.24
+    - @ctx-core/array@26.12.38
+    - @ctx-core/nanostores@4.2.2
+    - @ctx-core/table@23.5.24
 
 ## 18.6.26
 
@@ -1068,9 +1075,9 @@
 
 - @ctx-core/object: ^27.5.0 -> ^27.6.0
 - Updated dependencies
-  - @ctx-core/array@26.12.37
-  - @ctx-core/nanostores@4.2.1
-  - @ctx-core/table@23.5.22
+    - @ctx-core/array@26.12.37
+    - @ctx-core/nanostores@4.2.1
+    - @ctx-core/table@23.5.22
 
 ## 18.6.24
 
@@ -1078,7 +1085,7 @@
 
 - @ctx-core/nanostores: ^4.1.0 -> ^4.2.0
 - Updated dependencies
-  - @ctx-core/table@23.5.21
+    - @ctx-core/table@23.5.21
 
 ## 18.6.23
 
@@ -1086,7 +1093,7 @@
 
 - @ctx-core/nanostores: ^4.0.7 -> ^4.1.0
 - Updated dependencies
-  - @ctx-core/table@23.5.20
+    - @ctx-core/table@23.5.20
 
 ## 18.6.22
 
@@ -1100,9 +1107,9 @@
 
 - @ctx-core/object: ^27.4.26 -> ^27.5.0
 - Updated dependencies
-  - @ctx-core/array@26.12.36
-  - @ctx-core/nanostores@4.0.7
-  - @ctx-core/table@23.5.18
+    - @ctx-core/array@26.12.36
+    - @ctx-core/nanostores@4.0.7
+    - @ctx-core/table@23.5.18
 
 ## 18.6.20
 
@@ -1110,7 +1117,7 @@
 
 - @ctx-core/nanostores: ^4.0.5 -> ^4.0.6
 - Updated dependencies
-  - @ctx-core/table@23.5.17
+    - @ctx-core/table@23.5.17
 
 ## 18.6.19
 
@@ -1118,7 +1125,7 @@
 
 - @ctx-core/nanostores: ^4.0.4 -> ^4.0.5
 - Updated dependencies
-  - @ctx-core/table@23.5.16
+    - @ctx-core/table@23.5.16
 
 ## 18.6.18
 
@@ -1126,7 +1133,7 @@
 
 - @ctx-core/nanostores: ^4.0.3 -> ^4.0.4
 - Updated dependencies
-  - @ctx-core/table@23.5.15
+    - @ctx-core/table@23.5.15
 
 ## 18.6.17
 
@@ -1134,7 +1141,7 @@
 
 - @ctx-core/nanostores: ^4.0.2 -> ^4.0.3
 - Updated dependencies
-  - @ctx-core/table@23.5.14
+    - @ctx-core/table@23.5.14
 
 ## 18.6.16
 
@@ -1142,7 +1149,7 @@
 
 - @ctx-core/nanostores: ^4.0.1 -> ^4.0.2
 - Updated dependencies
-  - @ctx-core/table@23.5.13
+    - @ctx-core/table@23.5.13
 
 ## 18.6.15
 
@@ -1156,9 +1163,9 @@
 
 - @ctx-core/object: ^27.4.25 -> ^27.4.26
 - Updated dependencies
-  - @ctx-core/array@26.12.35
-  - @ctx-core/nanostores@4.0.1
-  - @ctx-core/table@23.5.11
+    - @ctx-core/array@26.12.35
+    - @ctx-core/nanostores@4.0.1
+    - @ctx-core/table@23.5.11
 
 ## 18.6.13
 
@@ -1166,8 +1173,8 @@
 
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@4.0.0
-  - @ctx-core/table@23.5.10
+    - @ctx-core/nanostores@4.0.0
+    - @ctx-core/table@23.5.10
 
 ## 18.6.12
 
@@ -1175,7 +1182,7 @@
 
 - @ctx-core/nanostores: ^3.4.3 -> ^3.5.0
 - Updated dependencies
-  - @ctx-core/table@23.5.9
+    - @ctx-core/table@23.5.9
 
 ## 18.6.11
 
@@ -1183,7 +1190,7 @@
 
 - @ctx-core/nanostores: ^3.4.2 -> ^3.4.3
 - Updated dependencies
-  - @ctx-core/table@23.5.8
+    - @ctx-core/table@23.5.8
 
 ## 18.6.10
 
@@ -1191,7 +1198,7 @@
 
 - @types/node: ^18.16.3 -> ^20.0.0
 - Updated dependencies
-  - @ctx-core/string@12.3.2
+    - @ctx-core/string@12.3.2
 
 ## 18.6.9
 
@@ -1199,7 +1206,7 @@
 
 - @ctx-core/nanostores: ^3.4.1 -> ^3.4.2
 - Updated dependencies
-  - @ctx-core/table@23.5.7
+    - @ctx-core/table@23.5.7
 
 ## 18.6.8
 
@@ -1207,7 +1214,7 @@
 
 - @ctx-core/nanostores: ^3.4.0 -> ^3.4.1
 - Updated dependencies
-  - @ctx-core/table@23.5.6
+    - @ctx-core/table@23.5.6
 
 ## 18.6.7
 
@@ -1223,8 +1230,8 @@
 - @ctx-core/nanostores: ^3.3.1 -> ^3.4.0
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@26.12.34
-  - @ctx-core/table@23.5.4
+    - @ctx-core/array@26.12.34
+    - @ctx-core/table@23.5.4
 
 ## 18.6.5
 
@@ -1232,7 +1239,7 @@
 
 - @ctx-core/nanostores: ^3.3.0 -> ^3.3.1
 - Updated dependencies
-  - @ctx-core/table@23.5.3
+    - @ctx-core/table@23.5.3
 
 ## 18.6.4
 
@@ -1242,10 +1249,10 @@
 - @ctx-core/function: ^21.17.19 -> ^21.18.0
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@23.5.2
-  - @ctx-core/array@26.12.33
-  - @ctx-core/object@27.4.24
-  - @ctx-core/string@12.3.1
+    - @ctx-core/table@23.5.2
+    - @ctx-core/array@26.12.33
+    - @ctx-core/object@27.4.24
+    - @ctx-core/string@12.3.1
 
 ## 18.6.3
 
@@ -1253,7 +1260,7 @@
 
 - @ctx-core/nanostores: ^3.2.22 -> ^3.2.23
 - Updated dependencies
-  - @ctx-core/table@23.5.1
+    - @ctx-core/table@23.5.1
 
 ## 18.6.2
 
@@ -1272,14 +1279,16 @@
 
 ### Minor Changes
 
-- - csv\__transform_stream_
-- - csv\_\_transform_stream\*\*\*params_T
+-
+    - csv\__transform_stream_
+-
+    - csv\_\_transform_stream\*\*\*params_T
 
 ### Patch Changes
 
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/string@12.3.0
+    - @ctx-core/string@12.3.0
 
 ## 18.5.2
 
@@ -1297,7 +1306,8 @@
 
 ### Minor Changes
 
-- - csv\_\_table\_\_iterable_T
+-
+    - csv\_\_table\_\_iterable_T
 
 ## 18.4.22
 
@@ -1311,13 +1321,13 @@
 
 - @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
 - Updated dependencies
-  - @ctx-core/array@26.12.32
-  - @ctx-core/combinators@8.0.61
-  - @ctx-core/function@21.17.19
-  - @ctx-core/nanostores@3.2.22
-  - @ctx-core/object@27.4.23
-  - @ctx-core/string@12.1.19
-  - @ctx-core/table@23.4.20
+    - @ctx-core/array@26.12.32
+    - @ctx-core/combinators@8.0.61
+    - @ctx-core/function@21.17.19
+    - @ctx-core/nanostores@3.2.22
+    - @ctx-core/object@27.4.23
+    - @ctx-core/string@12.1.19
+    - @ctx-core/table@23.4.20
 
 ## 18.4.20
 
@@ -1337,13 +1347,13 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@26.12.31
-  - @ctx-core/combinators@8.0.60
-  - @ctx-core/function@21.17.18
-  - @ctx-core/nanostores@3.2.21
-  - @ctx-core/object@27.4.22
-  - @ctx-core/string@12.1.18
-  - @ctx-core/table@23.4.19
+    - @ctx-core/array@26.12.31
+    - @ctx-core/combinators@8.0.60
+    - @ctx-core/function@21.17.18
+    - @ctx-core/nanostores@3.2.21
+    - @ctx-core/object@27.4.22
+    - @ctx-core/string@12.1.18
+    - @ctx-core/table@23.4.19
 
 ## 18.4.19
 
@@ -1363,13 +1373,13 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@26.12.30
-  - @ctx-core/combinators@8.0.59
-  - @ctx-core/function@21.17.17
-  - @ctx-core/nanostores@3.2.20
-  - @ctx-core/object@27.4.21
-  - @ctx-core/string@12.1.17
-  - @ctx-core/table@23.4.18
+    - @ctx-core/array@26.12.30
+    - @ctx-core/combinators@8.0.59
+    - @ctx-core/function@21.17.17
+    - @ctx-core/nanostores@3.2.20
+    - @ctx-core/object@27.4.21
+    - @ctx-core/string@12.1.17
+    - @ctx-core/table@23.4.18
 
 ## 18.4.18
 
@@ -1389,13 +1399,13 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@26.12.29
-  - @ctx-core/combinators@8.0.58
-  - @ctx-core/function@21.17.16
-  - @ctx-core/nanostores@3.2.19
-  - @ctx-core/object@27.4.20
-  - @ctx-core/string@12.1.16
-  - @ctx-core/table@23.4.17
+    - @ctx-core/array@26.12.29
+    - @ctx-core/combinators@8.0.58
+    - @ctx-core/function@21.17.16
+    - @ctx-core/nanostores@3.2.19
+    - @ctx-core/object@27.4.20
+    - @ctx-core/string@12.1.16
+    - @ctx-core/table@23.4.17
 
 ## 18.4.17
 
@@ -1415,13 +1425,13 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@26.12.28
-  - @ctx-core/combinators@8.0.57
-  - @ctx-core/function@21.17.15
-  - @ctx-core/nanostores@3.2.18
-  - @ctx-core/object@27.4.19
-  - @ctx-core/string@12.1.15
-  - @ctx-core/table@23.4.16
+    - @ctx-core/array@26.12.28
+    - @ctx-core/combinators@8.0.57
+    - @ctx-core/function@21.17.15
+    - @ctx-core/nanostores@3.2.18
+    - @ctx-core/object@27.4.19
+    - @ctx-core/string@12.1.15
+    - @ctx-core/table@23.4.16
 
 ## 18.4.16
 
@@ -1441,13 +1451,13 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@26.12.27
-  - @ctx-core/combinators@8.0.56
-  - @ctx-core/function@21.17.14
-  - @ctx-core/nanostores@3.2.17
-  - @ctx-core/object@27.4.18
-  - @ctx-core/string@12.1.14
-  - @ctx-core/table@23.4.15
+    - @ctx-core/array@26.12.27
+    - @ctx-core/combinators@8.0.56
+    - @ctx-core/function@21.17.14
+    - @ctx-core/nanostores@3.2.17
+    - @ctx-core/object@27.4.18
+    - @ctx-core/string@12.1.14
+    - @ctx-core/table@23.4.15
 
 ## 18.4.15
 
@@ -1469,19 +1479,20 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@26.12.26
-  - @ctx-core/combinators@8.0.55
-  - @ctx-core/function@21.17.13
-  - @ctx-core/nanostores@3.2.16
-  - @ctx-core/object@27.4.17
-  - @ctx-core/string@12.1.13
-  - @ctx-core/table@23.4.14
+    - @ctx-core/array@26.12.26
+    - @ctx-core/combinators@8.0.55
+    - @ctx-core/function@21.17.13
+    - @ctx-core/nanostores@3.2.16
+    - @ctx-core/object@27.4.17
+    - @ctx-core/string@12.1.13
+    - @ctx-core/table@23.4.14
 
 ## 18.4.0
 
 ### Minor Changes
 
-- - dehydrated_csv_val_T
+-
+    - dehydrated_csv_val_T
 
 ## 18.3.6
 
@@ -1516,7 +1527,7 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@23.0.0
+    - @ctx-core/table@23.0.0
 
 ## 18.3.1
 
@@ -1528,7 +1539,8 @@
 
 ### Minor Changes
 
-- - hydrated_val\_\_T<ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object>
+-
+    - hydrated_val\_\_T<ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object>
 
 ### Patch Changes
 
@@ -1579,14 +1591,16 @@
 ### Minor Changes
 
 - csv\_\_table\_,reader\_\_csv\_\_table\_: arguments: + val\_\_hydrate?:hydrated_val\_\_T
-- - is*readable_stream_OR_reader*: aliased by is*readable_stream_or_reader*
-- - csv_val\_\_hydrate: aliased by csv\__val_
+-
+    - is*readable_stream_OR_reader*: aliased by is*readable_stream_or_reader*
+-
+    - csv_val\_\_hydrate: aliased by csv\__val_
 
 ### Patch Changes
 
 - csv\_\_table\__parse_o_: fix: type
 - Updated dependencies
-  - @ctx-core/string@12.1.0
+    - @ctx-core/string@12.1.0
 
 ## 17.0.69
 
@@ -1603,7 +1617,7 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@22.0.0
+    - @ctx-core/table@22.0.0
 
 ## 17.0.67
 
@@ -1611,7 +1625,7 @@
 
 - @ctx-core/nanostores: ^3.2.1 -> ^3.2.2
 - Updated dependencies
-  - @ctx-core/table@21.4.3
+    - @ctx-core/table@21.4.3
 
 ## 17.0.66
 
@@ -1625,11 +1639,11 @@
 
 - @ctx-core/function: ^21.16.0 -> ^21.17.0
 - Updated dependencies
-  - @ctx-core/array@26.12.12
-  - @ctx-core/nanostores@3.2.1
-  - @ctx-core/object@27.4.4
-  - @ctx-core/string@12.0.9
-  - @ctx-core/table@21.4.1
+    - @ctx-core/array@26.12.12
+    - @ctx-core/nanostores@3.2.1
+    - @ctx-core/object@27.4.4
+    - @ctx-core/string@12.0.9
+    - @ctx-core/table@21.4.1
 
 ## 17.0.64
 
@@ -1667,7 +1681,7 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@21.0.0
+    - @ctx-core/table@21.0.0
 
 ## 17.0.59
 
@@ -1693,7 +1707,7 @@
 
 - @ctx-core/nanostores: ^3.1.21 -> ^3.2.0
 - Updated dependencies
-  - @ctx-core/table@20.3.6
+    - @ctx-core/table@20.3.6
 
 ## 17.0.55
 
@@ -1707,11 +1721,11 @@
 
 - @ctx-core/function: ^21.15.0 -> ^21.16.0
 - Updated dependencies
-  - @ctx-core/array@26.12.11
-  - @ctx-core/nanostores@3.1.21
-  - @ctx-core/object@27.4.3
-  - @ctx-core/string@12.0.8
-  - @ctx-core/table@20.3.4
+    - @ctx-core/array@26.12.11
+    - @ctx-core/nanostores@3.1.21
+    - @ctx-core/object@27.4.3
+    - @ctx-core/string@12.0.8
+    - @ctx-core/table@20.3.4
 
 ## 17.0.53
 
@@ -1737,7 +1751,7 @@
 
 - @ctx-core/table: ^20.2.13 -> ^20.3.0
 - Updated dependencies
-  - @ctx-core/table@20.3.1
+    - @ctx-core/table@20.3.1
 
 ## 17.0.49
 
@@ -1769,11 +1783,11 @@
 
 - @ctx-core/function: ^21.14.0 -> ^21.15.0
 - Updated dependencies
-  - @ctx-core/array@26.12.10
-  - @ctx-core/nanostores@3.1.20
-  - @ctx-core/object@27.4.2
-  - @ctx-core/string@12.0.7
-  - @ctx-core/table@20.2.9
+    - @ctx-core/array@26.12.10
+    - @ctx-core/nanostores@3.1.20
+    - @ctx-core/object@27.4.2
+    - @ctx-core/string@12.0.7
+    - @ctx-core/table@20.2.9
 
 ## 17.0.44
 
@@ -1787,7 +1801,7 @@
 
 - @ctx-core/nanostores: ^3.1.18 -> ^3.1.19
 - Updated dependencies
-  - @ctx-core/table@20.2.8
+    - @ctx-core/table@20.2.8
 
 ## 17.0.42
 
@@ -1795,9 +1809,9 @@
 
 - @ctx-core/object: ^27.4.0 -> ^27.4.1
 - Updated dependencies
-  - @ctx-core/array@26.12.9
-  - @ctx-core/nanostores@3.1.18
-  - @ctx-core/table@20.2.7
+    - @ctx-core/array@26.12.9
+    - @ctx-core/nanostores@3.1.18
+    - @ctx-core/table@20.2.7
 
 ## 17.0.41
 
@@ -1805,9 +1819,9 @@
 
 - @ctx-core/object: ^27.3.4 -> ^27.4.0
 - Updated dependencies
-  - @ctx-core/array@26.12.8
-  - @ctx-core/nanostores@3.1.17
-  - @ctx-core/table@20.2.6
+    - @ctx-core/array@26.12.8
+    - @ctx-core/nanostores@3.1.17
+    - @ctx-core/table@20.2.6
 
 ## 17.0.40
 
@@ -1821,11 +1835,11 @@
 
 - @ctx-core/function: ^21.13.1 -> ^21.14.0
 - Updated dependencies
-  - @ctx-core/array@26.12.7
-  - @ctx-core/nanostores@3.1.16
-  - @ctx-core/object@27.3.4
-  - @ctx-core/string@12.0.5
-  - @ctx-core/table@20.2.4
+    - @ctx-core/array@26.12.7
+    - @ctx-core/nanostores@3.1.16
+    - @ctx-core/object@27.3.4
+    - @ctx-core/string@12.0.5
+    - @ctx-core/table@20.2.4
 
 ## 17.0.38
 
@@ -1839,11 +1853,11 @@
 
 - @ctx-core/function: ^21.13.0 -> ^21.13.1
 - Updated dependencies
-  - @ctx-core/array@26.12.6
-  - @ctx-core/nanostores@3.1.15
-  - @ctx-core/object@27.3.3
-  - @ctx-core/string@12.0.4
-  - @ctx-core/table@20.2.2
+    - @ctx-core/array@26.12.6
+    - @ctx-core/nanostores@3.1.15
+    - @ctx-core/object@27.3.3
+    - @ctx-core/string@12.0.4
+    - @ctx-core/table@20.2.2
 
 ## 17.0.36
 
@@ -1851,11 +1865,11 @@
 
 - @ctx-core/function: ^21.12.2 -> ^21.13.0
 - Updated dependencies
-  - @ctx-core/array@26.12.5
-  - @ctx-core/nanostores@3.1.14
-  - @ctx-core/object@27.3.2
-  - @ctx-core/string@12.0.3
-  - @ctx-core/table@20.2.1
+    - @ctx-core/array@26.12.5
+    - @ctx-core/nanostores@3.1.14
+    - @ctx-core/object@27.3.2
+    - @ctx-core/string@12.0.3
+    - @ctx-core/table@20.2.1
 
 ## 17.0.35
 
@@ -1875,7 +1889,7 @@
 
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@20.0.0
+    - @ctx-core/table@20.0.0
 
 ## 17.0.32
 
@@ -1908,9 +1922,9 @@
 - @ctx-core/object: ^27.3.0 -> ^27.3.1
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@19.3.3
-  - @ctx-core/array@26.12.4
-  - @ctx-core/nanostores@3.1.13
+    - @ctx-core/table@19.3.3
+    - @ctx-core/array@26.12.4
+    - @ctx-core/nanostores@3.1.13
 
 ## 17.0.27
 
@@ -1931,8 +1945,8 @@
 - @ctx-core/table: ^19.1.19 -> ^19.3.0
 - @ctx-core/object: ^27.2.0 -> ^27.3.0
 - Updated dependencies
-  - @ctx-core/array@26.12.3
-  - @ctx-core/nanostores@3.1.12
+    - @ctx-core/array@26.12.3
+    - @ctx-core/nanostores@3.1.12
 
 ## 17.0.24
 
@@ -1952,9 +1966,9 @@
 
 - @ctx-core/object: ^27.1.7 -> ^27.2.0
 - Updated dependencies
-  - @ctx-core/array@26.12.2
-  - @ctx-core/nanostores@3.1.11
-  - @ctx-core/table@19.1.18
+    - @ctx-core/array@26.12.2
+    - @ctx-core/nanostores@3.1.11
+    - @ctx-core/table@19.1.18
 
 ## 17.0.21
 
@@ -1968,11 +1982,11 @@
 
 - @ctx-core/function: ^21.12.1 -> ^21.12.2
 - Updated dependencies
-  - @ctx-core/array@26.12.1
-  - @ctx-core/nanostores@3.1.10
-  - @ctx-core/object@27.1.7
-  - @ctx-core/string@12.0.2
-  - @ctx-core/table@19.1.16
+    - @ctx-core/array@26.12.1
+    - @ctx-core/nanostores@3.1.10
+    - @ctx-core/object@27.1.7
+    - @ctx-core/string@12.0.2
+    - @ctx-core/table@19.1.16
 
 ## 17.0.19
 
@@ -2004,7 +2018,7 @@
 
 - @ctx-core/nanostores: ^3.1.8 -> ^3.1.9
 - Updated dependencies
-  - @ctx-core/table@19.1.11
+    - @ctx-core/table@19.1.11
 
 ## 17.0.14
 
@@ -2080,7 +2094,7 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/string@12.0.0
+    - @ctx-core/string@12.0.0
 
 ## 17.0.2
 
@@ -2101,17 +2115,22 @@
 ### Major Changes
 
 - csv\__data_row_: params=>csv\_\_parse_o: + csv\_\_data_row\_\_\_parse_o_T
-- - csv\_\_row\_\_\_params_T
-- - reader\_\_csv\_\_table\_\_\_params_T
-- - csv\_\_hd_row\_\_\_params_T
-- - csv\_\_data_row\_\_\_params_T
+-
+    - csv\_\_row\_\_\_params_T
+-
+    - reader\_\_csv\_\_table\_\_\_params_T
+-
+    - csv\_\_hd_row\_\_\_params_T
+-
+    - csv\_\_data_row\_\_\_params_T
 - reader\_\_csv\_\_table\_:
 
   returns:
   AsyncIterable<[data_row_T<ColDefs>, header_row_T<ColDefs>]>: !on_data_row
   Promise<void>: on_data_row
 
-- - csv\__regex_
+-
+    - csv\__regex_
 - csv\_\_row\_: params=>csv\_\_parse_o:+ csv\_\_row\_\_parse_o_T
 - csv\__header_row_: params=>csv\_\_parse_o: csv\_\_parse_o_T
 - csv\__table_:
@@ -2119,22 +2138,31 @@
   params=>has_header_csv?:has_header_csv_T
   returns:
   void: on_data_row,csv:string
-  AsyncIterable<[data_row_T<ColDefs>, header_row_T<ColDefs>]>: !on_data_row,readable_stream_or_reader:readable_stream_or_reader_T
+  AsyncIterable<[data_row_T<ColDefs>, header_row_T<ColDefs>]>: !on_data_row,readable_stream_or_reader:
+  readable_stream_or_reader_T
   Promise<void>: on_data_row,readable_stream_or_reader:readable_stream_or_reader_T
 
 ### Minor Changes
 
-- - csv\__parse_o_,csv\_\_parse_o_T,csv\_\_parse_o\__lex_regexp_,csv\_\_parse_o\__new_line_regexp_
-- - csv\_\_data_row\__parse_o_
-- - csv\_\_on_data_row_T
-- - is*readable_stream_or_reader*
-- - csv\_\_row\__parse_o_
-- - has_header_csv_T
-- - csv\_\_row\_\_row\_\_T
-- - csv\_\_parse: rfc compliant: returns:
+-
+    - csv\__parse_o_,csv\_\_parse_o_T,csv\_\_parse_o\__lex_regexp_,csv\_\_parse_o\__new_line_regexp_
+-
+    - csv\_\_data_row\__parse_o_
+-
+    - csv\_\_on_data_row_T
+-
+    - is*readable_stream_or_reader*
+-
+    - csv\_\_row\__parse_o_
+-
+    - has_header_csv_T
+-
+    - csv\_\_row\_\_row\_\_T
+-
+    - csv\_\_parse: rfc compliant: returns:
 
-    Iterable<string[]>: !on_row argument
-    void: on_row argument
+      Iterable<string[]>: !on_row argument
+      void: on_row argument
 
 ### Patch Changes
 
@@ -2151,8 +2179,8 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/string@11.0.0
-  - @ctx-core/table@19.1.1
+    - @ctx-core/string@11.0.0
+    - @ctx-core/table@19.1.1
 
 ## 16.0.8
 
@@ -2166,7 +2194,7 @@
 
 - @ctx-core/table: ^19.0.4 -> ^19.0.5
 - Updated dependencies
-  - @ctx-core/table@19.0.6
+    - @ctx-core/table@19.0.6
 
 ## 16.0.6
 
@@ -2208,38 +2236,59 @@
 
 ### Major Changes
 
-- - csv*path\_\_,csv_path$*,csv_path_T
-- - csv\_\_fetch_get,csv\_\_fetch_get\_\_params_T,csv\_\_fetch_get\_\_ret_T
-- - row_a\_\_row_id_i\_\_push,push_row_id_i,push\_\_row_id\_\_i
-- - row_a\_\_cast,cast_rows,cast\_\_rows
-- - table_csv\_\_transform,transform_table_csv,transform\_\_table\_\_csv,table_csv\_\_transform\_\_opts_T,csv_table_transform_opts_type
+-
+    - csv*path\_\_,csv_path$*,csv_path_T
+-
+    - csv\_\_fetch_get,csv\_\_fetch_get\_\_params_T,csv\_\_fetch_get\_\_ret_T
+-
+    - row_a\_\_row_id_i\_\_push,push_row_id_i,push\_\_row_id\_\_i
+-
+    - row_a\_\_cast,cast_rows,cast\_\_rows
+-
+    -
+    table_csv\_\_transform,transform_table_csv,transform\_\_table\_\_csv,table_csv\_\_transform\_\_opts_T,csv_table_transform_opts_type
 
 ### Minor Changes
 
-- - csv\_\_val\_,csv\_\_val_T
-- - csv\_\_table\_,csv_o\_\_params_T,has_header_row_T
-- - row*a\_\_csv*
-- - csv\_\_hd_row\_\_\_params_T
-- - reader\_\_csv\_\_table\_,reader\_\_csv\_\_table\_\_on_data_row_T
-- - csv\_\_regex\_,csv\_\_regex_T
-- - row\_\_csv\_\_\_params_T
-- - header_csv\_\_toLowerCase: aliased by column_name\_\_toLowerCase,column_name_toLowerCase,toLowerCase\_\_column_name,toLowerCase\_\_column_name\_\_csv
-- - csv\__data_row_,csv\_\_data_row\_\_\_params_T
-- - row\__csv_
-- - csv\__table_
-- - csv\__row_
-- - csv\__header_row_
-- - table\_\_csv\_,table\_\_csv\_\_\_params_T
+-
+    - csv\_\_val\_,csv\_\_val_T
+-
+    - csv\_\_table\_,csv_o\_\_params_T,has_header_row_T
+-
+    - row*a\_\_csv*
+-
+    - csv\_\_hd_row\_\_\_params_T
+-
+    - reader\_\_csv\_\_table\_,reader\_\_csv\_\_table\_\_on_data_row_T
+-
+    - csv\_\_regex\_,csv\_\_regex_T
+-
+    - row\_\_csv\_\_\_params_T
+-
+    - header_csv\_\_toLowerCase: aliased by
+      column_name\_\_toLowerCase,column_name_toLowerCase,toLowerCase\_\_column_name,toLowerCase\_\_column_name\_\_csv
+-
+    - csv\__data_row_,csv\_\_data_row\_\_\_params_T
+-
+    - row\__csv_
+-
+    - csv\__table_
+-
+    - csv\__row_
+-
+    - csv\__header_row_
+-
+    - table\_\_csv\_,table\_\_csv\_\_\_params_T
 
 ### Patch Changes
 
 - dependencies:
 
-  - @ctx-core/array
-  - @ctx-core/combinators
-  - @ctx-core/fetch-undici
-  - papaparse
-  - svelte
+    - @ctx-core/array
+    - @ctx-core/combinators
+    - @ctx-core/fetch-undici
+    - papaparse
+    - svelte
 
 - Updated dependencies
 - Updated dependencies
@@ -2264,7 +2313,7 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@19.0.0
+    - @ctx-core/table@19.0.0
 
 ## 15.0.23
 
@@ -2278,7 +2327,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.137 -> ^2.3.138
 - Updated dependencies
-  - @ctx-core/table@18.0.15
+    - @ctx-core/table@18.0.15
 
 ## 15.0.21
 
@@ -2287,11 +2336,11 @@
 - @ctx-core/function: ^21.12.0 -> ^21.12.1
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@26.11.20
-  - @ctx-core/nanostores@3.1.8
-  - @ctx-core/object@27.1.6
-  - @ctx-core/table@18.0.14
-  - @ctx-core/fetch-undici@2.3.137
+    - @ctx-core/array@26.11.20
+    - @ctx-core/nanostores@3.1.8
+    - @ctx-core/object@27.1.6
+    - @ctx-core/table@18.0.14
+    - @ctx-core/fetch-undici@2.3.137
 
 ## 15.0.20
 
@@ -2312,10 +2361,10 @@
 
 - @ctx-core/function: ^21.11.0 -> ^21.12.0
 - Updated dependencies
-  - @ctx-core/array@26.11.19
-  - @ctx-core/nanostores@3.1.7
-  - @ctx-core/object@27.1.5
-  - @ctx-core/table@18.0.12
+    - @ctx-core/array@26.11.19
+    - @ctx-core/nanostores@3.1.7
+    - @ctx-core/object@27.1.5
+    - @ctx-core/table@18.0.12
 
 ## 15.0.17
 
@@ -2329,7 +2378,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.132 -> ^2.3.133
 - Updated dependencies
-  - @ctx-core/table@18.0.11
+    - @ctx-core/table@18.0.11
 
 ## 15.0.15
 
@@ -2338,10 +2387,10 @@
 - @ctx-core/object: ^27.1.3 -> ^27.1.4
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@3.1.6
-  - @ctx-core/array@26.11.18
-  - @ctx-core/fetch-undici@2.3.132
-  - @ctx-core/table@18.0.10
+    - @ctx-core/nanostores@3.1.6
+    - @ctx-core/array@26.11.18
+    - @ctx-core/fetch-undici@2.3.132
+    - @ctx-core/table@18.0.10
 
 ## 15.0.14
 
@@ -2355,7 +2404,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.129 -> ^2.3.130
 - Updated dependencies
-  - @ctx-core/table@18.0.9
+    - @ctx-core/table@18.0.9
 
 ## 15.0.12
 
@@ -2363,10 +2412,10 @@
 
 - @ctx-core/object: ^27.1.2 -> ^27.1.3
 - Updated dependencies
-  - @ctx-core/array@26.11.17
-  - @ctx-core/fetch-undici@2.3.129
-  - @ctx-core/nanostores@3.1.5
-  - @ctx-core/table@18.0.8
+    - @ctx-core/array@26.11.17
+    - @ctx-core/fetch-undici@2.3.129
+    - @ctx-core/nanostores@3.1.5
+    - @ctx-core/table@18.0.8
 
 ## 15.0.11
 
@@ -2387,10 +2436,10 @@
 
 - @ctx-core/function: ^21.10.1 -> ^21.11.0
 - Updated dependencies
-  - @ctx-core/array@26.11.16
-  - @ctx-core/nanostores@3.1.4
-  - @ctx-core/object@27.1.2
-  - @ctx-core/table@18.0.6
+    - @ctx-core/array@26.11.16
+    - @ctx-core/nanostores@3.1.4
+    - @ctx-core/object@27.1.2
+    - @ctx-core/table@18.0.6
 
 ## 15.0.8
 
@@ -2412,11 +2461,11 @@
 - @ctx-core/function: ^21.9.0 -> ^21.10.0
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@26.11.15
-  - @ctx-core/nanostores@3.1.3
-  - @ctx-core/object@27.1.1
-  - @ctx-core/table@18.0.4
-  - @ctx-core/function@21.10.1
+    - @ctx-core/array@26.11.15
+    - @ctx-core/nanostores@3.1.3
+    - @ctx-core/object@27.1.1
+    - @ctx-core/table@18.0.4
+    - @ctx-core/function@21.10.1
 
 ## 15.0.5
 
@@ -2429,10 +2478,10 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@18.0.3
-  - @ctx-core/array@26.11.14
-  - @ctx-core/nanostores@3.1.2
-  - @ctx-core/fetch-undici@2.3.124
+    - @ctx-core/table@18.0.3
+    - @ctx-core/array@26.11.14
+    - @ctx-core/nanostores@3.1.2
+    - @ctx-core/fetch-undici@2.3.124
 
 ## 15.0.4
 
@@ -2440,7 +2489,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.121 -> ^2.3.122
 - Updated dependencies
-  - @ctx-core/table@18.0.2
+    - @ctx-core/table@18.0.2
 
 ## 15.0.3
 
@@ -2448,7 +2497,7 @@
 
 - @ctx-core/nanostores: ^3.0.0 -> ^3.1.1
 - Updated dependencies
-  - @ctx-core/table@18.0.1
+    - @ctx-core/table@18.0.1
 
 ## 15.0.2
 
@@ -2486,11 +2535,11 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@18.0.0
-  - @ctx-core/nanostores@3.0.0
-  - @ctx-core/object@27.0.0
-  - @ctx-core/array@26.11.12
-  - @ctx-core/fetch-undici@2.3.121
+    - @ctx-core/table@18.0.0
+    - @ctx-core/nanostores@3.0.0
+    - @ctx-core/object@27.0.0
+    - @ctx-core/array@26.11.12
+    - @ctx-core/fetch-undici@2.3.121
 
 ## 15.0.1
 
@@ -2504,7 +2553,7 @@
   maybe_rows=>maybe_row_a
 
 - Updated dependencies
-  - @ctx-core/table@17.0.1
+    - @ctx-core/table@17.0.1
 
 ## 15.0.0
 
@@ -2514,15 +2563,19 @@
 - csv_path\_\_: - load_csv_data_params
 - csv\_\_fetch_get\_\_params_T:
 
-  - table\_\_domain
-  - tick\_\_domain
+    - table\_\_domain
+    - tick\_\_domain
 
 ### Minor Changes
 
-- - row_a\_\_row_id_i\_\_push: aliased by push_row_id_i
-- - row_a\_\_cast: aliased by cast_rows
-- - csv\_\_fetch_get: extracted from csv_path\_\_: load_csv_data
-- - column_name\_\_toLowerCase: aliased by column_name_toLowerCase
+-
+    - row_a\_\_row_id_i\_\_push: aliased by push_row_id_i
+-
+    - row_a\_\_cast: aliased by cast_rows
+-
+    - csv\_\_fetch_get: extracted from csv_path\_\_: load_csv_data
+-
+    - column_name\_\_toLowerCase: aliased by column_name_toLowerCase
 
 ### Patch Changes
 
@@ -2580,7 +2633,7 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@17.0.0
+    - @ctx-core/table@17.0.0
 
 ## 14.2.50
 
@@ -2601,7 +2654,7 @@
 - @ctx-core/fetch-undici: ^2.3.116 -> ^2.3.118
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/fetch-undici@2.3.119
+    - @ctx-core/fetch-undici@2.3.119
 
 ## 14.2.47
 
@@ -2609,7 +2662,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.114 -> ^2.3.115
 - Updated dependencies
-  - @ctx-core/fetch-undici@2.3.116
+    - @ctx-core/fetch-undici@2.3.116
 
 ## 14.2.46
 
@@ -2623,7 +2676,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.112 -> ^2.3.113
 - Updated dependencies
-  - @ctx-core/table@16.2.24
+    - @ctx-core/table@16.2.24
 
 ## 14.2.44
 
@@ -2634,11 +2687,11 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/object@26.0.0
-  - @ctx-core/array@26.11.11
-  - @ctx-core/fetch-undici@2.3.112
-  - @ctx-core/nanostores@2.2.34
-  - @ctx-core/table@16.2.23
+    - @ctx-core/object@26.0.0
+    - @ctx-core/array@26.11.11
+    - @ctx-core/fetch-undici@2.3.112
+    - @ctx-core/nanostores@2.2.34
+    - @ctx-core/table@16.2.23
 
 ## 14.2.43
 
@@ -2652,7 +2705,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.109 -> ^2.3.110
 - Updated dependencies
-  - @ctx-core/table@16.2.22
+    - @ctx-core/table@16.2.22
 
 ## 14.2.41
 
@@ -2660,10 +2713,10 @@
 
 - @ctx-core/object: ^25.2.0 -> ^25.2.1
 - Updated dependencies
-  - @ctx-core/array@26.11.10
-  - @ctx-core/fetch-undici@2.3.109
-  - @ctx-core/nanostores@2.2.33
-  - @ctx-core/table@16.2.21
+    - @ctx-core/array@26.11.10
+    - @ctx-core/fetch-undici@2.3.109
+    - @ctx-core/nanostores@2.2.33
+    - @ctx-core/table@16.2.21
 
 ## 14.2.40
 
@@ -2677,7 +2730,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.106 -> ^2.3.107
 - Updated dependencies
-  - @ctx-core/table@16.2.20
+    - @ctx-core/table@16.2.20
 
 ## 14.2.38
 
@@ -2685,10 +2738,10 @@
 
 - @ctx-core/object: ^25.1.0 -> ^25.2.0
 - Updated dependencies
-  - @ctx-core/array@26.11.9
-  - @ctx-core/fetch-undici@2.3.106
-  - @ctx-core/nanostores@2.2.32
-  - @ctx-core/table@16.2.19
+    - @ctx-core/array@26.11.9
+    - @ctx-core/fetch-undici@2.3.106
+    - @ctx-core/nanostores@2.2.32
+    - @ctx-core/table@16.2.19
 
 ## 14.2.37
 
@@ -2702,7 +2755,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.103 -> ^2.3.104
 - Updated dependencies
-  - @ctx-core/table@16.2.18
+    - @ctx-core/table@16.2.18
 
 ## 14.2.35
 
@@ -2710,10 +2763,10 @@
 
 - @ctx-core/object: ^25.0.1 -> ^25.1.0
 - Updated dependencies
-  - @ctx-core/array@26.11.8
-  - @ctx-core/fetch-undici@2.3.103
-  - @ctx-core/nanostores@2.2.31
-  - @ctx-core/table@16.2.17
+    - @ctx-core/array@26.11.8
+    - @ctx-core/fetch-undici@2.3.103
+    - @ctx-core/nanostores@2.2.31
+    - @ctx-core/table@16.2.17
 
 ## 14.2.34
 
@@ -2727,7 +2780,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.100 -> ^2.3.101
 - Updated dependencies
-  - @ctx-core/table@16.2.16
+    - @ctx-core/table@16.2.16
 
 ## 14.2.32
 
@@ -2743,10 +2796,10 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/fetch-undici@2.3.100
-  - @ctx-core/array@26.11.7
-  - @ctx-core/nanostores@2.2.30
-  - @ctx-core/table@16.2.15
+    - @ctx-core/fetch-undici@2.3.100
+    - @ctx-core/array@26.11.7
+    - @ctx-core/nanostores@2.2.30
+    - @ctx-core/table@16.2.15
 
 ## 14.2.30
 
@@ -2764,11 +2817,11 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/object@25.0.0
-  - @ctx-core/array@26.11.6
-  - @ctx-core/fetch-undici@2.3.99
-  - @ctx-core/nanostores@2.2.29
-  - @ctx-core/table@16.2.14
+    - @ctx-core/object@25.0.0
+    - @ctx-core/array@26.11.6
+    - @ctx-core/fetch-undici@2.3.99
+    - @ctx-core/nanostores@2.2.29
+    - @ctx-core/table@16.2.14
 
 ## 14.2.29
 
@@ -2777,7 +2830,7 @@
 - @ctx-core/fetch-undici: ^2.3.96 -> ^2.3.97
 - @ctx-core/table: ^16.2.12 -> ^16.2.13
 - Updated dependencies
-  - @ctx-core/fetch-undici@2.3.98
+    - @ctx-core/fetch-undici@2.3.98
 
 ## 14.2.28
 
@@ -2785,7 +2838,7 @@
 
 - @ctx-core/array: ^26.11.4 -> ^26.11.5
 - Updated dependencies
-  - @ctx-core/table@16.2.12
+    - @ctx-core/table@16.2.12
 
 ## 14.2.27
 
@@ -2811,10 +2864,10 @@
 
 - @ctx-core/function: ^21.7.2 -> ^21.8.0
 - Updated dependencies
-  - @ctx-core/array@26.11.4
-  - @ctx-core/nanostores@2.2.28
-  - @ctx-core/object@24.1.8
-  - @ctx-core/table@16.2.10
+    - @ctx-core/array@26.11.4
+    - @ctx-core/nanostores@2.2.28
+    - @ctx-core/object@24.1.8
+    - @ctx-core/table@16.2.10
 
 ## 14.2.23
 
@@ -2829,7 +2882,7 @@
 - @ctx-core/nanostores: ^2.2.26 -> ^2.2.27
 - @ctx-core/fetch-undici: ^2.3.92 -> ^2.3.93
 - Updated dependencies
-  - @ctx-core/table@16.2.9
+    - @ctx-core/table@16.2.9
 
 ## 14.2.21
 
@@ -2839,9 +2892,9 @@
 - @ctx-core/nanostores: ^2.2.25 -> ^2.2.26
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@26.11.3
-  - @ctx-core/object@24.1.7
-  - @ctx-core/table@16.2.8
+    - @ctx-core/array@26.11.3
+    - @ctx-core/object@24.1.7
+    - @ctx-core/table@16.2.8
 
 ## 14.2.20
 
@@ -2867,10 +2920,10 @@
 
 - @ctx-core/function: ^21.7.0 -> ^21.7.1
 - Updated dependencies
-  - @ctx-core/array@26.11.2
-  - @ctx-core/nanostores@2.2.25
-  - @ctx-core/object@24.1.6
-  - @ctx-core/table@16.2.6
+    - @ctx-core/array@26.11.2
+    - @ctx-core/nanostores@2.2.25
+    - @ctx-core/object@24.1.6
+    - @ctx-core/table@16.2.6
 
 ## 14.2.16
 
@@ -2887,8 +2940,8 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/fetch-undici@2.3.89
-  - @ctx-core/table@16.2.5
+    - @ctx-core/fetch-undici@2.3.89
+    - @ctx-core/table@16.2.5
 
 ## 14.2.14
 
@@ -2899,10 +2952,10 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@2.2.24
-  - @ctx-core/object@24.1.5
-  - @ctx-core/table@16.2.4
-  - @ctx-core/fetch-undici@2.3.88
+    - @ctx-core/nanostores@2.2.24
+    - @ctx-core/object@24.1.5
+    - @ctx-core/table@16.2.4
+    - @ctx-core/fetch-undici@2.3.88
 
 ## 14.2.13
 
@@ -2910,7 +2963,7 @@
 
 - @ctx-core/nanostores: ^2.2.22 -> ^2.2.23
 - Updated dependencies
-  - @ctx-core/table@16.2.3
+    - @ctx-core/table@16.2.3
 
 ## 14.2.12
 
@@ -2919,7 +2972,7 @@
 - @ctx-core/table: ^16.2.1 -> ^16.2.2
 - @ctx-core/fetch-undici: ^2.3.85 -> ^2.3.86
 - Updated dependencies
-  - @ctx-core/fetch-undici@2.3.87
+    - @ctx-core/fetch-undici@2.3.87
 
 ## 14.2.11
 
@@ -2928,7 +2981,7 @@
 - @ctx-core/array: ^26.10.1 -> ^26.10.2
 - @ctx-core/table: ^16.1.64 -> ^16.2.0
 - Updated dependencies
-  - @ctx-core/table@16.2.1
+    - @ctx-core/table@16.2.1
 
 ## 14.2.10
 
@@ -3025,7 +3078,7 @@
 
 - @ctx-core/array: ^26.10.0 -> ^26.10.1
 - Updated dependencies
-  - @ctx-core/table@16.1.58
+    - @ctx-core/table@16.1.58
 
 ## 14.1.97
 
@@ -3045,7 +3098,7 @@
 
 - @ctx-core/array: ^26.9.0 -> ^26.10.0
 - Updated dependencies
-  - @ctx-core/table@16.1.56
+    - @ctx-core/table@16.1.56
 
 ## 14.1.94
 
@@ -3060,7 +3113,7 @@
 
 - @ctx-core/array: ^26.8.17 -> ^26.9.0
 - Updated dependencies
-  - @ctx-core/table@16.1.54
+    - @ctx-core/table@16.1.54
 
 ## 14.1.92
 
@@ -3080,7 +3133,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.69 -> ^2.3.70
 - Updated dependencies
-  - @ctx-core/table@16.1.53
+    - @ctx-core/table@16.1.53
 
 ## 14.1.89
 
@@ -3088,10 +3141,10 @@
 
 - @ctx-core/object: ^24.1.3 -> ^24.1.4
 - Updated dependencies
-  - @ctx-core/array@26.8.17
-  - @ctx-core/fetch-undici@2.3.69
-  - @ctx-core/nanostores@2.2.22
-  - @ctx-core/table@16.1.52
+    - @ctx-core/array@26.8.17
+    - @ctx-core/fetch-undici@2.3.69
+    - @ctx-core/nanostores@2.2.22
+    - @ctx-core/table@16.1.52
 
 ## 14.1.88
 
@@ -3105,7 +3158,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.66 -> ^2.3.67
 - Updated dependencies
-  - @ctx-core/table@16.1.51
+    - @ctx-core/table@16.1.51
 
 ## 14.1.86
 
@@ -3113,10 +3166,10 @@
 
 - @ctx-core/object: ^24.1.2 -> ^24.1.3
 - Updated dependencies
-  - @ctx-core/array@26.8.16
-  - @ctx-core/fetch-undici@2.3.66
-  - @ctx-core/nanostores@2.2.21
-  - @ctx-core/table@16.1.50
+    - @ctx-core/array@26.8.16
+    - @ctx-core/fetch-undici@2.3.66
+    - @ctx-core/nanostores@2.2.21
+    - @ctx-core/table@16.1.50
 
 ## 14.1.85
 
@@ -3136,7 +3189,7 @@
 
 - @ctx-core/nanostores: ^2.2.19 -> ^2.2.20
 - Updated dependencies
-  - @ctx-core/table@16.1.49
+    - @ctx-core/table@16.1.49
 
 ## 14.1.82
 
@@ -3144,7 +3197,7 @@
 
 - @ctx-core/nanostores: ^2.2.18 -> ^2.2.19
 - Updated dependencies
-  - @ctx-core/table@16.1.48
+    - @ctx-core/table@16.1.48
 
 ## 14.1.81
 
@@ -3161,7 +3214,7 @@
 - @ctx-core/array: ^26.8.14 -> ^26.8.15
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@16.1.46
+    - @ctx-core/table@16.1.46
 
 ## 14.1.79
 
@@ -3169,8 +3222,8 @@
 
 - @swc/core: ^1.3.31 -> ^1.3.32
 - Updated dependencies
-  - @ctx-core/combinators@8.0.41
-  - @ctx-core/table@16.1.45
+    - @ctx-core/combinators@8.0.41
+    - @ctx-core/table@16.1.45
 
 ## 14.1.78
 
@@ -3185,7 +3238,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.58 -> ^2.3.59
 - Updated dependencies
-  - @ctx-core/fetch-undici@2.3.60
+    - @ctx-core/fetch-undici@2.3.60
 
 ## 14.1.76
 
@@ -3193,10 +3246,10 @@
 
 - @ctx-core/object: ^24.1.1 -> ^24.1.2
 - Updated dependencies
-  - @ctx-core/array@26.8.14
-  - @ctx-core/fetch-undici@2.3.58
-  - @ctx-core/nanostores@2.2.18
-  - @ctx-core/table@16.1.43
+    - @ctx-core/array@26.8.14
+    - @ctx-core/fetch-undici@2.3.58
+    - @ctx-core/nanostores@2.2.18
+    - @ctx-core/table@16.1.43
 
 ## 14.1.75
 
@@ -3204,13 +3257,13 @@
 
 - tsconfig.json: - importsNotUsedAsValues
 - Updated dependencies
-  - @ctx-core/array@26.8.13
-  - @ctx-core/combinators@8.0.40
-  - @ctx-core/fetch-undici@2.3.57
-  - @ctx-core/function@21.6.1
-  - @ctx-core/nanostores@2.2.17
-  - @ctx-core/object@24.1.1
-  - @ctx-core/table@16.1.42
+    - @ctx-core/array@26.8.13
+    - @ctx-core/combinators@8.0.40
+    - @ctx-core/fetch-undici@2.3.57
+    - @ctx-core/function@21.6.1
+    - @ctx-core/nanostores@2.2.17
+    - @ctx-core/object@24.1.1
+    - @ctx-core/table@16.1.42
 
 ## 14.1.74
 
@@ -3218,7 +3271,7 @@
 
 - @ctx-core/nanostores: ^2.2.15 -> ^2.2.16
 - Updated dependencies
-  - @ctx-core/table@16.1.41
+    - @ctx-core/table@16.1.41
 
 ## 14.1.73
 
@@ -3238,7 +3291,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.53 -> ^2.3.54
 - Updated dependencies
-  - @ctx-core/table@16.1.40
+    - @ctx-core/table@16.1.40
 
 ## 14.1.70
 
@@ -3246,10 +3299,10 @@
 
 - @ctx-core/object: ^24.0.0 -> ^24.0.1
 - Updated dependencies
-  - @ctx-core/array@26.8.12
-  - @ctx-core/fetch-undici@2.3.53
-  - @ctx-core/nanostores@2.2.15
-  - @ctx-core/table@16.1.39
+    - @ctx-core/array@26.8.12
+    - @ctx-core/fetch-undici@2.3.53
+    - @ctx-core/nanostores@2.2.15
+    - @ctx-core/table@16.1.39
 
 ## 14.1.69
 
@@ -3275,7 +3328,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.48 -> ^2.3.49
 - Updated dependencies
-  - @ctx-core/table@16.1.38
+    - @ctx-core/table@16.1.38
 
 ## 14.1.65
 
@@ -3284,11 +3337,11 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/object@24.0.0
-  - @ctx-core/array@26.8.11
-  - @ctx-core/fetch-undici@2.3.48
-  - @ctx-core/nanostores@2.2.14
-  - @ctx-core/table@16.1.37
+    - @ctx-core/object@24.0.0
+    - @ctx-core/array@26.8.11
+    - @ctx-core/fetch-undici@2.3.48
+    - @ctx-core/nanostores@2.2.14
+    - @ctx-core/table@16.1.37
 
 ## 14.1.64
 
@@ -3310,8 +3363,8 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/fetch-undici@2.3.45
-  - @ctx-core/table@16.1.36
+    - @ctx-core/fetch-undici@2.3.45
+    - @ctx-core/table@16.1.36
 
 ## 14.1.61
 
@@ -3319,7 +3372,7 @@
 
 - rimraf: ^3.0.2 -> ^4.0.1
 - Updated dependencies
-  - @ctx-core/table@16.1.35
+    - @ctx-core/table@16.1.35
 
 ## 14.1.60
 
@@ -3351,7 +3404,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.40 -> ^2.3.41
 - Updated dependencies
-  - @ctx-core/table@16.1.34
+    - @ctx-core/table@16.1.34
 
 ## 14.1.55
 
@@ -3359,10 +3412,10 @@
 
 - @ctx-core/object: ^23.0.1 -> ^23.1.0
 - Updated dependencies
-  - @ctx-core/array@26.8.10
-  - @ctx-core/fetch-undici@2.3.40
-  - @ctx-core/nanostores@2.2.13
-  - @ctx-core/table@16.1.33
+    - @ctx-core/array@26.8.10
+    - @ctx-core/fetch-undici@2.3.40
+    - @ctx-core/nanostores@2.2.13
+    - @ctx-core/table@16.1.33
 
 ## 14.1.54
 
@@ -3376,7 +3429,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.37 -> ^2.3.38
 - Updated dependencies
-  - @ctx-core/table@16.1.32
+    - @ctx-core/table@16.1.32
 
 ## 14.1.52
 
@@ -3384,10 +3437,10 @@
 
 - @ctx-core/object: ^23.0.0 -> ^23.0.1
 - Updated dependencies
-  - @ctx-core/array@26.8.9
-  - @ctx-core/fetch-undici@2.3.37
-  - @ctx-core/nanostores@2.2.12
-  - @ctx-core/table@16.1.31
+    - @ctx-core/array@26.8.9
+    - @ctx-core/fetch-undici@2.3.37
+    - @ctx-core/nanostores@2.2.12
+    - @ctx-core/table@16.1.31
 
 ## 14.1.51
 
@@ -3401,18 +3454,18 @@
 
 - @ctx-core/fetch-undici: ^2.3.34 -> ^2.3.35
 - Updated dependencies
-  - @ctx-core/table@16.1.30
+    - @ctx-core/table@16.1.30
 
 ## 14.1.49
 
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/object@23.0.0
-  - @ctx-core/array@26.8.8
-  - @ctx-core/fetch-undici@2.3.34
-  - @ctx-core/nanostores@2.2.11
-  - @ctx-core/table@16.1.29
+    - @ctx-core/object@23.0.0
+    - @ctx-core/array@26.8.8
+    - @ctx-core/fetch-undici@2.3.34
+    - @ctx-core/nanostores@2.2.11
+    - @ctx-core/table@16.1.29
 
 ## 14.1.48
 
@@ -3426,7 +3479,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.31 -> ^2.3.32
 - Updated dependencies
-  - @ctx-core/table@16.1.28
+    - @ctx-core/table@16.1.28
 
 ## 14.1.46
 
@@ -3434,10 +3487,10 @@
 
 - @ctx-core/object: ^22.9.1 -> ^22.10.0
 - Updated dependencies
-  - @ctx-core/array@26.8.7
-  - @ctx-core/fetch-undici@2.3.31
-  - @ctx-core/nanostores@2.2.10
-  - @ctx-core/table@16.1.27
+    - @ctx-core/array@26.8.7
+    - @ctx-core/fetch-undici@2.3.31
+    - @ctx-core/nanostores@2.2.10
+    - @ctx-core/table@16.1.27
 
 ## 14.1.45
 
@@ -3451,7 +3504,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.28 -> ^2.3.29
 - Updated dependencies
-  - @ctx-core/table@16.1.26
+    - @ctx-core/table@16.1.26
 
 ## 14.1.43
 
@@ -3460,10 +3513,10 @@
 - @ctx-core/object: ^22.9.0 -> ^22.9.1
 - @ctx-core/fetch-undici: ^2.3.26 -> ^2.3.27
 - Updated dependencies
-  - @ctx-core/array@26.8.6
-  - @ctx-core/fetch-undici@2.3.28
-  - @ctx-core/nanostores@2.2.9
-  - @ctx-core/table@16.1.25
+    - @ctx-core/array@26.8.6
+    - @ctx-core/fetch-undici@2.3.28
+    - @ctx-core/nanostores@2.2.9
+    - @ctx-core/table@16.1.25
 
 ## 14.1.42
 
@@ -3471,7 +3524,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.25 -> ^2.3.26
 - Updated dependencies
-  - @ctx-core/table@16.1.24
+    - @ctx-core/table@16.1.24
 
 ## 14.1.41
 
@@ -3479,10 +3532,10 @@
 
 - @ctx-core/object: ^22.8.2 -> ^22.9.0
 - Updated dependencies
-  - @ctx-core/array@26.8.5
-  - @ctx-core/fetch-undici@2.3.25
-  - @ctx-core/nanostores@2.2.8
-  - @ctx-core/table@16.1.23
+    - @ctx-core/array@26.8.5
+    - @ctx-core/fetch-undici@2.3.25
+    - @ctx-core/nanostores@2.2.8
+    - @ctx-core/table@16.1.23
 
 ## 14.1.40
 
@@ -3496,7 +3549,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.22 -> ^2.3.23
 - Updated dependencies
-  - @ctx-core/table@16.1.22
+    - @ctx-core/table@16.1.22
 
 ## 14.1.38
 
@@ -3506,10 +3559,10 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/fetch-undici@2.3.22
-  - @ctx-core/array@26.8.4
-  - @ctx-core/nanostores@2.2.7
-  - @ctx-core/table@16.1.21
+    - @ctx-core/fetch-undici@2.3.22
+    - @ctx-core/array@26.8.4
+    - @ctx-core/nanostores@2.2.7
+    - @ctx-core/table@16.1.21
 
 ## 14.1.37
 
@@ -3518,11 +3571,11 @@
 - @ctx-core/object: ^22.6.0 -> ^22.7.0
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@26.8.3
-  - @ctx-core/fetch-undici@2.3.21
-  - @ctx-core/nanostores@2.2.6
-  - @ctx-core/table@16.1.20
-  - @ctx-core/object@22.8.0
+    - @ctx-core/array@26.8.3
+    - @ctx-core/fetch-undici@2.3.21
+    - @ctx-core/nanostores@2.2.6
+    - @ctx-core/table@16.1.20
+    - @ctx-core/object@22.8.0
 
 ## 14.1.36
 
@@ -3536,7 +3589,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.18 -> ^2.3.19
 - Updated dependencies
-  - @ctx-core/table@16.1.19
+    - @ctx-core/table@16.1.19
 
 ## 14.1.34
 
@@ -3544,10 +3597,10 @@
 
 - @ctx-core/object: ^22.5.0 -> ^22.6.0
 - Updated dependencies
-  - @ctx-core/array@26.8.2
-  - @ctx-core/fetch-undici@2.3.18
-  - @ctx-core/nanostores@2.2.5
-  - @ctx-core/table@16.1.18
+    - @ctx-core/array@26.8.2
+    - @ctx-core/fetch-undici@2.3.18
+    - @ctx-core/nanostores@2.2.5
+    - @ctx-core/table@16.1.18
 
 ## 14.1.33
 
@@ -3561,7 +3614,7 @@
 
 - @ctx-core/fetch-undici: ^2.3.15 -> ^2.3.16
 - Updated dependencies
-  - @ctx-core/table@16.1.17
+    - @ctx-core/table@16.1.17
 
 ## 14.1.31
 
@@ -3569,10 +3622,10 @@
 
 - @ctx-core/object: ^22.4.1 -> ^22.5.0
 - Updated dependencies
-  - @ctx-core/array@26.8.1
-  - @ctx-core/fetch-undici@2.3.15
-  - @ctx-core/nanostores@2.2.4
-  - @ctx-core/table@16.1.16
+    - @ctx-core/array@26.8.1
+    - @ctx-core/fetch-undici@2.3.15
+    - @ctx-core/nanostores@2.2.4
+    - @ctx-core/table@16.1.16
 
 ## 14.1.30
 
@@ -3592,7 +3645,7 @@
 
 - @ctx-core/nanostores: ^2.2.2 -> ^2.2.3
 - Updated dependencies
-  - @ctx-core/table@16.1.15
+    - @ctx-core/table@16.1.15
 
 ## 14.1.27
 
@@ -3660,7 +3713,7 @@
 
 - @ctx-core/nanostores: ^2.0.2 -> ^2.2.0
 - Updated dependencies
-  - @ctx-core/table@16.1.13
+    - @ctx-core/table@16.1.13
 
 ## 14.1.16
 
@@ -3674,10 +3727,10 @@
 
 - @ctx-core/function: ^21.0.1 -> ^21.1.0
 - Updated dependencies
-  - @ctx-core/array@26.7.8
-  - @ctx-core/nanostores@2.0.1
-  - @ctx-core/object@22.2.8
-  - @ctx-core/table@16.1.12
+    - @ctx-core/array@26.7.8
+    - @ctx-core/nanostores@2.0.1
+    - @ctx-core/object@22.2.8
+    - @ctx-core/table@16.1.12
 
 ## 14.1.14
 
@@ -3691,15 +3744,15 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/table@16.1.11
+    - @ctx-core/table@16.1.11
 
 ## 14.1.12
 
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/nanostores@2.0.0
-  - @ctx-core/table@16.1.10
+    - @ctx-core/nanostores@2.0.0
+    - @ctx-core/table@16.1.10
 
 ## 14.1.11
 
@@ -3707,21 +3760,21 @@
 
 - @ctx-core/function: 21.0.0
 - Updated dependencies
-  - @ctx-core/array@26.7.6
-  - @ctx-core/nanostores@1.4.10
-  - @ctx-core/object@22.2.6
-  - @ctx-core/table@16.1.9
+    - @ctx-core/array@26.7.6
+    - @ctx-core/nanostores@1.4.10
+    - @ctx-core/object@22.2.6
+    - @ctx-core/table@16.1.9
 
 ## 14.1.10
 
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/function@21.0.0
-  - @ctx-core/array@26.7.5
-  - @ctx-core/nanostores@1.4.9
-  - @ctx-core/object@22.2.5
-  - @ctx-core/table@16.1.8
+    - @ctx-core/function@21.0.0
+    - @ctx-core/array@26.7.5
+    - @ctx-core/nanostores@1.4.9
+    - @ctx-core/object@22.2.5
+    - @ctx-core/table@16.1.8
 
 ## 14.1.9
 
@@ -3729,10 +3782,10 @@
 
 - @ctx-core/function: 20.10.0
 - Updated dependencies
-  - @ctx-core/array@26.7.4
-  - @ctx-core/nanostores@1.4.5
-  - @ctx-core/object@22.2.4
-  - @ctx-core/table@16.1.7
+    - @ctx-core/array@26.7.4
+    - @ctx-core/nanostores@1.4.5
+    - @ctx-core/object@22.2.4
+    - @ctx-core/table@16.1.7
 
 ## 14.1.8
 
@@ -3740,10 +3793,10 @@
 
 - @ctx-core/function: 20.9.1
 - Updated dependencies
-  - @ctx-core/array@26.7.3
-  - @ctx-core/nanostores@1.4.4
-  - @ctx-core/object@22.2.3
-  - @ctx-core/table@16.1.6
+    - @ctx-core/array@26.7.3
+    - @ctx-core/nanostores@1.4.4
+    - @ctx-core/object@22.2.3
+    - @ctx-core/table@16.1.6
 
 ## 14.1.7
 
@@ -3751,10 +3804,10 @@
 
 - @ctx-core: 20.9.0
 - Updated dependencies
-  - @ctx-core/array@26.7.2
-  - @ctx-core/nanostores@1.4.3
-  - @ctx-core/object@22.2.2
-  - @ctx-core/table@16.1.5
+    - @ctx-core/array@26.7.2
+    - @ctx-core/nanostores@1.4.3
+    - @ctx-core/object@22.2.2
+    - @ctx-core/table@16.1.5
 
 ## 14.1.6
 
@@ -3763,8 +3816,8 @@
 - @ctx-core/array: ^26.6.0 -> ^26.7.0
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@26.7.1
-  - @ctx-core/table@16.1.4
+    - @ctx-core/array@26.7.1
+    - @ctx-core/table@16.1.4
 
 ## 14.1.5
 
@@ -3772,7 +3825,7 @@
 
 - @ctx-core/nanostores: ^1.4.1 -> ^1.4.2
 - Updated dependencies
-  - @ctx-core/table@16.1.3
+    - @ctx-core/table@16.1.3
 
 ## 14.1.4
 
@@ -3780,7 +3833,7 @@
 
 - svelte: ^3.48.0 -> ^3.49.0
 - Updated dependencies
-  - @ctx-core/fetch-undici@2.2.3
+    - @ctx-core/fetch-undici@2.2.3
 
 ## 14.1.3
 
@@ -3788,7 +3841,7 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/fetch-undici@2.2.1
+    - @ctx-core/fetch-undici@2.2.1
 
 ## 14.1.2
 
@@ -3796,7 +3849,7 @@
 
 - "@ctx-core/array": "^26.6.0"
 - Updated dependencies
-  - @ctx-core/table@16.1.2
+    - @ctx-core/table@16.1.2
 
 ## 14.1.1
 
@@ -3804,7 +3857,7 @@
 
 - @ctx-core/array: 26.5.2
 - Updated dependencies
-  - @ctx-core/table@16.1.1
+    - @ctx-core/table@16.1.1
 
 ## 14.1.0
 
@@ -3815,8 +3868,8 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/array@26.5.0
-  - @ctx-core/table@16.1.0
+    - @ctx-core/array@26.5.0
+    - @ctx-core/table@16.1.0
 
 ## 14.0.53
 
@@ -3824,7 +3877,7 @@
 
 - @ctx-core/nanostores: 1.4.0
 - Updated dependencies
-  - @ctx-core/table@16.0.35
+    - @ctx-core/table@16.0.35
 
 ## 14.0.52
 
@@ -3832,7 +3885,7 @@
 
 - @ctx-core/nanostores: 1.3.0
 - Updated dependencies
-  - @ctx-core/table@16.0.34
+    - @ctx-core/table@16.0.34
 
 ## 14.0.51
 
@@ -3840,7 +3893,7 @@
 
 - @ctx-core/nanostores: 1.2.0
 - Updated dependencies
-  - @ctx-core/table@16.0.33
+    - @ctx-core/table@16.0.33
 
 ## 14.0.50
 
@@ -3848,7 +3901,7 @@
 
 - "@ctx-core/nanostores": "^1.1.1"
 - Updated dependencies
-  - @ctx-core/table@16.0.32
+    - @ctx-core/table@16.0.32
 
 ## 14.0.49
 
@@ -3856,7 +3909,7 @@
 
 - ∋ @ctx-core/nanostores: 1.1.0
 - Updated dependencies
-  - @ctx-core/table@16.0.31
+    - @ctx-core/table@16.0.31
 
 ## 14.0.48
 
@@ -3864,9 +3917,9 @@
 
 - @ctx-core/object: 22.2.0
 - Updated dependencies
-  - @ctx-core/array@26.4.3
-  - @ctx-core/fetch-undici@2.1.12
-  - @ctx-core/table@16.0.30
+    - @ctx-core/array@26.4.3
+    - @ctx-core/fetch-undici@2.1.12
+    - @ctx-core/table@16.0.30
 
 ## 14.0.47
 
@@ -3874,7 +3927,7 @@
 
 - @ctx-core/array: 26.4.2
 - Updated dependencies
-  - @ctx-core/table@16.0.29
+    - @ctx-core/table@16.0.29
 
 ## 14.0.46
 
@@ -3882,7 +3935,7 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/table@16.0.28
+    - @ctx-core/table@16.0.28
 
 ## 14.0.45
 
@@ -3896,7 +3949,7 @@
 
 - @ctx-core/fetch-undici: ^2.1.8 -> ^2.1.9
 - Updated dependencies
-  - @ctx-core/table@16.0.27
+    - @ctx-core/table@16.0.27
 
 ## 14.0.43
 
@@ -3906,7 +3959,7 @@
 - @ctx-core/nanostores: ^1.0.18 -> ^1.0.19
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/table@16.0.26
+    - @ctx-core/table@16.0.26
 
 ## 14.0.42
 
@@ -3920,7 +3973,7 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/table@16.0.25
+    - @ctx-core/table@16.0.25
 
 ## 14.0.40
 
@@ -3929,7 +3982,7 @@
 - @ctx-core/nanostores: ^1.0.17 -> ^1.0.18
 - @ctx-core/fetch-undici: ^2.1.5 -> ^2.1.6
 - Updated dependencies
-  - @ctx-core/table@16.0.24
+    - @ctx-core/table@16.0.24
 
 ## 14.0.39
 
@@ -3937,10 +3990,10 @@
 
 - @ctx-core/function: 20.8.0
 - Updated dependencies
-  - @ctx-core/array@26.2.3
-  - @ctx-core/nanostores@1.0.17
-  - @ctx-core/object@22.1.10
-  - @ctx-core/table@16.0.23
+    - @ctx-core/array@26.2.3
+    - @ctx-core/nanostores@1.0.17
+    - @ctx-core/object@22.1.10
+    - @ctx-core/table@16.0.23
 
 ## 14.0.38
 
@@ -3948,7 +4001,7 @@
 
 - svelte: ^3.47.0 -> ^3.48.0
 - Updated dependencies
-  - @ctx-core/fetch-undici@2.1.5
+    - @ctx-core/fetch-undici@2.1.5
 
 ## 14.0.37
 
@@ -3956,9 +4009,9 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/array@26.2.2
-  - @ctx-core/fetch-undici@2.1.4
-  - @ctx-core/table@16.0.22
+    - @ctx-core/array@26.2.2
+    - @ctx-core/fetch-undici@2.1.4
+    - @ctx-core/table@16.0.22
 
 ## 14.0.36
 
@@ -3967,12 +4020,12 @@
 - @ctx-core/function: 20.7.1
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@26.2.1
-  - @ctx-core/fetch-undici@2.1.3
-  - @ctx-core/nanostores@1.0.16
-  - @ctx-core/object@22.1.8
-  - @ctx-core/table@16.0.21
-  - @ctx-core/function@20.7.2
+    - @ctx-core/array@26.2.1
+    - @ctx-core/fetch-undici@2.1.3
+    - @ctx-core/nanostores@1.0.16
+    - @ctx-core/object@22.1.8
+    - @ctx-core/table@16.0.21
+    - @ctx-core/function@20.7.2
 
 ## 14.0.35
 
@@ -3980,10 +4033,10 @@
 
 - @ctx-core/array: 26.2.0
 - Updated dependencies
-  - @ctx-core/fetch-undici@2.1.2
-  - @ctx-core/nanostores@1.0.15
-  - @ctx-core/object@22.1.7
-  - @ctx-core/table@16.0.20
+    - @ctx-core/fetch-undici@2.1.2
+    - @ctx-core/nanostores@1.0.15
+    - @ctx-core/object@22.1.7
+    - @ctx-core/table@16.0.20
 
 ## 14.0.34
 
@@ -3991,10 +4044,10 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/array@26.1.5
-  - @ctx-core/nanostores@1.0.13
-  - @ctx-core/object@22.1.6
-  - @ctx-core/table@16.0.19
+    - @ctx-core/array@26.1.5
+    - @ctx-core/nanostores@1.0.13
+    - @ctx-core/object@22.1.6
+    - @ctx-core/table@16.0.19
 
 ## 14.0.33
 
@@ -4019,7 +4072,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/fetch-undici@2.0.0
+    - @ctx-core/fetch-undici@2.0.0
 
 ## 14.0.29
 
@@ -4039,11 +4092,11 @@
 
 - fix: @ctx-core/\_ dependencies
 - Updated dependencies
-  - @ctx-core/array@26.1.4
-  - @ctx-core/fetch-undici@1.2.16
-  - @ctx-core/nanostores@1.0.12
-  - @ctx-core/object@22.1.5
-  - @ctx-core/table@16.0.18
+    - @ctx-core/array@26.1.4
+    - @ctx-core/fetch-undici@1.2.16
+    - @ctx-core/nanostores@1.0.12
+    - @ctx-core/object@22.1.5
+    - @ctx-core/table@16.0.18
 
 ## 14.0.26
 
@@ -4052,13 +4105,13 @@
 - package.json: exports: update
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@26.1.3
-  - @ctx-core/combinators@8.0.38
-  - @ctx-core/fetch-undici@1.2.15
-  - @ctx-core/function@20.6.1
-  - @ctx-core/nanostores@1.0.11
-  - @ctx-core/object@22.1.4
-  - @ctx-core/table@16.0.17
+    - @ctx-core/array@26.1.3
+    - @ctx-core/combinators@8.0.38
+    - @ctx-core/fetch-undici@1.2.15
+    - @ctx-core/function@20.6.1
+    - @ctx-core/nanostores@1.0.11
+    - @ctx-core/object@22.1.4
+    - @ctx-core/table@16.0.17
 
 ## 14.0.25
 
@@ -4066,7 +4119,7 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/table@16.0.15
+    - @ctx-core/table@16.0.15
 
 ## 14.0.24
 
@@ -4074,7 +4127,7 @@
 
 - svelte: ^3.46.6 -> ^3.47.0
 - Updated dependencies
-  - @ctx-core/nanostores@1.0.9
+    - @ctx-core/nanostores@1.0.9
 
 ## 14.0.23
 
@@ -4082,10 +4135,10 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/array@26.1.2
-  - @ctx-core/fetch-undici@1.2.12
-  - @ctx-core/object@22.1.3
-  - @ctx-core/table@16.0.13
+    - @ctx-core/array@26.1.2
+    - @ctx-core/fetch-undici@1.2.12
+    - @ctx-core/object@22.1.3
+    - @ctx-core/table@16.0.13
 
 ## 14.0.22
 
@@ -4093,8 +4146,8 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/fetch-undici@1.2.10
-  - @ctx-core/table@16.0.12
+    - @ctx-core/fetch-undici@1.2.10
+    - @ctx-core/table@16.0.12
 
 ## 14.0.21
 
@@ -4102,7 +4155,7 @@
 
 - nanostores: ^0.5.12
 - Updated dependencies
-  - @ctx-core/table@16.0.11
+    - @ctx-core/table@16.0.11
 
 ## 14.0.20
 
@@ -4110,7 +4163,7 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/table@16.0.10
+    - @ctx-core/table@16.0.10
 
 ## 14.0.19
 
@@ -4118,7 +4171,7 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/table@16.0.9
+    - @ctx-core/table@16.0.9
 
 ## 14.0.18
 
@@ -4131,8 +4184,8 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/nanostores@1.0.0
-  - @ctx-core/table@16.0.8
+    - @ctx-core/nanostores@1.0.0
+    - @ctx-core/table@16.0.8
 
 ## 14.0.16
 
@@ -4146,10 +4199,10 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/array@26.0.2
-  - @ctx-core/nanostores@0.7.5
-  - @ctx-core/object@22.1.1
-  - @ctx-core/table@16.0.7
+    - @ctx-core/array@26.0.2
+    - @ctx-core/nanostores@0.7.5
+    - @ctx-core/object@22.1.1
+    - @ctx-core/table@16.0.7
 
 ## 14.0.14
 
@@ -4199,9 +4252,9 @@
 
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@0.7.0
-  - @ctx-core/fetch-undici@1.1.7
-  - @ctx-core/table@16.0.6
+    - @ctx-core/nanostores@0.7.0
+    - @ctx-core/fetch-undici@1.1.7
+    - @ctx-core/table@16.0.6
 
 ## 14.0.6
 
@@ -4209,16 +4262,16 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/fetch-undici@1.1.6
-  - @ctx-core/table@16.0.5
+    - @ctx-core/fetch-undici@1.1.6
+    - @ctx-core/table@16.0.5
 
 ## 14.0.5
 
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/nanostores@0.6.0
-  - @ctx-core/table@16.0.4
+    - @ctx-core/nanostores@0.6.0
+    - @ctx-core/table@16.0.4
 
 ## 14.0.4
 
@@ -4226,10 +4279,10 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/array@24.0.2
-  - @ctx-core/fetch-undici@1.1.5
-  - @ctx-core/nanostores@0.5.4
-  - @ctx-core/table@16.0.3
+    - @ctx-core/array@24.0.2
+    - @ctx-core/fetch-undici@1.1.5
+    - @ctx-core/nanostores@0.5.4
+    - @ctx-core/table@16.0.3
 
 ## 14.0.3
 
@@ -4237,7 +4290,7 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/table@16.0.2
+    - @ctx-core/table@16.0.2
 
 ## 14.0.2
 
@@ -4245,7 +4298,7 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/table@16.0.1
+    - @ctx-core/table@16.0.1
 
 ## 14.0.1
 
@@ -4262,16 +4315,16 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/table@16.0.0
-  - @ctx-core/fetch-undici@1.1.1
+    - @ctx-core/table@16.0.0
+    - @ctx-core/fetch-undici@1.1.1
 
 ## 13.1.4
 
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/nanostores@0.5.0
-  - @ctx-core/table@15.0.17
+    - @ctx-core/nanostores@0.5.0
+    - @ctx-core/table@15.0.17
 
 ## 13.1.3
 
@@ -4281,7 +4334,7 @@
 - use fetch instead of safe_fetch
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/fetch-undici@1.1.0
+    - @ctx-core/fetch-undici@1.1.0
 
 ## 13.1.2
 
@@ -4307,7 +4360,7 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/table@15.0.16
+    - @ctx-core/table@15.0.16
 
 ## 13.0.17
 
@@ -4317,9 +4370,9 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@24.0.0
-  - @ctx-core/function@20.3.0
-  - @ctx-core/table@15.0.15
+    - @ctx-core/array@24.0.0
+    - @ctx-core/function@20.3.0
+    - @ctx-core/table@15.0.15
 
 ## 13.0.16
 
@@ -4327,8 +4380,8 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/fetch@11.0.112
-  - @ctx-core/table@15.0.14
+    - @ctx-core/fetch@11.0.112
+    - @ctx-core/table@15.0.14
 
 ## 13.0.15
 
@@ -4336,8 +4389,8 @@
 
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/nanostores@0.4.0
-  - @ctx-core/table@15.0.13
+    - @ctx-core/nanostores@0.4.0
+    - @ctx-core/table@15.0.13
 
 ## 13.0.14
 
@@ -4351,7 +4404,7 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/table@15.0.12
+    - @ctx-core/table@15.0.12
 
 ## 13.0.12
 
@@ -4359,7 +4412,7 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/table@15.0.11
+    - @ctx-core/table@15.0.11
 
 ## 13.0.11
 
@@ -4367,7 +4420,7 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/table@15.0.10
+    - @ctx-core/table@15.0.10
 
 ## 13.0.10
 
@@ -4375,13 +4428,13 @@
 
 - sideEffects = false
 - Updated dependencies
-  - @ctx-core/array@23.1.4
-  - @ctx-core/combinators@8.0.37
-  - @ctx-core/fetch@11.0.109
-  - @ctx-core/function@20.2.25
-  - @ctx-core/nanostores@0.3.4
-  - @ctx-core/object@22.0.12
-  - @ctx-core/table@15.0.9
+    - @ctx-core/array@23.1.4
+    - @ctx-core/combinators@8.0.37
+    - @ctx-core/fetch@11.0.109
+    - @ctx-core/function@20.2.25
+    - @ctx-core/nanostores@0.3.4
+    - @ctx-core/object@22.0.12
+    - @ctx-core/table@15.0.9
 
 ## 13.0.9
 
@@ -4391,13 +4444,13 @@
 - svelte: ^3.44.3 -> ^3.45.0
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@23.1.3
-  - @ctx-core/combinators@8.0.36
-  - @ctx-core/fetch@11.0.108
-  - @ctx-core/function@20.2.24
-  - @ctx-core/nanostores@0.3.3
-  - @ctx-core/object@22.0.11
-  - @ctx-core/table@15.0.8
+    - @ctx-core/array@23.1.3
+    - @ctx-core/combinators@8.0.36
+    - @ctx-core/fetch@11.0.108
+    - @ctx-core/function@20.2.24
+    - @ctx-core/nanostores@0.3.3
+    - @ctx-core/object@22.0.11
+    - @ctx-core/table@15.0.8
 
 ## 13.0.8
 
@@ -4411,13 +4464,13 @@
 
 - version bump
 - Updated dependencies
-  - @ctx-core/array@23.1.2
-  - @ctx-core/combinators@8.0.35
-  - @ctx-core/fetch@11.0.106
-  - @ctx-core/function@20.2.23
-  - @ctx-core/nanostores@0.3.2
-  - @ctx-core/object@22.0.10
-  - @ctx-core/table@15.0.7
+    - @ctx-core/array@23.1.2
+    - @ctx-core/combinators@8.0.35
+    - @ctx-core/fetch@11.0.106
+    - @ctx-core/function@20.2.23
+    - @ctx-core/nanostores@0.3.2
+    - @ctx-core/object@22.0.10
+    - @ctx-core/table@15.0.7
 
 ## 13.0.6
 
@@ -4425,10 +4478,10 @@
 
 - .js + .d.ts instead of .ts
 - Updated dependencies
-  - @ctx-core/fetch@11.0.104
-  - @ctx-core/function@20.2.21
-  - @ctx-core/nanostores@0.3.1
-  - @ctx-core/table@15.0.6
+    - @ctx-core/fetch@11.0.104
+    - @ctx-core/function@20.2.21
+    - @ctx-core/nanostores@0.3.1
+    - @ctx-core/table@15.0.6
 
 ## 13.0.5
 
@@ -4436,15 +4489,15 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/table@15.0.5
+    - @ctx-core/table@15.0.5
 
 ## 13.0.4
 
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/nanostores@0.3.0
-  - @ctx-core/table@15.0.4
+    - @ctx-core/nanostores@0.3.0
+    - @ctx-core/table@15.0.4
 
 ## 13.0.3
 
@@ -4452,15 +4505,15 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/table@15.0.3
+    - @ctx-core/table@15.0.3
 
 ## 13.0.2
 
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/nanostores@0.2.0
-  - @ctx-core/table@15.0.2
+    - @ctx-core/nanostores@0.2.0
+    - @ctx-core/table@15.0.2
 
 ## 13.0.1
 
@@ -4468,7 +4521,7 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/table@15.0.1
+    - @ctx-core/table@15.0.1
 
 ## 13.0.0
 
@@ -4479,8 +4532,8 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/table@15.0.0
-  - @ctx-core/fetch@11.0.102
+    - @ctx-core/table@15.0.0
+    - @ctx-core/fetch@11.0.102
 
 ## 12.0.9
 
@@ -4488,13 +4541,13 @@
 
 - fix: error TS6059: \_ is not under 'rootDir': package.json: types: ./dist/index.d.ts
 - Updated dependencies
-  - @ctx-core/array@23.0.41
-  - @ctx-core/combinators@8.0.34
-  - @ctx-core/fetch@11.0.101
-  - @ctx-core/function@20.2.20
-  - @ctx-core/object@22.0.8
-  - @ctx-core/store@27.0.55
-  - @ctx-core/table@14.0.9
+    - @ctx-core/array@23.0.41
+    - @ctx-core/combinators@8.0.34
+    - @ctx-core/fetch@11.0.101
+    - @ctx-core/function@20.2.20
+    - @ctx-core/object@22.0.8
+    - @ctx-core/store@27.0.55
+    - @ctx-core/table@14.0.9
 
 ## 12.0.8
 
@@ -4502,13 +4555,13 @@
 
 - tsconfig.json: "target": "ES2021"
 - Updated dependencies
-  - @ctx-core/array@23.0.40
-  - @ctx-core/combinators@8.0.33
-  - @ctx-core/fetch@11.0.100
-  - @ctx-core/function@20.2.19
-  - @ctx-core/object@22.0.7
-  - @ctx-core/store@27.0.54
-  - @ctx-core/table@14.0.8
+    - @ctx-core/array@23.0.40
+    - @ctx-core/combinators@8.0.33
+    - @ctx-core/fetch@11.0.100
+    - @ctx-core/function@20.2.19
+    - @ctx-core/object@22.0.7
+    - @ctx-core/store@27.0.54
+    - @ctx-core/table@14.0.8
 
 ## 12.0.7
 
@@ -4516,13 +4569,13 @@
 
 - package.json: "types": "./src/index.ts": better editing experience
 - Updated dependencies
-  - @ctx-core/array@23.0.39
-  - @ctx-core/combinators@8.0.32
-  - @ctx-core/fetch@11.0.99
-  - @ctx-core/function@20.2.18
-  - @ctx-core/object@22.0.6
-  - @ctx-core/store@27.0.53
-  - @ctx-core/table@14.0.7
+    - @ctx-core/array@23.0.39
+    - @ctx-core/combinators@8.0.32
+    - @ctx-core/fetch@11.0.99
+    - @ctx-core/function@20.2.18
+    - @ctx-core/object@22.0.6
+    - @ctx-core/store@27.0.53
+    - @ctx-core/table@14.0.7
 
 ## 12.0.6
 
@@ -4530,13 +4583,13 @@
 
 - fix: build
 - Updated dependencies
-  - @ctx-core/array@23.0.38
-  - @ctx-core/combinators@8.0.31
-  - @ctx-core/fetch@11.0.98
-  - @ctx-core/function@20.2.17
-  - @ctx-core/object@22.0.5
-  - @ctx-core/store@27.0.52
-  - @ctx-core/table@14.0.6
+    - @ctx-core/array@23.0.38
+    - @ctx-core/combinators@8.0.31
+    - @ctx-core/fetch@11.0.98
+    - @ctx-core/function@20.2.17
+    - @ctx-core/object@22.0.5
+    - @ctx-core/store@27.0.52
+    - @ctx-core/table@14.0.6
 
 ## 12.0.5
 
@@ -4544,13 +4597,13 @@
 
 - \_.d.ts export
 - Updated dependencies
-  - @ctx-core/array@23.0.37
-  - @ctx-core/combinators@8.0.30
-  - @ctx-core/fetch@11.0.97
-  - @ctx-core/function@20.2.16
-  - @ctx-core/object@22.0.4
-  - @ctx-core/store@27.0.51
-  - @ctx-core/table@14.0.5
+    - @ctx-core/array@23.0.37
+    - @ctx-core/combinators@8.0.30
+    - @ctx-core/fetch@11.0.97
+    - @ctx-core/function@20.2.16
+    - @ctx-core/object@22.0.4
+    - @ctx-core/store@27.0.51
+    - @ctx-core/table@14.0.5
 
 ## 12.0.4
 
@@ -4558,13 +4611,13 @@
 
 - fix: tsconfig.json: "rootDir": "."
 - Updated dependencies
-  - @ctx-core/array@23.0.36
-  - @ctx-core/combinators@8.0.29
-  - @ctx-core/fetch@11.0.96
-  - @ctx-core/function@20.2.15
-  - @ctx-core/object@22.0.3
-  - @ctx-core/store@27.0.50
-  - @ctx-core/table@14.0.4
+    - @ctx-core/array@23.0.36
+    - @ctx-core/combinators@8.0.29
+    - @ctx-core/fetch@11.0.96
+    - @ctx-core/function@20.2.15
+    - @ctx-core/object@22.0.3
+    - @ctx-core/store@27.0.50
+    - @ctx-core/table@14.0.4
 
 ## 12.0.3
 
@@ -4572,13 +4625,13 @@
 
 - fix: package.json: exports
 - Updated dependencies
-  - @ctx-core/array@23.0.35
-  - @ctx-core/combinators@8.0.28
-  - @ctx-core/fetch@11.0.95
-  - @ctx-core/function@20.2.14
-  - @ctx-core/object@22.0.2
-  - @ctx-core/store@27.0.49
-  - @ctx-core/table@14.0.3
+    - @ctx-core/array@23.0.35
+    - @ctx-core/combinators@8.0.28
+    - @ctx-core/fetch@11.0.95
+    - @ctx-core/function@20.2.14
+    - @ctx-core/object@22.0.2
+    - @ctx-core/store@27.0.49
+    - @ctx-core/table@14.0.3
 
 ## 12.0.2
 
@@ -4587,13 +4640,13 @@
 - package.json: svelte: ./dist/index.js
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@23.0.34
-  - @ctx-core/combinators@8.0.27
-  - @ctx-core/fetch@11.0.94
-  - @ctx-core/function@20.2.13
-  - @ctx-core/object@22.0.1
-  - @ctx-core/store@27.0.48
-  - @ctx-core/table@14.0.2
+    - @ctx-core/array@23.0.34
+    - @ctx-core/combinators@8.0.27
+    - @ctx-core/fetch@11.0.94
+    - @ctx-core/function@20.2.13
+    - @ctx-core/object@22.0.1
+    - @ctx-core/store@27.0.48
+    - @ctx-core/table@14.0.2
 
 ## 12.0.1
 
@@ -4601,8 +4654,8 @@
 
 - svelte: 3.44.2 -> 3.44.3
 - Updated dependencies
-  - @ctx-core/store@27.0.47
-  - @ctx-core/table@14.0.1
+    - @ctx-core/store@27.0.47
+    - @ctx-core/table@14.0.1
 
 ## 12.0.0
 
@@ -4616,12 +4669,12 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/object@22.0.0
-  - @ctx-core/table@14.0.0
-  - @ctx-core/array@23.0.33
-  - @ctx-core/combinators@8.0.26
-  - @ctx-core/store@27.0.46
-  - @ctx-core/fetch@11.0.93
+    - @ctx-core/object@22.0.0
+    - @ctx-core/table@14.0.0
+    - @ctx-core/array@23.0.33
+    - @ctx-core/combinators@8.0.26
+    - @ctx-core/store@27.0.46
+    - @ctx-core/fetch@11.0.93
 
 ## 11.0.118
 
@@ -4641,11 +4694,11 @@
 
 - package.json: - "main": explicitly not support cjs
 - Updated dependencies
-  - @ctx-core/array@23.0.32
-  - @ctx-core/combinators@8.0.25
-  - @ctx-core/fetch@11.0.90
-  - @ctx-core/store@27.0.45
-  - @ctx-core/table@13.0.8
+    - @ctx-core/array@23.0.32
+    - @ctx-core/combinators@8.0.25
+    - @ctx-core/fetch@11.0.90
+    - @ctx-core/store@27.0.45
+    - @ctx-core/table@13.0.8
 
 ## 11.0.115
 
@@ -4653,10 +4706,10 @@
 
 - update dependencies
 - Updated dependencies
-  - @ctx-core/array@23.0.31
-  - @ctx-core/fetch@11.0.89
-  - @ctx-core/store@27.0.44
-  - @ctx-core/table@13.0.7
+    - @ctx-core/array@23.0.31
+    - @ctx-core/fetch@11.0.89
+    - @ctx-core/store@27.0.44
+    - @ctx-core/table@13.0.7
 
 ## 11.0.114
 
@@ -4676,13 +4729,13 @@
 
 - @swc/core: ^1.2.117 -> ^1.2.118
 - Updated dependencies
-  - @ctx-core/array@23.0.30
-  - @ctx-core/combinators@8.0.24
-  - @ctx-core/fetch@11.0.88
-  - @ctx-core/function@20.2.10
-  - @ctx-core/object@21.0.29
-  - @ctx-core/store@27.0.43
-  - @ctx-core/table@13.0.6
+    - @ctx-core/array@23.0.30
+    - @ctx-core/combinators@8.0.24
+    - @ctx-core/fetch@11.0.88
+    - @ctx-core/function@20.2.10
+    - @ctx-core/object@21.0.29
+    - @ctx-core/store@27.0.43
+    - @ctx-core/table@13.0.6
 
 ## 11.0.111
 
@@ -4696,13 +4749,13 @@
 
 - @swc/core: ^1.2.116 -> ^1.2.117
 - Updated dependencies
-  - @ctx-core/array@23.0.29
-  - @ctx-core/combinators@8.0.23
-  - @ctx-core/fetch@11.0.87
-  - @ctx-core/function@20.2.9
-  - @ctx-core/object@21.0.28
-  - @ctx-core/store@27.0.42
-  - @ctx-core/table@13.0.5
+    - @ctx-core/array@23.0.29
+    - @ctx-core/combinators@8.0.23
+    - @ctx-core/fetch@11.0.87
+    - @ctx-core/function@20.2.9
+    - @ctx-core/object@21.0.28
+    - @ctx-core/store@27.0.42
+    - @ctx-core/table@13.0.5
 
 ## 11.0.109
 
@@ -4710,13 +4763,13 @@
 
 - @swc/core: ^1.2.113 -> ^1.2.116
 - Updated dependencies
-  - @ctx-core/array@23.0.28
-  - @ctx-core/combinators@8.0.22
-  - @ctx-core/fetch@11.0.86
-  - @ctx-core/function@20.2.8
-  - @ctx-core/object@21.0.27
-  - @ctx-core/store@27.0.41
-  - @ctx-core/table@13.0.4
+    - @ctx-core/array@23.0.28
+    - @ctx-core/combinators@8.0.22
+    - @ctx-core/fetch@11.0.86
+    - @ctx-core/function@20.2.8
+    - @ctx-core/object@21.0.27
+    - @ctx-core/store@27.0.41
+    - @ctx-core/table@13.0.4
 
 ## 11.0.108
 
@@ -4726,13 +4779,13 @@
 - @swc/core: ^1.2.111 -> ^1.2.113
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@23.0.27
-  - @ctx-core/combinators@8.0.21
-  - @ctx-core/fetch@11.0.85
-  - @ctx-core/function@20.2.7
-  - @ctx-core/object@21.0.26
-  - @ctx-core/store@27.0.40
-  - @ctx-core/table@13.0.3
+    - @ctx-core/array@23.0.27
+    - @ctx-core/combinators@8.0.21
+    - @ctx-core/fetch@11.0.85
+    - @ctx-core/function@20.2.7
+    - @ctx-core/object@21.0.26
+    - @ctx-core/store@27.0.40
+    - @ctx-core/table@13.0.3
 
 ## 11.0.107
 
@@ -4742,13 +4795,13 @@
 - @swc/core: ^1.2.110 -> ^1.2.111
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/store@27.0.39
-  - @ctx-core/table@13.0.2
-  - @ctx-core/array@23.0.26
-  - @ctx-core/combinators@8.0.20
-  - @ctx-core/fetch@11.0.84
-  - @ctx-core/function@20.2.6
-  - @ctx-core/object@21.0.25
+    - @ctx-core/store@27.0.39
+    - @ctx-core/table@13.0.2
+    - @ctx-core/array@23.0.26
+    - @ctx-core/combinators@8.0.20
+    - @ctx-core/fetch@11.0.84
+    - @ctx-core/function@20.2.6
+    - @ctx-core/object@21.0.25
 
 ## 11.0.106
 
@@ -4764,21 +4817,21 @@
 - @swc/core: ^1.2.108 -> ^1.2.110
 - Updated dependencies
 - Updated dependencies
-  - @ctx-core/array@23.0.25
-  - @ctx-core/combinators@8.0.19
-  - @ctx-core/fetch@11.0.83
-  - @ctx-core/function@20.2.5
-  - @ctx-core/object@21.0.24
-  - @ctx-core/store@27.0.38
-  - @ctx-core/table@13.0.1
+    - @ctx-core/array@23.0.25
+    - @ctx-core/combinators@8.0.19
+    - @ctx-core/fetch@11.0.83
+    - @ctx-core/function@20.2.5
+    - @ctx-core/object@21.0.24
+    - @ctx-core/store@27.0.38
+    - @ctx-core/table@13.0.1
 
 ## 11.0.104
 
 ### Patch Changes
 
 - Updated dependencies
-  - @ctx-core/table@13.0.0
-  - @ctx-core/fetch@11.0.82
+    - @ctx-core/table@13.0.0
+    - @ctx-core/fetch@11.0.82
 
 ## 11.0.103
 
@@ -4786,13 +4839,13 @@
 
 - @swc/core: ^1.2.107 -> ^1.2.108
 - Updated dependencies
-  - @ctx-core/array@23.0.24
-  - @ctx-core/combinators@8.0.18
-  - @ctx-core/fetch@11.0.81
-  - @ctx-core/function@20.2.4
-  - @ctx-core/object@21.0.23
-  - @ctx-core/store@27.0.37
-  - @ctx-core/table@12.0.42
+    - @ctx-core/array@23.0.24
+    - @ctx-core/combinators@8.0.18
+    - @ctx-core/fetch@11.0.81
+    - @ctx-core/function@20.2.4
+    - @ctx-core/object@21.0.23
+    - @ctx-core/store@27.0.37
+    - @ctx-core/table@12.0.42
 
 ## 11.0.102
 
@@ -4800,13 +4853,13 @@
 
 - compile using swc
 - Updated dependencies
-  - @ctx-core/array@23.0.23
-  - @ctx-core/combinators@8.0.17
-  - @ctx-core/fetch@11.0.80
-  - @ctx-core/function@20.2.3
-  - @ctx-core/object@21.0.22
-  - @ctx-core/store@27.0.36
-  - @ctx-core/table@12.0.41
+    - @ctx-core/array@23.0.23
+    - @ctx-core/combinators@8.0.17
+    - @ctx-core/fetch@11.0.80
+    - @ctx-core/function@20.2.3
+    - @ctx-core/object@21.0.22
+    - @ctx-core/store@27.0.36
+    - @ctx-core/table@12.0.41
 
 ## 11.0.101
 
@@ -4820,8 +4873,8 @@
 
 - svelte: 3.44.0 -> 3.44.1
 - Updated dependencies [undefined]
-  - @ctx-core/store@27.0.35
-  - @ctx-core/table@12.0.39
+    - @ctx-core/store@27.0.35
+    - @ctx-core/table@12.0.39
 
 ## 11.0.99
 
@@ -4832,13 +4885,13 @@
 - @types/papaparse: ^5.2.6 -> ^5.3.1
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.22
-  - @ctx-core/combinators@8.0.16
-  - @ctx-core/fetch@11.0.77
-  - @ctx-core/function@20.2.2
-  - @ctx-core/object@21.0.21
-  - @ctx-core/store@27.0.34
-  - @ctx-core/table@12.0.38
+    - @ctx-core/array@23.0.22
+    - @ctx-core/combinators@8.0.16
+    - @ctx-core/fetch@11.0.77
+    - @ctx-core/function@20.2.2
+    - @ctx-core/object@21.0.21
+    - @ctx-core/store@27.0.34
+    - @ctx-core/table@12.0.38
 
 ## 11.0.98
 
@@ -4846,7 +4899,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@12.0.37
+    - @ctx-core/table@12.0.37
 
 ## 11.0.97
 
@@ -4854,8 +4907,8 @@
 
 - svelte: 3.43.0 -> 3.43.1
 - Updated dependencies [undefined]
-  - @ctx-core/store@27.0.33
-  - @ctx-core/table@12.0.36
+    - @ctx-core/store@27.0.33
+    - @ctx-core/table@12.0.36
 
 ## 11.0.96
 
@@ -4881,8 +4934,8 @@
 
 - svelte: 3.42.6 -> 3.43.0
 - Updated dependencies [undefined]
-  - @ctx-core/store@27.0.32
-  - @ctx-core/table@12.0.35
+    - @ctx-core/store@27.0.32
+    - @ctx-core/table@12.0.35
 
 ## 11.0.92
 
@@ -4914,8 +4967,8 @@
 
 - svelte: 3.42.5 -> 3.42.6
 - Updated dependencies [undefined]
-  - @ctx-core/store@27.0.31
-  - @ctx-core/table@12.0.34
+    - @ctx-core/store@27.0.31
+    - @ctx-core/table@12.0.34
 
 ## 11.0.87
 
@@ -4929,10 +4982,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.21
-  - @ctx-core/object@21.0.20
-  - @ctx-core/store@27.0.30
-  - @ctx-core/table@12.0.33
+    - @ctx-core/array@23.0.21
+    - @ctx-core/object@21.0.20
+    - @ctx-core/store@27.0.30
+    - @ctx-core/table@12.0.33
 
 ## 11.0.85
 
@@ -4946,10 +4999,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.20
-  - @ctx-core/object@21.0.19
-  - @ctx-core/store@27.0.29
-  - @ctx-core/table@12.0.32
+    - @ctx-core/array@23.0.20
+    - @ctx-core/object@21.0.19
+    - @ctx-core/store@27.0.29
+    - @ctx-core/table@12.0.32
 
 ## 11.0.83
 
@@ -4957,13 +5010,13 @@
 
 - typescript: ^4.4.2 -> ^4.4.3
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.19
-  - @ctx-core/combinators@8.0.15
-  - @ctx-core/fetch@11.0.66
-  - @ctx-core/function@20.1.4
-  - @ctx-core/object@21.0.18
-  - @ctx-core/store@27.0.28
-  - @ctx-core/table@12.0.31
+    - @ctx-core/array@23.0.19
+    - @ctx-core/combinators@8.0.15
+    - @ctx-core/fetch@11.0.66
+    - @ctx-core/function@20.1.4
+    - @ctx-core/object@21.0.18
+    - @ctx-core/store@27.0.28
+    - @ctx-core/table@12.0.31
 
 ## 11.0.82
 
@@ -4977,8 +5030,8 @@
 
 - svelte: 3.42.4 -> 3.42.5
 - Updated dependencies [undefined]
-  - @ctx-core/store@27.0.27
-  - @ctx-core/table@12.0.30
+    - @ctx-core/store@27.0.27
+    - @ctx-core/table@12.0.30
 
 ## 11.0.80
 
@@ -4998,7 +5051,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@12.0.29
+    - @ctx-core/table@12.0.29
 
 ## 11.0.77
 
@@ -5030,7 +5083,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@11.0.58
+    - @ctx-core/fetch@11.0.58
 
 ## 11.0.72
 
@@ -5056,8 +5109,8 @@
 
 - svelte: 3.42.3 -> 3.42.4
 - Updated dependencies [undefined]
-  - @ctx-core/store@27.0.25
-  - @ctx-core/table@12.0.28
+    - @ctx-core/store@27.0.25
+    - @ctx-core/table@12.0.28
 
 ## 11.0.68
 
@@ -5071,13 +5124,13 @@
 
 - typescript: ^4.3.5 -> ^4.4.2
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.18
-  - @ctx-core/combinators@8.0.14
-  - @ctx-core/fetch@11.0.52
-  - @ctx-core/function@20.1.3
-  - @ctx-core/object@21.0.17
-  - @ctx-core/store@27.0.24
-  - @ctx-core/table@12.0.26
+    - @ctx-core/array@23.0.18
+    - @ctx-core/combinators@8.0.14
+    - @ctx-core/fetch@11.0.52
+    - @ctx-core/function@20.1.3
+    - @ctx-core/object@21.0.17
+    - @ctx-core/store@27.0.24
+    - @ctx-core/table@12.0.26
 
 ## 11.0.66
 
@@ -5097,10 +5150,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.17
-  - @ctx-core/object@21.0.16
-  - @ctx-core/store@27.0.23
-  - @ctx-core/table@12.0.25
+    - @ctx-core/array@23.0.17
+    - @ctx-core/object@21.0.16
+    - @ctx-core/store@27.0.23
+    - @ctx-core/table@12.0.25
 
 ## 11.0.63
 
@@ -5114,10 +5167,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.16
-  - @ctx-core/object@21.0.15
-  - @ctx-core/store@27.0.22
-  - @ctx-core/table@12.0.24
+    - @ctx-core/array@23.0.16
+    - @ctx-core/object@21.0.15
+    - @ctx-core/store@27.0.22
+    - @ctx-core/table@12.0.24
 
 ## 11.0.61
 
@@ -5131,10 +5184,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.15
-  - @ctx-core/object@21.0.14
-  - @ctx-core/store@27.0.21
-  - @ctx-core/table@12.0.23
+    - @ctx-core/array@23.0.15
+    - @ctx-core/object@21.0.14
+    - @ctx-core/store@27.0.21
+    - @ctx-core/table@12.0.23
 
 ## 11.0.59
 
@@ -5142,8 +5195,8 @@
 
 - svelte: 3.42.2 -> 3.42.3
 - Updated dependencies [undefined]
-  - @ctx-core/store@27.0.20
-  - @ctx-core/table@12.0.22
+    - @ctx-core/store@27.0.20
+    - @ctx-core/table@12.0.22
 
 ## 11.0.58
 
@@ -5157,7 +5210,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@11.0.45
+    - @ctx-core/fetch@11.0.45
 
 ## 11.0.56
 
@@ -5171,8 +5224,8 @@
 
 - svelte: 3.42.1 -> 3.42.2
 - Updated dependencies [undefined]
-  - @ctx-core/store@27.0.19
-  - @ctx-core/table@12.0.20
+    - @ctx-core/store@27.0.19
+    - @ctx-core/table@12.0.20
 
 ## 11.0.54
 
@@ -5222,7 +5275,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@11.0.35
+    - @ctx-core/fetch@11.0.35
 
 ## 11.0.46
 
@@ -5230,8 +5283,8 @@
 
 - svelte: 3.41.0 -> 3.42.1
 - Updated dependencies [undefined]
-  - @ctx-core/store@27.0.18
-  - @ctx-core/table@12.0.19
+    - @ctx-core/store@27.0.18
+    - @ctx-core/table@12.0.19
 
 ## 11.0.45
 
@@ -5257,10 +5310,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.14
-  - @ctx-core/object@21.0.13
-  - @ctx-core/store@27.0.17
-  - @ctx-core/table@12.0.18
+    - @ctx-core/array@23.0.14
+    - @ctx-core/object@21.0.13
+    - @ctx-core/store@27.0.17
+    - @ctx-core/table@12.0.18
 
 ## 11.0.41
 
@@ -5292,8 +5345,8 @@
 
 - svelte: 3.40.3 -> 3.41.0
 - Updated dependencies [undefined]
-  - @ctx-core/store@27.0.16
-  - @ctx-core/table@12.0.17
+    - @ctx-core/store@27.0.16
+    - @ctx-core/table@12.0.17
 
 ## 11.0.36
 
@@ -5307,8 +5360,8 @@
 
 - svelte: 3.40.2 -> 3.40.3
 - Updated dependencies [undefined]
-  - @ctx-core/store@27.0.15
-  - @ctx-core/table@12.0.16
+    - @ctx-core/store@27.0.15
+    - @ctx-core/table@12.0.16
 
 ## 11.0.34
 
@@ -5328,8 +5381,8 @@
 
 - svelte: 3.40.1 -> 3.40.2
 - Updated dependencies [undefined]
-  - @ctx-core/store@27.0.14
-  - @ctx-core/table@12.0.15
+    - @ctx-core/store@27.0.14
+    - @ctx-core/table@12.0.15
 
 ## 11.0.31
 
@@ -5369,8 +5422,8 @@
 - update dependencies
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/store@27.0.13
-  - @ctx-core/table@12.0.14
+    - @ctx-core/store@27.0.13
+    - @ctx-core/table@12.0.14
 
 ## 11.0.25
 
@@ -5396,8 +5449,8 @@
 
 - svelte: 3.38.3 -> 3.40.0
 - Updated dependencies [undefined]
-  - @ctx-core/store@27.0.12
-  - @ctx-core/table@12.0.13
+    - @ctx-core/store@27.0.12
+    - @ctx-core/table@12.0.13
 
 ## 11.0.21
 
@@ -5405,12 +5458,12 @@
 
 - fix: "exports": "./package.json": "./package.json"
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.13
-  - @ctx-core/combinators@8.0.13
-  - @ctx-core/function@20.0.12
-  - @ctx-core/object@21.0.12
-  - @ctx-core/store@27.0.11
-  - @ctx-core/table@12.0.12
+    - @ctx-core/array@23.0.13
+    - @ctx-core/combinators@8.0.13
+    - @ctx-core/function@20.0.12
+    - @ctx-core/object@21.0.12
+    - @ctx-core/store@27.0.11
+    - @ctx-core/table@12.0.12
 
 ## 11.0.20
 
@@ -5418,12 +5471,12 @@
 
 - exports: + "package.json": "./package.json"
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.12
-  - @ctx-core/combinators@8.0.12
-  - @ctx-core/function@20.0.11
-  - @ctx-core/object@21.0.11
-  - @ctx-core/store@27.0.10
-  - @ctx-core/table@12.0.11
+    - @ctx-core/array@23.0.12
+    - @ctx-core/combinators@8.0.12
+    - @ctx-core/function@20.0.11
+    - @ctx-core/object@21.0.11
+    - @ctx-core/store@27.0.10
+    - @ctx-core/table@12.0.11
 
 ## 11.0.19
 
@@ -5449,13 +5502,13 @@
 
 - fix: sourceMappingURL: "mapRoot": ""
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.11
-  - @ctx-core/combinators@8.0.11
-  - @ctx-core/fetch@11.0.14
-  - @ctx-core/function@20.0.10
-  - @ctx-core/object@21.0.10
-  - @ctx-core/store@27.0.9
-  - @ctx-core/table@12.0.9
+    - @ctx-core/array@23.0.11
+    - @ctx-core/combinators@8.0.11
+    - @ctx-core/fetch@11.0.14
+    - @ctx-core/function@20.0.10
+    - @ctx-core/object@21.0.10
+    - @ctx-core/store@27.0.9
+    - @ctx-core/table@12.0.9
 
 ## 11.0.15
 
@@ -5463,13 +5516,13 @@
 
 - tsconfig.json: "target": "es2019"
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.10
-  - @ctx-core/combinators@8.0.10
-  - @ctx-core/fetch@11.0.13
-  - @ctx-core/function@20.0.9
-  - @ctx-core/object@21.0.9
-  - @ctx-core/store@27.0.8
-  - @ctx-core/table@12.0.8
+    - @ctx-core/array@23.0.10
+    - @ctx-core/combinators@8.0.10
+    - @ctx-core/fetch@11.0.13
+    - @ctx-core/function@20.0.9
+    - @ctx-core/object@21.0.9
+    - @ctx-core/store@27.0.8
+    - @ctx-core/table@12.0.8
 
 ## 11.0.14
 
@@ -5483,13 +5536,13 @@
 
 - fix: cjs: load as a Promise
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.9
-  - @ctx-core/combinators@8.0.9
-  - @ctx-core/fetch@11.0.11
-  - @ctx-core/function@20.0.8
-  - @ctx-core/object@21.0.8
-  - @ctx-core/store@27.0.7
-  - @ctx-core/table@12.0.7
+    - @ctx-core/array@23.0.9
+    - @ctx-core/combinators@8.0.9
+    - @ctx-core/fetch@11.0.11
+    - @ctx-core/function@20.0.8
+    - @ctx-core/object@21.0.8
+    - @ctx-core/store@27.0.7
+    - @ctx-core/table@12.0.7
 
 ## 11.0.12
 
@@ -5497,13 +5550,13 @@
 
 - "main": "./dist/index.cjs"
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.8
-  - @ctx-core/combinators@8.0.8
-  - @ctx-core/fetch@11.0.10
-  - @ctx-core/function@20.0.7
-  - @ctx-core/object@21.0.7
-  - @ctx-core/store@27.0.6
-  - @ctx-core/table@12.0.6
+    - @ctx-core/array@23.0.8
+    - @ctx-core/combinators@8.0.8
+    - @ctx-core/fetch@11.0.10
+    - @ctx-core/function@20.0.7
+    - @ctx-core/object@21.0.7
+    - @ctx-core/store@27.0.6
+    - @ctx-core/table@12.0.6
 
 ## 11.0.11
 
@@ -5511,13 +5564,13 @@
 
 - fix: index.cjs: module.exports = require('./index.js')
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.7
-  - @ctx-core/combinators@8.0.7
-  - @ctx-core/fetch@11.0.9
-  - @ctx-core/function@20.0.6
-  - @ctx-core/object@21.0.6
-  - @ctx-core/store@27.0.5
-  - @ctx-core/table@12.0.5
+    - @ctx-core/array@23.0.7
+    - @ctx-core/combinators@8.0.7
+    - @ctx-core/fetch@11.0.9
+    - @ctx-core/function@20.0.6
+    - @ctx-core/object@21.0.6
+    - @ctx-core/store@27.0.5
+    - @ctx-core/table@12.0.5
 
 ## 11.0.10
 
@@ -5525,13 +5578,13 @@
 
 - back to esm module with cjs using esm npm package to load library
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.6
-  - @ctx-core/combinators@8.0.6
-  - @ctx-core/fetch@11.0.8
-  - @ctx-core/function@20.0.5
-  - @ctx-core/object@21.0.5
-  - @ctx-core/store@27.0.4
-  - @ctx-core/table@12.0.4
+    - @ctx-core/array@23.0.6
+    - @ctx-core/combinators@8.0.6
+    - @ctx-core/fetch@11.0.8
+    - @ctx-core/function@20.0.5
+    - @ctx-core/object@21.0.5
+    - @ctx-core/store@27.0.4
+    - @ctx-core/table@12.0.4
 
 ## 11.0.9
 
@@ -5539,13 +5592,13 @@
 
 - back to esm module with cjs using esm npm package to load library
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.5
-  - @ctx-core/combinators@8.0.5
-  - @ctx-core/fetch@11.0.7
-  - @ctx-core/function@20.0.4
-  - @ctx-core/object@21.0.4
-  - @ctx-core/store@27.0.4
-  - @ctx-core/table@12.0.4
+    - @ctx-core/array@23.0.5
+    - @ctx-core/combinators@8.0.5
+    - @ctx-core/fetch@11.0.7
+    - @ctx-core/function@20.0.4
+    - @ctx-core/object@21.0.4
+    - @ctx-core/store@27.0.4
+    - @ctx-core/table@12.0.4
 
 ## 11.0.8
 
@@ -5553,13 +5606,13 @@
 
 - back to esm module with cjs using esm npm package to load library
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.4
-  - @ctx-core/combinators@8.0.4
-  - @ctx-core/fetch@11.0.7
-  - @ctx-core/function@20.0.4
-  - @ctx-core/object@21.0.4
-  - @ctx-core/store@27.0.4
-  - @ctx-core/table@12.0.4
+    - @ctx-core/array@23.0.4
+    - @ctx-core/combinators@8.0.4
+    - @ctx-core/fetch@11.0.7
+    - @ctx-core/function@20.0.4
+    - @ctx-core/object@21.0.4
+    - @ctx-core/store@27.0.4
+    - @ctx-core/table@12.0.4
 
 ## 11.0.7
 
@@ -5567,13 +5620,13 @@
 
 - support cjs & esm: + "exports"
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.3
-  - @ctx-core/combinators@8.0.3
-  - @ctx-core/fetch@11.0.6
-  - @ctx-core/function@20.0.3
-  - @ctx-core/object@21.0.3
-  - @ctx-core/store@27.0.3
-  - @ctx-core/table@12.0.3
+    - @ctx-core/array@23.0.3
+    - @ctx-core/combinators@8.0.3
+    - @ctx-core/fetch@11.0.6
+    - @ctx-core/function@20.0.3
+    - @ctx-core/object@21.0.3
+    - @ctx-core/store@27.0.3
+    - @ctx-core/table@12.0.3
 
 ## 11.0.6
 
@@ -5605,13 +5658,13 @@
 
 - fix: "type": "module"
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.2
-  - @ctx-core/combinators@8.0.2
-  - @ctx-core/fetch@11.0.2
-  - @ctx-core/function@20.0.2
-  - @ctx-core/object@21.0.2
-  - @ctx-core/store@27.0.2
-  - @ctx-core/table@12.0.2
+    - @ctx-core/array@23.0.2
+    - @ctx-core/combinators@8.0.2
+    - @ctx-core/fetch@11.0.2
+    - @ctx-core/function@20.0.2
+    - @ctx-core/object@21.0.2
+    - @ctx-core/store@27.0.2
+    - @ctx-core/table@12.0.2
 
 ## 11.0.1
 
@@ -5621,13 +5674,13 @@
 - fix: "type": "module"
 - Updated dependencies [2a6971f80]
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.1
-  - @ctx-core/combinators@8.0.1
-  - @ctx-core/fetch@11.0.1
-  - @ctx-core/function@20.0.1
-  - @ctx-core/object@21.0.1
-  - @ctx-core/store@27.0.1
-  - @ctx-core/table@12.0.1
+    - @ctx-core/array@23.0.1
+    - @ctx-core/combinators@8.0.1
+    - @ctx-core/fetch@11.0.1
+    - @ctx-core/function@20.0.1
+    - @ctx-core/object@21.0.1
+    - @ctx-core/store@27.0.1
+    - @ctx-core/table@12.0.1
 
 ## 11.0.0
 
@@ -5638,13 +5691,13 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@23.0.0
-  - @ctx-core/combinators@8.0.0
-  - @ctx-core/fetch@11.0.0
-  - @ctx-core/function@20.0.0
-  - @ctx-core/object@21.0.0
-  - @ctx-core/store@27.0.0
-  - @ctx-core/table@12.0.0
+    - @ctx-core/array@23.0.0
+    - @ctx-core/combinators@8.0.0
+    - @ctx-core/fetch@11.0.0
+    - @ctx-core/function@20.0.0
+    - @ctx-core/object@21.0.0
+    - @ctx-core/store@27.0.0
+    - @ctx-core/table@12.0.0
 
 ## 10.0.47
 
@@ -5658,8 +5711,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@10.0.41
-  - @ctx-core/table@11.0.31
+    - @ctx-core/fetch@10.0.41
+    - @ctx-core/table@11.0.31
 
 ## 10.0.45
 
@@ -5673,8 +5726,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@26.0.27
-  - @ctx-core/table@11.0.30
+    - @ctx-core/store@26.0.27
+    - @ctx-core/table@11.0.30
 
 ## 10.0.43
 
@@ -5688,9 +5741,9 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/object@20.4.2
-  - @ctx-core/store@26.0.26
-  - @ctx-core/table@11.0.29
+    - @ctx-core/object@20.4.2
+    - @ctx-core/store@26.0.26
+    - @ctx-core/table@11.0.29
 
 ## 10.0.41
 
@@ -5710,10 +5763,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.1.6
-  - @ctx-core/fetch@10.0.36
-  - @ctx-core/store@26.0.25
-  - @ctx-core/table@11.0.28
+    - @ctx-core/array@22.1.6
+    - @ctx-core/fetch@10.0.36
+    - @ctx-core/store@26.0.25
+    - @ctx-core/table@11.0.28
 
 ## 10.0.38
 
@@ -5727,7 +5780,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@11.0.27
+    - @ctx-core/table@11.0.27
 
 ## 10.0.36
 
@@ -5735,10 +5788,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.1.5
-  - @ctx-core/fetch@10.0.34
-  - @ctx-core/store@26.0.23
-  - @ctx-core/table@11.0.26
+    - @ctx-core/array@22.1.5
+    - @ctx-core/fetch@10.0.34
+    - @ctx-core/store@26.0.23
+    - @ctx-core/table@11.0.26
 
 ## 10.0.35
 
@@ -5752,10 +5805,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.1.4
-  - @ctx-core/fetch@10.0.32
-  - @ctx-core/store@26.0.22
-  - @ctx-core/table@11.0.25
+    - @ctx-core/array@22.1.4
+    - @ctx-core/fetch@10.0.32
+    - @ctx-core/store@26.0.22
+    - @ctx-core/table@11.0.25
 
 ## 10.0.33
 
@@ -5769,10 +5822,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.1.3
-  - @ctx-core/object@20.2.5
-  - @ctx-core/store@26.0.21
-  - @ctx-core/table@11.0.24
+    - @ctx-core/array@22.1.3
+    - @ctx-core/object@20.2.5
+    - @ctx-core/store@26.0.21
+    - @ctx-core/table@11.0.24
 
 ## 10.0.31
 
@@ -5786,7 +5839,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@10.0.28
+    - @ctx-core/fetch@10.0.28
 
 ## 10.0.29
 
@@ -5800,13 +5853,13 @@
 
 - typescript: ^4.3.4 -> ^4.3.5
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.1.2
-  - @ctx-core/combinators@7.0.10
-  - @ctx-core/fetch@10.0.25
-  - @ctx-core/function@19.1.12
-  - @ctx-core/object@20.2.4
-  - @ctx-core/store@26.0.20
-  - @ctx-core/table@11.0.23
+    - @ctx-core/array@22.1.2
+    - @ctx-core/combinators@7.0.10
+    - @ctx-core/fetch@10.0.25
+    - @ctx-core/function@19.1.12
+    - @ctx-core/object@20.2.4
+    - @ctx-core/store@26.0.20
+    - @ctx-core/table@11.0.23
 
 ## 10.0.27
 
@@ -5814,10 +5867,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.1.1
-  - @ctx-core/object@20.2.3
-  - @ctx-core/store@26.0.19
-  - @ctx-core/table@11.0.22
+    - @ctx-core/array@22.1.1
+    - @ctx-core/object@20.2.3
+    - @ctx-core/store@26.0.19
+    - @ctx-core/table@11.0.22
 
 ## 10.0.26
 
@@ -5825,8 +5878,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@26.0.18
-  - @ctx-core/table@11.0.18
+    - @ctx-core/store@26.0.18
+    - @ctx-core/table@11.0.18
 
 ## 10.0.25
 
@@ -5846,7 +5899,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@10.0.19
+    - @ctx-core/fetch@10.0.19
 
 ## 10.0.22
 
@@ -5854,13 +5907,13 @@
 
 - dist directory
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.0.16
-  - @ctx-core/combinators@7.0.9
-  - @ctx-core/fetch@10.0.18
-  - @ctx-core/function@19.1.10
-  - @ctx-core/object@20.2.2
-  - @ctx-core/store@26.0.17
-  - @ctx-core/table@11.0.17
+    - @ctx-core/array@22.0.16
+    - @ctx-core/combinators@7.0.9
+    - @ctx-core/fetch@10.0.18
+    - @ctx-core/function@19.1.10
+    - @ctx-core/object@20.2.2
+    - @ctx-core/store@26.0.17
+    - @ctx-core/table@11.0.17
 
 ## 10.0.21
 
@@ -5868,10 +5921,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.0.15
-  - @ctx-core/object@20.2.1
-  - @ctx-core/store@26.0.16
-  - @ctx-core/table@11.0.16
+    - @ctx-core/array@22.0.15
+    - @ctx-core/object@20.2.1
+    - @ctx-core/store@26.0.16
+    - @ctx-core/table@11.0.16
 
 ## 10.0.20
 
@@ -5879,10 +5932,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.0.14
-  - @ctx-core/fetch@10.0.17
-  - @ctx-core/store@26.0.15
-  - @ctx-core/table@11.0.15
+    - @ctx-core/array@22.0.14
+    - @ctx-core/fetch@10.0.17
+    - @ctx-core/store@26.0.15
+    - @ctx-core/table@11.0.15
 
 ## 10.0.19
 
@@ -5890,10 +5943,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.0.13
-  - @ctx-core/fetch@10.0.16
-  - @ctx-core/store@26.0.14
-  - @ctx-core/table@11.0.14
+    - @ctx-core/array@22.0.13
+    - @ctx-core/fetch@10.0.16
+    - @ctx-core/store@26.0.14
+    - @ctx-core/table@11.0.14
 
 ## 10.0.18
 
@@ -5901,10 +5954,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.0.12
-  - @ctx-core/fetch@10.0.15
-  - @ctx-core/store@26.0.13
-  - @ctx-core/table@11.0.13
+    - @ctx-core/array@22.0.12
+    - @ctx-core/fetch@10.0.15
+    - @ctx-core/store@26.0.13
+    - @ctx-core/table@11.0.13
 
 ## 10.0.17
 
@@ -5912,13 +5965,13 @@
 
 - tsconfig.json: "lib": ["dom", "ESNext"]
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.0.11
-  - @ctx-core/combinators@7.0.8
-  - @ctx-core/fetch@10.0.14
-  - @ctx-core/function@19.1.8
-  - @ctx-core/object@20.1.1
-  - @ctx-core/store@26.0.12
-  - @ctx-core/table@11.0.12
+    - @ctx-core/array@22.0.11
+    - @ctx-core/combinators@7.0.8
+    - @ctx-core/fetch@10.0.14
+    - @ctx-core/function@19.1.8
+    - @ctx-core/object@20.1.1
+    - @ctx-core/store@26.0.12
+    - @ctx-core/table@11.0.12
 
 ## 10.0.16
 
@@ -5926,10 +5979,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.0.10
-  - @ctx-core/fetch@10.0.13
-  - @ctx-core/store@26.0.11
-  - @ctx-core/table@11.0.11
+    - @ctx-core/array@22.0.10
+    - @ctx-core/fetch@10.0.13
+    - @ctx-core/store@26.0.11
+    - @ctx-core/table@11.0.11
 
 ## 10.0.15
 
@@ -5937,8 +5990,8 @@
 
 - svelte: 3.38.2 -> 3.38.3
 - Updated dependencies [undefined]
-  - @ctx-core/store@26.0.10
-  - @ctx-core/table@11.0.10
+    - @ctx-core/store@26.0.10
+    - @ctx-core/table@11.0.10
 
 ## 10.0.14
 
@@ -5946,13 +5999,13 @@
 
 - "prepublishOnly": "npm run clean && npm run compile"
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.0.9
-  - @ctx-core/combinators@7.0.7
-  - @ctx-core/fetch@10.0.12
-  - @ctx-core/function@19.1.7
-  - @ctx-core/object@20.0.8
-  - @ctx-core/store@26.0.9
-  - @ctx-core/table@11.0.9
+    - @ctx-core/array@22.0.9
+    - @ctx-core/combinators@7.0.7
+    - @ctx-core/fetch@10.0.12
+    - @ctx-core/function@19.1.7
+    - @ctx-core/object@20.0.8
+    - @ctx-core/store@26.0.9
+    - @ctx-core/table@11.0.9
 
 ## 10.0.13
 
@@ -5960,13 +6013,13 @@
 
 - fix: deploying \_.js files
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.0.8
-  - @ctx-core/combinators@7.0.6
-  - @ctx-core/fetch@10.0.11
-  - @ctx-core/function@19.1.6
-  - @ctx-core/object@20.0.7
-  - @ctx-core/store@26.0.8
-  - @ctx-core/table@11.0.8
+    - @ctx-core/array@22.0.8
+    - @ctx-core/combinators@7.0.6
+    - @ctx-core/fetch@10.0.11
+    - @ctx-core/function@19.1.6
+    - @ctx-core/object@20.0.7
+    - @ctx-core/store@26.0.8
+    - @ctx-core/table@11.0.8
 
 ## 10.0.12
 
@@ -5974,13 +6027,13 @@
 
 - "prepare": "npm run clean && npm run compile"
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.0.7
-  - @ctx-core/combinators@7.0.5
-  - @ctx-core/fetch@10.0.10
-  - @ctx-core/function@19.1.5
-  - @ctx-core/object@20.0.6
-  - @ctx-core/store@26.0.7
-  - @ctx-core/table@11.0.7
+    - @ctx-core/array@22.0.7
+    - @ctx-core/combinators@7.0.5
+    - @ctx-core/fetch@10.0.10
+    - @ctx-core/function@19.1.5
+    - @ctx-core/object@20.0.6
+    - @ctx-core/store@26.0.7
+    - @ctx-core/table@11.0.7
 
 ## 10.0.11
 
@@ -5988,13 +6041,13 @@
 
 - npm run prepare instead of npm run prepublishOnly
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.0.6
-  - @ctx-core/combinators@7.0.4
-  - @ctx-core/fetch@10.0.9
-  - @ctx-core/function@19.1.4
-  - @ctx-core/object@20.0.5
-  - @ctx-core/store@26.0.6
-  - @ctx-core/table@11.0.6
+    - @ctx-core/array@22.0.6
+    - @ctx-core/combinators@7.0.4
+    - @ctx-core/fetch@10.0.9
+    - @ctx-core/function@19.1.4
+    - @ctx-core/object@20.0.5
+    - @ctx-core/store@26.0.6
+    - @ctx-core/table@11.0.6
 
 ## 10.0.10
 
@@ -6002,13 +6055,13 @@
 
 - fix: npm run clean
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.0.5
-  - @ctx-core/combinators@7.0.3
-  - @ctx-core/fetch@10.0.8
-  - @ctx-core/function@19.1.3
-  - @ctx-core/object@20.0.4
-  - @ctx-core/store@26.0.5
-  - @ctx-core/table@11.0.5
+    - @ctx-core/array@22.0.5
+    - @ctx-core/combinators@7.0.3
+    - @ctx-core/fetch@10.0.8
+    - @ctx-core/function@19.1.3
+    - @ctx-core/object@20.0.4
+    - @ctx-core/store@26.0.5
+    - @ctx-core/table@11.0.5
 
 ## 10.0.9
 
@@ -6028,13 +6081,13 @@
 
 - typescript: ^4.3.3 -> ^4.3.4
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.0.4
-  - @ctx-core/combinators@7.0.2
-  - @ctx-core/fetch@10.0.4
-  - @ctx-core/function@19.1.2
-  - @ctx-core/object@20.0.3
-  - @ctx-core/store@26.0.4
-  - @ctx-core/table@11.0.4
+    - @ctx-core/array@22.0.4
+    - @ctx-core/combinators@7.0.2
+    - @ctx-core/fetch@10.0.4
+    - @ctx-core/function@19.1.2
+    - @ctx-core/object@20.0.3
+    - @ctx-core/store@26.0.4
+    - @ctx-core/table@11.0.4
 
 ## 10.0.6
 
@@ -6054,13 +6107,13 @@
 
 - typescript: ^4.3.2 -> ^4.3.3
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.0.3
-  - @ctx-core/combinators@7.0.1
-  - @ctx-core/fetch@10.0.1
-  - @ctx-core/function@19.1.1
-  - @ctx-core/object@20.0.2
-  - @ctx-core/store@26.0.3
-  - @ctx-core/table@11.0.3
+    - @ctx-core/array@22.0.3
+    - @ctx-core/combinators@7.0.1
+    - @ctx-core/fetch@10.0.1
+    - @ctx-core/function@19.1.1
+    - @ctx-core/object@20.0.2
+    - @ctx-core/store@26.0.3
+    - @ctx-core/table@11.0.3
 
 ## 10.0.3
 
@@ -6074,10 +6127,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.0.2
-  - @ctx-core/object@20.0.1
-  - @ctx-core/store@26.0.2
-  - @ctx-core/table@11.0.2
+    - @ctx-core/array@22.0.2
+    - @ctx-core/object@20.0.1
+    - @ctx-core/store@26.0.2
+    - @ctx-core/table@11.0.2
 
 ## 10.0.1
 
@@ -6085,8 +6138,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@26.0.1
-  - @ctx-core/table@11.0.1
+    - @ctx-core/store@26.0.1
+    - @ctx-core/table@11.0.1
 
 ## 10.0.0
 
@@ -6097,13 +6150,13 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@22.0.0
-  - @ctx-core/combinators@7.0.0
-  - @ctx-core/fetch@10.0.0
-  - @ctx-core/function@19.0.0
-  - @ctx-core/object@20.0.0
-  - @ctx-core/store@26.0.0
-  - @ctx-core/table@11.0.0
+    - @ctx-core/array@22.0.0
+    - @ctx-core/combinators@7.0.0
+    - @ctx-core/fetch@10.0.0
+    - @ctx-core/function@19.0.0
+    - @ctx-core/object@20.0.0
+    - @ctx-core/store@26.0.0
+    - @ctx-core/table@11.0.0
 
 ## 9.0.34
 
@@ -6111,8 +6164,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@25.1.21
-  - @ctx-core/table@10.0.27
+    - @ctx-core/store@25.1.21
+    - @ctx-core/table@10.0.27
 
 ## 9.0.33
 
@@ -6120,7 +6173,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@10.0.26
+    - @ctx-core/table@10.0.26
 
 ## 9.0.32
 
@@ -6128,7 +6181,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@9.0.11
+    - @ctx-core/fetch@9.0.11
 
 ## 9.0.31
 
@@ -6136,7 +6189,7 @@
 
 - fix: B: inferred type issue
 - Updated dependencies [undefined]
-  - @ctx-core/table@10.0.25
+    - @ctx-core/table@10.0.25
 
 ## 9.0.30
 
@@ -6144,10 +6197,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@21.3.2
-  - @ctx-core/fetch@9.0.10
-  - @ctx-core/store@25.1.19
-  - @ctx-core/table@10.0.24
+    - @ctx-core/array@21.3.2
+    - @ctx-core/fetch@9.0.10
+    - @ctx-core/store@25.1.19
+    - @ctx-core/table@10.0.24
 
 ## 9.0.29
 
@@ -6155,10 +6208,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@21.3.1
-  - @ctx-core/fetch@9.0.9
-  - @ctx-core/store@25.1.18
-  - @ctx-core/table@10.0.23
+    - @ctx-core/array@21.3.1
+    - @ctx-core/fetch@9.0.9
+    - @ctx-core/store@25.1.18
+    - @ctx-core/table@10.0.23
 
 ## 9.0.28
 
@@ -6166,8 +6219,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@25.1.17
-  - @ctx-core/table@10.0.22
+    - @ctx-core/store@25.1.17
+    - @ctx-core/table@10.0.22
 
 ## 9.0.27
 
@@ -6175,8 +6228,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@25.1.16
-  - @ctx-core/table@10.0.21
+    - @ctx-core/store@25.1.16
+    - @ctx-core/table@10.0.21
 
 ## 9.0.26
 
@@ -6184,10 +6237,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@21.2.9
-  - @ctx-core/fetch@9.0.8
-  - @ctx-core/store@25.1.15
-  - @ctx-core/table@10.0.20
+    - @ctx-core/array@21.2.9
+    - @ctx-core/fetch@9.0.8
+    - @ctx-core/store@25.1.15
+    - @ctx-core/table@10.0.20
 
 ## 9.0.25
 
@@ -6195,8 +6248,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@25.1.14
-  - @ctx-core/table@10.0.19
+    - @ctx-core/store@25.1.14
+    - @ctx-core/table@10.0.19
 
 ## 9.0.24
 
@@ -6204,13 +6257,13 @@
 
 - version bump: run build
 - Updated dependencies [undefined]
-  - @ctx-core/array@21.2.7
-  - @ctx-core/combinators@6.3.3
-  - @ctx-core/fetch@9.0.6
-  - @ctx-core/function@18.1.3
-  - @ctx-core/object@19.1.3
-  - @ctx-core/store@25.1.13
-  - @ctx-core/table@10.0.18
+    - @ctx-core/array@21.2.7
+    - @ctx-core/combinators@6.3.3
+    - @ctx-core/fetch@9.0.6
+    - @ctx-core/function@18.1.3
+    - @ctx-core/object@19.1.3
+    - @ctx-core/store@25.1.13
+    - @ctx-core/table@10.0.18
 
 ## 9.0.23
 
@@ -6218,13 +6271,13 @@
 
 - fix: build: clean up old build files in dist
 - Updated dependencies [undefined]
-  - @ctx-core/array@21.2.6
-  - @ctx-core/combinators@6.3.2
-  - @ctx-core/fetch@9.0.5
-  - @ctx-core/function@18.1.2
-  - @ctx-core/object@19.1.2
-  - @ctx-core/store@25.1.12
-  - @ctx-core/table@10.0.17
+    - @ctx-core/array@21.2.6
+    - @ctx-core/combinators@6.3.2
+    - @ctx-core/fetch@9.0.5
+    - @ctx-core/function@18.1.2
+    - @ctx-core/object@19.1.2
+    - @ctx-core/store@25.1.12
+    - @ctx-core/table@10.0.17
 
 ## 9.0.22
 
@@ -6232,8 +6285,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@25.1.11
-  - @ctx-core/table@10.0.16
+    - @ctx-core/store@25.1.11
+    - @ctx-core/table@10.0.16
 
 ## 9.0.21
 
@@ -6241,8 +6294,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@25.1.10
-  - @ctx-core/table@10.0.15
+    - @ctx-core/store@25.1.10
+    - @ctx-core/table@10.0.15
 
 ## 9.0.20
 
@@ -6250,9 +6303,9 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/object@19.1.1
-  - @ctx-core/store@25.1.9
-  - @ctx-core/table@10.0.14
+    - @ctx-core/object@19.1.1
+    - @ctx-core/store@25.1.9
+    - @ctx-core/table@10.0.14
 
 ## 9.0.19
 
@@ -6260,10 +6313,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@21.2.1
-  - @ctx-core/fetch@9.0.4
-  - @ctx-core/store@25.1.8
-  - @ctx-core/table@10.0.13
+    - @ctx-core/array@21.2.1
+    - @ctx-core/fetch@9.0.4
+    - @ctx-core/store@25.1.8
+    - @ctx-core/table@10.0.13
 
 ## 9.0.18
 
@@ -6271,7 +6324,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@9.0.3
+    - @ctx-core/fetch@9.0.3
 
 ## 9.0.17
 
@@ -6279,10 +6332,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@21.1.3
-  - @ctx-core/fetch@9.0.2
-  - @ctx-core/store@25.1.6
-  - @ctx-core/table@10.0.11
+    - @ctx-core/array@21.1.3
+    - @ctx-core/fetch@9.0.2
+    - @ctx-core/store@25.1.6
+    - @ctx-core/table@10.0.11
 
 ## 9.0.16
 
@@ -6302,7 +6355,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@10.0.10
+    - @ctx-core/table@10.0.10
 
 ## 9.0.13
 
@@ -6310,8 +6363,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@25.1.4
-  - @ctx-core/table@10.0.9
+    - @ctx-core/store@25.1.4
+    - @ctx-core/table@10.0.9
 
 ## 9.0.12
 
@@ -6319,8 +6372,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@25.1.3
-  - @ctx-core/table@10.0.8
+    - @ctx-core/store@25.1.3
+    - @ctx-core/table@10.0.8
 
 ## 9.0.11
 
@@ -6334,9 +6387,9 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/object@19.0.3
-  - @ctx-core/store@25.1.2
-  - @ctx-core/table@10.0.7
+    - @ctx-core/object@19.0.3
+    - @ctx-core/store@25.1.2
+    - @ctx-core/table@10.0.7
 
 ## 9.0.9
 
@@ -6344,8 +6397,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@25.1.1
-  - @ctx-core/table@10.0.6
+    - @ctx-core/store@25.1.1
+    - @ctx-core/table@10.0.6
 
 ## 9.0.8
 
@@ -6365,9 +6418,9 @@
 
 - _b->be_
 - Updated dependencies [undefined]
-  - @ctx-core/array@21.0.4
-  - @ctx-core/object@19.0.2
-  - @ctx-core/table@10.0.5
+    - @ctx-core/array@21.0.4
+    - @ctx-core/object@19.0.2
+    - @ctx-core/table@10.0.5
 
 ## 9.0.5
 
@@ -6375,7 +6428,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@10.0.4
+    - @ctx-core/table@10.0.4
 
 ## 9.0.4
 
@@ -6383,8 +6436,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@25.0.3
-  - @ctx-core/table@10.0.3
+    - @ctx-core/store@25.0.3
+    - @ctx-core/table@10.0.3
 
 ## 9.0.3
 
@@ -6392,10 +6445,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@21.0.2
-  - @ctx-core/object@19.0.1
-  - @ctx-core/store@25.0.2
-  - @ctx-core/table@10.0.2
+    - @ctx-core/array@21.0.2
+    - @ctx-core/object@19.0.1
+    - @ctx-core/store@25.0.2
+    - @ctx-core/table@10.0.2
 
 ## 9.0.2
 
@@ -6403,8 +6456,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@25.0.1
-  - @ctx-core/table@10.0.1
+    - @ctx-core/store@25.0.1
+    - @ctx-core/table@10.0.1
 
 ## 9.0.1
 
@@ -6423,12 +6476,12 @@
 
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/array@21.0.0
-  - @ctx-core/fetch@9.0.0
-  - @ctx-core/function@18.0.0
-  - @ctx-core/object@19.0.0
-  - @ctx-core/store@25.0.0
-  - @ctx-core/table@10.0.0
+    - @ctx-core/array@21.0.0
+    - @ctx-core/fetch@9.0.0
+    - @ctx-core/function@18.0.0
+    - @ctx-core/object@19.0.0
+    - @ctx-core/store@25.0.0
+    - @ctx-core/table@10.0.0
 
 ## 8.4.4
 
@@ -6436,11 +6489,11 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/combinators@6.3.1
-  - @ctx-core/fetch@8.4.2
-  - @ctx-core/function@17.11.1
-  - @ctx-core/object@18.2.1
-  - @ctx-core/store@24.10.1
+    - @ctx-core/combinators@6.3.1
+    - @ctx-core/fetch@8.4.2
+    - @ctx-core/function@17.11.1
+    - @ctx-core/object@18.2.1
+    - @ctx-core/store@24.10.1
 
 ## 8.4.3
 
@@ -6469,13 +6522,13 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.5.0
-  - @ctx-core/combinators@6.3.0
-  - @ctx-core/fetch@8.3.0
-  - @ctx-core/function@17.11.0
-  - @ctx-core/object@18.2.0
-  - @ctx-core/store@24.10.0
-  - @ctx-core/table@9.4.0
+    - @ctx-core/array@20.5.0
+    - @ctx-core/combinators@6.3.0
+    - @ctx-core/fetch@8.3.0
+    - @ctx-core/function@17.11.0
+    - @ctx-core/object@18.2.0
+    - @ctx-core/store@24.10.0
+    - @ctx-core/table@9.4.0
 
 ## 8.3.2
 
@@ -6483,8 +6536,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.9.2
-  - @ctx-core/table@9.3.2
+    - @ctx-core/store@24.9.2
+    - @ctx-core/table@9.3.2
 
 ## 8.3.1
 
@@ -6492,13 +6545,13 @@
 
 - .gitignore: - \_.js
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.4.1
-  - @ctx-core/combinators@6.2.1
-  - @ctx-core/fetch@8.2.1
-  - @ctx-core/function@17.10.1
-  - @ctx-core/object@18.1.1
-  - @ctx-core/store@24.9.1
-  - @ctx-core/table@9.3.1
+    - @ctx-core/array@20.4.1
+    - @ctx-core/combinators@6.2.1
+    - @ctx-core/fetch@8.2.1
+    - @ctx-core/function@17.10.1
+    - @ctx-core/object@18.1.1
+    - @ctx-core/store@24.9.1
+    - @ctx-core/table@9.3.1
 
 ## 8.3.0
 
@@ -6509,13 +6562,13 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.4.0
-  - @ctx-core/combinators@6.2.0
-  - @ctx-core/fetch@8.2.0
-  - @ctx-core/function@17.10.0
-  - @ctx-core/object@18.1.0
-  - @ctx-core/store@24.9.0
-  - @ctx-core/table@9.3.0
+    - @ctx-core/array@20.4.0
+    - @ctx-core/combinators@6.2.0
+    - @ctx-core/fetch@8.2.0
+    - @ctx-core/function@17.10.0
+    - @ctx-core/object@18.1.0
+    - @ctx-core/store@24.9.0
+    - @ctx-core/table@9.3.0
 
 ## 8.2.3
 
@@ -6523,13 +6576,13 @@
 
 - types: ./src/index.d.ts: address error TS2742 issue
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.3.10
-  - @ctx-core/combinators@6.1.3
-  - @ctx-core/fetch@8.1.11
-  - @ctx-core/function@17.9.3
-  - @ctx-core/object@18.0.6
-  - @ctx-core/store@24.8.10
-  - @ctx-core/table@9.2.3
+    - @ctx-core/array@20.3.10
+    - @ctx-core/combinators@6.1.3
+    - @ctx-core/fetch@8.1.11
+    - @ctx-core/function@17.9.3
+    - @ctx-core/object@18.0.6
+    - @ctx-core/store@24.8.10
+    - @ctx-core/table@9.2.3
 
 ## 8.2.2
 
@@ -6537,10 +6590,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.3.9
-  - @ctx-core/fetch@8.1.10
-  - @ctx-core/store@24.8.9
-  - @ctx-core/table@9.2.2
+    - @ctx-core/array@20.3.9
+    - @ctx-core/fetch@8.1.10
+    - @ctx-core/store@24.8.9
+    - @ctx-core/table@9.2.2
 
 ## 8.2.1
 
@@ -6548,21 +6601,22 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.3.8
-  - @ctx-core/fetch@8.1.9
-  - @ctx-core/store@24.8.8
-  - @ctx-core/table@9.2.1
+    - @ctx-core/array@20.3.8
+    - @ctx-core/fetch@8.1.9
+    - @ctx-core/store@24.8.8
+    - @ctx-core/table@9.2.1
 
 ## 8.2.0
 
 ### Minor Changes
 
-- - csv_Ctx
+-
+    - csv_Ctx
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.2.0
+    - @ctx-core/table@9.2.0
 
 ## 8.1.8
 
@@ -6570,10 +6624,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.3.7
-  - @ctx-core/fetch@8.1.8
-  - @ctx-core/store@24.8.7
-  - @ctx-core/table@9.1.8
+    - @ctx-core/array@20.3.7
+    - @ctx-core/fetch@8.1.8
+    - @ctx-core/store@24.8.7
+    - @ctx-core/table@9.1.8
 
 ## 8.1.7
 
@@ -6581,10 +6635,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.3.6
-  - @ctx-core/fetch@8.1.7
-  - @ctx-core/store@24.8.6
-  - @ctx-core/table@9.1.7
+    - @ctx-core/array@20.3.6
+    - @ctx-core/fetch@8.1.7
+    - @ctx-core/store@24.8.6
+    - @ctx-core/table@9.1.7
 
 ## 8.1.6
 
@@ -6592,10 +6646,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.3.5
-  - @ctx-core/fetch@8.1.6
-  - @ctx-core/store@24.8.5
-  - @ctx-core/table@9.1.6
+    - @ctx-core/array@20.3.5
+    - @ctx-core/fetch@8.1.6
+    - @ctx-core/store@24.8.5
+    - @ctx-core/table@9.1.6
 
 ## 8.1.5
 
@@ -6603,8 +6657,8 @@
 
 - \_ctx_I->\_Ctx
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@8.1.5
-  - @ctx-core/table@9.1.5
+    - @ctx-core/fetch@8.1.5
+    - @ctx-core/table@9.1.5
 
 ## 8.1.4
 
@@ -6612,21 +6666,21 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.3.4
-  - @ctx-core/fetch@8.1.4
-  - @ctx-core/store@24.8.4
-  - @ctx-core/table@9.1.4
+    - @ctx-core/array@20.3.4
+    - @ctx-core/fetch@8.1.4
+    - @ctx-core/store@24.8.4
+    - @ctx-core/table@9.1.4
 
 ## 8.1.3
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@18.0.0
-  - @ctx-core/array@20.3.3
-  - @ctx-core/fetch@8.1.3
-  - @ctx-core/store@24.8.3
-  - @ctx-core/table@9.1.3
+    - @ctx-core/object@18.0.0
+    - @ctx-core/array@20.3.3
+    - @ctx-core/fetch@8.1.3
+    - @ctx-core/store@24.8.3
+    - @ctx-core/table@9.1.3
 
 ## 8.1.2
 
@@ -6634,13 +6688,13 @@
 
 - .npmignore: + ~
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.3.2
-  - @ctx-core/combinators@6.1.2
-  - @ctx-core/fetch@8.1.2
-  - @ctx-core/function@17.9.2
-  - @ctx-core/object@17.6.2
-  - @ctx-core/store@24.8.2
-  - @ctx-core/table@9.1.2
+    - @ctx-core/array@20.3.2
+    - @ctx-core/combinators@6.1.2
+    - @ctx-core/fetch@8.1.2
+    - @ctx-core/function@17.9.2
+    - @ctx-core/object@17.6.2
+    - @ctx-core/store@24.8.2
+    - @ctx-core/table@9.1.2
 
 ## 8.1.1
 
@@ -6648,13 +6702,13 @@
 
 - fix: target: 2018: nodejs compatability
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.3.1
-  - @ctx-core/combinators@6.1.1
-  - @ctx-core/fetch@8.1.1
-  - @ctx-core/function@17.9.1
-  - @ctx-core/object@17.6.1
-  - @ctx-core/store@24.8.1
-  - @ctx-core/table@9.1.1
+    - @ctx-core/array@20.3.1
+    - @ctx-core/combinators@6.1.1
+    - @ctx-core/fetch@8.1.1
+    - @ctx-core/function@17.9.1
+    - @ctx-core/object@17.6.1
+    - @ctx-core/store@24.8.1
+    - @ctx-core/table@9.1.1
 
 ## 8.1.0
 
@@ -6665,13 +6719,13 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.3.0
-  - @ctx-core/combinators@6.1.0
-  - @ctx-core/fetch@8.1.0
-  - @ctx-core/function@17.9.0
-  - @ctx-core/object@17.6.0
-  - @ctx-core/store@24.8.0
-  - @ctx-core/table@9.1.0
+    - @ctx-core/array@20.3.0
+    - @ctx-core/combinators@6.1.0
+    - @ctx-core/fetch@8.1.0
+    - @ctx-core/function@17.9.0
+    - @ctx-core/object@17.6.0
+    - @ctx-core/store@24.8.0
+    - @ctx-core/table@9.1.0
 
 ## 8.0.102
 
@@ -6679,8 +6733,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.7.24
-  - @ctx-core/table@9.0.89
+    - @ctx-core/store@24.7.24
+    - @ctx-core/table@9.0.89
 
 ## 8.0.101
 
@@ -6688,8 +6742,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.7.23
-  - @ctx-core/table@9.0.88
+    - @ctx-core/store@24.7.23
+    - @ctx-core/table@9.0.88
 
 ## 8.0.100
 
@@ -6697,8 +6751,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.7.22
-  - @ctx-core/table@9.0.87
+    - @ctx-core/store@24.7.22
+    - @ctx-core/table@9.0.87
 
 ## 8.0.99
 
@@ -6706,9 +6760,9 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@8.0.70
-  - @ctx-core/store@24.7.21
-  - @ctx-core/table@9.0.86
+    - @ctx-core/fetch@8.0.70
+    - @ctx-core/store@24.7.21
+    - @ctx-core/table@9.0.86
 
 ## 8.0.98
 
@@ -6716,10 +6770,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@8.0.69
-  - @ctx-core/object@17.5.26
-  - @ctx-core/store@24.7.20
-  - @ctx-core/table@9.0.85
+    - @ctx-core/fetch@8.0.69
+    - @ctx-core/object@17.5.26
+    - @ctx-core/store@24.7.20
+    - @ctx-core/table@9.0.85
 
 ## 8.0.97
 
@@ -6727,7 +6781,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.84
+    - @ctx-core/table@9.0.84
 
 ## 8.0.96
 
@@ -6735,8 +6789,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@8.0.68
-  - @ctx-core/store@24.7.18
+    - @ctx-core/fetch@8.0.68
+    - @ctx-core/store@24.7.18
 
 ## 8.0.95
 
@@ -6744,10 +6798,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.27
-  - @ctx-core/object@17.5.24
-  - @ctx-core/store@24.7.17
-  - @ctx-core/table@9.0.82
+    - @ctx-core/array@20.2.27
+    - @ctx-core/object@17.5.24
+    - @ctx-core/store@24.7.17
+    - @ctx-core/table@9.0.82
 
 ## 8.0.94
 
@@ -6755,10 +6809,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.26
-  - @ctx-core/object@17.5.23
-  - @ctx-core/store@24.7.16
-  - @ctx-core/table@9.0.81
+    - @ctx-core/array@20.2.26
+    - @ctx-core/object@17.5.23
+    - @ctx-core/store@24.7.16
+    - @ctx-core/table@9.0.81
 
 ## 8.0.93
 
@@ -6766,11 +6820,11 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.25
-  - @ctx-core/fetch@8.0.67
-  - @ctx-core/object@17.5.22
-  - @ctx-core/store@24.7.15
-  - @ctx-core/table@9.0.80
+    - @ctx-core/array@20.2.25
+    - @ctx-core/fetch@8.0.67
+    - @ctx-core/object@17.5.22
+    - @ctx-core/store@24.7.15
+    - @ctx-core/table@9.0.80
 
 ## 8.0.92
 
@@ -6778,10 +6832,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.24
-  - @ctx-core/object@17.5.21
-  - @ctx-core/store@24.7.14
-  - @ctx-core/table@9.0.79
+    - @ctx-core/array@20.2.24
+    - @ctx-core/object@17.5.21
+    - @ctx-core/store@24.7.14
+    - @ctx-core/table@9.0.79
 
 ## 8.0.91
 
@@ -6789,10 +6843,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.23
-  - @ctx-core/object@17.5.20
-  - @ctx-core/store@24.7.13
-  - @ctx-core/table@9.0.78
+    - @ctx-core/array@20.2.23
+    - @ctx-core/object@17.5.20
+    - @ctx-core/store@24.7.13
+    - @ctx-core/table@9.0.78
 
 ## 8.0.90
 
@@ -6800,8 +6854,8 @@
 
 - svelte: 3.38.1 -> 3.38.2
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.7.12
-  - @ctx-core/table@9.0.77
+    - @ctx-core/store@24.7.12
+    - @ctx-core/table@9.0.77
 
 ## 8.0.89
 
@@ -6809,10 +6863,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.22
-  - @ctx-core/object@17.5.19
-  - @ctx-core/store@24.7.11
-  - @ctx-core/table@9.0.76
+    - @ctx-core/array@20.2.22
+    - @ctx-core/object@17.5.19
+    - @ctx-core/store@24.7.11
+    - @ctx-core/table@9.0.76
 
 ## 8.0.88
 
@@ -6820,10 +6874,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.21
-  - @ctx-core/object@17.5.18
-  - @ctx-core/store@24.7.10
-  - @ctx-core/table@9.0.75
+    - @ctx-core/array@20.2.21
+    - @ctx-core/object@17.5.18
+    - @ctx-core/store@24.7.10
+    - @ctx-core/table@9.0.75
 
 ## 8.0.87
 
@@ -6831,7 +6885,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.74
+    - @ctx-core/table@9.0.74
 
 ## 8.0.86
 
@@ -6839,7 +6893,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.73
+    - @ctx-core/table@9.0.73
 
 ## 8.0.85
 
@@ -6847,7 +6901,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.72
+    - @ctx-core/table@9.0.72
 
 ## 8.0.84
 
@@ -6855,7 +6909,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.71
+    - @ctx-core/table@9.0.71
 
 ## 8.0.83
 
@@ -6863,7 +6917,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.70
+    - @ctx-core/table@9.0.70
 
 ## 8.0.82
 
@@ -6872,10 +6926,10 @@
 - update dependencies
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.7.4
-  - @ctx-core/array@20.2.20
-  - @ctx-core/object@17.5.17
-  - @ctx-core/table@9.0.69
+    - @ctx-core/store@24.7.4
+    - @ctx-core/array@20.2.20
+    - @ctx-core/object@17.5.17
+    - @ctx-core/table@9.0.69
 
 ## 8.0.81
 
@@ -6883,10 +6937,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.19
-  - @ctx-core/fetch@8.0.66
-  - @ctx-core/store@24.7.3
-  - @ctx-core/table@9.0.68
+    - @ctx-core/array@20.2.19
+    - @ctx-core/fetch@8.0.66
+    - @ctx-core/store@24.7.3
+    - @ctx-core/table@9.0.68
 
 ## 8.0.80
 
@@ -6894,8 +6948,8 @@
 
 - svelte: 3.38.0 -> 3.38.1
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.7.2
-  - @ctx-core/table@9.0.67
+    - @ctx-core/store@24.7.2
+    - @ctx-core/table@9.0.67
 
 ## 8.0.79
 
@@ -6903,8 +6957,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.7.1
-  - @ctx-core/table@9.0.66
+    - @ctx-core/store@24.7.1
+    - @ctx-core/table@9.0.66
 
 ## 8.0.78
 
@@ -6912,10 +6966,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.18
-  - @ctx-core/fetch@8.0.65
-  - @ctx-core/store@24.5.9
-  - @ctx-core/table@9.0.65
+    - @ctx-core/array@20.2.18
+    - @ctx-core/fetch@8.0.65
+    - @ctx-core/store@24.5.9
+    - @ctx-core/table@9.0.65
 
 ## 8.0.77
 
@@ -6923,9 +6977,9 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.17
-  - @ctx-core/fetch@8.0.64
-  - @ctx-core/table@9.0.64
+    - @ctx-core/array@20.2.17
+    - @ctx-core/fetch@8.0.64
+    - @ctx-core/table@9.0.64
 
 ## 8.0.76
 
@@ -6933,11 +6987,11 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.15
-  - @ctx-core/fetch@8.0.63
-  - @ctx-core/object@17.5.13
-  - @ctx-core/store@24.5.8
-  - @ctx-core/table@9.0.63
+    - @ctx-core/array@20.2.15
+    - @ctx-core/fetch@8.0.63
+    - @ctx-core/object@17.5.13
+    - @ctx-core/store@24.5.8
+    - @ctx-core/table@9.0.63
 
 ## 8.0.75
 
@@ -6945,10 +6999,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.14
-  - @ctx-core/object@17.5.12
-  - @ctx-core/store@24.5.7
-  - @ctx-core/table@9.0.62
+    - @ctx-core/array@20.2.14
+    - @ctx-core/object@17.5.12
+    - @ctx-core/store@24.5.7
+    - @ctx-core/table@9.0.62
 
 ## 8.0.74
 
@@ -6956,8 +7010,8 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@8.0.62
-  - @ctx-core/table@9.0.61
+    - @ctx-core/fetch@8.0.62
+    - @ctx-core/table@9.0.61
 
 ## 8.0.73
 
@@ -6965,7 +7019,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.60
+    - @ctx-core/table@9.0.60
 
 ## 8.0.72
 
@@ -6973,7 +7027,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@8.0.61
+    - @ctx-core/fetch@8.0.61
 
 ## 8.0.71
 
@@ -6981,7 +7035,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.59
+    - @ctx-core/table@9.0.59
 
 ## 8.0.70
 
@@ -6989,10 +7043,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.13
-  - @ctx-core/fetch@8.0.59
-  - @ctx-core/store@24.5.4
-  - @ctx-core/table@9.0.58
+    - @ctx-core/array@20.2.13
+    - @ctx-core/fetch@8.0.59
+    - @ctx-core/store@24.5.4
+    - @ctx-core/table@9.0.58
 
 ## 8.0.69
 
@@ -7000,7 +7054,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.57
+    - @ctx-core/table@9.0.57
 
 ## 8.0.68
 
@@ -7008,7 +7062,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.56
+    - @ctx-core/table@9.0.56
 
 ## 8.0.67
 
@@ -7016,10 +7070,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.12
-  - @ctx-core/fetch@8.0.58
-  - @ctx-core/store@24.5.1
-  - @ctx-core/table@9.0.55
+    - @ctx-core/array@20.2.12
+    - @ctx-core/fetch@8.0.58
+    - @ctx-core/store@24.5.1
+    - @ctx-core/table@9.0.55
 
 ## 8.0.66
 
@@ -7027,7 +7081,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.54
+    - @ctx-core/table@9.0.54
 
 ## 8.0.65
 
@@ -7035,7 +7089,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.53
+    - @ctx-core/table@9.0.53
 
 ## 8.0.64
 
@@ -7043,7 +7097,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.52
+    - @ctx-core/table@9.0.52
 
 ## 8.0.63
 
@@ -7051,7 +7105,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.51
+    - @ctx-core/table@9.0.51
 
 ## 8.0.62
 
@@ -7059,7 +7113,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.50
+    - @ctx-core/table@9.0.50
 
 ## 8.0.61
 
@@ -7067,10 +7121,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.11
-  - @ctx-core/fetch@8.0.57
-  - @ctx-core/store@24.2.4
-  - @ctx-core/table@9.0.49
+    - @ctx-core/array@20.2.11
+    - @ctx-core/fetch@8.0.57
+    - @ctx-core/store@24.2.4
+    - @ctx-core/table@9.0.49
 
 ## 8.0.60
 
@@ -7078,10 +7132,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.10
-  - @ctx-core/fetch@8.0.56
-  - @ctx-core/store@24.2.3
-  - @ctx-core/table@9.0.48
+    - @ctx-core/array@20.2.10
+    - @ctx-core/fetch@8.0.56
+    - @ctx-core/store@24.2.3
+    - @ctx-core/table@9.0.48
 
 ## 8.0.59
 
@@ -7089,10 +7143,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.9
-  - @ctx-core/object@17.5.7
-  - @ctx-core/store@24.2.2
-  - @ctx-core/table@9.0.47
+    - @ctx-core/array@20.2.9
+    - @ctx-core/object@17.5.7
+    - @ctx-core/store@24.2.2
+    - @ctx-core/table@9.0.47
 
 ## 8.0.58
 
@@ -7100,7 +7154,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.46
+    - @ctx-core/table@9.0.46
 
 ## 8.0.57
 
@@ -7108,7 +7162,7 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/table@9.0.45
+    - @ctx-core/table@9.0.45
 
 ## 8.0.56
 
@@ -7116,10 +7170,10 @@
 
 - @ctx-core/object: 17.5.6
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.8
-  - @ctx-core/fetch@8.0.55
-  - @ctx-core/store@24.1.22
-  - @ctx-core/table@9.0.44
+    - @ctx-core/array@20.2.8
+    - @ctx-core/fetch@8.0.55
+    - @ctx-core/store@24.1.22
+    - @ctx-core/table@9.0.44
 
 ## 8.0.55
 
@@ -7127,10 +7181,10 @@
 
 - @ctx-core/object: 17.5.5
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.7
-  - @ctx-core/fetch@8.0.54
-  - @ctx-core/store@24.1.21
-  - @ctx-core/table@9.0.43
+    - @ctx-core/array@20.2.7
+    - @ctx-core/fetch@8.0.54
+    - @ctx-core/store@24.1.21
+    - @ctx-core/table@9.0.43
 
 ## 8.0.54
 
@@ -7138,10 +7192,10 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.6
-  - @ctx-core/fetch@8.0.53
-  - @ctx-core/store@24.1.20
-  - @ctx-core/table@9.0.42
+    - @ctx-core/array@20.2.6
+    - @ctx-core/fetch@8.0.53
+    - @ctx-core/store@24.1.20
+    - @ctx-core/table@9.0.42
 
 ## 8.0.53
 
@@ -7149,12 +7203,12 @@
 
 - update dependencies
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.5
-  - @ctx-core/combinators@6.0.10
-  - @ctx-core/fetch@8.0.52
-  - @ctx-core/function@17.4.6
-  - @ctx-core/store@24.1.19
-  - @ctx-core/table@9.0.41
+    - @ctx-core/array@20.2.5
+    - @ctx-core/combinators@6.0.10
+    - @ctx-core/fetch@8.0.52
+    - @ctx-core/function@17.4.6
+    - @ctx-core/store@24.1.19
+    - @ctx-core/table@9.0.41
 
 ## 8.0.52
 
@@ -7162,13 +7216,13 @@
 
 - typescript: ^4.2.3 -> ^4.2.4
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.4
-  - @ctx-core/combinators@6.0.9
-  - @ctx-core/fetch@8.0.51
-  - @ctx-core/function@17.4.5
-  - @ctx-core/object@17.4.4
-  - @ctx-core/store@24.1.18
-  - @ctx-core/table@9.0.40
+    - @ctx-core/array@20.2.4
+    - @ctx-core/combinators@6.0.9
+    - @ctx-core/fetch@8.0.51
+    - @ctx-core/function@17.4.5
+    - @ctx-core/object@17.4.4
+    - @ctx-core/store@24.1.18
+    - @ctx-core/table@9.0.40
 
 ## 8.0.51
 
@@ -7176,9 +7230,9 @@
 
 - "svelte": 3.37.0
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.1.17
-  - @ctx-core/table@9.0.39
-  - @ctx-core/fetch@8.0.50
+    - @ctx-core/store@24.1.17
+    - @ctx-core/table@9.0.39
+    - @ctx-core/fetch@8.0.50
 
 ## 8.0.50
 
@@ -7186,13 +7240,13 @@
 
 - version bump
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.3
-  - @ctx-core/combinators@6.0.8
-  - @ctx-core/fetch@8.0.49
-  - @ctx-core/function@17.4.4
-  - @ctx-core/object@17.4.3
-  - @ctx-core/store@24.1.16
-  - @ctx-core/table@9.0.38
+    - @ctx-core/array@20.2.3
+    - @ctx-core/combinators@6.0.8
+    - @ctx-core/fetch@8.0.49
+    - @ctx-core/function@17.4.4
+    - @ctx-core/object@17.4.3
+    - @ctx-core/store@24.1.16
+    - @ctx-core/table@9.0.38
 
 ## 8.0.49
 
@@ -7200,13 +7254,13 @@
 
 - fix: npm publish: https://github.com/npm/cli/issues/2834
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.2
-  - @ctx-core/combinators@6.0.7
-  - @ctx-core/fetch@8.0.48
-  - @ctx-core/function@17.4.3
-  - @ctx-core/object@17.4.2
-  - @ctx-core/store@24.1.15
-  - @ctx-core/table@9.0.37
+    - @ctx-core/array@20.2.2
+    - @ctx-core/combinators@6.0.7
+    - @ctx-core/fetch@8.0.48
+    - @ctx-core/function@17.4.3
+    - @ctx-core/object@17.4.2
+    - @ctx-core/store@24.1.15
+    - @ctx-core/table@9.0.37
 
 ## 8.0.48
 
@@ -7214,13 +7268,13 @@
 
 - fix: npm run compile: tsc -b .
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.2.1
-  - @ctx-core/combinators@6.0.6
-  - @ctx-core/fetch@8.0.47
-  - @ctx-core/function@17.4.2
-  - @ctx-core/object@17.4.1
-  - @ctx-core/store@24.1.14
-  - @ctx-core/table@9.0.36
+    - @ctx-core/array@20.2.1
+    - @ctx-core/combinators@6.0.6
+    - @ctx-core/fetch@8.0.47
+    - @ctx-core/function@17.4.2
+    - @ctx-core/object@17.4.1
+    - @ctx-core/store@24.1.14
+    - @ctx-core/table@9.0.36
 
 ## 8.0.47
 
@@ -7234,10 +7288,10 @@
 
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.1.13
-  - @ctx-core/array@20.2.0
-  - @ctx-core/fetch@8.0.45
-  - @ctx-core/table@9.0.35
+    - @ctx-core/store@24.1.13
+    - @ctx-core/array@20.2.0
+    - @ctx-core/fetch@8.0.45
+    - @ctx-core/table@9.0.35
 
 ## 8.0.45
 
@@ -7256,22 +7310,22 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@17.4.0
-  - @ctx-core/array@20.1.20
-  - @ctx-core/fetch@8.0.42
-  - @ctx-core/store@24.1.12
-  - @ctx-core/table@9.0.34
+    - @ctx-core/object@17.4.0
+    - @ctx-core/array@20.1.20
+    - @ctx-core/fetch@8.0.42
+    - @ctx-core/store@24.1.12
+    - @ctx-core/table@9.0.34
 
 ## 8.0.42
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@17.3.2
-  - @ctx-core/array@20.1.19
-  - @ctx-core/fetch@8.0.41
-  - @ctx-core/store@24.1.11
-  - @ctx-core/table@9.0.33
+    - @ctx-core/object@17.3.2
+    - @ctx-core/array@20.1.19
+    - @ctx-core/fetch@8.0.41
+    - @ctx-core/store@24.1.11
+    - @ctx-core/table@9.0.33
 
 ## 8.0.41
 
@@ -7285,46 +7339,46 @@
 
 - typescript: ^4.2.2 -> ^4.2.3
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.1.18
-  - @ctx-core/combinators@6.0.5
-  - @ctx-core/fetch@8.0.39
-  - @ctx-core/function@17.4.1
-  - @ctx-core/object@17.3.1
-  - @ctx-core/store@24.1.10
-  - @ctx-core/table@9.0.32
+    - @ctx-core/array@20.1.18
+    - @ctx-core/combinators@6.0.5
+    - @ctx-core/fetch@8.0.39
+    - @ctx-core/function@17.4.1
+    - @ctx-core/object@17.3.1
+    - @ctx-core/store@24.1.10
+    - @ctx-core/table@9.0.32
 
 ## 8.0.39
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@17.3.0
-  - @ctx-core/array@20.1.17
-  - @ctx-core/fetch@8.0.38
-  - @ctx-core/store@24.1.9
-  - @ctx-core/table@9.0.31
+    - @ctx-core/object@17.3.0
+    - @ctx-core/array@20.1.17
+    - @ctx-core/fetch@8.0.38
+    - @ctx-core/store@24.1.9
+    - @ctx-core/table@9.0.31
 
 ## 8.0.38
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@17.2.2
-  - @ctx-core/array@20.1.16
-  - @ctx-core/fetch@8.0.37
-  - @ctx-core/store@24.1.8
-  - @ctx-core/table@9.0.30
+    - @ctx-core/object@17.2.2
+    - @ctx-core/array@20.1.16
+    - @ctx-core/fetch@8.0.37
+    - @ctx-core/store@24.1.8
+    - @ctx-core/table@9.0.30
 
 ## 8.0.37
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@17.2.1
-  - @ctx-core/array@20.1.15
-  - @ctx-core/fetch@8.0.36
-  - @ctx-core/store@24.1.7
-  - @ctx-core/table@9.0.29
+    - @ctx-core/object@17.2.1
+    - @ctx-core/array@20.1.15
+    - @ctx-core/fetch@8.0.36
+    - @ctx-core/store@24.1.7
+    - @ctx-core/table@9.0.29
 
 ## 8.0.36
 
@@ -7332,23 +7386,23 @@
 
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/object@17.2.0
-  - @ctx-core/function@17.4.0
-  - @ctx-core/array@20.1.14
-  - @ctx-core/fetch@8.0.35
-  - @ctx-core/store@24.1.6
-  - @ctx-core/table@9.0.28
+    - @ctx-core/object@17.2.0
+    - @ctx-core/function@17.4.0
+    - @ctx-core/array@20.1.14
+    - @ctx-core/fetch@8.0.35
+    - @ctx-core/store@24.1.6
+    - @ctx-core/table@9.0.28
 
 ## 8.0.35
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@17.1.0
-  - @ctx-core/array@20.1.13
-  - @ctx-core/fetch@8.0.34
-  - @ctx-core/store@24.1.5
-  - @ctx-core/table@9.0.27
+    - @ctx-core/object@17.1.0
+    - @ctx-core/array@20.1.13
+    - @ctx-core/fetch@8.0.34
+    - @ctx-core/store@24.1.5
+    - @ctx-core/table@9.0.27
 
 ## 8.0.34
 
@@ -7356,9 +7410,9 @@
 
 - svelte: 3.34.0 -> 3.35.0
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.1.4
-  - @ctx-core/table@9.0.26
-  - @ctx-core/fetch@8.0.33
+    - @ctx-core/store@24.1.4
+    - @ctx-core/table@9.0.26
+    - @ctx-core/fetch@8.0.33
 
 ## 8.0.33
 
@@ -7366,9 +7420,9 @@
 
 - svelte: 3.33.0 -> 3.34.0
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.1.3
-  - @ctx-core/table@9.0.25
-  - @ctx-core/fetch@8.0.32
+    - @ctx-core/store@24.1.3
+    - @ctx-core/table@9.0.25
+    - @ctx-core/fetch@8.0.32
 
 ## 8.0.32
 
@@ -7376,9 +7430,9 @@
 
 - svelte: 3.32.3 -> 3.33.0
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.1.2
-  - @ctx-core/table@9.0.24
-  - @ctx-core/fetch@8.0.31
+    - @ctx-core/store@24.1.2
+    - @ctx-core/table@9.0.24
+    - @ctx-core/fetch@8.0.31
 
 ## 8.0.31
 
@@ -7393,22 +7447,22 @@
 
 - version bump
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.1.12
-  - @ctx-core/combinators@6.0.4
-  - @ctx-core/fetch@8.0.29
-  - @ctx-core/function@17.3.6
-  - @ctx-core/object@17.0.11
-  - @ctx-core/store@24.1.1
-  - @ctx-core/table@9.0.22
+    - @ctx-core/array@20.1.12
+    - @ctx-core/combinators@6.0.4
+    - @ctx-core/fetch@8.0.29
+    - @ctx-core/function@17.3.6
+    - @ctx-core/object@17.0.11
+    - @ctx-core/store@24.1.1
+    - @ctx-core/table@9.0.22
 
 ## 8.0.29
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.1.0
-  - @ctx-core/table@9.0.21
-  - @ctx-core/fetch@8.0.28
+    - @ctx-core/store@24.1.0
+    - @ctx-core/table@9.0.21
+    - @ctx-core/fetch@8.0.28
 
 ## 8.0.28
 
@@ -7422,25 +7476,25 @@
 
 - typescript: ^4.1.5 -> ^4.2.2
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.1.11
-  - @ctx-core/combinators@6.0.3
-  - @ctx-core/fetch@8.0.26
-  - @ctx-core/function@17.3.4
-  - @ctx-core/object@17.0.9
-  - @ctx-core/store@24.0.17
-  - @ctx-core/table@9.0.19
+    - @ctx-core/array@20.1.11
+    - @ctx-core/combinators@6.0.3
+    - @ctx-core/fetch@8.0.26
+    - @ctx-core/function@17.3.4
+    - @ctx-core/object@17.0.9
+    - @ctx-core/store@24.0.17
+    - @ctx-core/table@9.0.19
 
 ## 8.0.26
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/function@17.3.3
-  - @ctx-core/array@20.1.10
-  - @ctx-core/object@17.0.8
-  - @ctx-core/store@24.0.16
-  - @ctx-core/table@9.0.18
-  - @ctx-core/fetch@8.0.25
+    - @ctx-core/function@17.3.3
+    - @ctx-core/array@20.1.10
+    - @ctx-core/object@17.0.8
+    - @ctx-core/store@24.0.16
+    - @ctx-core/table@9.0.18
+    - @ctx-core/fetch@8.0.25
 
 ## 8.0.25
 
@@ -7459,7 +7513,7 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@8.0.22
+    - @ctx-core/fetch@8.0.22
 
 ## 8.0.22
 
@@ -7473,11 +7527,11 @@
 
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/object@17.0.7
-  - @ctx-core/array@20.1.9
-  - @ctx-core/fetch@8.0.20
-  - @ctx-core/store@24.0.15
-  - @ctx-core/table@9.0.17
+    - @ctx-core/object@17.0.7
+    - @ctx-core/array@20.1.9
+    - @ctx-core/fetch@8.0.20
+    - @ctx-core/store@24.0.15
+    - @ctx-core/table@9.0.17
 
 ## 8.0.20
 
@@ -7491,9 +7545,9 @@
 
 - svelte: 3.32.2 -> 3.32.3
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.0.14
-  - @ctx-core/table@9.0.16
-  - @ctx-core/fetch@8.0.18
+    - @ctx-core/store@24.0.14
+    - @ctx-core/table@9.0.16
+    - @ctx-core/fetch@8.0.18
 
 ## 8.0.18
 
@@ -7501,13 +7555,13 @@
 
 - typescript: ^4.1.4 -> ^4.1.5
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.1.8
-  - @ctx-core/combinators@6.0.2
-  - @ctx-core/fetch@8.0.17
-  - @ctx-core/function@17.3.2
-  - @ctx-core/object@17.0.6
-  - @ctx-core/store@24.0.13
-  - @ctx-core/table@9.0.15
+    - @ctx-core/array@20.1.8
+    - @ctx-core/combinators@6.0.2
+    - @ctx-core/fetch@8.0.17
+    - @ctx-core/function@17.3.2
+    - @ctx-core/object@17.0.6
+    - @ctx-core/store@24.0.13
+    - @ctx-core/table@9.0.15
 
 ## 8.0.17
 
@@ -7515,13 +7569,13 @@
 
 - typescript: ^4.1.3 -> ^4.1.4
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.1.7
-  - @ctx-core/combinators@6.0.1
-  - @ctx-core/fetch@8.0.16
-  - @ctx-core/function@17.3.1
-  - @ctx-core/object@17.0.5
-  - @ctx-core/store@24.0.12
-  - @ctx-core/table@9.0.14
+    - @ctx-core/array@20.1.7
+    - @ctx-core/combinators@6.0.1
+    - @ctx-core/fetch@8.0.16
+    - @ctx-core/function@17.3.1
+    - @ctx-core/object@17.0.5
+    - @ctx-core/store@24.0.12
+    - @ctx-core/table@9.0.14
 
 ## 8.0.16
 
@@ -7529,52 +7583,52 @@
 
 - svelte: 3.32.1 -> 3.32.2
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.0.11
-  - @ctx-core/table@9.0.13
-  - @ctx-core/fetch@8.0.15
+    - @ctx-core/store@24.0.11
+    - @ctx-core/table@9.0.13
+    - @ctx-core/fetch@8.0.15
 
 ## 8.0.15
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/function@17.3.0
-  - @ctx-core/array@20.1.6
-  - @ctx-core/object@17.0.4
-  - @ctx-core/store@24.0.10
-  - @ctx-core/table@9.0.12
-  - @ctx-core/fetch@8.0.14
+    - @ctx-core/function@17.3.0
+    - @ctx-core/array@20.1.6
+    - @ctx-core/object@17.0.4
+    - @ctx-core/store@24.0.10
+    - @ctx-core/table@9.0.12
+    - @ctx-core/fetch@8.0.14
 
 ## 8.0.14
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/function@17.2.0
-  - @ctx-core/array@20.1.5
-  - @ctx-core/object@17.0.3
-  - @ctx-core/store@24.0.9
-  - @ctx-core/table@9.0.11
-  - @ctx-core/fetch@8.0.13
+    - @ctx-core/function@17.2.0
+    - @ctx-core/array@20.1.5
+    - @ctx-core/object@17.0.3
+    - @ctx-core/store@24.0.9
+    - @ctx-core/table@9.0.11
+    - @ctx-core/fetch@8.0.13
 
 ## 8.0.13
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@24.0.8
-  - @ctx-core/table@9.0.10
-  - @ctx-core/fetch@8.0.12
+    - @ctx-core/store@24.0.8
+    - @ctx-core/table@9.0.10
+    - @ctx-core/fetch@8.0.12
 
 ## 8.0.12
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.1.4
-  - @ctx-core/store@24.0.7
-  - @ctx-core/table@9.0.9
-  - @ctx-core/fetch@8.0.11
+    - @ctx-core/array@20.1.4
+    - @ctx-core/store@24.0.7
+    - @ctx-core/table@9.0.9
+    - @ctx-core/fetch@8.0.11
 
 ## 8.0.11
 
@@ -7593,12 +7647,12 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/function@17.1.0
-  - @ctx-core/array@20.1.3
-  - @ctx-core/object@17.0.2
-  - @ctx-core/store@24.0.6
-  - @ctx-core/table@9.0.8
-  - @ctx-core/fetch@8.0.8
+    - @ctx-core/function@17.1.0
+    - @ctx-core/array@20.1.3
+    - @ctx-core/object@17.0.2
+    - @ctx-core/store@24.0.6
+    - @ctx-core/table@9.0.8
+    - @ctx-core/fetch@8.0.8
 
 ## 8.0.8
 
@@ -7611,30 +7665,30 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.1.2
-  - @ctx-core/store@24.0.5
-  - @ctx-core/table@9.0.7
-  - @ctx-core/fetch@8.0.7
+    - @ctx-core/array@20.1.2
+    - @ctx-core/store@24.0.5
+    - @ctx-core/table@9.0.7
+    - @ctx-core/fetch@8.0.7
 
 ## 8.0.6
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.1.1
-  - @ctx-core/store@24.0.4
-  - @ctx-core/table@9.0.6
-  - @ctx-core/fetch@8.0.6
+    - @ctx-core/array@20.1.1
+    - @ctx-core/store@24.0.4
+    - @ctx-core/table@9.0.6
+    - @ctx-core/fetch@8.0.6
 
 ## 8.0.5
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.1.0
-  - @ctx-core/store@24.0.3
-  - @ctx-core/table@9.0.5
-  - @ctx-core/fetch@8.0.5
+    - @ctx-core/array@20.1.0
+    - @ctx-core/store@24.0.3
+    - @ctx-core/table@9.0.5
+    - @ctx-core/fetch@8.0.5
 
 ## 8.0.4
 
@@ -7642,12 +7696,12 @@
 
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/function@17.0.1
-  - @ctx-core/array@20.0.2
-  - @ctx-core/object@17.0.1
-  - @ctx-core/store@24.0.2
-  - @ctx-core/table@9.0.4
-  - @ctx-core/fetch@8.0.4
+    - @ctx-core/function@17.0.1
+    - @ctx-core/array@20.0.2
+    - @ctx-core/object@17.0.1
+    - @ctx-core/store@24.0.2
+    - @ctx-core/table@9.0.4
+    - @ctx-core/fetch@8.0.4
 
 ## 8.0.3
 
@@ -7661,18 +7715,18 @@
 ### Patch Changes
 
 - fix: remove export type aliases causing build issues
-  - @ctx-core/fetch@8.0.2
-  - @ctx-core/table@9.0.2
+    - @ctx-core/fetch@8.0.2
+    - @ctx-core/table@9.0.2
 
 ## 8.0.1
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.0.1
-  - @ctx-core/store@24.0.1
-  - @ctx-core/table@9.0.1
-  - @ctx-core/fetch@8.0.1
+    - @ctx-core/array@20.0.1
+    - @ctx-core/store@24.0.1
+    - @ctx-core/table@9.0.1
+    - @ctx-core/fetch@8.0.1
 
 ## 8.0.0
 
@@ -7683,45 +7737,45 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@20.0.0
-  - @ctx-core/combinators@6.0.0
-  - @ctx-core/fetch@8.0.0
-  - @ctx-core/function@17.0.0
-  - @ctx-core/object@17.0.0
-  - @ctx-core/store@24.0.0
-  - @ctx-core/table@9.0.0
+    - @ctx-core/array@20.0.0
+    - @ctx-core/combinators@6.0.0
+    - @ctx-core/fetch@8.0.0
+    - @ctx-core/function@17.0.0
+    - @ctx-core/object@17.0.0
+    - @ctx-core/store@24.0.0
+    - @ctx-core/table@9.0.0
 
 ## 7.2.53
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@16.1.1
-  - @ctx-core/array@19.2.5
-  - @ctx-core/fetch@7.1.32
-  - @ctx-core/store@23.4.6
-  - @ctx-core/table@8.2.39
+    - @ctx-core/object@16.1.1
+    - @ctx-core/array@19.2.5
+    - @ctx-core/fetch@7.1.32
+    - @ctx-core/store@23.4.6
+    - @ctx-core/table@8.2.39
 
 ## 7.2.52
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.2.4
-  - @ctx-core/store@23.4.5
-  - @ctx-core/table@8.2.38
-  - @ctx-core/fetch@7.1.31
+    - @ctx-core/array@19.2.4
+    - @ctx-core/store@23.4.5
+    - @ctx-core/table@8.2.38
+    - @ctx-core/fetch@7.1.31
 
 ## 7.2.51
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@16.1.0
-  - @ctx-core/array@19.2.3
-  - @ctx-core/fetch@7.1.30
-  - @ctx-core/store@23.4.4
-  - @ctx-core/table@8.2.37
+    - @ctx-core/object@16.1.0
+    - @ctx-core/array@19.2.3
+    - @ctx-core/fetch@7.1.30
+    - @ctx-core/store@23.4.4
+    - @ctx-core/table@8.2.37
 
 ## 7.2.50
 
@@ -7729,9 +7783,9 @@
 
 - svelte: 3.32.0 -> 3.32.1
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.4.3
-  - @ctx-core/table@8.2.36
-  - @ctx-core/fetch@7.1.29
+    - @ctx-core/store@23.4.3
+    - @ctx-core/table@8.2.36
+    - @ctx-core/fetch@7.1.29
 
 ## 7.2.49
 
@@ -7739,9 +7793,9 @@
 
 - svelte: 3.31.2 -> 3.32.0
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.4.2
-  - @ctx-core/table@8.2.35
-  - @ctx-core/fetch@7.1.28
+    - @ctx-core/store@23.4.2
+    - @ctx-core/table@8.2.35
+    - @ctx-core/fetch@7.1.28
 
 ## 7.2.48
 
@@ -7754,30 +7808,30 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.4.1
-  - @ctx-core/table@8.2.34
-  - @ctx-core/fetch@7.1.26
+    - @ctx-core/store@23.4.1
+    - @ctx-core/table@8.2.34
+    - @ctx-core/fetch@7.1.26
 
 ## 7.2.46
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.4.0
-  - @ctx-core/table@8.2.33
-  - @ctx-core/fetch@7.1.25
+    - @ctx-core/store@23.4.0
+    - @ctx-core/table@8.2.33
+    - @ctx-core/fetch@7.1.25
 
 ## 7.2.45
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/function@16.9.1
-  - @ctx-core/array@19.2.2
-  - @ctx-core/object@16.0.4
-  - @ctx-core/store@23.3.4
-  - @ctx-core/table@8.2.32
-  - @ctx-core/fetch@7.1.24
+    - @ctx-core/function@16.9.1
+    - @ctx-core/array@19.2.2
+    - @ctx-core/object@16.0.4
+    - @ctx-core/store@23.3.4
+    - @ctx-core/table@8.2.32
+    - @ctx-core/fetch@7.1.24
 
 ## 7.2.44
 
@@ -7790,31 +7844,31 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.3.3
-  - @ctx-core/table@8.2.31
-  - @ctx-core/fetch@7.1.22
+    - @ctx-core/store@23.3.3
+    - @ctx-core/table@8.2.31
+    - @ctx-core/fetch@7.1.22
 
 ## 7.2.42
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.2.1
-  - @ctx-core/store@23.3.2
-  - @ctx-core/table@8.2.30
-  - @ctx-core/fetch@7.1.21
+    - @ctx-core/array@19.2.1
+    - @ctx-core/store@23.3.2
+    - @ctx-core/table@8.2.30
+    - @ctx-core/fetch@7.1.21
 
 ## 7.2.41
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.2.0
-  - @ctx-core/function@16.9.0
-  - @ctx-core/store@23.3.1
-  - @ctx-core/table@8.2.29
-  - @ctx-core/object@16.0.3
-  - @ctx-core/fetch@7.1.20
+    - @ctx-core/array@19.2.0
+    - @ctx-core/function@16.9.0
+    - @ctx-core/store@23.3.1
+    - @ctx-core/table@8.2.29
+    - @ctx-core/object@16.0.3
+    - @ctx-core/fetch@7.1.20
 
 ## 7.2.40
 
@@ -7822,30 +7876,30 @@
 
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.3.0
-  - @ctx-core/table@8.2.28
-  - @ctx-core/fetch@7.1.19
+    - @ctx-core/store@23.3.0
+    - @ctx-core/table@8.2.28
+    - @ctx-core/fetch@7.1.19
 
 ## 7.2.39
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/function@16.8.2
-  - @ctx-core/array@19.1.22
-  - @ctx-core/object@16.0.2
-  - @ctx-core/store@23.2.1
-  - @ctx-core/table@8.2.27
-  - @ctx-core/fetch@7.1.18
+    - @ctx-core/function@16.8.2
+    - @ctx-core/array@19.1.22
+    - @ctx-core/object@16.0.2
+    - @ctx-core/store@23.2.1
+    - @ctx-core/table@8.2.27
+    - @ctx-core/fetch@7.1.18
 
 ## 7.2.38
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.2.0
-  - @ctx-core/table@8.2.26
-  - @ctx-core/fetch@7.1.17
+    - @ctx-core/store@23.2.0
+    - @ctx-core/table@8.2.26
+    - @ctx-core/fetch@7.1.17
 
 ## 7.2.37
 
@@ -7853,9 +7907,9 @@
 
 - svelte: 3.31.1 -> 3.31.2
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.1.25
-  - @ctx-core/table@8.2.25
-  - @ctx-core/fetch@7.1.16
+    - @ctx-core/store@23.1.25
+    - @ctx-core/table@8.2.25
+    - @ctx-core/fetch@7.1.16
 
 ## 7.2.36
 
@@ -7874,8 +7928,8 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@7.1.13
-  - @ctx-core/table@8.2.24
+    - @ctx-core/fetch@7.1.13
+    - @ctx-core/table@8.2.24
 
 ## 7.2.33
 
@@ -7890,9 +7944,9 @@
 
 - svelte: 3.31.0 -> 3.31.1
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.1.24
-  - @ctx-core/table@8.2.22
-  - @ctx-core/fetch@7.1.11
+    - @ctx-core/store@23.1.24
+    - @ctx-core/table@8.2.22
+    - @ctx-core/fetch@7.1.11
 
 ## 7.2.31
 
@@ -7905,11 +7959,11 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@16.0.1
-  - @ctx-core/array@19.1.21
-  - @ctx-core/fetch@7.1.9
-  - @ctx-core/store@23.1.23
-  - @ctx-core/table@8.2.21
+    - @ctx-core/object@16.0.1
+    - @ctx-core/array@19.1.21
+    - @ctx-core/fetch@7.1.9
+    - @ctx-core/store@23.1.23
+    - @ctx-core/table@8.2.21
 
 ## 7.2.29
 
@@ -7917,35 +7971,35 @@
 
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/object@16.0.0
-  - @ctx-core/array@19.1.20
-  - @ctx-core/fetch@7.1.8
-  - @ctx-core/store@23.1.22
-  - @ctx-core/table@8.2.20
+    - @ctx-core/object@16.0.0
+    - @ctx-core/array@19.1.20
+    - @ctx-core/fetch@7.1.8
+    - @ctx-core/store@23.1.22
+    - @ctx-core/table@8.2.20
 
 ## 7.2.28
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/function@16.8.1
-  - @ctx-core/array@19.1.19
-  - @ctx-core/object@15.0.16
-  - @ctx-core/store@23.1.21
-  - @ctx-core/table@8.2.19
-  - @ctx-core/fetch@7.1.7
+    - @ctx-core/function@16.8.1
+    - @ctx-core/array@19.1.19
+    - @ctx-core/object@15.0.16
+    - @ctx-core/store@23.1.21
+    - @ctx-core/table@8.2.19
+    - @ctx-core/fetch@7.1.7
 
 ## 7.2.27
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/function@16.8.0
-  - @ctx-core/array@19.1.18
-  - @ctx-core/object@15.0.15
-  - @ctx-core/store@23.1.20
-  - @ctx-core/table@8.2.18
-  - @ctx-core/fetch@7.1.6
+    - @ctx-core/function@16.8.0
+    - @ctx-core/array@19.1.18
+    - @ctx-core/object@15.0.15
+    - @ctx-core/store@23.1.20
+    - @ctx-core/table@8.2.18
+    - @ctx-core/fetch@7.1.6
 
 ## 7.2.26
 
@@ -7953,12 +8007,12 @@
 
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/function@16.7.0
-  - @ctx-core/array@19.1.17
-  - @ctx-core/object@15.0.14
-  - @ctx-core/store@23.1.19
-  - @ctx-core/table@8.2.17
-  - @ctx-core/fetch@7.1.5
+    - @ctx-core/function@16.7.0
+    - @ctx-core/array@19.1.17
+    - @ctx-core/object@15.0.14
+    - @ctx-core/store@23.1.19
+    - @ctx-core/table@8.2.17
+    - @ctx-core/fetch@7.1.5
 
 ## 7.2.25
 
@@ -7972,36 +8026,36 @@
 
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@7.1.3
-  - @ctx-core/function@16.6.1
-  - @ctx-core/array@19.1.16
-  - @ctx-core/object@15.0.13
-  - @ctx-core/store@23.1.18
-  - @ctx-core/table@8.2.16
+    - @ctx-core/fetch@7.1.3
+    - @ctx-core/function@16.6.1
+    - @ctx-core/array@19.1.16
+    - @ctx-core/object@15.0.13
+    - @ctx-core/store@23.1.18
+    - @ctx-core/table@8.2.16
 
 ## 7.2.23
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/function@16.6.0
-  - @ctx-core/array@19.1.15
-  - @ctx-core/object@15.0.12
-  - @ctx-core/store@23.1.17
-  - @ctx-core/table@8.2.15
-  - @ctx-core/fetch@7.1.2
+    - @ctx-core/function@16.6.0
+    - @ctx-core/array@19.1.15
+    - @ctx-core/object@15.0.12
+    - @ctx-core/store@23.1.17
+    - @ctx-core/table@8.2.15
+    - @ctx-core/fetch@7.1.2
 
 ## 7.2.22
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/function@16.5.0
-  - @ctx-core/array@19.1.14
-  - @ctx-core/object@15.0.11
-  - @ctx-core/store@23.1.16
-  - @ctx-core/table@8.2.14
-  - @ctx-core/fetch@7.1.1
+    - @ctx-core/function@16.5.0
+    - @ctx-core/array@19.1.14
+    - @ctx-core/object@15.0.11
+    - @ctx-core/store@23.1.16
+    - @ctx-core/table@8.2.14
+    - @ctx-core/fetch@7.1.1
 
 ## 7.2.21
 
@@ -8009,23 +8063,24 @@
 
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@7.1.0
+    - @ctx-core/fetch@7.1.0
 
 ## 7.2.20
 
 ### Patch Changes
 
-- - .rush
+-
+    - .rush
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/function@16.4.0
-  - @ctx-core/array@19.1.13
-  - @ctx-core/combinators@5.0.6
-  - @ctx-core/fetch@7.0.97
-  - @ctx-core/object@15.0.10
-  - @ctx-core/store@23.1.15
-  - @ctx-core/table@8.2.13
+    - @ctx-core/function@16.4.0
+    - @ctx-core/array@19.1.13
+    - @ctx-core/combinators@5.0.6
+    - @ctx-core/fetch@7.0.97
+    - @ctx-core/object@15.0.10
+    - @ctx-core/store@23.1.15
+    - @ctx-core/table@8.2.13
 
 ## 7.2.19
 
@@ -8044,68 +8099,68 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@15.0.9
-  - @ctx-core/array@19.1.12
-  - @ctx-core/fetch@7.0.94
-  - @ctx-core/store@23.1.14
-  - @ctx-core/table@8.2.12
+    - @ctx-core/object@15.0.9
+    - @ctx-core/array@19.1.12
+    - @ctx-core/fetch@7.0.94
+    - @ctx-core/store@23.1.14
+    - @ctx-core/table@8.2.12
 
 ## 7.2.16
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/function@16.3.0
-  - @ctx-core/array@19.1.11
-  - @ctx-core/object@15.0.8
-  - @ctx-core/store@23.1.13
-  - @ctx-core/table@8.2.11
-  - @ctx-core/fetch@7.0.93
+    - @ctx-core/function@16.3.0
+    - @ctx-core/array@19.1.11
+    - @ctx-core/object@15.0.8
+    - @ctx-core/store@23.1.13
+    - @ctx-core/table@8.2.11
+    - @ctx-core/fetch@7.0.93
 
 ## 7.2.15
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/function@16.2.1
-  - @ctx-core/array@19.1.10
-  - @ctx-core/object@15.0.7
-  - @ctx-core/store@23.1.12
-  - @ctx-core/table@8.2.10
-  - @ctx-core/fetch@7.0.92
+    - @ctx-core/function@16.2.1
+    - @ctx-core/array@19.1.10
+    - @ctx-core/object@15.0.7
+    - @ctx-core/store@23.1.12
+    - @ctx-core/table@8.2.10
+    - @ctx-core/fetch@7.0.92
 
 ## 7.2.14
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/function@16.2.0
-  - @ctx-core/array@19.1.9
-  - @ctx-core/object@15.0.6
-  - @ctx-core/store@23.1.11
-  - @ctx-core/table@8.2.9
-  - @ctx-core/fetch@7.0.91
+    - @ctx-core/function@16.2.0
+    - @ctx-core/array@19.1.9
+    - @ctx-core/object@15.0.6
+    - @ctx-core/store@23.1.11
+    - @ctx-core/table@8.2.9
+    - @ctx-core/fetch@7.0.91
 
 ## 7.2.13
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.1.8
-  - @ctx-core/store@23.1.10
-  - @ctx-core/table@8.2.8
-  - @ctx-core/fetch@7.0.90
+    - @ctx-core/array@19.1.8
+    - @ctx-core/store@23.1.10
+    - @ctx-core/table@8.2.8
+    - @ctx-core/fetch@7.0.90
 
 ## 7.2.12
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.1.7
-  - @ctx-core/object@15.0.5
-  - @ctx-core/store@23.1.9
-  - @ctx-core/table@8.2.7
-  - @ctx-core/fetch@7.0.89
+    - @ctx-core/array@19.1.7
+    - @ctx-core/object@15.0.5
+    - @ctx-core/store@23.1.9
+    - @ctx-core/table@8.2.7
+    - @ctx-core/fetch@7.0.89
 
 ## 7.2.11
 
@@ -8119,12 +8174,12 @@
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.1.6
-  - @ctx-core/object@15.0.4
-  - @ctx-core/function@16.1.5
-  - @ctx-core/table@8.2.6
-  - @ctx-core/store@23.1.8
-  - @ctx-core/fetch@7.0.88
+    - @ctx-core/array@19.1.6
+    - @ctx-core/object@15.0.4
+    - @ctx-core/function@16.1.5
+    - @ctx-core/table@8.2.6
+    - @ctx-core/store@23.1.8
+    - @ctx-core/fetch@7.0.88
 
 ## 7.2.10
 
@@ -8149,11 +8204,11 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@15.0.3
-  - @ctx-core/array@19.1.5
-  - @ctx-core/fetch@7.0.84
-  - @ctx-core/store@23.1.7
-  - @ctx-core/table@8.2.5
+    - @ctx-core/object@15.0.3
+    - @ctx-core/array@19.1.5
+    - @ctx-core/fetch@7.0.84
+    - @ctx-core/store@23.1.7
+    - @ctx-core/table@8.2.5
 
 ## 7.2.6
 
@@ -8161,24 +8216,24 @@
 
 - typescript: ^4.1.2 -> ^4.1.3
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.1.4
-  - @ctx-core/combinators@5.0.5
-  - @ctx-core/fetch@7.0.83
-  - @ctx-core/function@16.1.4
-  - @ctx-core/object@15.0.2
-  - @ctx-core/store@23.1.6
-  - @ctx-core/table@8.2.4
+    - @ctx-core/array@19.1.4
+    - @ctx-core/combinators@5.0.5
+    - @ctx-core/fetch@7.0.83
+    - @ctx-core/function@16.1.4
+    - @ctx-core/object@15.0.2
+    - @ctx-core/store@23.1.6
+    - @ctx-core/table@8.2.4
 
 ## 7.2.5
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@15.0.1
-  - @ctx-core/array@19.1.3
-  - @ctx-core/fetch@7.0.82
-  - @ctx-core/store@23.1.5
-  - @ctx-core/table@8.2.3
+    - @ctx-core/object@15.0.1
+    - @ctx-core/array@19.1.3
+    - @ctx-core/fetch@7.0.82
+    - @ctx-core/store@23.1.5
+    - @ctx-core/table@8.2.3
 
 ## 7.2.4
 
@@ -8198,9 +8253,9 @@
 
 - svelte: 3.30.1 -> 3.31.0
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.1.4
-  - @ctx-core/table@8.2.2
-  - @ctx-core/fetch@7.0.79
+    - @ctx-core/store@23.1.4
+    - @ctx-core/table@8.2.2
+    - @ctx-core/fetch@7.0.79
 
 ## 7.2.1
 
@@ -8208,9 +8263,9 @@
 
 - svelte: 3.30.0 -> 3.30.1
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.1.3
-  - @ctx-core/table@8.2.1
-  - @ctx-core/fetch@7.0.78
+    - @ctx-core/store@23.1.3
+    - @ctx-core/table@8.2.1
+    - @ctx-core/fetch@7.0.78
 
 ## 7.2.0
 
@@ -8224,11 +8279,11 @@
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/object@15.0.0
-  - @ctx-core/table@8.2.0
-  - @ctx-core/array@19.1.2
-  - @ctx-core/fetch@7.0.77
-  - @ctx-core/store@23.1.2
+    - @ctx-core/object@15.0.0
+    - @ctx-core/table@8.2.0
+    - @ctx-core/array@19.1.2
+    - @ctx-core/fetch@7.0.77
+    - @ctx-core/store@23.1.2
 
 ## 7.1.1
 
@@ -8237,11 +8292,11 @@
 - fix: store.d.ts
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/object@14.0.0
-  - @ctx-core/array@19.1.1
-  - @ctx-core/fetch@7.0.76
-  - @ctx-core/store@23.1.1
-  - @ctx-core/table@8.1.1
+    - @ctx-core/object@14.0.0
+    - @ctx-core/array@19.1.1
+    - @ctx-core/fetch@7.0.76
+    - @ctx-core/store@23.1.1
+    - @ctx-core/table@8.1.1
 
 ## 7.1.0
 
@@ -8252,11 +8307,11 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.1.0
-  - @ctx-core/object@13.1.0
-  - @ctx-core/store@23.1.0
-  - @ctx-core/table@8.1.0
-  - @ctx-core/fetch@7.0.75
+    - @ctx-core/array@19.1.0
+    - @ctx-core/object@13.1.0
+    - @ctx-core/store@23.1.0
+    - @ctx-core/table@8.1.0
+    - @ctx-core/fetch@7.0.75
 
 ## 7.0.76
 
@@ -8264,9 +8319,9 @@
 
 - svelte: 3.29.7 -> 3.30.0
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.0.15
-  - @ctx-core/table@8.0.14
-  - @ctx-core/fetch@7.0.74
+    - @ctx-core/store@23.0.15
+    - @ctx-core/table@8.0.14
+    - @ctx-core/fetch@7.0.74
 
 ## 7.0.75
 
@@ -8274,20 +8329,20 @@
 
 - svelte: 3.29.7 -> 3.30.0
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.0.15
-  - @ctx-core/table@8.0.14
-  - @ctx-core/fetch@7.0.74
+    - @ctx-core/store@23.0.15
+    - @ctx-core/table@8.0.14
+    - @ctx-core/fetch@7.0.74
 
 ## 7.0.74
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@13.0.3
-  - @ctx-core/array@19.0.24
-  - @ctx-core/fetch@7.0.73
-  - @ctx-core/store@23.0.14
-  - @ctx-core/table@8.0.13
+    - @ctx-core/object@13.0.3
+    - @ctx-core/array@19.0.24
+    - @ctx-core/fetch@7.0.73
+    - @ctx-core/store@23.0.14
+    - @ctx-core/table@8.0.13
 
 ## 7.0.73
 
@@ -8295,13 +8350,13 @@
 
 - typescript: ^4.0.5 -> ^4.1.2
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.0.23
-  - @ctx-core/combinators@5.0.4
-  - @ctx-core/fetch@7.0.72
-  - @ctx-core/function@16.1.3
-  - @ctx-core/object@13.0.2
-  - @ctx-core/store@23.0.13
-  - @ctx-core/table@8.0.12
+    - @ctx-core/array@19.0.23
+    - @ctx-core/combinators@5.0.4
+    - @ctx-core/fetch@7.0.72
+    - @ctx-core/function@16.1.3
+    - @ctx-core/object@13.0.2
+    - @ctx-core/store@23.0.13
+    - @ctx-core/table@8.0.12
 
 ## 7.0.72
 
@@ -8314,10 +8369,10 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.0.22
-  - @ctx-core/store@23.0.12
-  - @ctx-core/table@8.0.11
-  - @ctx-core/fetch@7.0.70
+    - @ctx-core/array@19.0.22
+    - @ctx-core/store@23.0.12
+    - @ctx-core/table@8.0.11
+    - @ctx-core/fetch@7.0.70
 
 ## 7.0.70
 
@@ -8331,9 +8386,9 @@
 
 - svelte: 3.29.6 -> 3.29.7
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.0.11
-  - @ctx-core/table@8.0.10
-  - @ctx-core/fetch@7.0.68
+    - @ctx-core/store@23.0.11
+    - @ctx-core/table@8.0.10
+    - @ctx-core/fetch@7.0.68
 
 ## 7.0.68
 
@@ -8341,16 +8396,16 @@
 
 - svelte: 3.29.4 -> 3.29.6
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.0.10
-  - @ctx-core/table@8.0.9
-  - @ctx-core/fetch@7.0.67
+    - @ctx-core/store@23.0.10
+    - @ctx-core/table@8.0.9
+    - @ctx-core/fetch@7.0.67
 
 ## 7.0.67
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@7.0.66
+    - @ctx-core/fetch@7.0.66
 
 ## 7.0.66
 
@@ -8364,13 +8419,13 @@
 
 - typescript: ^4.0.3 -> ^4.0.5
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.0.21
-  - @ctx-core/combinators@5.0.3
-  - @ctx-core/fetch@7.0.64
-  - @ctx-core/function@16.1.2
-  - @ctx-core/object@13.0.1
-  - @ctx-core/store@23.0.9
-  - @ctx-core/table@8.0.8
+    - @ctx-core/array@19.0.21
+    - @ctx-core/combinators@5.0.3
+    - @ctx-core/fetch@7.0.64
+    - @ctx-core/function@16.1.2
+    - @ctx-core/object@13.0.1
+    - @ctx-core/store@23.0.9
+    - @ctx-core/table@8.0.8
 
 ## 7.0.64
 
@@ -8378,18 +8433,18 @@
 
 - svelte: 3.29.3 -> 3.29.4
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.0.8
-  - @ctx-core/table@8.0.7
-  - @ctx-core/fetch@7.0.63
+    - @ctx-core/store@23.0.8
+    - @ctx-core/table@8.0.7
+    - @ctx-core/fetch@7.0.63
 
 ## 7.0.63
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.0.7
-  - @ctx-core/table@8.0.6
-  - @ctx-core/fetch@7.0.62
+    - @ctx-core/store@23.0.7
+    - @ctx-core/table@8.0.6
+    - @ctx-core/fetch@7.0.62
 
 ## 7.0.62
 
@@ -8397,9 +8452,9 @@
 
 - svelte: 3.29.0 -> 3.29.3
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.0.6
-  - @ctx-core/table@8.0.5
-  - @ctx-core/fetch@7.0.61
+    - @ctx-core/store@23.0.6
+    - @ctx-core/table@8.0.5
+    - @ctx-core/fetch@7.0.61
 
 ## 7.0.61
 
@@ -8449,25 +8504,25 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.0.5
-  - @ctx-core/table@8.0.3
-  - @ctx-core/fetch@7.0.53
+    - @ctx-core/store@23.0.5
+    - @ctx-core/table@8.0.3
+    - @ctx-core/fetch@7.0.53
 
 ## 7.0.53
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/table@8.0.2
+    - @ctx-core/table@8.0.2
 
 ## 7.0.52
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.0.4
-  - @ctx-core/table@8.0.1
-  - @ctx-core/fetch@7.0.52
+    - @ctx-core/store@23.0.4
+    - @ctx-core/table@8.0.1
+    - @ctx-core/fetch@7.0.52
 
 ## 7.0.51
 
@@ -8477,9 +8532,9 @@
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.0.3
-  - @ctx-core/table@8.0.0
-  - @ctx-core/fetch@7.0.51
+    - @ctx-core/store@23.0.3
+    - @ctx-core/table@8.0.0
+    - @ctx-core/fetch@7.0.51
 
 ## 7.0.50
 
@@ -8487,18 +8542,18 @@
 
 - svelte: 3.28.0 -> 3.29.0
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.0.2
-  - @ctx-core/table@7.0.44
-  - @ctx-core/fetch@7.0.50
+    - @ctx-core/store@23.0.2
+    - @ctx-core/table@7.0.44
+    - @ctx-core/fetch@7.0.50
 
 ## 7.0.49
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.0.1
-  - @ctx-core/table@7.0.43
-  - @ctx-core/fetch@7.0.49
+    - @ctx-core/store@23.0.1
+    - @ctx-core/table@7.0.43
+    - @ctx-core/fetch@7.0.49
 
 ## 7.0.48
 
@@ -8507,9 +8562,9 @@
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/store@23.0.0
-  - @ctx-core/fetch@7.0.48
-  - @ctx-core/table@7.0.42
+    - @ctx-core/store@23.0.0
+    - @ctx-core/fetch@7.0.48
+    - @ctx-core/table@7.0.42
 
 ## 7.0.47
 
@@ -8518,38 +8573,38 @@
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/store@22.0.0
-  - @ctx-core/table@7.0.42
-  - @ctx-core/fetch@7.0.48
+    - @ctx-core/store@22.0.0
+    - @ctx-core/table@7.0.42
+    - @ctx-core/fetch@7.0.48
 
 ## 7.0.46
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@21.1.0
-  - @ctx-core/table@7.0.41
-  - @ctx-core/fetch@7.0.47
+    - @ctx-core/store@21.1.0
+    - @ctx-core/table@7.0.41
+    - @ctx-core/fetch@7.0.47
 
 ## 7.0.45
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@13.0.0
-  - @ctx-core/array@19.0.20
-  - @ctx-core/fetch@7.0.46
-  - @ctx-core/store@21.0.1
-  - @ctx-core/table@7.0.40
+    - @ctx-core/object@13.0.0
+    - @ctx-core/array@19.0.20
+    - @ctx-core/fetch@7.0.46
+    - @ctx-core/store@21.0.1
+    - @ctx-core/table@7.0.40
 
 ## 7.0.44
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@21.0.0
-  - @ctx-core/table@7.0.39
-  - @ctx-core/fetch@7.0.45
+    - @ctx-core/store@21.0.0
+    - @ctx-core/table@7.0.39
+    - @ctx-core/fetch@7.0.45
 
 ## 7.0.43
 
@@ -8557,27 +8612,27 @@
 
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/store@20.1.0
-  - @ctx-core/table@7.0.38
-  - @ctx-core/fetch@7.0.44
+    - @ctx-core/store@20.1.0
+    - @ctx-core/table@7.0.38
+    - @ctx-core/fetch@7.0.44
 
 ## 7.0.42
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@20.0.2
-  - @ctx-core/table@7.0.37
-  - @ctx-core/fetch@7.0.43
+    - @ctx-core/store@20.0.2
+    - @ctx-core/table@7.0.37
+    - @ctx-core/fetch@7.0.43
 
 ## 7.0.41
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@20.0.1
-  - @ctx-core/table@7.0.36
-  - @ctx-core/fetch@7.0.42
+    - @ctx-core/store@20.0.1
+    - @ctx-core/table@7.0.36
+    - @ctx-core/fetch@7.0.42
 
 ## 7.0.40
 
@@ -8588,9 +8643,9 @@
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/store@20.0.0
-  - @ctx-core/table@7.0.35
-  - @ctx-core/fetch@7.0.41
+    - @ctx-core/store@20.0.0
+    - @ctx-core/table@7.0.35
+    - @ctx-core/fetch@7.0.41
 
 ## 7.0.39
 
@@ -8599,20 +8654,20 @@
 - get: using infered type
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/store@19.0.0
-  - @ctx-core/table@7.0.34
-  - @ctx-core/fetch@7.0.40
+    - @ctx-core/store@19.0.0
+    - @ctx-core/table@7.0.34
+    - @ctx-core/fetch@7.0.40
 
 ## 7.0.38
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@12.0.13
-  - @ctx-core/array@19.0.19
-  - @ctx-core/fetch@7.0.39
-  - @ctx-core/store@18.1.12
-  - @ctx-core/table@7.0.33
+    - @ctx-core/object@12.0.13
+    - @ctx-core/array@19.0.19
+    - @ctx-core/fetch@7.0.39
+    - @ctx-core/store@18.1.12
+    - @ctx-core/table@7.0.33
 
 ## 7.0.37
 
@@ -8620,20 +8675,20 @@
 
 - svelte: 3.27.0 -> 3.28.0
 - Updated dependencies [undefined]
-  - @ctx-core/store@18.1.11
-  - @ctx-core/table@7.0.32
-  - @ctx-core/fetch@7.0.38
+    - @ctx-core/store@18.1.11
+    - @ctx-core/table@7.0.32
+    - @ctx-core/fetch@7.0.38
 
 ## 7.0.36
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@12.0.12
-  - @ctx-core/array@19.0.18
-  - @ctx-core/fetch@7.0.37
-  - @ctx-core/store@18.1.10
-  - @ctx-core/table@7.0.31
+    - @ctx-core/object@12.0.12
+    - @ctx-core/array@19.0.18
+    - @ctx-core/fetch@7.0.37
+    - @ctx-core/store@18.1.10
+    - @ctx-core/table@7.0.31
 
 ## 7.0.35
 
@@ -8641,31 +8696,31 @@
 
 - svelte: 3.26.0 -> 3.27.0
 - Updated dependencies [undefined]
-  - @ctx-core/store@18.1.9
-  - @ctx-core/table@7.0.30
-  - @ctx-core/fetch@7.0.36
+    - @ctx-core/store@18.1.9
+    - @ctx-core/table@7.0.30
+    - @ctx-core/fetch@7.0.36
 
 ## 7.0.34
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@12.0.11
-  - @ctx-core/array@19.0.17
-  - @ctx-core/fetch@7.0.35
-  - @ctx-core/store@18.1.8
-  - @ctx-core/table@7.0.29
+    - @ctx-core/object@12.0.11
+    - @ctx-core/array@19.0.17
+    - @ctx-core/fetch@7.0.35
+    - @ctx-core/store@18.1.8
+    - @ctx-core/table@7.0.29
 
 ## 7.0.33
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@12.0.10
-  - @ctx-core/array@19.0.16
-  - @ctx-core/fetch@7.0.34
-  - @ctx-core/store@18.1.7
-  - @ctx-core/table@7.0.28
+    - @ctx-core/object@12.0.10
+    - @ctx-core/array@19.0.16
+    - @ctx-core/fetch@7.0.34
+    - @ctx-core/store@18.1.7
+    - @ctx-core/table@7.0.28
 
 ## 7.0.32
 
@@ -8673,19 +8728,19 @@
 
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.0.15
-  - @ctx-core/store@18.1.6
-  - @ctx-core/table@7.0.27
-  - @ctx-core/fetch@7.0.33
+    - @ctx-core/array@19.0.15
+    - @ctx-core/store@18.1.6
+    - @ctx-core/table@7.0.27
+    - @ctx-core/fetch@7.0.33
 
 ## 7.0.31
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@18.1.5
-  - @ctx-core/table@7.0.26
-  - @ctx-core/fetch@7.0.32
+    - @ctx-core/store@18.1.5
+    - @ctx-core/table@7.0.26
+    - @ctx-core/fetch@7.0.32
 
 ## 7.0.30
 
@@ -8693,11 +8748,11 @@
 
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/object@12.0.9
-  - @ctx-core/array@19.0.14
-  - @ctx-core/store@18.1.4
-  - @ctx-core/fetch@7.0.31
-  - @ctx-core/table@7.0.25
+    - @ctx-core/object@12.0.9
+    - @ctx-core/array@19.0.14
+    - @ctx-core/store@18.1.4
+    - @ctx-core/fetch@7.0.31
+    - @ctx-core/table@7.0.25
 
 ## 7.0.29
 
@@ -8705,32 +8760,32 @@
 
 - default generic types
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.0.13
-  - @ctx-core/function@16.1.1
-  - @ctx-core/object@12.0.8
-  - @ctx-core/store@18.1.3
-  - @ctx-core/table@7.0.24
-  - @ctx-core/fetch@7.0.30
+    - @ctx-core/array@19.0.13
+    - @ctx-core/function@16.1.1
+    - @ctx-core/object@12.0.8
+    - @ctx-core/store@18.1.3
+    - @ctx-core/table@7.0.24
+    - @ctx-core/fetch@7.0.30
 
 ## 7.0.28
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@12.0.7
-  - @ctx-core/store@18.1.2
-  - @ctx-core/array@19.0.12
-  - @ctx-core/fetch@7.0.29
-  - @ctx-core/table@7.0.24
+    - @ctx-core/object@12.0.7
+    - @ctx-core/store@18.1.2
+    - @ctx-core/array@19.0.12
+    - @ctx-core/fetch@7.0.29
+    - @ctx-core/table@7.0.24
 
 ## 7.0.27
 
 ### Patch Changes
 
 - Updated dependencies [c8839e951]
-  - @ctx-core/store@18.1.1
-  - @ctx-core/table@7.0.23
-  - @ctx-core/fetch@7.0.28
+    - @ctx-core/store@18.1.1
+    - @ctx-core/table@7.0.23
+    - @ctx-core/fetch@7.0.28
 
 ## 7.0.26
 
@@ -8738,27 +8793,27 @@
 
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/store@18.1.0
-  - @ctx-core/table@7.0.22
-  - @ctx-core/fetch@7.0.27
+    - @ctx-core/store@18.1.0
+    - @ctx-core/table@7.0.22
+    - @ctx-core/fetch@7.0.27
 
 ## 7.0.25
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@18.0.2
-  - @ctx-core/table@7.0.21
-  - @ctx-core/fetch@7.0.26
+    - @ctx-core/store@18.0.2
+    - @ctx-core/table@7.0.21
+    - @ctx-core/fetch@7.0.26
 
 ## 7.0.24
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@18.0.1
-  - @ctx-core/table@7.0.20
-  - @ctx-core/fetch@7.0.25
+    - @ctx-core/store@18.0.1
+    - @ctx-core/table@7.0.20
+    - @ctx-core/fetch@7.0.25
 
 ## 7.0.23
 
@@ -8773,20 +8828,20 @@
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/store@18.0.0
-  - @ctx-core/table@7.0.19
-  - @ctx-core/fetch@7.0.24
+    - @ctx-core/store@18.0.0
+    - @ctx-core/table@7.0.19
+    - @ctx-core/fetch@7.0.24
 
 ## 7.0.22
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@12.0.6
-  - @ctx-core/array@19.0.11
-  - @ctx-core/fetch@7.0.23
-  - @ctx-core/store@17.2.3
-  - @ctx-core/table@7.0.18
+    - @ctx-core/object@12.0.6
+    - @ctx-core/array@19.0.11
+    - @ctx-core/fetch@7.0.23
+    - @ctx-core/store@17.2.3
+    - @ctx-core/table@7.0.18
 
 ## 7.0.21
 
@@ -8802,27 +8857,27 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@7.0.21
+    - @ctx-core/fetch@7.0.21
 
 ## 7.0.19
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@12.0.5
-  - @ctx-core/array@19.0.9
-  - @ctx-core/fetch@7.0.20
-  - @ctx-core/store@17.2.1
-  - @ctx-core/table@7.0.16
+    - @ctx-core/object@12.0.5
+    - @ctx-core/array@19.0.9
+    - @ctx-core/fetch@7.0.20
+    - @ctx-core/store@17.2.1
+    - @ctx-core/table@7.0.16
 
 ## 7.0.18
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@17.2.0
-  - @ctx-core/table@7.0.15
-  - @ctx-core/fetch@7.0.19
+    - @ctx-core/store@17.2.0
+    - @ctx-core/table@7.0.15
+    - @ctx-core/fetch@7.0.19
 
 ## 7.0.17
 
@@ -8835,11 +8890,11 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@12.0.4
-  - @ctx-core/array@19.0.8
-  - @ctx-core/fetch@7.0.17
-  - @ctx-core/store@17.1.4
-  - @ctx-core/table@7.0.14
+    - @ctx-core/object@12.0.4
+    - @ctx-core/array@19.0.8
+    - @ctx-core/fetch@7.0.17
+    - @ctx-core/store@17.1.4
+    - @ctx-core/table@7.0.14
 
 ## 7.0.15
 
@@ -8847,9 +8902,9 @@
 
 - svelte: ~3.25.1 -> 3.26.0
 - Updated dependencies [undefined]
-  - @ctx-core/store@17.1.3
-  - @ctx-core/table@7.0.13
-  - @ctx-core/fetch@7.0.16
+    - @ctx-core/store@17.1.3
+    - @ctx-core/table@7.0.13
+    - @ctx-core/fetch@7.0.16
 
 ## 7.0.14
 
@@ -8863,36 +8918,36 @@
 
 - more explicit typing
 - Updated dependencies [undefined]
-  - @ctx-core/table@7.0.10
+    - @ctx-core/table@7.0.10
 
 ## 7.0.12
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.0.7
-  - @ctx-core/store@17.0.8
-  - @ctx-core/table@7.0.8
-  - @ctx-core/fetch@7.0.12
+    - @ctx-core/array@19.0.7
+    - @ctx-core/store@17.0.8
+    - @ctx-core/table@7.0.8
+    - @ctx-core/fetch@7.0.12
 
 ## 7.0.11
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/store@17.0.7
-  - @ctx-core/table@7.0.7
-  - @ctx-core/fetch@7.0.11
+    - @ctx-core/store@17.0.7
+    - @ctx-core/table@7.0.7
+    - @ctx-core/fetch@7.0.11
 
 ## 7.0.10
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.0.6
-  - @ctx-core/store@17.0.6
-  - @ctx-core/table@7.0.6
-  - @ctx-core/fetch@7.0.10
+    - @ctx-core/array@19.0.6
+    - @ctx-core/store@17.0.6
+    - @ctx-core/table@7.0.6
+    - @ctx-core/fetch@7.0.10
 
 ## 7.0.9
 
@@ -8901,23 +8956,23 @@
 - stricter type checking of generics
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/function@16.1.0
-  - @ctx-core/array@19.0.5
-  - @ctx-core/object@12.0.3
-  - @ctx-core/store@17.0.5
-  - @ctx-core/table@7.0.5
-  - @ctx-core/fetch@7.0.9
+    - @ctx-core/function@16.1.0
+    - @ctx-core/array@19.0.5
+    - @ctx-core/object@12.0.3
+    - @ctx-core/store@17.0.5
+    - @ctx-core/table@7.0.5
+    - @ctx-core/fetch@7.0.9
 
 ## 7.0.8
 
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/object@12.0.2
-  - @ctx-core/array@19.0.4
-  - @ctx-core/fetch@7.0.8
-  - @ctx-core/store@17.0.4
-  - @ctx-core/table@7.0.4
+    - @ctx-core/object@12.0.2
+    - @ctx-core/array@19.0.4
+    - @ctx-core/fetch@7.0.8
+    - @ctx-core/store@17.0.4
+    - @ctx-core/table@7.0.4
 
 ## 7.0.7
 
@@ -8936,11 +8991,11 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/combinators@5.0.2
-  - @ctx-core/array@19.0.3
-  - @ctx-core/store@17.0.3
-  - @ctx-core/table@7.0.3
-  - @ctx-core/fetch@7.0.5
+    - @ctx-core/combinators@5.0.2
+    - @ctx-core/array@19.0.3
+    - @ctx-core/store@17.0.3
+    - @ctx-core/table@7.0.3
+    - @ctx-core/fetch@7.0.5
 
 ## 7.0.4
 
@@ -8948,11 +9003,11 @@
 
 - fix: install issues: using explicit workspace: versioning
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.0.2
-  - @ctx-core/fetch@7.0.4
-  - @ctx-core/object@12.0.1
-  - @ctx-core/store@17.0.2
-  - @ctx-core/table@7.0.2
+    - @ctx-core/array@19.0.2
+    - @ctx-core/fetch@7.0.4
+    - @ctx-core/object@12.0.1
+    - @ctx-core/store@17.0.2
+    - @ctx-core/table@7.0.2
 
 ## 7.0.3
 
@@ -8960,7 +9015,7 @@
 
 - bump
 - Updated dependencies [undefined]
-  - @ctx-core/fetch@7.0.3
+    - @ctx-core/fetch@7.0.3
 
 ## 7.0.2
 
@@ -8973,11 +9028,11 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/combinators@5.0.1
-  - @ctx-core/array@19.0.1
-  - @ctx-core/store@17.0.1
-  - @ctx-core/table@7.0.1
-  - @ctx-core/fetch@7.0.1
+    - @ctx-core/combinators@5.0.1
+    - @ctx-core/array@19.0.1
+    - @ctx-core/store@17.0.1
+    - @ctx-core/table@7.0.1
+    - @ctx-core/fetch@7.0.1
 
 ## 7.0.0
 
@@ -8988,13 +9043,13 @@
 ### Patch Changes
 
 - Updated dependencies [undefined]
-  - @ctx-core/array@19.0.0
-  - @ctx-core/combinators@5.0.0
-  - @ctx-core/fetch@7.0.0
-  - @ctx-core/function@16.0.0
-  - @ctx-core/object@12.0.0
-  - @ctx-core/store@17.0.0
-  - @ctx-core/table@7.0.0
+    - @ctx-core/array@19.0.0
+    - @ctx-core/combinators@5.0.0
+    - @ctx-core/fetch@7.0.0
+    - @ctx-core/function@16.0.0
+    - @ctx-core/object@12.0.0
+    - @ctx-core/store@17.0.0
+    - @ctx-core/table@7.0.0
 
 ## 6.0.1
 
@@ -9002,13 +9057,13 @@
 
 - fix: npm run compile: path to tsc
 - Updated dependencies [undefined]
-  - @ctx-core/array@18.0.1
-  - @ctx-core/combinators@4.2.27
-  - @ctx-core/fetch@6.1.205
-  - @ctx-core/function@15.0.1
-  - @ctx-core/object@11.0.1
-  - @ctx-core/store@16.2.11
-  - @ctx-core/table@6.2.121
+    - @ctx-core/array@18.0.1
+    - @ctx-core/combinators@4.2.27
+    - @ctx-core/fetch@6.1.205
+    - @ctx-core/function@15.0.1
+    - @ctx-core/object@11.0.1
+    - @ctx-core/store@16.2.11
+    - @ctx-core/table@6.2.121
 
 ## 6.0.0
 
@@ -9022,9 +9077,9 @@
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
-  - @ctx-core/array@18.0.0
-  - @ctx-core/function@15.0.0
-  - @ctx-core/object@11.0.0
-  - @ctx-core/fetch@6.1.204
-  - @ctx-core/store@16.2.10
-  - @ctx-core/table@6.2.120
+    - @ctx-core/array@18.0.0
+    - @ctx-core/function@15.0.0
+    - @ctx-core/object@11.0.0
+    - @ctx-core/fetch@6.1.204
+    - @ctx-core/store@16.2.10
+    - @ctx-core/table@6.2.120

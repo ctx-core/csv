@@ -1,6 +1,7 @@
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { csv__parse } from '../index.js'
+
 test('csv__parse|callback|RFC Rule #1 - One entry per line, each line ends with a newline', ()=>{
 	const row_a:string[][] = []
 	csv__parse(
