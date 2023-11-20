@@ -1,5 +1,22 @@
 # @ctx-core/csv
 
+## 18.7.22
+
+### Patch Changes
+
+- @ctx-core/string: ^12.4.19 -> ^12.4.20
+- @ctx-core/array: ^27.0.19 -> ^27.0.20
+- @ctx-core/object: ^31.1.0 -> ^31.1.1
+- @ctx-core/combinators: ^8.1.19 -> ^8.1.20
+- @ctx-core/function: ^21.22.14 -> ^21.22.15
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/table@23.8.3
+  - @ctx-core/nanostores@9.0.4
+
 ## 18.7.21
 
 ### Patch Changes
