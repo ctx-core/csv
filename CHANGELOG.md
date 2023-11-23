@@ -1,5 +1,12 @@
 # @ctx-core/csv
 
+## 18.7.29
+
+### Patch Changes
+
+- @ctx-core/table: ^23.8.7 -> ^23.8.8
+- @ctx-core/nanostores: ^9.0.8 -> ^9.0.9
+
 ## 18.7.28
 
 ### Patch Changes
