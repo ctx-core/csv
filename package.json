@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "18.7.55",
+	"version": "18.7.56",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -51,13 +51,13 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^27.1.4",
-		"@ctx-core/combinators": "^8.1.43",
-		"@ctx-core/function": "^21.23.4",
-		"@ctx-core/nanostores": "^9.0.29",
-		"@ctx-core/object": "^31.1.24",
-		"@ctx-core/string": "^12.4.43",
-		"@ctx-core/table": "^23.8.31"
+		"@ctx-core/array": "^27.1.5",
+		"@ctx-core/combinators": "^8.1.44",
+		"@ctx-core/function": "^21.23.5",
+		"@ctx-core/nanostores": "^9.0.30",
+		"@ctx-core/object": "^31.1.25",
+		"@ctx-core/string": "^12.4.44",
+		"@ctx-core/table": "^23.8.32"
 	},
 	"devDependencies": {
 		"@types/node": "^20.10.4",
