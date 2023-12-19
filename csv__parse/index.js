@@ -1,6 +1,5 @@
-import { I } from '@ctx-core/combinators'
-/** @typedef {import('../_types/index.d.ts').csv__parse__iterator__on_row_T} */
-/** @typedef {import('../_types/index.d.ts').csv__parse_o_T} */
+/// <reference types="../types/index.d.ts" />
+import { I } from 'ctx-core/combinators'
 const val_start = Symbol.for('val_start')
 const undelimited_input = Symbol.for('undelimited_input')
 const delimited_input = Symbol.for('delimited_input')
@@ -25,14 +24,14 @@ export function csv__parse(
 	csv__parse_o
 ) {
 	const on_row =
-        typeof on_row_or_csv === 'function'
-        	? on_row_or_csv
-        	: null
+		typeof on_row_or_csv === 'function'
+			? on_row_or_csv
+			: null
 	/** @type {string} */
 	const csv =
-        on_row
-        	? csv_or_csv__parse_o
-        	: on_row_or_csv
+		on_row
+			? csv_or_csv__parse_o
+			: on_row_or_csv
 	if (!on_row) csv__parse_o = /** @type {csv__parse_o_T} */csv_or_csv__parse_o
 	if (!csv__parse_o) csv__parse_o = csv__parse_o_()
 	return (
@@ -46,100 +45,100 @@ export function csv__parse(
 		while ((match_a = csv__parse_o.lex_regexp.exec(csv)) !== null) {
 			match = match_a[0]
 			switch (csv__parse_o.state) {
-			case val_start:
-				switch (true) {
-				case match === '"':
-					csv__parse_o.state = delimited_input
-					break
-				case match === ',':
-					csv__parse_o.state = val_start
-					val_end(csv__parse_o)
-					break
-				case csv__parse_o.new_line_regexp.test(match):
-					csv__parse_o.state = val_start
-					val_end(csv__parse_o)
-					const row = row_(csv__parse_o)
-					row_end(csv__parse_o)
-					if (on_row) {
-						on_row(row)
-					} else {
-						yield row
+				case val_start:
+					switch (true) {
+						case match === '"':
+							csv__parse_o.state = delimited_input
+							break
+						case match === ',':
+							csv__parse_o.state = val_start
+							val_end(csv__parse_o)
+							break
+						case csv__parse_o.new_line_regexp.test(match):
+							csv__parse_o.state = val_start
+							val_end(csv__parse_o)
+							const row = row_(csv__parse_o)
+							row_end(csv__parse_o)
+							if (on_row) {
+								on_row(row)
+							} else {
+								yield row
+							}
+							break
+						default:
+							csv__parse_o.val += match
+							csv__parse_o.state = undelimited_input
+							break
 					}
 					break
-				default:
-					csv__parse_o.val += match
-					csv__parse_o.state = undelimited_input
-					break
-				}
-				break
-			case undelimited_input:
-				switch (true) {
-				case match === ',':
-					csv__parse_o.state = val_start
-					val_end(csv__parse_o)
-					break
-				case csv__parse_o.new_line_regexp.test(match):
-					csv__parse_o.state = val_start
-					val_end(csv__parse_o)
-					const row = row_(csv__parse_o)
-					row_end(csv__parse_o)
-					if (on_row) {
-						on_row(row)
-					} else {
-						yield row
+				case undelimited_input:
+					switch (true) {
+						case match === ',':
+							csv__parse_o.state = val_start
+							val_end(csv__parse_o)
+							break
+						case csv__parse_o.new_line_regexp.test(match):
+							csv__parse_o.state = val_start
+							val_end(csv__parse_o)
+							const row = row_(csv__parse_o)
+							row_end(csv__parse_o)
+							if (on_row) {
+								on_row(row)
+							} else {
+								yield row
+							}
+							break
+						default:
+							csv__parse_o.state = escaped_or_closing_delimiter
+							throw Error(`CSVError: Illegal state ${JSON.stringify({
+								row_idx: csv__parse_o.row_idx,
+								col_idx: csv__parse_o.col_idx,
+								state: 'undelimited_input',
+								match,
+							})}`)
 					}
 					break
-				default:
-					csv__parse_o.state = escaped_or_closing_delimiter
-					throw Error(`CSVError: Illegal state ${JSON.stringify({
-						row_idx: csv__parse_o.row_idx,
-						col_idx: csv__parse_o.col_idx,
-						state: 'undelimited_input',
-						match,
-					})}`)
-				}
-				break
-			case delimited_input:
-				switch (true) {
-				case match === '"':
-					csv__parse_o.state = escaped_or_closing_delimiter
-					break
-				default:
-					csv__parse_o.state = delimited_input
-					csv__parse_o.val += match
-					break
-				}
-				break
-			case escaped_or_closing_delimiter:
-				switch (true) {
-				case match === '"':
-					csv__parse_o.state = delimited_input
-					csv__parse_o.val += match
-					break
-				case match === ',':
-					csv__parse_o.state = val_start
-					val_end(csv__parse_o)
-					break
-				case csv__parse_o.new_line_regexp.test(match):
-					csv__parse_o.state = val_start
-					val_end(csv__parse_o)
-					const row = row_(csv__parse_o)
-					row_end(csv__parse_o)
-					if (on_row) {
-						on_row(row)
-					} else {
-						yield row
+				case delimited_input:
+					switch (true) {
+						case match === '"':
+							csv__parse_o.state = escaped_or_closing_delimiter
+							break
+						default:
+							csv__parse_o.state = delimited_input
+							csv__parse_o.val += match
+							break
 					}
 					break
-				default:
-					throw Error(`CSVError: Illegal state ${JSON.stringify({
-						row_idx: csv__parse_o.row_idx,
-						col_idx: csv__parse_o.col_idx,
-						state: 'escaped_or_closing_delimiter',
-						match,
-					})}`)
-				}
-				break
+				case escaped_or_closing_delimiter:
+					switch (true) {
+						case match === '"':
+							csv__parse_o.state = delimited_input
+							csv__parse_o.val += match
+							break
+						case match === ',':
+							csv__parse_o.state = val_start
+							val_end(csv__parse_o)
+							break
+						case csv__parse_o.new_line_regexp.test(match):
+							csv__parse_o.state = val_start
+							val_end(csv__parse_o)
+							const row = row_(csv__parse_o)
+							row_end(csv__parse_o)
+							if (on_row) {
+								on_row(row)
+							} else {
+								yield row
+							}
+							break
+						default:
+							throw Error(`CSVError: Illegal state ${JSON.stringify({
+								row_idx: csv__parse_o.row_idx,
+								col_idx: csv__parse_o.col_idx,
+								state: 'escaped_or_closing_delimiter',
+								match,
+							})}`)
+					}
+					break
 			}
 		}
 		// flush the last val

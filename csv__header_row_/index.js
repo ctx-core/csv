@@ -1,8 +1,9 @@
-import { I } from '@ctx-core/combinators'
+/// <reference types="../types/index.d.ts" />
 import { header_row__new } from '@ctx-core/table'
+import { I } from 'ctx-core/combinators'
 import { csv__parse, csv__parse_o_ } from '../csv__parse/index.js'
 /** @typedef {import('@ctx-core/table').header_row_T} */
-/** @typedef {import('../_types/index.d.ts').csv__parse_o_T} */
+/** @typedef {csv__parse_o_T} */
 /**
  * @param {string}csv
  * @param {csv__parse_o_T}csv__parse_o

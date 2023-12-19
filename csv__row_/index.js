@@ -1,9 +1,7 @@
+/// <reference types="../types/index.d.ts" />
 import { csv__parse, csv__parse_o_ } from '../csv__parse/index.js'
 /** @typedef {import('@ctx-core/table').data_row_T} */
 /** @typedef {import('@ctx-core/table').header_row_T} */
-/** @typedef {import('../_types/index.d.ts').csv__parse_o_T} */
-/** @typedef {import('../_types/index.d.ts').csv__row__parse_o_T} */
-/** @typedef {import('../_types/index.d.ts').csv__row__row__T} */
 /**
  * @param {string}csv
  * @param {csv__row__parse_o_T}csv__parse_o

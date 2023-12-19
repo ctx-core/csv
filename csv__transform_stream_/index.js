@@ -1,10 +1,10 @@
-import { line__transform_stream_ } from '@ctx-core/string'
+/// <reference types="../types/index.d.ts" />
 import { data_row_, header_M_col_idx__new, header_row__new } from '@ctx-core/table'
+import { line__transform_stream_ } from 'ctx-core/string'
 import { csv__parse } from '../csv__parse/index.js'
 import { csv__table__parse_o_ } from '../csv__table_/index.js'
 /** @typedef {import('@ctx-core/table').header_row_T} */
 /** @typedef {import('@ctx-core/table').row_pair_T} */
-/** @typedef {import('../_types/index.d.ts').csv__transform_stream___params_T} */
 /**
  * @param {csv__transform_stream___params_T}[params]
  * @param {QueuingStrategy<string>}[writable_strategy]
@@ -41,8 +41,8 @@ export function csv__transform_stream_(
 					header_row =
 						header_row__new(
 							has_csv_header
-							? val_a
-							: val_a.length)
+								? val_a
+								: val_a.length)
 					header_M_col_idx = header_M_col_idx__new(header_row)
 					if (has_csv_header) continue
 				}
@@ -52,8 +52,8 @@ export function csv__transform_stream_(
 							val__hydrate(
 								val,
 								header_row
-								? header_row[col_idx]
-								: col_idx,
+									? header_row[col_idx]
+									: col_idx,
 								val_a,
 								col_idx)),
 						/** @type {any} */header_M_col_idx)

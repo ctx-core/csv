@@ -1,4 +1,4 @@
-/** @typedef {import('@ctx-core/string').readable_stream_OR_reader_T} */
+/// <reference types="ctx-core" />
 /**
  * @param {unknown}maybe_readable_reader
  * @returns {boolean}

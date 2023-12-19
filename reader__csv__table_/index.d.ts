@@ -1,5 +1,5 @@
-import type { readable_stream_OR_reader_T } from '@ctx-core/string'
 import type { hydrated_json_val_T, table_T, val__hydrate_T } from '@ctx-core/table'
+import type { readable_stream_OR_reader_T } from 'ctx-core/string'
 import type {
 	csv__on_data_row_T,
 	csv__table__iterable_T,
@@ -7,7 +7,7 @@ import type {
 	has_header_csv_T
 } from '../_types/index.js'
 export declare function reader__csv__table_<
-	ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object,
+	ColDefs extends (([string, unknown][])|unknown[]|object) = ([string, unknown][])|unknown[]|object,
 	D = dehydrated_csv_val_T,
 	H = hydrated_json_val_T
 >(
@@ -17,7 +17,7 @@ export declare function reader__csv__table_<
 	val__hydrate?:val__hydrate_T<ColDefs, D, H>
 ):Promise<void>
 export declare function reader__csv__table_<
-	ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object,
+	ColDefs extends (([string, unknown][])|unknown[]|object) = ([string, unknown][])|unknown[]|object,
 	D = dehydrated_csv_val_T,
 	H = hydrated_json_val_T
 >(
@@ -26,7 +26,7 @@ export declare function reader__csv__table_<
 	val__hydrate?:val__hydrate_T<ColDefs, D, H>
 ):csv__table__iterable_T<ColDefs>
 export declare function reader__csv__table_<
-	ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object,
+	ColDefs extends (([string, unknown][])|unknown[]|object) = ([string, unknown][])|unknown[]|object,
 	D = dehydrated_csv_val_T,
 	H = hydrated_json_val_T
 >(

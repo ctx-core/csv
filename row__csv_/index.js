@@ -1,9 +1,9 @@
-import { isArray } from '@ctx-core/function'
-import { keys } from '@ctx-core/object'
-
+/// <reference types="../types/index.d.ts" />
+import { isArray } from 'ctx-core/function'
+import { keys } from 'ctx-core/object'
 /**
  * @param {unknown[]|object}row
- * @param {import('../_types/index.js').row__csv___params_T}[params]
+ * @param {row__csv___params_T}[params]
  * @returns {string}
  * @private
  */
@@ -12,8 +12,8 @@ export function row__csv_(
 	params = {}
 ) {
 	const delimiter =
-        params.delimiter
-        || ','
+		params.delimiter
+		|| ','
 	return (
 		(
 			isArray(row)

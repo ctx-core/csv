@@ -1,9 +1,9 @@
+/// <reference types="../types/index.d.ts" />
 import { data_row_ } from '@ctx-core/table'
 import { csv__parse, csv__parse_o_ } from '../csv__parse/index.js'
 import { csv_val__hydrate } from '../csv_val__hydrate/index.js'
 /** @typedef {import('@ctx-core/table').header_M_col_idx_T} */
 /** @typedef {import('@ctx-core/table').data_row_T} */
-/** @typedef {import('../_types/index.d.ts').csv__data_row___parse_o_T} */
 /**
  * @param {string}csv
  * @param {csv__data_row___parse_o_T}csv__parse_o
@@ -28,7 +28,7 @@ export function csv__data_row_(csv, csv__parse_o) {
  * @private
  */
 export function csv__data_row__parse_o_(header_M_col_idx) {
-  const csv__parse_o = csv__parse_o_()
+	const csv__parse_o = csv__parse_o_()
 	csv__parse_o.data.header_M_col_idx = header_M_col_idx
 	return csv__parse_o
 }

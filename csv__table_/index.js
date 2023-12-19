@@ -1,17 +1,15 @@
-import { line__parse } from '@ctx-core/string'
+/// <reference types="ctx-core" />
+/// <reference types="../types/index.d.ts" />
 import { data_row_, header_M_col_idx__new, header_row__new } from '@ctx-core/table'
+import { line__parse } from 'ctx-core/string'
 import { csv__parse, csv__parse_o_ } from '../csv__parse/index.js'
 import { csv_val__hydrate } from '../csv_val__hydrate/index.js'
 import { is_readable_stream_OR_reader_ } from '../is_readable_stream_OR_reader_/index.js'
-/** @typedef {import('@ctx-core/string').readable_stream_OR_reader_T} */
 /** @typedef {import('@ctx-core/table').header_M_col_idx_T} */
 /** @typedef {import('@ctx-core/table').data_row_T} */
 /** @typedef {import('@ctx-core/table').header_row_T} */
 /** @typedef {import('@ctx-core/table').val__hydrate_T} */
 /** @typedef {import('@ctx-core/table').table_T} */
-/** @typedef {import('../_types/index.d.ts').csv__on_data_row_T} */
-/** @typedef {import('../_types/index.d.ts').csv__parse_o_T} */
-/** @typedef {import('../_types/index.d.ts').csv__table__iterable_T} */
 /**
  * @param {csv__on_data_row_T|string|readable_stream_OR_reader_T}on_data_row_OR_csv_OR_readable_stream_OR_reader
  * @param {string|readable_stream_OR_reader_T|boolean}csv_OR_readable_stream_OR_reader_OR_has_csv_header
@@ -28,37 +26,37 @@ export function csv__table_(
 ) {
 	/** @type {csv__on_data_row_T} */
 	const on_data_row =
-        typeof on_data_row_OR_csv_OR_readable_stream_OR_reader === 'function'
-        	? on_data_row_OR_csv_OR_readable_stream_OR_reader
-        	: null
+		typeof on_data_row_OR_csv_OR_readable_stream_OR_reader === 'function'
+			? on_data_row_OR_csv_OR_readable_stream_OR_reader
+			: null
 	/** @type {string} */
 	const csv =
-        on_data_row
-        	? typeof csv_OR_readable_stream_OR_reader_OR_has_csv_header === 'string'
-        		? csv_OR_readable_stream_OR_reader_OR_has_csv_header
-        		: null
-        	: typeof on_data_row_OR_csv_OR_readable_stream_OR_reader === 'string'
-        		? on_data_row_OR_csv_OR_readable_stream_OR_reader
-        		: null
+		on_data_row
+			? typeof csv_OR_readable_stream_OR_reader_OR_has_csv_header === 'string'
+				? csv_OR_readable_stream_OR_reader_OR_has_csv_header
+				: null
+			: typeof on_data_row_OR_csv_OR_readable_stream_OR_reader === 'string'
+				? on_data_row_OR_csv_OR_readable_stream_OR_reader
+				: null
 	/** @type {readable_stream_OR_reader_T} */
 	const readable_stream_OR_reader =
-        on_data_row
-        	? is_readable_stream_OR_reader_(csv_OR_readable_stream_OR_reader_OR_has_csv_header)
-        		? csv_OR_readable_stream_OR_reader_OR_has_csv_header
-        		: null
-        	: is_readable_stream_OR_reader_(on_data_row_OR_csv_OR_readable_stream_OR_reader)
-        		? on_data_row_OR_csv_OR_readable_stream_OR_reader
-        		: null
+		on_data_row
+			? is_readable_stream_OR_reader_(csv_OR_readable_stream_OR_reader_OR_has_csv_header)
+				? csv_OR_readable_stream_OR_reader_OR_has_csv_header
+				: null
+			: is_readable_stream_OR_reader_(on_data_row_OR_csv_OR_readable_stream_OR_reader)
+				? on_data_row_OR_csv_OR_readable_stream_OR_reader
+				: null
 	if (csv == null && readable_stream_OR_reader == null) {
 		throw new Error(
 			'csv__table_: required argument: '
-            + 'csv string or ReadableStream or ReadableStreamDefaultReader or ReadableStreamBYOBReader')
+			+ 'csv string or ReadableStream or ReadableStreamDefaultReader or ReadableStreamBYOBReader')
 	}
 	/** @type {boolean} */
 	const has_csv_header =
-        on_data_row
-        	? has_csv_header_OR_val__hydrate ?? true
-        	: csv_OR_readable_stream_OR_reader_OR_has_csv_header ?? true
+		on_data_row
+			? has_csv_header_OR_val__hydrate ?? true
+			: csv_OR_readable_stream_OR_reader_OR_has_csv_header ?? true
 	if (!on_data_row) val__hydrate = has_csv_header_OR_val__hydrate
 	if (val__hydrate == null) {
 		val__hydrate = val=>val
@@ -82,24 +80,24 @@ export function csv__table_(
 		csv__parse(val_a=>{
 			if (!header_row) {
 				header_row =
-                    header_row__new(
-                    	has_csv_header
-                    		? val_a
-                    		: val_a.length)
+					header_row__new(
+						has_csv_header
+							? val_a
+							: val_a.length)
 				header_M_col_idx = header_M_col_idx__new(header_row)
 				if (has_csv_header) return
 			}
 			const data_row =
-                data_row_(
-                	val_a.map((val, col_idx)=>
-                		val__hydrate(
-                			val,
-                			header_row
-                				? header_row[col_idx]
-                				: col_idx,
-                			val_a,
-                			col_idx)),
-                	/** @type {any} */header_M_col_idx)
+				data_row_(
+					val_a.map((val, col_idx)=>
+						val__hydrate(
+							val,
+							header_row
+								? header_row[col_idx]
+								: col_idx,
+							val_a,
+							col_idx)),
+					/** @type {any} */header_M_col_idx)
 			if (on_data_row) {
 				on_data_row(data_row, header_row)
 			} else {
@@ -122,24 +120,24 @@ export function csv__table_(
 			csv__parse(val_a=>{
 				if (!header_row) {
 					header_row =
-                        header_row__new(
-                        	has_csv_header
-                        		? val_a
-                        		: val_a.length)
+						header_row__new(
+							has_csv_header
+								? val_a
+								: val_a.length)
 					header_M_col_idx = header_M_col_idx__new(header_row)
 					if (has_csv_header) return
 				}
 				const data_row =
-                    data_row_(
-                    	val_a.map((val, col_idx)=>
-                    		val__hydrate(
-                    			val,
-                    			header_row
-                    				? header_row[col_idx]
-                    				: col_idx,
-                    			val_a,
-                    			col_idx)),
-                    	/** @type {any} */header_M_col_idx)
+					data_row_(
+						val_a.map((val, col_idx)=>
+							val__hydrate(
+								val,
+								header_row
+									? header_row[col_idx]
+									: col_idx,
+								val_a,
+								col_idx)),
+						/** @type {any} */header_M_col_idx)
 				on_data_row(data_row, header_row)
 			}, csv, csv__parse_o)
 		}, readable_stream_OR_reader, { include_line_separator: true })
@@ -155,24 +153,24 @@ export function csv__table_(
 			for (const val_a of csv__parse(csv, csv__parse_o)) {
 				if (!header_row) {
 					header_row =
-                        header_row__new(
-                        	has_csv_header
-                        		? val_a
-                        		: val_a.length)
+						header_row__new(
+							has_csv_header
+								? val_a
+								: val_a.length)
 					header_M_col_idx = header_M_col_idx__new(header_row)
 					if (has_csv_header) continue
 				}
 				const data_row =
-                    data_row_(
-                    	val_a.map((val, col_idx)=>
-                    		val__hydrate(
-                    			val,
-                    			header_row
-                    				? header_row[col_idx]
-                    				: col_idx,
-                    			val_a,
-                    			col_idx)),
-                    	/** @type {any} */header_M_col_idx)
+					data_row_(
+						val_a.map((val, col_idx)=>
+							val__hydrate(
+								val,
+								header_row
+									? header_row[col_idx]
+									: col_idx,
+								val_a,
+								col_idx)),
+						/** @type {any} */header_M_col_idx)
 				yield [data_row, header_row]
 			}
 		}
@@ -190,10 +188,10 @@ export function csv__table__parse_o_(
 ) {
 	const csv__parse_o = csv__parse_o_()
 	csv__parse_o.val__hydrate =
-        val__hydrate
-        || (
-        	val=>
-        		csv_val__hydrate(val))
+		val__hydrate
+		|| (
+			val=>
+				csv_val__hydrate(val))
 	csv__parse_o.data.has_csv_header = has_csv_header
 	return csv__parse_o
 }
