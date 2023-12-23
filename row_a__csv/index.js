@@ -1,7 +1,7 @@
 /// <reference types="../types/index.d.ts" />
 import { isArray } from 'ctx-core/function'
 import { keys } from 'ctx-core/object'
-import { row__csv_ } from '../row__csv_/index.js'
+import { row__csv_ } from '../row__csv/index.js'
 /**
  * @param {unknown[][]}row_a
  * @param {row__csv___params_T}[params]

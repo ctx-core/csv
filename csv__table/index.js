@@ -4,7 +4,7 @@ import { data_row_, header_M_col_idx__new, header_row__new } from '@ctx-core/tab
 import { line__parse } from 'ctx-core/string'
 import { csv__parse, csv__parse_o_ } from '../csv__parse/index.js'
 import { csv_val__hydrate } from '../csv_val__hydrate/index.js'
-import { is_readable_stream_OR_reader_ } from '../is_readable_stream_OR_reader_/index.js'
+import { is_readable_stream_OR_reader_ } from '../is_readable_stream_OR_reader/index.js'
 /** @typedef {import('@ctx-core/table').header_M_col_idx_T} */
 /** @typedef {import('@ctx-core/table').data_row_T} */
 /** @typedef {import('@ctx-core/table').header_row_T} */

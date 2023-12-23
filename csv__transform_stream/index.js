@@ -2,7 +2,7 @@
 import { data_row_, header_M_col_idx__new, header_row__new } from '@ctx-core/table'
 import { line__transform_stream_ } from 'ctx-core/string'
 import { csv__parse } from '../csv__parse/index.js'
-import { csv__table__parse_o_ } from '../csv__table_/index.js'
+import { csv__table__parse_o_ } from '../csv__table/index.js'
 /** @typedef {import('@ctx-core/table').header_row_T} */
 /** @typedef {import('@ctx-core/table').row_pair_T} */
 /**

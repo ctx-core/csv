@@ -65,7 +65,7 @@ export declare function csv__table_<
     val__hydrate?:val__hydrate_T<ColDefs, D, H>
 ):table_T|void|csv__table__iterable_T<ColDefs>|Promise<void>
 export declare function csv__table__parse_o_<
-    ColDefs extends (([string, unknown][])|unknown[]|object) = ([string, unknown][])|unknownx[]|object,
+    ColDefs extends (([string, unknown][])|unknown[]|object) = ([string, unknown][])|unknown[]|object,
     D = dehydrated_csv_val_T,
     H = hydrated_json_val_T
 >(

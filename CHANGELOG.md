@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 18.7.81
+
+### Patch Changes
+
+- fix: type errors
+
 ## 18.7.80
 
 ### Patch Changes

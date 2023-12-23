@@ -1,5 +1,5 @@
-import { row__csv_ } from '../row__csv_/index.js'
-import { row_a__csv_ } from '../row_a__csv_/index.js'
+import { row__csv_ } from '../row__csv/index.js'
+import { row_a__csv_ } from '../row_a__csv/index.js'
 /**
  * @param {import('@ctx-core/table').table_T}table
  * @param {import('../_types/index.js').table__csv___params_T}[params]
