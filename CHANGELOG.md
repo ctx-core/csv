@@ -1,5 +1,16 @@
 # @ctx-core/csv
 
+## 19.0.0
+
+### Major Changes
+
+- rmemo instead of @ctx-core/nanostores
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/table@24.0.0
+
 ## 18.7.83
 
 ### Patch Changes
