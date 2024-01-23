@@ -1,5 +1,13 @@
 # @ctx-core/csv
 
+## 19.0.48
+
+### Patch Changes
+
+- ctx-core: ^5.26.0 -> ^5.27.0
+- Updated dependencies
+  - @ctx-core/table@24.0.42
+
 ## 19.0.47
 
 ### Patch Changes
