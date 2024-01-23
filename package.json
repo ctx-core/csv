@@ -53,7 +53,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/table": "^24.0.42",
-		"ctx-core": "^5.27.0"
+		"ctx-core": "^5.27.1"
 	},
 	"devDependencies": {
 		"@types/node": "^20.11.5",
