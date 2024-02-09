@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "19.0.83",
+	"version": "19.0.84",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -52,8 +52,8 @@
 		"test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/table": "^24.0.70",
-		"ctx-core": "^6.1.0"
+		"@ctx-core/table": "^24.0.71",
+		"ctx-core": "^6.1.1"
 	},
 	"devDependencies": {
 		"@types/node": "^20.11.17",
