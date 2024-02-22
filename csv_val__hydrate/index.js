@@ -7,12 +7,7 @@
  * @See https://www.bennadel.com/blog/1504-ask-ben-parsing-csv-strings-with-javascript-exec-regular-expression-command.htm
  * @private
  */
-export function csv_val__hydrate(
-	val,
-	_header,
-	_row_tuple,
-	_col_idx
-) {
+export function csv_val__hydrate(val) {
 	switch (true) {
 		case val === '':
 		case val === 'null':
@@ -22,7 +17,7 @@ export function csv_val__hydrate(
 		case val === 'true':
 		case val === 'false':
 			return val === 'true'
-		case isFinite(/** @type {any} */val):
+		case isFinite(/** @type {unknown} */val):
 			return parseFloat(val)
 		default:
 			return val

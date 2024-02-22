@@ -97,7 +97,7 @@ export function csv__table_(
 								: col_idx,
 							val_a,
 							col_idx)),
-					/** @type {any} */header_M_col_idx)
+					/** @type {unknown} */header_M_col_idx)
 			if (on_data_row) {
 				on_data_row(data_row, header_row)
 			} else {
@@ -137,7 +137,7 @@ export function csv__table_(
 									: col_idx,
 								val_a,
 								col_idx)),
-						/** @type {any} */header_M_col_idx)
+						/** @type {unknown} */header_M_col_idx)
 				on_data_row(data_row, header_row)
 			}, csv, csv__parse_o)
 		}, readable_stream_OR_reader, { include_line_separator: true })
@@ -170,7 +170,7 @@ export function csv__table_(
 									: col_idx,
 								val_a,
 								col_idx)),
-						/** @type {any} */header_M_col_idx)
+						/** @type {unknown} */header_M_col_idx)
 				yield [data_row, header_row]
 			}
 		}

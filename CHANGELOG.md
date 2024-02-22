@@ -1,5 +1,11 @@
 # @ctx-core/csv
 
+## 19.0.95
+
+### Patch Changes
+
+- type fixes: unknown instead of any
+
 ## 19.0.94
 
 ### Patch Changes

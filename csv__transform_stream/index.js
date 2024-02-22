@@ -56,7 +56,7 @@ export function csv__transform_stream_(
 									: col_idx,
 								val_a,
 								col_idx)),
-						/** @type {any} */header_M_col_idx)
+						/** @type {unknown} */header_M_col_idx)
 				controller.enqueue([data_row, header_row])
 			}
 		},

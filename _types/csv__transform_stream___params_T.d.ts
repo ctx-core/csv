@@ -3,7 +3,7 @@ import type { dehydrated_csv_val_T } from './dehydrated_csv_val_T.js'
 import type { has_header_csv_T } from './has_header_csv_T.js'
 
 export interface csv__transform_stream___params_T<
-    ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object,
+    ColDefs extends (([string, unknown][])|unknown[]|object) = ([string, unknown][])|unknown[]|object,
     D = dehydrated_csv_val_T,
     H = hydrated_json_val_T
 > {

@@ -1,9 +1,9 @@
 export type has_header_csv_T<
-    ColDefs extends (([string, any][])|any[]|object) = ([string, any][])|any[]|object
+    ColDefs extends (([string, unknown][])|unknown[]|object) = ([string, unknown][])|unknown[]|object
 > =
-    ColDefs extends [string, any][]
+    ColDefs extends [string, unknown][]
         ? true
-        : ColDefs extends any[]
+        : ColDefs extends unknown[]
             ? false
             : ColDefs extends object
                 ? true
