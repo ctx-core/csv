@@ -1,5 +1,13 @@
 # @ctx-core/csv
 
+## 19.0.112
+
+### Patch Changes
+
+- @types/node: ^20.11.27 -> ^20.11.28
+- Updated dependencies
+  - ctx-core@6.5.8
+
 ## 19.0.111
 
 ### Patch Changes
