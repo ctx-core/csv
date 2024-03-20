@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "19.0.117",
+	"version": "19.0.118",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -15,7 +15,11 @@
 		"url": "https://github.com/ctx-core/csv.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-csv@briantakita.me"
+	},
 	"type": "module",
 	"files": [
 		"*.d.ts",
@@ -52,8 +56,8 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/table": "^24.0.94",
-		"ctx-core": "^6.6.0"
+		"@ctx-core/table": "^24.0.95",
+		"ctx-core": "^6.6.1"
 	},
 	"devDependencies": {
 		"@types/node": "^20.11.29",

@@ -1,5 +1,14 @@
 # @ctx-core/csv
 
+## 19.0.118
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+  - @ctx-core/table@24.0.95
+
 ## 19.0.117
 
 ### Patch Changes
