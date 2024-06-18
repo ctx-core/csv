@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/csv",
-	"version": "19.0.170",
+	"version": "19.0.171",
 	"description": "ctx-core csv",
 	"keywords": [
 		"ctx-core",
@@ -57,10 +57,10 @@
 	},
 	"dependencies": {
 		"@ctx-core/table": "^24.0.131",
-		"ctx-core": "^7.2.19"
+		"ctx-core": "^7.2.20"
 	},
 	"devDependencies": {
-		"@types/node": "^20.14.3",
+		"@types/node": "^20.14.4",
 		"c8": "^10.1.2",
 		"check-dts": "^0.8.0",
 		"tsx": "^4.15.6",
