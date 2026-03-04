@@ -1,5 +1,28 @@
 # @ctx-core/csv
 
+## 19.0.196
+
+### Patch Changes
+
+- c8: ^10.1.3 -> ^11.0.0
+- check-dts: ^0.8.2 -> ^0.9.0
+- tsx: ^4.20.6 -> ^4.21.0
+- @types/node: ^22.19.0 -> ^25.3.3
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@7.2.33
+  - @ctx-core/table@24.0.145
+
 ## 19.0.195
 
 ### Patch Changes
@@ -4555,7 +4578,6 @@
 ### Patch Changes
 
 - dependencies:
-
   - @ctx-core/array
   - @ctx-core/combinators
   - @ctx-core/fetch-undici
@@ -4834,7 +4856,6 @@
 - load_csv_data_return_type=>csv\_\_fetch_get\_\_ret_T
 - csv_path\_\_: - load_csv_data_params
 - csv\_\_fetch_get\_\_params_T:
-
   - table\_\_domain
   - tick\_\_domain
 
